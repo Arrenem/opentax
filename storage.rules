@@ -1,0 +1,11 @@
+rules_version = '2';
+
+// The authenticated Next.js API uploads evidence and returns short-lived
+// signed read URLs. Direct client SDK access is disabled.
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

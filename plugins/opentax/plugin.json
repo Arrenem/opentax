@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "opentax",
+  "version": "0.1.0",
+  "description": "Use an OpenTax MCP server to prepare and review Japanese bookkeeping, billing, evidence, assets, and reports.",
+  "author": {
+    "name": "OpenTax"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "OpenTax",
+        "shortDescription": "Work with your OpenTax books",
+        "longDescription": "Use OpenTax tools for scoped bookkeeping, evidence, billing drafts, fixed assets, financial reports, and tax previews. OpenTax validates and records structured requests; people review pending journals in the app.",
+        "developerName": "OpenTax",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Show my OpenTax business context and recent pending journals.",
+          "Prepare journal entries from these transactions for my review.",
+          "Summarize this fiscal year's profit and loss and tax preview."
+        ]
+      }
+    }
+  }
+}

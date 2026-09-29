@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase service account (NEVER commit)
+service-account.json
+*-service-account.json
+
+# Build artifacts
+tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+.vercel
+firebase-debug.log
+
+# MCP build
+packages/opentax-mcp/dist/
+
+# Private strategy docs (Source of Truth, never commit)
+/private/
+
+# Firebase project alias (per-deployment; see .firebaserc.example)
+.firebaserc
+
+# Local agent / editor settings
+.claude/
+
+# Static site build output (npm run site:build)
+site/dist/
+.wrangler/

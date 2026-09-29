@@ -1,0 +1,220 @@
+.stage {
+  overflow: auto;
+  padding: 16px 0 32px;
+}
+
+.paper {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background: #fff;
+  color: #111827;
+  box-sizing: border-box;
+  padding: 14mm 16mm 18mm;
+  font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2px solid #1e3a5f;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+}
+
+.kind {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e3a5f;
+  letter-spacing: 0.3em;
+  margin: 0;
+}
+
+.meta {
+  text-align: right;
+  color: #4b5563;
+  font-size: 12px;
+}
+
+.parties {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.party {
+  width: 48%;
+}
+
+.customerName {
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 1px solid #111827;
+  padding-bottom: 4px;
+  margin: 0 0 8px;
+}
+
+.issuer {
+  text-align: right;
+}
+
+.issuerName {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.muted {
+  color: #4b5563;
+  font-size: 11px;
+  white-space: pre-line;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background: #f3f4f6;
+  border: 1px solid #1e3a5f;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+}
+
+.headlineLabel {
+  color: #4b5563;
+  font-size: 12px;
+}
+
+.headlineAmount {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1e3a5f;
+  font-variant-numeric: tabular-nums;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-bottom: 14px;
+}
+
+.table th {
+  background: #1e3a5f;
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 6px 8px;
+}
+
+.table td {
+  border-bottom: 1px solid #d1d5db;
+  padding: 7px 8px;
+  font-size: 12px;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.colQty { width: 10%; }
+.colUnit { width: 16%; }
+.colTax { width: 16%; }
+.colAmt { width: 18%; }
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.taxBox {
+  width: 48%;
+}
+
+.totals {
+  width: 44%;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.totalStrong {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid #1e3a5f;
+  font-weight: 700;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.bank {
+  margin-top: 18px;
+  border: 1px solid #1e3a5f;
+  padding: 10px 12px;
+  line-height: 1.6;
+}
+
+.notes {
+  margin-top: 18px;
+  border-top: 1px solid #d1d5db;
+  padding-top: 10px;
+  white-space: pre-line;
+}
+
+.receipt {
+  margin-top: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.footer {
+  margin-top: 28px;
+  font-size: 10px;
+  color: #6b7280;
+}
+
+.mark {
+  font-size: 10px;
+  color: #6b7280;
+}
+
+@media print {
+  .stage {
+    overflow: visible;
+    padding: 0;
+  }
+
+  .paper {
+    width: auto;
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .table thead {
+    display: table-header-group;
+  }
+
+  .table tr {
+    break-inside: avoid;
+  }
+}

@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* デザイントークン。tailwind.config.ts から rgb(var(--x) / alpha) で参照する */
+:root {
+  --canvas: 245 245 247;
+  --surface: 255 255 255;
+  --fill: 118 118 128; /* 入力欄・セグメントの下地（低い不透明度で使う） */
+  --line: 0 0 0; /* 罫線（低い不透明度で使う） */
+  --ink: 29 29 31;
+  --ink-2: 99 99 104;
+  --ink-3: 142 142 147;
+  --accent: 0 113 227;
+  --positive: 36 138 61;
+  --negative: 215 0 21;
+  --warning: 178 80 0;
+
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    font-feature-settings: "palt" 1;
+    letter-spacing: 0.01em;
+    min-height: 100dvh;
+  }
+
+  /* ほんのりと色が滲む背景 */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      radial-gradient(60rem 30rem at 85% -10%, rgb(0 113 227 / 0.07), transparent 70%),
+      radial-gradient(50rem 26rem at -10% 10%, rgb(175 82 222 / 0.05), transparent 70%);
+  }
+
+  h1, h2, h3 {
+    letter-spacing: -0.005em;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--accent) / 0.6);
+    outline-offset: 2px;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+@layer components {
+  /* ガラス面（ナビゲーション・シート） */
+  .glass {
+    background: rgb(255 255 255 / 0.72);
+    -webkit-backdrop-filter: saturate(180%) blur(24px);
+    backdrop-filter: saturate(180%) blur(24px);
+  }
+
+  .num {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1, "palt" 0;
+    letter-spacing: 0;
+  }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  body::before {
+    display: none;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  main {
+    overflow: visible !important;
+    height: auto !important;
+    padding: 0 !important;
+  }
+
+  [data-sheet-scale] {
+    zoom: 1 !important;
+  }
+}

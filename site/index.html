@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="ja" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>OpenTax — 会計は、あなたのAIにやらせよう</title>
+  <meta name="description" content="OpenTaxは、AIエージェントから使うためのオープンソース会計ソフトです。Claude CodeやCodexなど、いつものAIに頼むだけで記帳・請求書・証憑・税額の見込みまで。無料で、自分の環境で動かせます。" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="OpenTax — 会計は、あなたのAIにやらせよう" />
+  <meta property="og:description" content="いつものAIに頼むだけで、記帳から申告の準備まで。みんなで作る、AIエージェント時代のオープンソース会計ソフト。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://opentax.fragmentware.com/" />
+  <link rel="canonical" href="https://opentax.fragmentware.com/" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ───────── Nav ───────── -->
+  <header class="nav" data-nav>
+    <div class="nav__inner container">
+      <a href="#top" class="brand" aria-label="OpenTax ホーム">
+        <img src="logo.svg" alt="" width="22" height="22" />
+        <span>OpenTax</span>
+        <span class="chip chip--muted">プレビュー版</span>
+      </a>
+      <nav class="nav__links" aria-label="ページ内リンク">
+        <a href="#how">しくみ</a>
+        <a href="#compare">比較</a>
+        <a href="#jobs">できること</a>
+        <a href="#trust">安心への取り組み</a>
+        <a href="#start">はじめかた</a>
+        <a href="/docs/">ドキュメント</a>
+      </nav>
+      <a class="btn btn--dark btn--sm" href="https://github.com/arrenem/opentax" target="_blank" rel="noopener">
+        <svg class="gh" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ───────── Hero ───────── -->
+    <section class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <a class="announce reveal" href="https://github.com/arrenem/opentax" target="_blank" rel="noopener">
+          <span class="announce__dot"></span>
+          <span>プレビュー版を公開中 · 無料 · オープンソース</span>
+          <span class="announce__arrow" aria-hidden="true">→</span>
+        </a>
+        <h1 class="hero__title reveal">会計は、<br class="sm-only" />あなたのAIに<br />やらせよう</h1>
+        <p class="hero__lead reveal">
+          OpenTaxは、AIエージェントから使うための会計ソフトです。<br class="sm-hide" />
+          Claude CodeやCodexなど、いつものAIに銀行明細や領収書を渡すだけ。<br class="sm-hide" />
+          もう、あなたが画面操作する必要はありません。
+        </p>
+        <div class="hero__cta reveal">
+          <a class="btn btn--dark btn--lg" href="#start">はじめてみる <span aria-hidden="true">↓</span></a>
+          <a class="btn btn--ghost btn--lg" href="https://github.com/arrenem/opentax" target="_blank" rel="noopener">
+            <svg class="gh" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+            GitHubで見る
+          </a>
+        </div>
+
+        <!-- Demo -->
+        <div class="demo reveal">
+          <div class="term" aria-label="Claude Code で OpenTax を使う例">
+            <div class="term__bar">
+              <span></span><span></span><span></span>
+              <p>~/freelance — claude</p>
+            </div>
+            <pre class="term__body" data-term><code><span class="t-dim">$</span> claude
+
+<span class="t-prompt">&gt;</span> このCSVが9月の銀行履歴。
+  OpenTaxに必要な処理全部やって。
+
+<span class="t-tool">⏺</span> <span class="t-fn">opentax.get_business_context</span>
+<span class="t-tool">⏺</span> <span class="t-fn">opentax.search_journals</span> <span class="t-dim">period=2026-09</span>
+<span class="t-tool">⏺</span> <span class="t-fn">opentax.create_journals</span> <span class="t-dim">items=37</span>
+  <span class="t-ok">✓</span> 37件を確認待ちとして登録しました。
+  <span class="t-warn">!</span> うち4件は判断に自信がないため、
+    メモを付けて残しました。</code></pre>
+          </div>
+
+          <div class="review" aria-label="OpenTax の確認画面のイメージ">
+            <div class="review__head">
+              <div>
+                <p class="review__eyebrow">OpenTax</p>
+                <p class="review__title">確認待ち</p>
+              </div>
+              <div class="review__counts">
+                <span class="pill">全体 <b class="num">37</b></span>
+                <span class="pill pill--warn">要確認 <b class="num">4</b></span>
+              </div>
+            </div>
+            <ul class="review__list">
+              <li>
+                <span class="date num">09/03</span>
+                <span class="desc"><b>AWS</b><small>通信費 / 未払金</small></span>
+                <span class="amt num">¥4,812</span>
+                <span class="check" aria-hidden="true">✓</span>
+              </li>
+              <li class="is-flag">
+                <span class="date num">09/14</span>
+                <span class="desc"><b>ヨドバシカメラ</b><small>消耗品費？ 工具器具備品？</small></span>
+                <span class="amt num">¥38,280</span>
+                <span class="flag" aria-hidden="true">!</span>
+                <p class="note">用途が判別できません。業務用の周辺機器なら消耗品費で登録します。</p>
+              </li>
+              <li>
+                <span class="date num">09/25</span>
+                <span class="desc"><b>株式会社サンプル</b><small>普通預金 / 売掛金</small></span>
+                <span class="amt num">¥330,000</span>
+                <span class="check" aria-hidden="true">✓</span>
+              </li>
+            </ul>
+            <div class="review__foot">
+              <span>AIが登録した仕訳は、あなたが確定するまで帳簿に反映されません。</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Works with ───────── -->
+    <section class="agents container" aria-label="対応するAIエージェント">
+      <p class="agents__label">MCPに対応したAIエージェントなら、どれでも使えます</p>
+      <ul class="agents__list">
+        <li>Claude Code</li><li>Codex</li><li>Cursor</li><li>Gemini CLI</li><li>Claude</li><li>ChatGPT</li>
+      </ul>
+    </section>
+
+    <!-- ───────── Principle ───────── -->
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">しくみ</p>
+          <h2>判断はAIに。<br />記録はOpenTaxに。</h2>
+          <p class="section__lead">明細を読み取り、勘定科目を考えるのは、あなたが使っているAIエージェント。OpenTaxはその結果を会計・税制のルールに沿ってチェックし、正しい形で帳簿に記録します。</p>
+        </div>
+
+        <div class="flow reveal">
+          <div class="flow__node">
+            <span class="flow__tag">あなた</span>
+            <p class="flow__title">頼む</p>
+            <p class="flow__body">「9月分の記帳やって」<br />「A社の請求書を作って」</p>
+          </div>
+          <div class="flow__edge" aria-hidden="true"><span></span></div>
+          <div class="flow__node">
+            <span class="flow__tag">いつものAI</span>
+            <p class="flow__title">読み取って、判断する</p>
+            <ul class="flow__chips">
+              <li>銀行明細</li><li>領収書</li><li>案件の情報</li><li>勘定科目</li>
+            </ul>
+          </div>
+          <div class="flow__edge flow__edge--label" aria-hidden="true"><span></span><em>MCP</em></div>
+          <div class="flow__node flow__node--dark">
+            <span class="flow__tag">OpenTax</span>
+            <p class="flow__title">チェックして、記録する</p>
+            <ul class="flow__chips">
+              <li>帳簿</li><li>会計ルール</li><li>日本の税制</li><li>請求書</li><li>証憑</li><li>変更履歴</li><li>申告データ</li>
+            </ul>
+          </div>
+        </div>
+        <p class="flow__caption reveal"><span class="dot"></span> 画面を開くのは、AIが登録した内容を確かめるとき、直すとき、申告の準備をするときだけ。</p>
+      </div>
+    </section>
+
+    <!-- ───────── Do Less ───────── -->
+    <section class="section section--tint">
+      <div class="container split">
+        <div class="reveal">
+          <p class="eyebrow">いつものAIをそのまま</p>
+          <h2>いつものAIに繋げて使う、<br />シンプルな会計バックエンド。</h2>
+          <p class="section__lead">OpenTaxが受け持つのは、帳簿・税制のルール・書類の保管といった会計の土台だけ。明細を読むのも、科目を考えるのも、あなたがすでに使っているAIの役割です。独自のAIを持たないので、AIの利用料を二重に払うことも、特定のAIに縛られることもありません。</p>
+          <p class="split__note">OpenTaxを動かすのに、AIサービスの契約やAPIキーは必要ありません。</p>
+        </div>
+        <div class="noai reveal">
+          <div class="noai__col">
+            <p class="noai__label">OpenTaxに入っていないもの</p>
+            <ul class="noai__list noai__list--struck">
+              <li>独自のAI</li><li>文字読み取り（OCR）</li><li>CSVの取込設定</li><li>銀行ごとの連携</li><li>AIチャット</li><li>AI税務アシスタント</li>
+            </ul>
+          </div>
+          <div class="noai__col noai__col--keep">
+            <p class="noai__label">OpenTaxが受け持つこと</p>
+            <ul class="noai__list">
+              <li>複式簿記の帳簿</li><li>会計ルールのチェック</li><li>日本の税制に沿った計算</li><li>見積書・請求書</li><li>証憑の保管</li><li>変更履歴</li><li>申告データの出力</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Compare ───────── -->
+    <section class="section" id="compare">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">ほかの方法との違い</p>
+          <h2>AIの手軽さと、<br />会計ソフトの確かさを。</h2>
+          <p class="section__lead">AIにすべて任せるか、会計ソフトに自分で入力するか。OpenTaxなら、どちらかを選ぶ必要はありません。</p>
+        </div>
+
+        <div class="compare reveal">
+          <table class="compare__table">
+            <caption class="sr-only">記帳の方法ごとの比較</caption>
+            <thead>
+              <tr>
+                <td></td>
+                <th scope="col" class="is-us"><img src="logo.svg" alt="" width="18" height="18" />OpenTax</th>
+                <th scope="col">AIに<br class="sm-only" />丸投げ</th>
+                <th scope="col">クラウド<br class="sm-only" />会計ソフト</th>
+                <th scope="col">スプレッド<br class="sm-only" />シート</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">AIが使うために<br class="sm-hide" />最適化</th>
+                <td class="is-us"><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--part" role="img" aria-label="一部できる"></i></td>
+                <td><i class="mk mk--part" role="img" aria-label="一部できる"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">青色申告対応の<br class="sm-hide" />複式簿記</th>
+                <td class="is-us"><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+                <td><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--part" role="img" aria-label="一部できる"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">変更履歴が残る</th>
+                <td class="is-us"><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+                <td><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--part" role="img" aria-label="一部できる"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">電子帳簿保存法に対応</th>
+                <td class="is-us"><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+                <td><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">AIで請求書や<br class="sm-hide" />見積書を作成</th>
+                <td class="is-us"><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--part" role="img" aria-label="一部できる"></i></td>
+                <td><i class="mk mk--part" role="img" aria-label="一部できる"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">データは自分だけが保持</th>
+                <td class="is-us"><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+                <td><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">完全無料</th>
+                <td class="is-us"><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--part" role="img" aria-label="一部できる"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+                <td><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">みんなで作る<br class="sm-hide" />会計ソフト</th>
+                <td class="is-us"><i class="mk mk--yes" role="img" aria-label="できる"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+                <td><i class="mk mk--no" role="img" aria-label="できない"></i></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="compare__legend">
+            <span><i class="mk mk--yes" aria-hidden="true"></i>できる</span>
+            <span><i class="mk mk--part" aria-hidden="true"></i>工夫すれば一部できる</span>
+            <span><i class="mk mk--no" aria-hidden="true"></i>難しい</span>
+          </p>
+          <p class="compare__note">一般的な使い方を比べたものです。実際の機能は製品や使い方によって異なります。電子帳簿保存法への完全な対応には、事務処理規程の作成などが別途必要です。OpenTaxはプレビュー版のため、帳簿や申告の内容は必ずご自身で確認してください。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Jobs ───────── -->
+    <section class="section" id="jobs">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">できること</p>
+          <h2>仕訳画面を、開かなくていい。</h2>
+          <p class="section__lead">やりたいのは画面の操作ではなく、帳簿を最新にしておくこと。いつものAIに話しかけるだけで、AIがOpenTaxを操作します。</p>
+        </div>
+
+        <div class="jobs reveal" data-jobs>
+          <div class="jobs__tabs" role="tablist" aria-label="頼み方の例">
+            <button role="tab" aria-selected="true" data-job="0"><span>今月の帳簿を最新にして</span><small>記帳</small></button>
+            <button role="tab" aria-selected="false" data-job="1"><span>A社の案件、請求書を作って</span><small>請求</small></button>
+            <button role="tab" aria-selected="false" data-job="2"><span>この領収書、証憑に残しておいて</span><small>証憑</small></button>
+            <button role="tab" aria-selected="false" data-job="3"><span>今年の利益ってどれくらい？</span><small>レポート</small></button>
+            <button role="tab" aria-selected="false" data-job="4"><span>税額の見込みを確認して</span><small>税金</small></button>
+            <button role="tab" aria-selected="false" data-job="5"><span>新しいMacBookを資産に登録して</span><small>固定資産</small></button>
+          </div>
+          <div class="jobs__panel" role="tabpanel">
+            <div class="jobs__panelbar"><span class="t-fn" data-job-tool>create_journals</span><span class="chip chip--muted" data-job-scope>権限：仕訳の作成</span></div>
+            <pre class="jobs__code"><code data-job-code></code></pre>
+            <p class="jobs__result" data-job-result></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Safety ───────── -->
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">安心して任せるために</p>
+          <h2>AIに任せても、<br />最後に決めるのはあなた。</h2>
+        </div>
+        <div class="bento reveal">
+          <article class="card card--wide card--dark">
+            <p class="card__k">確認待ち</p>
+            <h3>AIが登録した仕訳は、すべて「確認待ち」から。</h3>
+            <p>あなたが確定するまで、帳簿には反映されません。AIは自信のない判断にメモを残すので、確認が必要なものだけを見れば済みます。</p>
+            <div class="mini-review" aria-hidden="true">
+              <span class="pill">AIが登録</span><span class="mini-review__arrow">→</span><span class="pill pill--warn">確認待ち</span><span class="mini-review__arrow">→</span><span class="pill pill--ok">確定</span>
+            </div>
+          </article>
+          <article class="card">
+            <p class="card__k">権限</p>
+            <h3>AIごとに、できることを絞れる</h3>
+            <p>接続するAIごとに「読み取りだけ」「仕訳の作成まで」など権限を選べます。接続はいつでも解除できます。</p>
+          </article>
+          <article class="card">
+            <p class="card__k">チェック</p>
+            <h3>1件ずつ確かめてから登録</h3>
+            <p>貸借が合わない、科目がおかしいといった誤りは、1件ずつ理由付きでAIに返します。同じ取引の二重登録も防ぎます。</p>
+          </article>
+          <article class="card">
+            <p class="card__k">計算</p>
+            <h3>税額の計算にAIは使わない</h3>
+            <p>集計や税額は、決まったルールで計算します。同じ帳簿からは、いつでも同じ結果が出ます。</p>
+          </article>
+          <article class="card">
+            <p class="card__k">履歴</p>
+            <h3>誰が何を変えたか残る</h3>
+            <p>仕訳の作成・修正・確定はすべて記録され、AIの操作か、あなたの操作かも区別できます。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Trust ───────── -->
+    <section class="section" id="trust">
+      <div class="container">
+        <div class="trust__hero reveal">
+          <p class="eyebrow">中身が見える会計ソフト</p>
+          <h2 class="trust__answer">何をしているか、<br />すべて確かめられます。</h2>
+          <p class="section__lead trust__lead">税金の計算方法も、その根拠も、まだできていないことも。OpenTaxのソースコードは、誰でも読むことができます。</p>
+        </div>
+
+        <div class="trust reveal">
+          <div class="trust__grid">
+            <div class="tcell"><p class="tcell__n">01</p><h3>ソースコードを公開</h3><p>帳簿も、税額の計算も、AIとの連携部分も、すべてGitHubで読めます。</p></div>
+            <div class="tcell"><p class="tcell__n">02</p><h3>計算はテストで確認</h3><p>会計・税制のロジックは自動テストで確かめており、何度計算しても同じ結果になります。</p></div>
+            <div class="tcell"><p class="tcell__n">03</p><h3>できないことも公開</h3><p>未対応の税制や既知の制限は、隠さずに一覧で公開していきます。</p></div>
+            <div class="tcell"><p class="tcell__n">04</p><h3>不具合は公開の場で修正</h3><p>計算の誤りの指摘は大歓迎です。修正内容と影響範囲をすべて記録します。</p></div>
+          </div>
+
+          <div class="prov">
+            <div class="prov__head">
+              <span class="chip chip--muted">今後の予定</span>
+              <p>税制ルールごとの根拠表示</p>
+            </div>
+            <p class="prov__lead">それぞれの税制ルールに、根拠・適用年・テスト・確認日を表示できるようにしていきます。</p>
+            <dl class="prov__card">
+              <div class="prov__title">青色申告特別控除<span>ルールの根拠</span></div>
+              <div><dt>根拠</dt><dd>国税庁</dd></div>
+              <div><dt>適用年</dt><dd class="num">2026年分</dd></div>
+              <div><dt>テスト</dt><dd class="num">—</dd></div>
+              <div><dt>最終確認日</dt><dd class="num">—</dd></div>
+              <div><dt>確認した人</dt><dd>あなたかも</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="maint reveal">
+          <div class="maint__text">
+            <p class="eyebrow">開発者について</p>
+            <p class="maint__big">OpenTaxは、税理士ではない個人の開発者がつくっています。</p>
+            <p class="maint__big maint__big--ink">だからこそ、すべてを公開しています。</p>
+            <p class="maint__body">計算ロジック、その根拠、テスト、既知の制限を公開し、誰でも確認・指摘できるようにしています。開発にはAIも活用していますが、税額の計算は決まったルールのコードで行い、テストで確認しています。<br />なお、OpenTaxは税務相談のサービスではありません。判断に迷うときは、税理士などの専門家や税務署にご相談ください。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Fit ───────── -->
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">こんな方に</p>
+          <h2>AIと一緒に働く、<br class="sm-only" />ひとり事業者のために。</h2>
+          <p class="section__lead">OpenTaxは、すべての方に向けた会計ソフトではありません。合う方・合わない方を正直にお伝えします。</p>
+        </div>
+        <div class="fit reveal">
+          <div class="fit__col">
+            <p class="fit__label"><span class="fit__icon">✓</span>向いている方</p>
+            <ul>
+              <li>Claude Code・Codex・Cursorなどを毎日使っている</li>
+              <li>個人開発者・フリーランスのエンジニアやデザイナー</li>
+              <li>小さなサービスをひとりで運営している</li>
+              <li>会計もAIとのいつもの作業にまとめたい</li>
+              <li>自分の環境でソフトを動かすことに抵抗がない</li>
+            </ul>
+          </div>
+          <div class="fit__col fit__col--no">
+            <p class="fit__label"><span class="fit__icon">—</span>既存の会計ソフトのほうが合う方</p>
+            <ul>
+              <li>AIエージェントをまだ使っていない</li>
+              <li>電話やチャットでのサポートを重視したい</li>
+              <li>税務の判断についても相談したい</li>
+              <li>銀行口座をつなぐだけで全自動にしたい</li>
+              <li>給与や勤怠までまとめて管理したい</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Get started ───────── -->
+    <section class="section" id="start">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">はじめかた</p>
+          <h2>3ステップで、<br class="sm-only" />AIとつなぐ。</h2>
+          <p class="section__lead">必要なのは Node.js 22以上と、ご自身のFirebaseプロジェクトだけ。データはすべて、あなたの環境に保存されます。</p>
+        </div>
+
+        <ol class="steps reveal">
+          <li class="step">
+            <div class="step__meta"><span class="step__n">1</span><h3>ダウンロードして起動</h3><p>Firebaseの設定を <code>.env.local</code> に書いて起動します。</p></div>
+            <div class="codeblock">
+              <button class="copy" type="button" data-copy aria-label="コピー">コピー</button>
+<pre><code>git clone https://github.com/arrenem/opentax
+cd opentax && npm install
+cp .env.local.example .env.local
+npm run dev</code></pre>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step__meta"><span class="step__n">2</span><h3>AIエージェントとつなぐ</h3><p>OpenTaxの <b>Agent接続</b> 画面で接続用のトークンを発行し、AIに登録します。Claude Codeの場合はこちら。</p></div>
+            <div class="codeblock">
+              <button class="copy" type="button" data-copy aria-label="コピー">コピー</button>
+<pre><code>npm run mcp:build
+claude mcp add \
+  --env OPENTAX_BASE_URL=http://localhost:3000 \
+  --env OPENTAX_AGENT_TOKEN=otk_... \
+  --transport stdio opentax \
+  -- node "$PWD/packages/opentax-mcp/dist/server.mjs"</code></pre>
+            </div>
+            <p class="step__alt">ClaudeやChatGPTのチャットからは、<code>https://&lt;あなたのOpenTax&gt;/api/mcp</code> をカスタムコネクタとして追加するだけで使えます。</p>
+          </li>
+          <li class="step">
+            <div class="step__meta"><span class="step__n">3</span><h3>頼んで、確認する</h3><p>いつものAIに頼んだら、OpenTaxの確認画面で内容を見て確定します。申告データを出す前には、必ずご自身で見直してください。</p></div>
+            <div class="codeblock codeblock--prompt">
+<pre><code><span class="t-prompt">&gt;</span> 9月の銀行CSVを読んで、OpenTaxに記帳して。
+  迷ったものはメモを付けて残しておいて。</code></pre>
+            </div>
+          </li>
+        </ol>
+
+        <div class="docs reveal">
+          <a href="/docs/self-hosting"><span>導入ガイド</span><small>インストールから起動まで</small><i aria-hidden="true">→</i></a>
+          <a href="/docs/mcp"><span>AIエージェントの接続方法</span><small>Claude Code・Codex・チャット</small><i aria-hidden="true">→</i></a>
+          <a href="/docs/architecture"><span>設計の考え方</span><small>AIと会計ソフトの役割分担</small><i aria-hidden="true">→</i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Community / Price ───────── -->
+    <section class="section section--tint">
+      <div class="container community">
+        <div class="price reveal">
+          <p class="eyebrow">料金</p>
+          <p class="price__amt"><span class="num">¥0</span></p>
+          <ul>
+            <li>すべての機能を無料で</li>
+            <li>機能制限・広告なし</li>
+            <li>自分の環境で動かせる</li>
+            <li>データはご自身のFirebaseに保存</li>
+          </ul>
+          <p class="price__note">OpenTaxは現在プレビュー版です。使ってみた感想や不具合の報告が、そのまま次の改善につながります。</p>
+        </div>
+
+        <div class="contrib reveal">
+          <p class="eyebrow">一緒につくる</p>
+          <h2>使う人の声で、<br />育っていく会計ソフト。</h2>
+          <p class="section__lead">OpenTaxはオープンソースです。使ってみて気づいたこと、計算の誤り、ほしい機能を、GitHubで気軽に教えてください。税理士や会計に詳しい方からのレビューは、特に歓迎しています。</p>
+          <div class="contrib__links">
+            <a class="btn btn--dark" href="https://github.com/arrenem/opentax/issues/new" target="_blank" rel="noopener">不具合・要望を送る</a>
+            <a class="btn btn--ghost" href="https://github.com/arrenem/opentax" target="_blank" rel="noopener">GitHubでフォローする</a>
+          </div>
+          <p class="contrib__small">自分でサーバーを用意するのが大変そう、という声もぜひ聞かせてください。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Closing ───────── -->
+    <section class="closing">
+      <div class="container closing__inner reveal">
+        <img src="logo.svg" alt="" width="44" height="44" />
+        <h2>みんなで作る、<br />AIエージェント時代の会計ソフト。</h2>
+        <p>ソースコードも、税金の計算方法も、すべて公開しています。</p>
+        <a class="btn btn--dark btn--lg" href="https://github.com/arrenem/opentax" target="_blank" rel="noopener">GitHubでOpenTaxを見る</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="disclaimer">
+        <p class="disclaimer__k">プレビュー版について</p>
+        <p>OpenTaxは開発中のオープンソース会計ソフトです。税務相談のサービスではなく、開発者は税理士などの資格を持っていません。帳簿や申告の内容はご自身で確認し、必要に応じて税理士などの専門家や税務署にご相談ください。</p>
+      </div>
+      <div class="footer__row">
+        <a href="#top" class="brand brand--sm"><img src="logo.svg" alt="" width="18" height="18" /><span>OpenTax</span></a>
+        <nav aria-label="フッター">
+          <a href="https://github.com/arrenem/opentax" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/arrenem/opentax/blob/main/LICENSE" target="_blank" rel="noopener">ライセンス（AGPL-3.0）</a>
+          <a href="/docs/">ドキュメント</a>
+          <a href="https://github.com/arrenem/opentax/issues" target="_blank" rel="noopener">不具合・要望</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
