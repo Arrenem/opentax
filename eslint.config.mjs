@@ -17,5 +17,5 @@ export default defineConfig([
     },
   },
   { files: ['**/*.test.ts'], rules: { '@typescript-eslint/no-explicit-any': 'off' } },
-  globalIgnores(['.next/**', 'out/**', 'build/**', 'next-env.d.ts', 'packages/opentax-mcp/dist/**', 'site/dist/**', '.wrangler/**']),
+  globalIgnores(['tools/editor/node_modules/**', 'tools/editor/.astro/**', 'tools/editor/dist/**', '.next/**', 'out/**', 'build/**', 'next-env.d.ts', 'packages/opentax-mcp/dist/**', 'site/dist/**', '.wrangler/**']),
 ]);
