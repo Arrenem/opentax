@@ -65,62 +65,130 @@
           </a>
         </div>
 
-        <!-- Demo -->
-        <div class="demo reveal">
-          <div class="term" aria-label="Claude Code で OpenTax を使う例">
-            <div class="term__bar">
-              <span></span><span></span><span></span>
-              <p>~/freelance — claude</p>
-            </div>
-            <pre class="term__body" data-term><code><span class="t-dim">$</span> claude
-
-<span class="t-prompt">&gt;</span> このCSVが9月の銀行履歴。
-  OpenTaxに必要な処理全部やって。
-
-<span class="t-tool">⏺</span> <span class="t-fn">opentax.get_business_context</span>
-<span class="t-tool">⏺</span> <span class="t-fn">opentax.search_journals</span> <span class="t-dim">period=2026-09</span>
-<span class="t-tool">⏺</span> <span class="t-fn">opentax.create_journals</span> <span class="t-dim">items=37</span>
-  <span class="t-ok">✓</span> 37件を確認待ちとして登録しました。
-  <span class="t-warn">!</span> うち4件は判断に自信がないため、
-    メモを付けて残しました。</code></pre>
+        <!-- Demo: CLI agent × OpenTax GUI -->
+        <div class="demo reveal" data-demo>
+          <p class="sr-only">
+            デモの流れ：AIエージェントに「9月の銀行明細を全部登録して」と頼むと、OpenTaxに37件の仕訳が確認待ちとして登録されます。
+            続けて領収書を渡すと、証憑として保存され、仕訳と紐づきます。最後に「案件が終わったので請求書を発行して」と頼むと請求書の下書きができ、あなたが画面で確認して発行します。
+          </p>
+          <div class="demo__steps" role="tablist" aria-label="デモの場面">
+            <button type="button" class="demo__step" role="tab" aria-selected="true" data-step="0">
+              <span class="demo__num">1</span><span class="demo__label">銀行明細を登録</span><i class="demo__bar"><i></i></i>
+            </button>
+            <button type="button" class="demo__step" role="tab" aria-selected="false" data-step="1">
+              <span class="demo__num">2</span><span class="demo__label">領収書を登録</span><i class="demo__bar"><i></i></i>
+            </button>
+            <button type="button" class="demo__step" role="tab" aria-selected="false" data-step="2">
+              <span class="demo__num">3</span><span class="demo__label">請求書を発行</span><i class="demo__bar"><i></i></i>
+            </button>
           </div>
 
-          <div class="review" aria-label="OpenTax の確認画面のイメージ">
-            <div class="review__head">
-              <div>
-                <p class="review__eyebrow">OpenTax</p>
-                <p class="review__title">確認待ち</p>
+          <div class="demo__stage" aria-hidden="true">
+            <!-- CLI -->
+            <div class="term">
+              <div class="term__bar">
+                <span></span><span></span><span></span>
+                <p>~/freelance — claude</p>
               </div>
-              <div class="review__counts">
-                <span class="pill">全体 <b class="num">37</b></span>
-                <span class="pill pill--warn">要確認 <b class="num">4</b></span>
-              </div>
+              <div class="term__body" data-term></div>
             </div>
-            <ul class="review__list">
-              <li>
-                <span class="date num">09/03</span>
-                <span class="desc"><b>AWS</b><small>通信費 / 未払金</small></span>
-                <span class="amt num">¥4,812</span>
-                <span class="check" aria-hidden="true">✓</span>
-              </li>
-              <li class="is-flag">
-                <span class="date num">09/14</span>
-                <span class="desc"><b>ヨドバシカメラ</b><small>消耗品費？ 工具器具備品？</small></span>
-                <span class="amt num">¥38,280</span>
-                <span class="flag" aria-hidden="true">!</span>
-                <p class="note">用途が判別できません。業務用の周辺機器なら消耗品費で登録します。</p>
-              </li>
-              <li>
-                <span class="date num">09/25</span>
-                <span class="desc"><b>株式会社サンプル</b><small>普通預金 / 売掛金</small></span>
-                <span class="amt num">¥330,000</span>
-                <span class="check" aria-hidden="true">✓</span>
-              </li>
-            </ul>
-            <div class="review__foot">
-              <span>AIが登録した仕訳は、あなたが確定するまで帳簿に反映されません。</span>
+
+            <!-- GUI -->
+            <div class="app">
+              <div class="app__bar">
+                <span></span><span></span><span></span>
+                <p class="app__url"><svg viewBox="0 0 16 16"><path fill="currentColor" d="M5 7V5a3 3 0 016 0v2h.5A1.5 1.5 0 0113 8.5v5a1.5 1.5 0 01-1.5 1.5h-7A1.5 1.5 0 013 13.5v-5A1.5 1.5 0 014.5 7H5zm1.5 0h3V5a1.5 1.5 0 00-3 0v2z"/></svg><span data-url>opentax.example.com/review</span></p>
+              </div>
+              <div class="app__body">
+                <nav class="app__side">
+                  <p class="app__brand"><img src="logo.svg" alt="" width="16" height="16" />OpenTax</p>
+                  <span class="app__nav">ホーム</span>
+                  <span class="app__nav" data-nav="review">レビュー<b class="app__badge num" data-badge hidden>0</b></span>
+                  <span class="app__nav">仕訳帳</span>
+                  <span class="app__nav" data-nav="evidence">証憑</span>
+                  <p class="app__group">請求</p>
+                  <span class="app__nav" data-nav="billing">帳票</span>
+                  <span class="app__nav">案件</span>
+                  <span class="app__nav">顧客</span>
+                </nav>
+
+                <div class="app__main" data-app-main>
+                  <!-- レビュー -->
+                  <section class="view" data-view="review">
+                    <header class="view__head">
+                      <div><p class="view__eyebrow">AIが登録した仕訳</p><p class="view__title">レビュー</p></div>
+                      <div class="view__pills">
+                        <span class="pill">確認待ち <b class="num" data-count-all>0</b></span>
+                        <span class="pill pill--warn">要確認 <b class="num" data-count-flag>0</b></span>
+                      </div>
+                    </header>
+                    <ul class="rows" data-rows></ul>
+                    <p class="rows__more num" data-rows-more></p>
+                  </section>
+
+                  <!-- 証憑 -->
+                  <section class="view" data-view="evidence">
+                    <header class="view__head">
+                      <div><p class="view__eyebrow">領収書・請求書の保存</p><p class="view__title">証憑</p></div>
+                      <span class="pill" data-ev-count>保存済み <b class="num">12</b></span>
+                    </header>
+                    <div class="ev">
+                      <div class="ev__paper" data-ev-paper>
+                        <p class="ev__shop">COFFEE STAND</p>
+                        <p class="ev__meta num">2026/09/28 14:32</p>
+                        <p class="ev__row"><span>ブレンド</span><span class="num">×2</span></p>
+                        <p class="ev__row"><span>ケーキ</span><span class="num">×2</span></p>
+                        <p class="ev__total"><span>合計</span><span class="num">¥1,320</span></p>
+                        <p class="ev__stamp">領収書</p>
+                        <p class="ev__file">receipt-0928.jpg</p>
+                      </div>
+                      <div class="ev__side">
+                        <p class="ev__label">AIが読み取った内容</p>
+                        <dl class="ev__fields">
+                          <div data-ev-field><dt>日付</dt><dd class="num">2026-09-28</dd></div>
+                          <div data-ev-field><dt>取引先</dt><dd>コーヒースタンド</dd></div>
+                          <div data-ev-field><dt>金額</dt><dd class="num">¥1,320</dd></div>
+                          <div data-ev-field><dt>種類</dt><dd>領収書</dd></div>
+                        </dl>
+                        <p class="ev__link" data-ev-link><span class="ev__check">✓</span><span>仕訳と紐づけ済み<small>会議費 / 現金 · 確認待ち</small></span></p>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- 帳票 -->
+                  <section class="view" data-view="billing">
+                    <header class="view__head">
+                      <div><p class="view__eyebrow">案件：Webサイト改修</p><p class="view__title">請求書</p></div>
+                      <span class="pill" data-inv-status>下書き</span>
+                    </header>
+                    <div class="inv" data-inv>
+                      <div class="inv__to">
+                        <b>株式会社サンプル 御中</b>
+                        <span class="num">発行日 2026-09-30 · 支払期限 2026-10-31</span>
+                      </div>
+                      <div class="inv__lines">
+                        <p class="inv__line" data-inv-line><span>トップページ改修</span><span class="num">¥200,000</span></p>
+                        <p class="inv__line" data-inv-line><span>下層ページ制作（5ページ）</span><span class="num">¥100,000</span></p>
+                      </div>
+                      <dl class="inv__sum">
+                        <div><dt>小計</dt><dd class="num" data-inv-sub>¥0</dd></div>
+                        <div><dt>消費税（10%）</dt><dd class="num" data-inv-tax>¥0</dd></div>
+                        <div class="is-total"><dt>合計</dt><dd class="num" data-inv-total>¥0</dd></div>
+                      </dl>
+                    </div>
+                    <div class="inv__actions">
+                      <span>内容を確かめて、発行するのはあなた</span>
+                      <span class="inv__issue" data-inv-issue>発行する</span>
+                    </div>
+                  </section>
+
+                  <svg class="cursor" data-cursor viewBox="0 0 24 24"><path d="M5 3l14 8-6.2 1.6L10 19z" fill="#1d1d1f" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                  <p class="toast" data-toast>✓ 請求書を発行しました</p>
+                </div>
+              </div>
             </div>
           </div>
+          <p class="demo__caption"><span class="dot"></span>AIが登録した仕訳や書類は、あなたが確定・発行するまで帳簿や取引先には反映されません。</p>
         </div>
       </div>
     </section>
