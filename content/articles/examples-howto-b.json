@@ -1,0 +1,127 @@
+[
+  {
+    "caseId": "card-business-purchase",
+    "articleId": "50",
+    "input": {
+      "purchase": 8800
+    },
+    "expectedEntries": [
+      {
+        "debit": "消耗品費",
+        "credit": "未払金",
+        "amount": 8800
+      }
+    ],
+    "verification": "expense counted once; card liability 8800 before payment"
+  },
+  {
+    "caseId": "ar-three-invoices",
+    "articleId": "51",
+    "input": {
+      "invoices": [
+        55000,
+        110000,
+        88000
+      ],
+      "receipts": [
+        55000,
+        109670
+      ],
+      "fee": 330
+    },
+    "expectedEntries": [
+      {
+        "debit": "普通預金",
+        "credit": "売掛金",
+        "amount": 109670
+      },
+      {
+        "debit": "支払手数料",
+        "credit": "売掛金",
+        "amount": 330
+      }
+    ],
+    "verification": "253000 - 164670 - 330 = 88000"
+  },
+  {
+    "caseId": "withheld-fee-2026",
+    "articleId": "52",
+    "input": {
+      "invoice": 110000,
+      "taxBase": 100000,
+      "withheld": 10210,
+      "fee": 330
+    },
+    "expectedEntries": [
+      {
+        "debit": "普通預金",
+        "credit": "売掛金",
+        "amount": 99460
+      },
+      {
+        "debit": "事業主貸",
+        "credit": "売掛金",
+        "amount": 10210
+      },
+      {
+        "debit": "支払手数料",
+        "credit": "売掛金",
+        "amount": 330
+      }
+    ],
+    "verification": "99460 + 10210 + 330 = 110000; 100000 * .1021 = 10210"
+  },
+  {
+    "caseId": "startup-amortization",
+    "articleId": "53",
+    "input": {
+      "start": 100000,
+      "amortizations": [
+        30000,
+        40000,
+        30000
+      ]
+    },
+    "expectedEntries": [
+      {
+        "debit": "開業費償却",
+        "credit": "開業費",
+        "amount": 30000
+      }
+    ],
+    "verification": "balances 70000, 30000, 0"
+  },
+  {
+    "caseId": "pc-normal-depreciation",
+    "articleId": "54",
+    "input": {
+      "cost": 240000,
+      "rate": 0.25,
+      "months": 6,
+      "businessRatio": 1
+    },
+    "expectedEntries": [
+      {
+        "debit": "減価償却費",
+        "credit": "工具器具備品",
+        "amount": 30000
+      }
+    ],
+    "verification": "240000 * .25 * 6 / 12 = 30000; end balance 210000"
+  },
+  {
+    "caseId": "yearend-prepaid",
+    "articleId": "56",
+    "input": {
+      "prepaid": 90000
+    },
+    "expectedEntries": [
+      {
+        "debit": "前払費用",
+        "credit": "地代家賃",
+        "amount": 90000
+      }
+    ],
+    "verification": "only reclassify if originally posted as rent; do not post both alternatives"
+  }
+]
