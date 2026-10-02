@@ -198,7 +198,7 @@ function bySourceSlug(slug) {
 async function main() {
   await rm(outDir, { recursive: true, force: true });
   await mkdir(path.join(outDir, 'docs'), { recursive: true });
-  for (const f of ['index.html', 'styles.css', 'docs.css', 'main.js', 'analytics.js', 'analytics.css', 'privacy.html', 'favicon.svg', 'logo.svg', '_headers', '404.html']) {
+  for (const f of ['index.html', 'styles.css', 'docs.css', 'main.js', 'analytics.js', 'privacy.html', 'favicon.svg', 'logo.svg', '_headers', '404.html']) {
     await cp(path.join(siteDir, f), path.join(outDir, f));
   }
 
@@ -249,7 +249,10 @@ ${groups
   for (const file of htmlFiles) {
     const html = await readFile(file, 'utf8');
     if (/googletagmanager|google-analytics|gtag\(/i.test(html)) throw new Error(`Duplicate analytics tag: ${file}`);
-    await writeFile(file, html.replace('</head>', '<link rel="stylesheet" href="/analytics.css" />\n<script src="/analytics-config.js" defer></script>\n<script src="/analytics.js" defer></script>\n</head>'));
+    const privacyLink = '<p style="text-align:center;padding:16px;font-size:14px"><a href="/privacy">Privacy Policy</a></p>';
+    const linkedHtml = html.includes('</footer>') ? html.replace('</footer>', privacyLink + '</footer>')
+      : html.replace('</body>', privacyLink + '</body>');
+    await writeFile(file, linkedHtml.replace('</head>', '<script src="/analytics-config.js" defer></script>\n<script src="/analytics.js" defer></script>\n</head>'));
   }
   console.log(`Built ${pages.length + 1} doc pages into ${path.relative(root, outDir)}`);
 }
