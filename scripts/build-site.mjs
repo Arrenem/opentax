@@ -4,16 +4,18 @@ import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Marked } from 'marked';
+import { buildArticles } from './site/articles.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const siteDir = path.join(root, 'site');
 const outDir = path.join(siteDir, 'dist');
 const repoUrl = 'https://github.com/arrenem/opentax';
 const siteUrl = 'https://opentax.fragmentware.com';
+const preview = process.argv.includes('--preview');
 // Existing OpenTax WEB stream. Public identifier, never an API secret.
 // Explicit empty override can build an untracked preview.
 const analyticsSettings = JSON.parse(await readFile(path.join(siteDir, 'analytics-settings.json'), 'utf8'));
-const measurementId = process.env.SITE_GA4_MEASUREMENT_ID ?? analyticsSettings.measurementId;
+const measurementId = preview ? '' : (process.env.SITE_GA4_MEASUREMENT_ID ?? analyticsSettings.measurementId);
 if (measurementId && !/^G-[A-Z0-9]+$/.test(measurementId)) {
   throw new Error('SITE_GA4_MEASUREMENT_ID must be a GA4 G- measurement ID');
 }
@@ -150,6 +152,7 @@ function layout({ title, description, slug, body, toc = [] }) {
       <nav class="nav__links" aria-label="サイト">
         <a href="/">トップ</a>
         <a href="/docs/"${slug ? '' : ' aria-current="page"'}>ドキュメント</a>
+        <a href="/articles/">会計記事</a>
         <a href="${repoUrl}/issues" target="_blank" rel="noopener">不具合・要望</a>
       </nav>
       <a class="btn btn--dark btn--sm" href="${repoUrl}" target="_blank" rel="noopener">GitHub</a>
@@ -180,6 +183,7 @@ function layout({ title, description, slug, body, toc = [] }) {
         <nav aria-label="フッター">
           <a href="${repoUrl}" target="_blank" rel="noopener">GitHub</a>
           <a href="/docs/">ドキュメント</a>
+          <a href="/articles/">会計記事</a>
           <a href="${repoUrl}/blob/main/LICENSE" target="_blank" rel="noopener">ライセンス（AGPL-3.0）</a>
         </nav>
       </div>
@@ -225,14 +229,18 @@ ${groups
     layout({ title: 'ドキュメント', description: 'OpenTax のセットアップ・AIエージェント接続・設計・税制ルールのドキュメント', slug: null, body: index })
   );
 
-  const urls = ['/', '/privacy', '/docs/', ...pages.map((p) => `/docs/${p.slug}`)];
+  const articleUrls = await buildArticles({ root, outDir, siteUrl, preview });
+  const urls = ['/', '/privacy', '/docs/', ...pages.map((p) => `/docs/${p.slug}`)].map((url) => ({ path: url }));
+  // Preview pages never enter a sitemap; production includes reviewed published articles only.
+  if (!preview) urls.push(...articleUrls);
   await writeFile(
     path.join(outDir, 'sitemap.xml'),
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
-      .map((u) => `  <url><loc>${siteUrl}${u}</loc></url>`)
+      .map((u) => `  <url><loc>${siteUrl}${u.path}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`)
       .join('\n')}\n</urlset>\n`
   );
   await writeFile(path.join(outDir, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n`);
+  if (preview) await writeFile(path.join(outDir, '_headers'), await readFile(path.join(siteDir, '_headers'), 'utf8') + '\n/*\n  X-Robots-Tag: noindex, nofollow\n');
   // One final pass covers every generated HTML page, including future articles.
   const htmlFiles = [];
   async function collect(dir) {
@@ -247,10 +255,11 @@ ${groups
     .map((url) => url.replace(/index\.html$/, '').replace(/\.html$/, ''));
   await writeFile(path.join(outDir, 'analytics-config.js'), `window.opentaxAnalytics = ${JSON.stringify({ measurementId, publicPaths, campaignAllowlist: analyticsSettings.campaignAllowlist })};\n`);
   for (const file of htmlFiles) {
-    const html = await readFile(file, 'utf8');
+    const originalHtml = await readFile(file, 'utf8');
+    const html = preview && !originalHtml.includes('name="robots"') ? originalHtml.replace('</head>', '<meta name="robots" content="noindex, nofollow" />\n</head>') : originalHtml;
     if (/googletagmanager|google-analytics|gtag\(/i.test(html)) throw new Error(`Duplicate analytics tag: ${file}`);
     const privacyLink = '<p style="text-align:center;padding:16px;font-size:14px"><a href="/privacy">Privacy Policy</a></p>';
-    const linkedHtml = html.includes('</footer>') ? html.replace('</footer>', privacyLink + '</footer>')
+    const linkedHtml = html.includes('href="/privacy"') ? html : html.includes('</footer>') ? html.replace('</footer>', privacyLink + '</footer>')
       : html.replace('</body>', privacyLink + '</body>');
     await writeFile(file, linkedHtml.replace('</head>', '<script src="/analytics-config.js" defer></script>\n<script src="/analytics.js" defer></script>\n</head>'));
   }

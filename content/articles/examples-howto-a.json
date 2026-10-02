@@ -1,0 +1,332 @@
+[
+  {
+    "caseId": "double-entry-five-transactions",
+    "articleId": "41",
+    "input": {
+      "opening": {
+        "現金": 20000,
+        "普通預金": 100000,
+        "元入金": 120000
+      },
+      "fictional": true,
+      "amounts": [
+        30000,
+        2000,
+        50000,
+        3000,
+        1000
+      ]
+    },
+    "expectedEntries": [
+      {
+        "debit": "現金",
+        "credit": "売上",
+        "amount": 30000
+      },
+      {
+        "debit": "消耗品費",
+        "credit": "現金",
+        "amount": 2000
+      },
+      {
+        "debit": "売掛金",
+        "credit": "売上",
+        "amount": 50000
+      },
+      {
+        "debit": "通信費",
+        "credit": "未払金",
+        "amount": 3000
+      },
+      {
+        "debit": "消耗品費",
+        "credit": "事業主借",
+        "amount": 1000
+      }
+    ],
+    "verification": {
+      "journalDebitTotal": 86000,
+      "journalCreditTotal": 86000,
+      "cashClosing": 48000,
+      "trialBalanceDebit": 204000,
+      "trialBalanceCredit": 204000,
+      "revenue": 80000,
+      "expenses": 6000,
+      "profit": 74000
+    }
+  },
+  {
+    "caseId": "ai-tax-preparation-example",
+    "articleId": "42",
+    "input": {
+      "fictional": true,
+      "invoice": 100000,
+      "receipt": 100000,
+      "cardTelecom": 6000,
+      "privateStationery": 2000
+    },
+    "expectedEntries": [
+      {
+        "debit": "売掛金",
+        "credit": "売上",
+        "amount": 100000
+      },
+      {
+        "debit": "普通預金",
+        "credit": "売掛金",
+        "amount": 100000
+      },
+      {
+        "debit": "通信費",
+        "credit": "未払金",
+        "amount": 6000
+      },
+      {
+        "debit": "消耗品費",
+        "credit": "事業主借",
+        "amount": 2000
+      }
+    ],
+    "verification": {
+      "revenue": 100000,
+      "expenses": 8000,
+      "profit": 92000
+    }
+  },
+  {
+    "caseId": "one-week-bookkeeping",
+    "articleId": "43",
+    "input": {
+      "fictional": true,
+      "amounts": [
+        40000,
+        1500,
+        40000,
+        800,
+        3000
+      ]
+    },
+    "expectedEntries": [
+      {
+        "debit": "売掛金",
+        "credit": "売上",
+        "amount": 40000
+      },
+      {
+        "debit": "消耗品費",
+        "credit": "現金",
+        "amount": 1500
+      },
+      {
+        "debit": "普通預金",
+        "credit": "売掛金",
+        "amount": 40000
+      },
+      {
+        "debit": "旅費交通費",
+        "credit": "事業主借",
+        "amount": 800
+      },
+      {
+        "debit": "通信費",
+        "credit": "未払金",
+        "amount": 3000
+      }
+    ],
+    "verification": {
+      "revenue": 40000,
+      "expenses": 5300,
+      "profit": 34700
+    }
+  },
+  {
+    "caseId": "ai-classification-ten-cases",
+    "articleId": "44",
+    "input": {
+      "fictional": true,
+      "acceptedCases": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06"
+      ],
+      "heldCases": [
+        "T07",
+        "T08",
+        "T09"
+      ],
+      "duplicateCases": [
+        "T10"
+      ]
+    },
+    "expectedEntries": [
+      {
+        "debit": "消耗品費",
+        "credit": "現金",
+        "amount": 2000
+      },
+      {
+        "debit": "普通預金",
+        "credit": "売掛金",
+        "amount": 50000
+      },
+      {
+        "debit": "通信費",
+        "credit": "未払金",
+        "amount": 3000
+      },
+      {
+        "debit": "未払金",
+        "credit": "普通預金",
+        "amount": 3000
+      },
+      {
+        "debit": "旅費交通費",
+        "credit": "事業主借",
+        "amount": 1000
+      },
+      {
+        "debit": "事業主貸",
+        "credit": "普通預金",
+        "amount": 20000
+      }
+    ],
+    "verification": {
+      "journalDebitTotal": 79000,
+      "journalCreditTotal": 79000,
+      "newExpenses": 6000,
+      "bankChange": 27000
+    }
+  },
+  {
+    "caseId": "bank-csv-five-records",
+    "articleId": "47",
+    "input": {
+      "fictional": true,
+      "openingBank": 100000,
+      "inflows": [
+        50000,
+        10000
+      ],
+      "outflows": [
+        12000,
+        20000,
+        3000
+      ],
+      "previouslyRecordedReceivable": 50000,
+      "previouslyRecordedCardPayable": 12000
+    },
+    "expectedEntries": [
+      {
+        "debit": "普通預金",
+        "credit": "売掛金",
+        "amount": 50000
+      },
+      {
+        "debit": "未払金",
+        "credit": "普通預金",
+        "amount": 12000
+      },
+      {
+        "debit": "事業主貸",
+        "credit": "普通預金",
+        "amount": 20000
+      },
+      {
+        "debit": "通信費",
+        "credit": "普通預金",
+        "amount": 3000
+      },
+      {
+        "debit": "普通預金",
+        "credit": "事業主借",
+        "amount": 10000
+      }
+    ],
+    "verification": {
+      "bankRecords": 5,
+      "inflowTotal": 60000,
+      "outflowTotal": 35000,
+      "closingBank": 125000,
+      "newExpenses": 3000
+    }
+  },
+  {
+    "caseId": "owners-four-cases",
+    "articleId": "48",
+    "input": {
+      "fictional": true,
+      "stationery": 2000,
+      "livingWithdrawal": 30000,
+      "receivableReceiptPrivate": 20000,
+      "privateCardPurchase": 5000,
+      "excludeLaterSettlements": true
+    },
+    "expectedEntries": [
+      {
+        "debit": "消耗品費",
+        "credit": "事業主借",
+        "amount": 2000
+      },
+      {
+        "debit": "事業主貸",
+        "credit": "普通預金",
+        "amount": 30000
+      },
+      {
+        "debit": "事業主貸",
+        "credit": "売掛金",
+        "amount": 20000
+      },
+      {
+        "debit": "事業主貸",
+        "credit": "未払金",
+        "amount": 5000
+      }
+    ],
+    "verification": {
+      "ownerContribution": 2000,
+      "ownerDrawings": 55000,
+      "newExpenses": 2000
+    }
+  },
+  {
+    "caseId": "apportionment-year",
+    "articleId": "49",
+    "input": {
+      "fictional": true,
+      "months": 12,
+      "monthlyRent": 100000,
+      "totalArea": 50,
+      "businessOnlyArea": 10,
+      "monthlyTelecom": 10000,
+      "telecomBusinessRatio": 0.4
+    },
+    "expectedEntries": [
+      {
+        "debit": "地代家賃",
+        "credit": "普通預金",
+        "amount": 20000
+      },
+      {
+        "debit": "事業主貸",
+        "credit": "普通預金",
+        "amount": 80000
+      }
+    ],
+    "verification": {
+      "rentRatio": 0.2,
+      "rentBusinessMonthly": 20000,
+      "rentPrivateMonthly": 80000,
+      "rentBusinessAnnual": 240000,
+      "telecomBusinessMonthly": 4000,
+      "telecomBusinessAnnual": 48000,
+      "totalAnnualSpend": 1320000,
+      "totalBusinessAnnual": 288000,
+      "totalPrivateAnnual": 1032000,
+      "rentPrivateAnnual": 960000
+    }
+  }
+]

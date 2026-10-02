@@ -1,0 +1,4221 @@
+[
+  {
+    "id": "01",
+    "slug": "freee-cost-review",
+    "title": "freee会計を安く使うには？料金プラン・年払い・契約期間の見直し方",
+    "description": "freee会計を使い続けながら費用を見直す個人事業主向けに、スターター・スタンダードの税込料金、利用月数別の総額、申告期だけ月払いで使う条件、未契約中の制限と保存手順を説明します。",
+    "summary": "通年利用なら年払い、短い利用期間なら月払いの総額を比べ、必要な機能を残せるプランを選びます。申告期だけ利用する場合も、未契約中の操作制限と次回請求前の停止条件を確認してください。",
+    "category": "pricing",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "freee 高い",
+    "secondaryKeywords": [
+      "freee 料金 高い",
+      "freee 安く使う",
+      "freee 値上げ"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "freee会計の料金を見直す",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "title": "【個人】freee会計のプランについて",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人版料金、機能差、お試し・未契約制限",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/202848470",
+        "title": "freeeから退会する（お支払いを停止する）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "購入経路別停止、残存期間、事業所削除との違い",
+        "verified": true
+      },
+      {
+        "url": "https://www.freee.co.jp/terms/",
+        "title": "freee利用規約",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "第6条・第13条の受領済み料金返金不可、第11条のバックアップ責任と無料会員データ消去条件",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-starter-standard-choice",
+      "freee-free-plan-limits",
+      "freee-cancellation-data-checklist",
+      "freee-alternatives",
+      "opentax-vs-freee"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "pricingRefs": [
+      "freee-input-outsourced-annual",
+      "freee-premium-annual",
+      "freee-standard-annual",
+      "freee-standard-monthly",
+      "freee-starter-annual",
+      "freee-starter-monthly"
+    ],
+    "sourcePath": "content/articles/freee-cost-review.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "月額契約の独立した最低1か月条項未確認。実際の申込画面で初回期間・次回請求日・停止期限を確認する。"
+    ]
+  },
+  {
+    "id": "02",
+    "slug": "freee-alternatives",
+    "title": "freee会計の代替はどれ？国内SaaS・無料ソフト・OSSを用途別に比較",
+    "description": "freee会計の乗り換え候補を、個人事業主の必要機能から比較。国内SaaS・デスクトップ・OSSの費用、銀行連携、税理士共有、帳票を整理し、移行前に同じサンプルで確認する手順を紹介します。",
+    "summary": "銀行連携、帳票、税理士共有、出力を残したい順に並べ、国内サービス・デスクトップ・OSSから候補を絞ります。移行前に同じ架空取引を入力し、必要な帳簿が出るか確認します。",
+    "category": "comparison",
+    "articleType": "alternative",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "freee 代替",
+    "secondaryKeywords": [
+      "freee 代わり",
+      "freee 以外",
+      "freee 乗り換え先"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "価格、銀行連携、帳簿・申告、税理士共有、データ移行から自分に合う代替候補を絞れるようにする。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "title": "青色申告料金表",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "title": "白色申告料金表",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.gnucash.org/",
+        "title": "GnuCash",
+        "publisher": "GnuCash Project",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax",
+        "title": "現行資料",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/price/individual/",
+        "title": "個人事業主/副業向け価格・料金プラン",
+        "publisher": "株式会社マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "個人向けクラウド確定申告の提供と必要プランの確認先",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-cost-review",
+      "free-accounting-software",
+      "switch-from-freee",
+      "open-source-accounting-software",
+      "opentax-vs-freee"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/freee-alternatives.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
+    ]
+  },
+  {
+    "id": "03",
+    "slug": "freee-free-plan-limits",
+    "title": "freee会計は無料でどこまで使える？お試し・未契約・請求書の違い",
+    "description": "freee会計の個人向けお試し・未契約状態とfreee請求書を分けて解説。取引の閲覧、仕訳CSV、申告書出力の無料範囲を整理し、試用終了までに確かめる作業と保存事項を具体的に示します。",
+    "summary": "無料登録、試用中、未契約の状態では使える操作が違います。入力だけで判断せず、帳簿・申告書の出力と試用終了後の閲覧を確認し、freee会計と請求書サービスも分けて考えます。",
+    "category": "free",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "freee 無料",
+    "secondaryKeywords": [
+      "freee 無料プラン",
+      "freee お試し",
+      "freee 無料 どこまで"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "freee会計はどこまで無料か",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "title": "【個人】freee会計のプランについて",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人版料金、機能差、お試し・未契約制限",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/202848470",
+        "title": "freeeから退会する（お支払いを停止する）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "購入経路別停止、残存期間、事業所削除との違い",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-cost-review",
+      "freee-starter-standard-choice",
+      "free-accounting-software",
+      "freee-journal-csv-export",
+      "freee-cancellation-data-checklist"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "pricingRefs": [
+      "freee-trial",
+      "freee-uncontracted"
+    ],
+    "sourcePath": "content/articles/freee-free-plan-limits.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "実登録画面で試用終了日と利用経路別の表示を確認する。"
+    ]
+  },
+  {
+    "id": "05",
+    "slug": "freee-starter-standard-choice",
+    "title": "freee会計スターターとスタンダードの違い：必要な機能から費用を判断",
+    "description": "freee会計のスターターとスタンダードを個人事業主の必要機能で比較。証憑保存、消費税申告、入金管理、共有の差と年間料金を整理し、業務別の選択例とプラン変更前のチェック項目を紹介します。",
+    "summary": "必要な証憑保存、消費税申告、入金管理、共有の機能から選びます。安いプランへ移るときは、失う操作と代わりに行う作業を確認してから年間費用を比べます。",
+    "category": "pricing",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "freee スターター スタンダード 違い",
+    "secondaryKeywords": [
+      "freee スターター 制限",
+      "freee 消費税申告 プラン"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "freeeの上位プランが必要になる条件",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "title": "【個人】freee会計のプランについて",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人版料金、機能差、お試し・未契約制限",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-cost-review",
+      "freee-free-plan-limits",
+      "free-blue-return-software",
+      "accountant-handoff-software-switch",
+      "freee-alternatives"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "pricingRefs": [
+      "freee-standard-annual",
+      "freee-standard-monthly",
+      "freee-starter-annual",
+      "freee-starter-monthly"
+    ],
+    "sourcePath": "content/articles/freee-starter-standard-choice.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "06",
+    "slug": "moneyforward-cost-review",
+    "title": "マネーフォワード クラウドを安く使うには？個人事業主向けの料金・プランを見直す",
+    "description": "マネーフォワード クラウド確定申告の個人向け料金を2026年12月改定前後で比較。既存契約への適用日、年払いと月払いの総額、CSV出力や消費税申告に必要なプラン、更新前の確認手順を説明します。",
+    "summary": "個人向けの現行料金と2026年12月の改定後料金を分け、自分の更新日で支払額を計算します。必要機能に合うプランと月払い・年払いを選び、改定発表日と適用日を混同しないようにします。",
+    "category": "pricing",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "マネーフォワード クラウド 高い",
+    "secondaryKeywords": [
+      "マネーフォワード 料金改定",
+      "マネーフォワード 安く使う"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "マネーフォワードの料金改定と節約方法",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://biz.moneyforward.com/support/plan/news/20260924.html",
+        "title": "料金体系の一部改定について",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "2026年12月個人プラン価格、更新から適用、OCR変更日",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/price/individual/",
+        "title": "個人事業主・副業向け料金プラン",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "個人プラン価格と試用の自動移行なし",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+        "title": "プランごとに利用できる機能",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "個人確定申告プランのCSV出力、消費税機能、無料例外",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "moneyforward-free-limits",
+      "switch-from-moneyforward",
+      "free-accounting-software",
+      "open-source-accounting-software",
+      "self-hosted-accounting-cost"
+    ],
+    "reviewDueAt": "2026-11-30",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "pricingRefs": [
+      "mf-mini-202612-annual",
+      "mf-mini-202612-monthly",
+      "mf-mini-app-202612-monthly",
+      "mf-mini-app-current-monthly",
+      "mf-mini-current-annual",
+      "mf-mini-current-monthly",
+      "mf-personal-202612-annual",
+      "mf-personal-202612-monthly",
+      "mf-personal-current-annual",
+      "mf-personal-current-monthly",
+      "mf-plus-202612-annual",
+      "mf-plus-current-annual"
+    ],
+    "sourcePath": "content/articles/moneyforward-cost-review.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "07",
+    "slug": "moneyforward-free-limits",
+    "title": "マネーフォワード クラウド確定申告は無料で何ができる？試用・未契約・出力制限",
+    "description": "マネーフォワード クラウド確定申告の無料トライアル・未契約・Web・アプリの条件を整理。年度50仕訳の上限、帳簿PDFと事業所得申告書の違い、CSV制限、試用中に行う検証を紹介します。",
+    "summary": "無料の試用・未契約状態と有料プランでは、仕訳件数や帳簿・申告書・CSVの出力範囲が違います。個人向けの利用経路と契約状態を確認し、必要なファイルが出力できるか確かめます。",
+    "category": "free",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "マネーフォワード クラウド 無料",
+    "secondaryKeywords": [
+      "マネーフォワード 確定申告 無料",
+      "マネーフォワード 無料 仕訳"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "マネーフォワードの無料利用範囲",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://biz.moneyforward.com/support/plan/guide/p008.html",
+        "title": "1ヶ月無料トライアルについて",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "個人トライアルの期間・条件・利用不可機能",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/plan/guide/p024.html",
+        "title": "無償利用状態で利用できる機能",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "確定申告Web・アプリの50件と出力制限",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+        "title": "プランごとに利用できる機能",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "個人確定申告プランのCSV出力、消費税機能、無料例外",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/price/individual/",
+        "title": "個人事業主・副業向け料金プラン",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "個人プラン価格と試用の自動移行なし",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "moneyforward-cost-review",
+      "free-accounting-software",
+      "switch-from-moneyforward"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "pricingRefs": [
+      "mf-trial",
+      "mf-uncontracted"
+    ],
+    "sourcePath": "content/articles/moneyforward-free-limits.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "実登録画面で試用終了日と利用経路別の表示を確認する。"
+    ]
+  },
+  {
+    "id": "08",
+    "slug": "yayoi-free-options",
+    "title": "やよいの申告ソフトはどこまで無料？白色・青色・初年度無料・体験版の違い",
+    "description": "やよいの白色申告の継続無料、青色申告の初年度無償、無料体験を区別して解説。次年度料金を含む支払例、決済登録、キャンセル期限、申告機能の制限と保存の注意点を個人事業主向けに整理します。",
+    "summary": "白色の無料プラン、青色の初年度無料、無料体験は別の条件です。申告方式に合う製品を選び、無料期間終了後の料金・更新・決済登録まで確認します。",
+    "category": "free",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "弥生 会計 無料",
+    "secondaryKeywords": [
+      "やよい 青色申告 無料",
+      "弥生 初年度無料",
+      "やよい 白色申告 無料"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "弥生の「無料」を見分ける",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "title": "やよいの青色申告 オンライン料金プラン",
+        "publisher": "弥生",
+        "accessedAt": "2026-10-02",
+        "claim": "初年度無償・年額・申込み条件・期限・体験制限・解約データ",
+        "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "title": "やよいの白色申告 オンライン料金プラン",
+        "publisher": "弥生",
+        "accessedAt": "2026-10-02",
+        "claim": "フリープランの継続無料とサポート差",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-software",
+      "free-blue-return-software",
+      "free-white-return-software",
+      "accounting-without-subscription"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "pricingRefs": [
+      "yayoi-blue-basic-annual",
+      "yayoi-blue-basic-first-year",
+      "yayoi-blue-self-annual",
+      "yayoi-blue-self-first-year",
+      "yayoi-blue-total-annual",
+      "yayoi-blue-total-first-year",
+      "yayoi-blue-trial",
+      "yayoi-white-free"
+    ],
+    "sourcePath": "content/articles/yayoi-free-options.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "キャンペーン申込画面で過去利用による対象外条件と契約終了日を最終確認する。"
+    ]
+  },
+  {
+    "id": "09",
+    "slug": "free-accounting-software",
+    "title": "個人事業主向け無料会計ソフトを比較：ずっと無料・試用・OSSの違いと選び方",
+    "description": "個人事業主向けの無料会計ソフトを、継続無料・初年度優待・OSSに分けて比較。帳簿、決算書、申告、送信の担当範囲と次年度費用を整理し、自分の申告方式に合う候補を絞るための確認表を紹介します。",
+    "summary": "恒久無料、期間限定の試用、OSSの利用料を分けて比較します。記帳・決算書・申告書・送信を誰が行うか決め、必要な成果物と二年目の費用で候補を絞ります。",
+    "category": "comparison",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "無料会計ソフト",
+    "secondaryKeywords": [
+      "会計ソフト 無料",
+      "無料 会計ソフト おすすめ",
+      "会計ソフト 完全無料"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "個人事業主が必要な成果物と無料条件を見比べ、自分に合うソフトを選べる比較の親ページにする。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "title": "公式料金表",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "title": "公式料金表",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.freee.co.jp/pricing/",
+        "title": "個人向けプラン",
+        "publisher": "freee株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.gnucash.org/",
+        "title": "公式サイト",
+        "publisher": "GnuCash Project",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax",
+        "title": "公開READMEと制限事項",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-free-plan-limits",
+      "moneyforward-free-limits",
+      "yayoi-free-options",
+      "free-cloud-accounting",
+      "free-accounting-for-freelancers",
+      "free-blue-return-software",
+      "free-white-return-software",
+      "open-source-accounting-software"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/free-accounting-software.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "free-cloud-accounting",
+    "title": "個人事業主向けの無料クラウド会計はある？無料条件と使い方で比較",
+    "description": "ブラウザで使う無料会計を、提供会社のWebサービスとWeb型OSSに分けて比較。個人事業主に必要な帳票、無料期間、保存先、使い始め方、終了後の費用を確認し、用途に合う候補を選びます。",
+    "summary": "ブラウザで使えることと、提供会社の無料サービスであることは別です。無料期間、対応帳票、データ保存先、使い始め方を同じ軸で確認します。",
+    "category": "comparison",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "クラウド会計 無料",
+    "secondaryKeywords": [
+      "無料 クラウド会計ソフト",
+      "ブラウザ 会計 無料"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "ブラウザ利用、無料期間、帳簿・申告対応、提供形態を分けて、個人事業主の目的に合う候補を見つける。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "title": "弥生白色の公式料金",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://frappe.io/books",
+        "title": "Frappe Booksの現行公式ページ",
+        "publisher": "Frappe",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "制限事項",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-software",
+      "free-accounting-for-freelancers",
+      "self-hosted-accounting-guide",
+      "accounting-operations-options"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/free-cloud-accounting.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
+    ]
+  },
+  {
+    "id": "11",
+    "slug": "free-accounting-for-freelancers",
+    "title": "個人事業主が無料会計ソフトを選ぶときの確認項目：帳簿から申告まで",
+    "description": "開業した個人事業主が無料会計を選ぶための確認表。青色・白色、入力方法、税理士との分担、証憑保存を整理し、初年度と次年度の費用や架空の取引サンプルから使い続けられる道具を検討します。",
+    "summary": "青色・白色の申告方式と、入力・出力・税理士との分担を先に決めます。初年度だけでなく次年度の費用も並べ、架空取引で必要な帳簿が作れるか試します。",
+    "category": "comparison",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "個人事業主 会計ソフト 無料",
+    "secondaryKeywords": [
+      "フリーランス 会計ソフト 無料"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "初年度・次年度の支払い、税理士との分担、青色・白色の申告方式に沿って無料会計の選択を具体化する。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "title": "国税庁の記帳案内",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "title": "やよい白色",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "title": "やよい青色",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax",
+        "title": "OpenTax README",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "個人事業所得の対象範囲、運用構成、制約の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "OpenTax 既知の制限事項",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "個人事業所得の対象範囲、運用構成、制約の該当記述",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-software",
+      "free-blue-return-software",
+      "free-white-return-software",
+      "free-accounting-side-business",
+      "self-hosted-accounting-cost"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/free-accounting-for-freelancers.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
+    ]
+  },
+  {
+    "id": "13",
+    "slug": "free-blue-return-software",
+    "title": "青色申告を無料ソフトで進めるには？記帳・決算書・申告・送信を分けて確認",
+    "description": "青色申告を無料ソフトで進める方法を、記帳・決算書・申告書・送信の四工程に分けて解説。控除の条件、各候補の対応範囲、国税庁の作成コーナーとの分担、転記と残高の照合事項を整理します。",
+    "summary": "青色申告では、日々の帳簿、決算整理、決算書、申告書、提出を別々に確認します。無料で記帳できても必要な帳票まで出せるとは限らないので、対象年分と出力範囲を確かめます。",
+    "category": "comparison",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "青色申告 ソフト 無料",
+    "secondaryKeywords": [
+      "無料 会計ソフト 青色申告",
+      "青色申告 e-Tax 無料"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "無料で進められる作業と別途必要な作業を把握し、青色申告を進める道具と手順を選ぶ。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+        "title": "国税庁の青色申告特別控除",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "title": "弥生の料金表",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "既知の制限",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.e-tax.nta.go.jp/kojin.html",
+        "title": "e-Taxの個人向け案内",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-software",
+      "free-accounting-for-freelancers",
+      "free-white-return-software",
+      "open-source-accounting-japan-checklist"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/free-blue-return-software.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
+    ]
+  },
+  {
+    "id": "14",
+    "slug": "free-white-return-software",
+    "title": "白色申告向け無料ソフトの選び方：帳簿・収支内訳書・申告書の違い",
+    "description": "白色申告に使う無料ソフトを、帳簿・収支内訳書・所得税申告書の役割から選ぶ方法。記帳する情報、専用サービスと表計算の違い、三件のサンプルによる集計確認、翌年までの保存を解説します。",
+    "summary": "白色申告用の帳簿と収支内訳書、所得税申告書の作業を分けます。白色に対応する無料条件と保存・出力を確認し、国税庁の作成手順へ数字を引き継ぎます。",
+    "category": "comparison",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "白色申告 ソフト 無料",
+    "secondaryKeywords": [
+      "白色申告 会計ソフト",
+      "収支内訳書 無料 ソフト"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "白色申告の記帳、収支内訳書、申告書の作成で必要な機能と無料条件を把握できるようにする。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "title": "国税庁の個人事業の記帳案内",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "title": "やよいの白色申告 オンライン",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-software",
+      "free-accounting-for-freelancers",
+      "free-blue-return-software"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/free-white-return-software.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "15",
+    "slug": "free-accounting-side-business",
+    "title": "副業の会計ソフトは無料で足りる？取引量と必要な帳簿で選ぶ",
+    "description": "副業として事業を営む個人事業主向けに、無料会計で足りるかを判断する方法を紹介。取引件数と複雑さ、未入金、立替、入力の手間、データ出力を整理し、少量サンプルで候補を比べます。",
+    "summary": "取引が少なくても、必要な帳簿や所得の判定を省略せず確認します。件数制限・出力・翌年の費用を並べ、自分の取引量と申告作業に合う道具を選びます。",
+    "category": "comparison",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "副業 会計ソフト 無料",
+    "secondaryKeywords": [
+      "少ない取引 会計ソフト",
+      "副業 帳簿 無料"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引件数だけでなく帳簿の種類、保存資料、入力時間、次年度の使い方から道具を選ぶ。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "title": "国税庁の記帳案内",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "title": "弥生の公式条件",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax",
+        "title": "OpenTax README",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "個人事業所得の対象範囲、運用構成、制約の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "OpenTax 既知の制限事項",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "個人事業所得の対象範囲、運用構成、制約の該当記述",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-for-freelancers",
+      "excel-to-accounting-software",
+      "free-accounting-software"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/free-accounting-side-business.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
+    ]
+  },
+  {
+    "id": "16",
+    "slug": "free-accounting-mac-linux",
+    "title": "Mac・Linuxで使える無料会計ソフト：ブラウザ・デスクトップ・OSSを比較",
+    "description": "Mac・Linuxで使う無料会計を、ブラウザ・デスクトップ・Web型OSSに分けて比較。OS対応と日本の申告帳票を切り分け、日本語入力、証憑添付、帳簿出力、保存と端末変更の確認方法を紹介します。",
+    "summary": "Mac・LinuxではOS名だけでなく、現行の提供形態、対応バージョン、日本の帳票への引継ぎを確認します。デスクトップ型とブラウザ型で、保存と出力の方法も比べます。",
+    "category": "comparison",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "Mac 会計ソフト 無料",
+    "secondaryKeywords": [
+      "Linux 会計ソフト",
+      "Mac OSS 会計"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "対応OS、インストール方式、通信要件、日本の帳簿・申告対応を分けて選べるようにする。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.gnucash.org/",
+        "title": "GnuCash公式",
+        "publisher": "GnuCash Project",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://frappe.io/books",
+        "title": "Frappe Booksの公式",
+        "publisher": "Frappe",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax",
+        "title": "OpenTax README",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "個人事業所得の対象範囲、運用構成、制約の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "OpenTax 既知の制限事項",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "個人事業所得の対象範囲、運用構成、制約の該当記述",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-software",
+      "self-hosted-accounting-guide",
+      "gnucash-japan-accounting-review",
+      "frappe-books-japan-review"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/free-accounting-mac-linux.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施",
+      "Mac/Linuxの対象ブラウザで入力・添付・帳簿出力・復元の実機検証が必要"
+    ]
+  },
+  {
+    "id": "17",
+    "slug": "accounting-without-subscription",
+    "title": "会計ソフトを買い切り・無料デスクトップ・OSSで選ぶ：更新と保守も比較",
+    "description": "会計ソフトの継続課金を見直す個人事業主向けに、購入型・無料デスクトップ・OSSを比較。初期費用、年分更新、保守、外部サービス費を分け、三年間の支払いと帳簿保存を検討する表を紹介します。",
+    "summary": "月額課金を避けるなら、買い切り・OSS・年契約の費用を同じ期間で比較します。更新、サポート、対象年分、データ保存を含めた総額で判断します。",
+    "category": "comparison",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "会計ソフト 買い切り",
+    "secondaryKeywords": [
+      "会計ソフト 月額 なし",
+      "会計ソフト サブスク なし"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "初期価格、更新・サポート、制度変更対応、データ保存を含めて支払い方を選ぶ。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/",
+        "title": "やよいの青色申告のインストール型公式ページ",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://www.gnucash.org/",
+        "title": "GnuCash",
+        "publisher": "GnuCash Project",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax",
+        "title": "OpenTax",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-software",
+      "self-hosted-accounting-cost",
+      "accounting-backup-restore"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "買切り候補の現行販売価格と翌年の申告対応費用を一次資料で追加確認する。"
+    ],
+    "sourcePath": "content/articles/accounting-without-subscription.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "買切り候補の現行販売価格と翌年の申告対応費用を一次資料で追加確認する。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
+    ]
+  },
+  {
+    "id": "18",
+    "slug": "excel-to-accounting-software",
+    "title": "Excelの帳簿から無料会計ソフトへ移るべき？移行の条件とデータ整理",
+    "description": "Excelの帳簿を続けるか会計ソフトへ移るかを、修正・集計・共有・転記の負担から判断。元帳簿の複製、必要列と開始残高の整理、三件のサンプル取込、残高照合、本移行までの手順を解説します。",
+    "summary": "転記・残高照合・年末集計が負担になったときは、Excelの役割を整理して会計ソフトを試します。元データを残し、少量の取引と残高で移行後の結果を比べます。",
+    "category": "comparison",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "Excel 会計ソフト 代わり",
+    "secondaryKeywords": [
+      "エクセル 会計ソフト 移行",
+      "Excel 帳簿 無料"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "修正履歴・集計・共有・転記負担から移行の必要性を判断し、移る場合の元データ整理と検証を助ける。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://biz.moneyforward.com/support/tax-return/guide/import-books/ib01.html",
+        "title": "仕訳帳をインポートする",
+        "publisher": "株式会社マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "クラウド確定申告の個人向け仕訳インポート案内の存在。具体的な列の実測は未実施",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-software",
+      "accounting-csv-import-errors",
+      "accounting-migration-reconciliation"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/excel-to-accounting-software.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "移行先の個人向け公式取込仕様とサンプル実測が未完了。OpenTax固有の直接取込は手順化していない"
+    ]
+  },
+  {
+    "id": "19",
+    "slug": "switch-from-freee",
+    "title": "freee会計から乗り換える前に：移行データと照合手順のチェックリスト",
+    "description": "freee会計から乗り換えるときは、移行先への登録より先に「何を、どの日付まで、どの数字と一致させるか」を決めます。仕訳CSVだけでは証憑画像、固定資産の明細、未決済の対応関係が全部引き継がれるとは限りません。",
+    "summary": "出力と保存を先に終え、移行時点・科目対応・開始残高を決めます。少量の試験取込から残高照合へ進み、確認が終わるまで元の帳簿を保全します。",
+    "category": "migration",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "freee 乗り換え",
+    "secondaryKeywords": [
+      "freee 他社 移行",
+      "freee 会計 データ移行"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "移行対象と照合方法を決め、差の原因を説明できる状態で切り替える",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/4404147088025",
+        "title": "freee会計 各種データエクスポートまとめ（取引入力メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人有料プランの取引・口座振替CSV出力、全件と検索条件による出力の区別",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿・書類に関する一般要件",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "title": "freeeの仕訳インポート機能の使い方",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "クラウド会計・確定申告の移行における科目・開始残高・仕訳の区分を公式資料で確認。実機未試験。",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/45788202889881",
+        "title": "freee会計 各種データエクスポートまとめ（会計帳簿メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "仕訳帳・総勘定元帳など帳簿ごとの出力対象と個人向けプラン対応。取引CSVとは別の操作。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-alternatives",
+      "freee-journal-csv-export",
+      "freee-cancellation-data-checklist",
+      "accounting-migration-timing",
+      "accounting-migration-reconciliation",
+      "accounting-evidence-migration",
+      "opentax-vs-freee"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/switch-from-freee.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "20",
+    "slug": "freee-journal-csv-export",
+    "title": "freee会計の仕訳CSVをエクスポートする前に確認する形式・期間・出力範囲",
+    "description": "freee会計から個人事業主の仕訳CSVを出力するための準備を解説。取引CSVとの違い、契約条件、年度・絞り込み・出力形式の選択、列対応、件数と借方貸方合計を照合する手順を示します。",
+    "summary": "対象年度と出力形式を選び、仕訳CSVを保存してから列・件数・借方貸方合計を確認します。CSVだけで証憑や申告控えまで保存できたとは扱いません。",
+    "category": "migration",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "freee CSV エクスポート",
+    "secondaryKeywords": [
+      "freee 仕訳帳 ダウンロード",
+      "freee データ 書き出し"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "freeeの仕訳CSVを安全に出す",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "title": "【個人】freee会計のプランについて",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人版料金、機能差、お試し・未契約制限",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
+        "title": "仕訳帳をCSV形式・PDF形式で出力する",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "CSV・PDF出力と旧新形式",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/45788202889881",
+        "title": "freee会計 各種データエクスポートまとめ（会計帳簿）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "会計帳簿の出力と再ダウンロード",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "switch-from-freee",
+      "freee-cancellation-data-checklist",
+      "accounting-csv-import-errors",
+      "accounting-migration-reconciliation",
+      "accountant-handoff-software-switch"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "pricingRefs": [],
+    "sourcePath": "content/articles/freee-journal-csv-export.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "実機で匿名サンプル出力と列対応・件数・残高照合は未実施。公式仕様に沿う本文だが操作検証完了まで公開不可。"
+    ]
+  },
+  {
+    "id": "21",
+    "slug": "freee-cancellation-data-checklist",
+    "title": "freee会計を解約する前のデータ保存：支払い停止とアカウント削除の違い",
+    "description": "freee会計の解約前に個人事業主が保存する帳簿・申告書・証憑を一覧化。支払い停止と事業所削除、購入経路別手続き、未契約の閲覧・出力制限、ファイルを開いて検算する方法を説明します。",
+    "summary": "支払い停止と事業所削除は別の操作です。契約中に帳簿・仕訳・申告控え・証憑を保存し、ファイルを開いて検算してから停止の手続きを進めます。",
+    "category": "migration",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "freee 解約 データ",
+    "secondaryKeywords": [
+      "freee 解約後 閲覧",
+      "freee データ保存",
+      "freee 退会"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "解約後のデータと退避",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "title": "【個人】freee会計のプランについて",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人版料金、機能差、お試し・未契約制限",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/202848470",
+        "title": "freeeから退会する（お支払いを停止する）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "購入経路別停止、残存期間、事業所削除との違い",
+        "verified": true
+      },
+      {
+        "url": "https://www.freee.co.jp/terms/",
+        "title": "freee利用規約",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "第6条・第13条の受領済み料金返金不可、第11条のバックアップ責任と無料会員データ消去条件",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-cost-review",
+      "freee-free-plan-limits",
+      "switch-from-freee",
+      "freee-journal-csv-export",
+      "accounting-evidence-migration",
+      "accounting-backup-restore"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "pricingRefs": [],
+    "sourcePath": "content/articles/freee-cancellation-data-checklist.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "22",
+    "slug": "accounting-migration-timing",
+    "title": "会計ソフトは期首・期中のどちらで乗り換える？開始残高と並行運用の考え方",
+    "description": "会計ソフトを変える時期は、年初なら引き継ぐ仕訳を少なくでき、期中なら今の困りごとを早く解決できます。個人事業主は暦年の当年集計を意識し、移行の範囲と申告資料の作り方を合わせて決めましょう。入力を止める日だけ決め。",
+    "summary": "期首移行は開始残高、期中移行は切替日までの取引と残高をそろえます。二重取込と未入金・未払いの取りこぼしを防ぐため、旧帳簿との境界を決めます。",
+    "category": "migration",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "会計ソフト 乗り換え タイミング",
+    "secondaryKeywords": [
+      "会計ソフト 期中 移行",
+      "会計ソフト 期首 変更"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "移行対象と照合方法を決め、差の原因を説明できる状態で切り替える",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿・書類に関する一般要件",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/4404147088025",
+        "title": "freee会計 各種データエクスポートまとめ（取引入力メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人有料プランの取引・口座振替CSV出力、全件と検索条件による出力の区別",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "title": "freeeの仕訳インポート機能の使い方",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "クラウド会計・確定申告の移行における科目・開始残高・仕訳の区分を公式資料で確認。実機未試験。",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/45788202889881",
+        "title": "freee会計 各種データエクスポートまとめ（会計帳簿メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "仕訳帳・総勘定元帳など帳簿ごとの出力対象と個人向けプラン対応。取引CSVとは別の操作。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "switch-from-freee",
+      "accounting-migration-reconciliation",
+      "accountant-handoff-software-switch",
+      "switch-from-moneyforward"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/accounting-migration-timing.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "23",
+    "slug": "accounting-csv-import-errors",
+    "title": "会計CSVが取り込めないとき：文字コード・日付・税区分・列の確認手順",
+    "description": "会計CSVの取込エラーは、文字化け、形式不一致、科目・税区分の対応不足を分けると調べやすくなります。最初に元CSVをコピーし、変換や表計算ソフトでの保存はコピーに対して行います。何度も本番へ再取込する前に、失敗。",
+    "summary": "原本を残し、文字コード、区切り、列名、日付、金額の順に原因を切り分けます。数件のサンプルが読めたあと、件数と合計が一致するか確かめます。",
+    "category": "migration",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "会計ソフト CSV インポート エラー",
+    "secondaryKeywords": [
+      "仕訳 CSV 文字化け",
+      "会計 CSV 形式"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "移行対象と照合方法を決め、差の原因を説明できる状態で切り替える",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/4404147088025",
+        "title": "freee会計 各種データエクスポートまとめ（取引入力メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人有料プランの取引・口座振替CSV出力、全件と検索条件による出力の区別",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "title": "freeeの仕訳インポート機能の使い方",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "クラウド会計・確定申告の移行における科目・開始残高・仕訳の区分を公式資料で確認。実機未試験。",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/45788202889881",
+        "title": "freee会計 各種データエクスポートまとめ（会計帳簿メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "仕訳帳・総勘定元帳など帳簿ごとの出力対象と個人向けプラン対応。取引CSVとは別の操作。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "excel-to-accounting-software",
+      "freee-journal-csv-export",
+      "accounting-migration-reconciliation",
+      "switch-from-moneyforward"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/accounting-csv-import-errors.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "24",
+    "slug": "accounting-migration-reconciliation",
+    "title": "会計ソフト移行後に残高が合わないときの照合チェックリスト",
+    "description": "移行後の残高が合わない場合は、開始残高と期間内の仕訳を別々に比較します。総額の差だけを消す調整仕訳を入れると、本当の重複や漏れが残ります。同じ日付、同じ科目範囲、同じ税込・税抜の集計条件にそろえ、小さい範囲から。",
+    "summary": "開始残高、対象期間、件数、科目別残高を旧帳簿と並べます。差額の出た期間を狭めて漏れ・重複・符号を調べ、根拠のない調整仕訳で合わせません。",
+    "category": "migration",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "会計ソフト 移行 残高 合わない",
+    "secondaryKeywords": [
+      "開始残高 仕訳 移行",
+      "会計ソフト 二重計上"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "移行対象と照合方法を決め、差の原因を説明できる状態で切り替える",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/4404147088025",
+        "title": "freee会計 各種データエクスポートまとめ（取引入力メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人有料プランの取引・口座振替CSV出力、全件と検索条件による出力の区別",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿・書類に関する一般要件",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "title": "freeeの仕訳インポート機能の使い方",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "クラウド会計・確定申告の移行における科目・開始残高・仕訳の区分を公式資料で確認。実機未試験。",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/45788202889881",
+        "title": "freee会計 各種データエクスポートまとめ（会計帳簿メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "仕訳帳・総勘定元帳など帳簿ごとの出力対象と個人向けプラン対応。取引CSVとは別の操作。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "switch-from-freee",
+      "accounting-migration-timing",
+      "accounting-csv-import-errors",
+      "accountant-handoff-software-switch"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/accounting-migration-reconciliation.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "25",
+    "slug": "accounting-evidence-migration",
+    "title": "会計ソフトの乗り換えで証憑はどう移す？仕訳CSVだけでは残らない情報",
+    "description": "会計ソフトの乗り換えでは、仕訳と領収書・請求書を別の保存対象として扱います。CSVに証憑へのURLが入っていても、画像やPDF本体が含まれるとは限りません。旧サービスにログインできなくなった後も、必要な資料を日。",
+    "summary": "証憑と仕訳を別々に保存するだけでなく、資料番号で対応づけます。移行後に請求書・領収書を探せること、原本を開けることまで確認します。",
+    "category": "migration",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "会計ソフト 乗り換え 証憑",
+    "secondaryKeywords": [
+      "freee 領収書 ダウンロード",
+      "会計ソフト 添付ファイル 移行"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "移行対象と照合方法を決め、差の原因を説明できる状態で切り替える",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/4404147088025",
+        "title": "freee会計 各種データエクスポートまとめ（取引入力メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人有料プランの取引・口座振替CSV出力、全件と検索条件による出力の区別",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿・書類に関する一般要件",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "title": "freeeの仕訳インポート機能の使い方",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "クラウド会計・確定申告の移行における科目・開始残高・仕訳の区分を公式資料で確認。実機未試験。",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
+        "title": "電子帳簿保存法一問一答 電子取引関係 令和8年7月",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "電子取引情報の電磁的記録保存という制度概要を確認。保存方式別の全要件と個別適合性はレビュー未完了。",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/45788202889881",
+        "title": "freee会計 各種データエクスポートまとめ（会計帳簿メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "仕訳帳・総勘定元帳など帳簿ごとの出力対象と個人向けプラン対応。取引CSVとは別の操作。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "switch-from-freee",
+      "freee-journal-csv-export",
+      "freee-cancellation-data-checklist",
+      "open-source-accounting-japan-checklist",
+      "accounting-backup-restore"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "電子帳簿保存法の要件と運用の専門レビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/accounting-evidence-migration.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "電子帳簿保存法の要件と運用の専門レビュー（未実施）。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "26",
+    "slug": "accountant-handoff-software-switch",
+    "title": "会計ソフトを変える前に税理士と確認したい共有・出力・修正のルール",
+    "description": "税理士と帳簿を確認している個人事業主は、会計ソフトを変更する前にデータの受渡し方法を合わせると、変更後の修正作業が続けやすくなります。使えるファイル形式だけでなく、誰がどの期間を入力・修正・確定するかも決めます。",
+    "summary": "税理士が必要とする仕訳・残高・証憑の形式を先に確認します。共有権限と出力形式を試し、誰がどの作業を行うか決めてから乗り換えます。",
+    "category": "migration",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "会計ソフト 税理士 共有",
+    "secondaryKeywords": [
+      "会計ソフト 乗り換え 税理士",
+      "仕訳データ 税理士 渡す"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "移行対象と照合方法を決め、差の原因を説明できる状態で切り替える",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/4404147088025",
+        "title": "freee会計 各種データエクスポートまとめ（取引入力メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "個人有料プランの取引・口座振替CSV出力、全件と検索条件による出力の区別",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "OpenTax 既知の制限事項",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "共同作業権限未提供、対象所得・XTX範囲を現行checkoutで確認",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "title": "freeeの仕訳インポート機能の使い方",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "クラウド会計・確定申告の移行における科目・開始残高・仕訳の区分を公式資料で確認。実機未試験。",
+        "verified": true
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/45788202889881",
+        "title": "freee会計 各種データエクスポートまとめ（会計帳簿メニュー）",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "仕訳帳・総勘定元帳など帳簿ごとの出力対象と個人向けプラン対応。取引CSVとは別の操作。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "switch-from-freee",
+      "accounting-migration-reconciliation",
+      "accounting-evidence-migration",
+      "opentax-vs-freee"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/accountant-handoff-software-switch.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "27",
+    "slug": "switch-from-moneyforward",
+    "title": "マネーフォワード クラウド確定申告から乗り換える前のデータ出力と確認事項",
+    "description": "マネーフォワード クラウド確定申告から移行する個人事業主向けに、プラン別のCSV出力条件、CSV・MF形式の差、年度別の保存資料、サンプル取込、期首残高や主要科目の照合手順を説明します。",
+    "summary": "契約中に必要な帳簿・仕訳を出力し、移行先の列と科目に対応づけます。個人向けプランの出力条件を確認し、試験取込と開始残高の照合を終えてから停止を検討します。",
+    "category": "migration",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "マネーフォワード 会計 乗り換え",
+    "secondaryKeywords": [
+      "マネーフォワード CSV エクスポート",
+      "マネーフォワード 解約 データ"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "マネーフォワードから乗り換える",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+        "title": "プランごとに利用できる機能",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "個人確定申告プランのCSV出力、消費税機能、無料例外",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/plan/guide/p024.html",
+        "title": "無償利用状態で利用できる機能",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "確定申告Web・アプリの50件と出力制限",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/tax-return/guide/books2/bo01.html",
+        "title": "「仕訳帳」画面の使い方",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "個人確定申告のCSV/MF/PDF出力と形式差",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "moneyforward-cost-review",
+      "moneyforward-free-limits",
+      "accounting-migration-timing",
+      "accounting-csv-import-errors",
+      "accounting-migration-reconciliation"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "pricingRefs": [],
+    "sourcePath": "content/articles/switch-from-moneyforward.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "実機で匿名サンプル出力と列対応・件数・残高照合は未実施。公式仕様に沿う本文だが操作検証完了まで公開不可。",
+      "OpenTaxへのMF形式取込の実機検証未実施。直接連携や全項目保持を保証しない。"
+    ]
+  },
+  {
+    "id": "28",
+    "slug": "open-source-accounting-software",
+    "title": "個人事業主向けオープンソース会計ソフトを比較：日本語・帳簿・申告で選ぶ",
+    "description": "オープンソース会計ソフトを選ぶときは、公開コードの有無だけでなく、個人事業の帳簿をどこまで作れるかを確認します。日本語画面、複式簿記、日本の申告書作成、e-Tax送信は別の機能です。日本語で表示できる製品でも。",
+    "summary": "OSS会計は複式帳簿だけでなく、日本の申告帳票、銀行連携、保存、提供形態を比べて選びます。ソフト利用料と外部サービス費を分け、必要な作業ができる候補を絞ります。",
+    "category": "oss-ai",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "会計ソフト オープンソース",
+    "secondaryKeywords": [
+      "OSS 会計ソフト",
+      "オープンソース 会計 日本語"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.gnucash.org/index.phtml?lang=ja_JP",
+        "title": "GnuCash公式日本語サイト",
+        "publisher": "GnuCash Project",
+        "accessedAt": "2026-10-02",
+        "claim": "複式記帳・デスクトップ方式・公式の配布案内。日本の申告実機対応とは区別",
+        "verified": true
+      },
+      {
+        "url": "https://frappe.io/books",
+        "title": "Frappe Books公式サイト",
+        "publisher": "Frappe",
+        "accessedAt": "2026-10-02",
+        "claim": "確認時点のWeb方式・旧desktop非サポートの案内。公開repoとの整合は未確認",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/frappe/books",
+        "title": "Frappe Books公開リポジトリ",
+        "publisher": "Frappe",
+        "accessedAt": "2026-10-02",
+        "claim": "デスクトップ記述・AGPL表示。現行サイトとの対象版整合は未確認",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "title": "OpenTax README・現行ローカルソース",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "現行checkoutの個人事業対象、Firebase構成、外部AIとの役割分担を確認",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "OpenTax 既知の制限事項",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "共同作業権限未提供、対象所得・XTX範囲を現行checkoutで確認",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "self-hosted-accounting-guide",
+      "self-hosted-accounting-cost",
+      "open-source-accounting-japan-checklist",
+      "accounting-open-source-license",
+      "gnucash-japan-accounting-review",
+      "frappe-books-japan-review",
+      "opentax-vs-freee"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "Frappe公式Web版と公開デスクトップrepoの対応版・配布物を提供元資料で確定する。"
+    ],
+    "sourcePath": "content/articles/open-source-accounting-software.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "Frappe公式Web版と公開デスクトップrepoの対応版・配布物を提供元資料で確定する。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "29",
+    "slug": "self-hosted-accounting-guide",
+    "title": "会計ソフトのセルフホストとは？利用環境・データ保存・更新の確認項目",
+    "description": "セルフホストは、会計アプリを自分で用意した環境に置いて使う方法です。ブラウザで操作することと、提供会社のサービスを契約することは同じではありません。またアプリが手元のPCにある場合でも、認証やデータ保存に外部ク。",
+    "summary": "保存先、利用者、更新、バックアップの担当を決めてから自己運用の方式を選びます。小さな架空データで開始・出力・復元を試し、自分の会計業務に合うか確認します。",
+    "category": "oss-ai",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "会計ソフト セルフホスト",
+    "secondaryKeywords": [
+      "会計ソフト 自社サーバー",
+      "会計ソフト 自宅サーバー"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "title": "OpenTax README・現行ローカルソース",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "現行checkoutの個人事業対象、Firebase構成、外部AIとの役割分担を確認",
+        "verified": true
+      },
+      {
+        "url": "https://firebase.google.com/docs/storage/faqs-storage-changes-announced-sept-2024?hl=ja",
+        "title": "Cloud Storage料金・バケット変更FAQ",
+        "publisher": "Google",
+        "accessedAt": "2026-10-02",
+        "claim": "Blaze要件と無料枠の条件。総費用ゼロを保証しない",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-cloud-accounting",
+      "open-source-accounting-software",
+      "self-hosted-accounting-cost",
+      "accounting-backup-restore",
+      "accounting-operations-options"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/self-hosted-accounting-guide.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "30",
+    "slug": "self-hosted-accounting-cost",
+    "title": "無料OSS会計の費用はいくら？利用料・インフラ・外部AIを分けて見積もる",
+    "description": "無料OSS会計の費用は、ソフト利用料、インフラ、外部AI、保存と更新に使う作業時間を分けると比べやすくなります。OSSの利用料がゼロでも、選んだ構成の現金支出がゼロとは限りません。逆に既存のPCで完結する方式で。",
+    "summary": "ソフト、インフラ、保存量、外部AI、バックアップを別々に積み上げます。無料枠と課金条件を公式資料で確認し、初年度・継続・障害時の費用を比べます。",
+    "category": "oss-ai",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "セルフホスト 会計ソフト 費用",
+    "secondaryKeywords": [
+      "OSS 会計ソフト コスト",
+      "会計ソフト TCO"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "title": "OpenTax README・現行ローカルソース",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "現行checkoutの個人事業対象、Firebase構成、外部AIとの役割分担を確認",
+        "verified": true
+      },
+      {
+        "url": "https://firebase.google.com/docs/storage/faqs-storage-changes-announced-sept-2024?hl=ja",
+        "title": "Cloud Storage料金・バケット変更FAQ",
+        "publisher": "Google",
+        "accessedAt": "2026-10-02",
+        "claim": "Blaze要件と無料枠の条件。総費用ゼロを保証しない",
+        "verified": true
+      },
+      {
+        "url": "https://firebase.google.com/pricing?hl=ja",
+        "title": "Firebase料金",
+        "publisher": "Google",
+        "accessedAt": "2026-10-02",
+        "claim": "構成・利用量別料金の確認先。選択リージョンの実額試算は未実施",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-cost-review",
+      "accounting-without-subscription",
+      "open-source-accounting-software",
+      "self-hosted-accounting-guide",
+      "free-ai-accounting-limits"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/self-hosted-accounting-cost.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "31",
+    "slug": "open-source-accounting-japan-checklist",
+    "title": "個人事業主がOSS会計を選ぶ確認表：帳簿・税区分・証憑・申告の範囲",
+    "description": "日本の個人事業でOSS会計を使うときは、必要な帳簿、税区分、証憑、決算書、申告書、送信を別々に確認します。日本語対応という一つの表示だけでは、国内の業務全体に適合するか判断できません。自分の申告方式と所得の種類。",
+    "summary": "日本の個人事業の科目・帳票・税区分・申告年分をチェック表で確認します。日本語表示や複式記帳への対応だけで、日本の申告まで完成するとは判断しません。",
+    "category": "oss-ai",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "OSS 会計ソフト 日本 対応",
+    "secondaryKeywords": [
+      "オープンソース 会計 電子帳簿保存法",
+      "OSS 会計 インボイス"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿・書類に関する一般要件",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "OpenTax 既知の制限事項",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "共同作業権限未提供、対象所得・XTX範囲を現行checkoutで確認",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
+        "title": "電子帳簿保存法一問一答 電子取引関係 令和8年7月",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "電子取引情報の電磁的記録保存という制度概要を確認。保存方式別の全要件と個別適合性はレビュー未完了。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-blue-return-software",
+      "free-white-return-software",
+      "accounting-evidence-migration",
+      "open-source-accounting-software",
+      "opentax-vs-freee"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "電子帳簿保存法の要件と運用の専門レビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/open-source-accounting-japan-checklist.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "電子帳簿保存法の要件と運用の専門レビュー（未実施）。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "32",
+    "slug": "accounting-open-source-license",
+    "title": "無料・OSS・ソース公開は同じ？会計ソフトのライセンスを確認するポイント",
+    "description": "無料、オープンソース、ソースコード公開はそれぞれ別の条件です。無料は支払いの条件、OSSはライセンスの条件、公開コードはコードを見ることができる状態を指します。会計ソフトを使うだけなのか、改変するのか、他人に配。",
+    "summary": "ライセンス名だけでなく、利用・改変・配布・ネットワーク提供で必要な条件を確認します。公開ソース、依存ライブラリ、改変箇所を分けて記録します。",
+    "category": "oss-ai",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "会計ソフト OSS ライセンス",
+    "secondaryKeywords": [
+      "会計ソフト ソースコード 公開",
+      "オープンソース 無料 違い"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://opensource.org/osd",
+        "title": "Open Source Definition",
+        "publisher": "Open Source Initiative",
+        "accessedAt": "2026-10-02",
+        "claim": "価格・公開コードとOSSの条件の違い",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+        "title": "OpenTax AGPL version 3原文",
+        "publisher": "Free Software Foundation / OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "現行checkoutのLICENSE原文確認。個別利用への法的適用は未レビュー",
+        "verified": true
+      },
+      {
+        "url": "https://www.gnucash.org/index.phtml?lang=ja_JP",
+        "title": "GnuCash公式日本語サイト",
+        "publisher": "GnuCash Project",
+        "accessedAt": "2026-10-02",
+        "claim": "複式記帳・デスクトップ方式・公式の配布案内。日本の申告実機対応とは区別",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/frappe/books",
+        "title": "Frappe Books公開リポジトリ",
+        "publisher": "Frappe",
+        "accessedAt": "2026-10-02",
+        "claim": "デスクトップ記述・AGPL表示。現行サイトとの対象版整合は未確認",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "open-source-accounting-software",
+      "self-hosted-accounting-guide",
+      "gnucash-japan-accounting-review",
+      "frappe-books-japan-review",
+      "opentax-vs-freee"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/accounting-open-source-license.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "33",
+    "slug": "accounting-backup-restore",
+    "title": "会計データのバックアップと復元：保存対象・出力・復元テストの確認手順",
+    "description": "会計データのバックアップは、保存したファイルの有無より「何を、どこまで戻せるか」を確認することが重要です。仕訳CSVは帳簿を読み直す資料になりますが、証憑、設定、履歴、ログイン情報まで復元するシステムバックアッ。",
+    "summary": "帳簿データ、証憑、設定を保存し、別の環境で開き直して件数・残高・添付を照合します。コピーの存在だけでなく、必要な期間へ戻せることを確認します。",
+    "category": "oss-ai",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "会計ソフト バックアップ",
+    "secondaryKeywords": [
+      "セルフホスト 会計 バックアップ",
+      "会計データ 復元"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.gnucash.org/docs/v5/C/gnucash-guide/basics-backup1.html",
+        "title": "Backing Up and Recovering Data",
+        "publisher": "GnuCash Project",
+        "accessedAt": "2026-10-02",
+        "claim": "バックアップ・復旧の公式確認先。実機復元は未試験",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "title": "OpenTax README・現行ローカルソース",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "現行checkoutの個人事業対象、Firebase構成、外部AIとの役割分担を確認",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-cancellation-data-checklist",
+      "accounting-evidence-migration",
+      "self-hosted-accounting-guide",
+      "self-hosted-accounting-cost"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/accounting-backup-restore.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "34",
+    "slug": "accounting-operations-options",
+    "title": "OSS会計の使い方を比較：セルフホスト・導入支援・提供サービスの違い",
+    "description": "OSS会計の使い方には、手元のPCで使う方法、自分でWeb環境を用意する方法、導入作業を依頼する方法、既存のホステッドサービスを利用する方法があります。比較では「誰が何を担当するか」と「どこへデータを置くか」を。",
+    "summary": "提供会社のサービス、デスクトップ、自己運用を、保存先・更新・復元・共有・費用で比較します。必要な会計作業と担当者から方式を選びます。",
+    "category": "oss-ai",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "会計ソフト セルフホスト 運用",
+    "secondaryKeywords": [
+      "OSS 会計 マネージド",
+      "OSS 会計 導入支援"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "title": "OpenTax README・現行ローカルソース",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "現行checkoutの個人事業対象、Firebase構成、外部AIとの役割分担を確認",
+        "verified": true
+      },
+      {
+        "url": "https://frappe.io/books",
+        "title": "Frappe Books公式サイト",
+        "publisher": "Frappe",
+        "accessedAt": "2026-10-02",
+        "claim": "確認時点のWeb方式・旧desktop非サポートの案内。公開repoとの整合は未確認",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/frappe/books",
+        "title": "Frappe Books公開リポジトリ",
+        "publisher": "Frappe",
+        "accessedAt": "2026-10-02",
+        "claim": "デスクトップ記述・AGPL表示。現行サイトとの対象版整合は未確認",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-cloud-accounting",
+      "self-hosted-accounting-guide",
+      "self-hosted-accounting-cost",
+      "accounting-backup-restore"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "Frappeの対象版と運用方式を提供元資料で確定する。"
+    ],
+    "sourcePath": "content/articles/accounting-operations-options.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "Frappeの対象版と運用方式を提供元資料で確定する。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "35",
+    "slug": "gnucash-japan-accounting-review",
+    "title": "GnuCashは日本の事業会計に使える？日本語環境と必要な追加作業を検証",
+    "description": "GnuCashは日本語の公式サイトを持ち、個人や小規模ビジネス向けの複式簿記・帳票機能を案内するデスクトップ型の会計ソフトです。ただし、日本語表示と日本の確定申告がそのまま完了することは別です。個人事業で必要な。",
+    "summary": "GnuCashの複式帳簿・レポートと、日本の決算書・申告書作成を別に確認します。OS、データ保存、科目、年末の引継ぎを架空取引で試して判断します。",
+    "category": "oss-ai",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "GnuCash 日本語",
+    "secondaryKeywords": [
+      "GnuCash 日本 会計",
+      "GnuCash 確定申告"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.gnucash.org/index.phtml?lang=ja_JP",
+        "title": "GnuCash公式日本語サイト",
+        "publisher": "GnuCash Project",
+        "accessedAt": "2026-10-02",
+        "claim": "複式記帳・デスクトップ方式・公式の配布案内。日本の申告実機対応とは区別",
+        "verified": true
+      },
+      {
+        "url": "https://www.gnucash.org/docs/v5/C/gnucash-guide/basics-backup1.html",
+        "title": "Backing Up and Recovering Data",
+        "publisher": "GnuCash Project",
+        "accessedAt": "2026-10-02",
+        "claim": "バックアップ・復旧の公式確認先。実機復元は未試験",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿・書類に関する一般要件",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-mac-linux",
+      "open-source-accounting-software",
+      "open-source-accounting-japan-checklist",
+      "frappe-books-japan-review"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/gnucash-japan-accounting-review.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "36",
+    "slug": "frappe-books-japan-review",
+    "title": "Frappe Booksを日本で使う前に：現行版・保存方式・帳簿出力の確認",
+    "description": "Frappe Booksを日本で使いたい場合は、最初に対象となる版と利用方式を固定する必要があります。従来のデスクトップ会計としての紹介と、現在の公式サイトの案内に差があるためです。名前が同じでも、データ保存や。",
+    "summary": "Frappe Booksは現行の提供形態と旧版を区別して確認します。日本の帳票・税区分・データ出力まで対応を確かめ、帳簿と申告の担当を分けます。",
+    "category": "oss-ai",
+    "articleType": "explanation",
+    "productPlacement": "end-only",
+    "primaryKeyword": "Frappe Books 日本語",
+    "secondaryKeywords": [
+      "Frappe Books 日本",
+      "Frappe Books 会計"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://frappe.io/books",
+        "title": "Frappe Books公式サイト",
+        "publisher": "Frappe",
+        "accessedAt": "2026-10-02",
+        "claim": "確認時点のWeb方式・旧desktop非サポートの案内。公開repoとの整合は未確認",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/frappe/books",
+        "title": "Frappe Books公開リポジトリ",
+        "publisher": "Frappe",
+        "accessedAt": "2026-10-02",
+        "claim": "デスクトップ記述・AGPL表示。現行サイトとの対象版整合は未確認",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿・書類に関する一般要件",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "free-accounting-mac-linux",
+      "open-source-accounting-software",
+      "open-source-accounting-japan-checklist",
+      "gnucash-japan-accounting-review"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "Frappeの現行Web版と旧デスクトップ版の配布物・対応ドキュメントを確定する。"
+    ],
+    "sourcePath": "content/articles/frappe-books-japan-review.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "Frappeの現行Web版と旧デスクトップ版の配布物・対応ドキュメントを確定する。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+    ]
+  },
+  {
+    "id": "37",
+    "slug": "accounting-mcp-comparison",
+    "title": "MCP対応の会計ソフトを比較：読取・更新・権限・ログで選ぶ",
+    "description": "MCP対応の会計ソフトを比べるときは、AIから接続できるという表示だけでなく、読取・更新できる操作、認証、確認方法、データの送信先を確認します。個人事業主が行いたい月次の照合や入力補助に合わせ、使う操作を一つず。",
+    "summary": "MCP対応では、読めるデータ・書ける操作・認証・確認・監査を比較します。対象製品と個人契約への適用を確認し、AIの接続と会計処理の正しさを分けて評価します。",
+    "category": "oss-ai",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "会計ソフト MCP",
+    "secondaryKeywords": [
+      "freee MCP 比較",
+      "マネーフォワード MCP",
+      "AI エージェント 会計"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.freee.co.jp/ai/mcp/",
+        "title": "freee MCP公式案内",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "MCP入口と別途生成AIサービスが必要。個人プラン・詳細操作は未確認",
+        "verified": true
+      },
+      {
+        "url": "https://developers.biz.moneyforward.com/mcp/",
+        "title": "マネーフォワード MCPサーバー",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "公式入口を確認。本文取得が限定的で個人対象・操作・料金は未確認",
+        "verified": false
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/docs/mcp.md",
+        "title": "OpenTax MCP接続ガイド",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "現行checkoutのremote/stdio、確認待ち、MCPから確定不可を確認",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "open-source-accounting-software",
+      "open-source-accounting-japan-checklist",
+      "free-ai-accounting-limits",
+      "opentax-vs-freee"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "マネーフォワードMCPの個人契約での対象操作・権限・料金・データ範囲を公式資料で確定する。"
+    ],
+    "sourcePath": "content/articles/accounting-mcp-comparison.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "マネーフォワードMCPの個人契約での対象操作・権限・料金・データ範囲を公式資料で確定する。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。",
+      "freee/MFの個人向け対応プラン、認証、操作、料金、データ取扱いの一次確認と同条件実機試験未完了。"
+    ]
+  },
+  {
+    "id": "38",
+    "slug": "free-ai-accounting-limits",
+    "title": "無料のAI会計はどこまで任せられる？料金・確認作業・データ送信を整理",
+    "description": "無料のAI会計を探すときは、会計ソフト、AIサービス、OCRなど外部処理の費用と、結果を確認する作業を分けます。入力を手伝えること、仕訳案を出せること、帳簿に登録できること、申告を完了できることは別です。自分が。",
+    "summary": "無料AI会計は会計ソフト、AI、保存、入力件数の条件を分けて確認します。AIの候補を資料と照合して確定し、無料利用を完全自動の申告と同一視しません。",
+    "category": "oss-ai",
+    "articleType": "comparison",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "AI 会計ソフト 無料",
+    "secondaryKeywords": [
+      "AI 仕訳 無料",
+      "AI 会計 OSS"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "取引・保存・申告の必要条件を確認し、架空サンプルと照合表で判断する",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.freee.co.jp/ai/mcp/",
+        "title": "freee MCP公式案内",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "claim": "MCP入口と別途生成AIサービスが必要。個人プラン・詳細操作は未確認",
+        "verified": true
+      },
+      {
+        "url": "https://developers.biz.moneyforward.com/mcp/",
+        "title": "マネーフォワード MCPサーバー",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "claim": "公式入口を確認。本文取得が限定的で個人対象・操作・料金は未確認",
+        "verified": false
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "title": "OpenTax README・現行ローカルソース",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "現行checkoutの個人事業対象、Firebase構成、外部AIとの役割分担を確認",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/docs/mcp.md",
+        "title": "OpenTax MCP接続ガイド",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "現行checkoutのremote/stdio、確認待ち、MCPから確定不可を確認",
+        "verified": true
+      },
+      {
+        "url": "https://firebase.google.com/pricing?hl=ja",
+        "title": "Firebase料金",
+        "publisher": "Google",
+        "accessedAt": "2026-10-02",
+        "claim": "構成・利用量別料金の確認先。選択リージョンの実額試算は未実施",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "self-hosted-accounting-cost",
+      "open-source-accounting-japan-checklist",
+      "accounting-mcp-comparison"
+    ],
+    "reviewDueAt": "2026-10-09",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "マネーフォワードMCPの個人契約対象範囲と料金、利用するAIモデルの現行課金条件を確定する。"
+    ],
+    "sourcePath": "content/articles/free-ai-accounting-limits.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "マネーフォワードMCPの個人契約対象範囲と料金、利用するAIモデルの現行課金条件を確定する。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。",
+      "freee/MFの個人向け対応プラン、認証、操作、料金、データ取扱いの一次確認と同条件実機試験未完了。"
+    ]
+  },
+  {
+    "id": "39",
+    "slug": "opentax-vs-freee",
+    "title": "OpenTaxとfreee会計の違い：できること・運用・乗り換え条件を比較",
+    "description": "OpenTaxとfreee会計を、個人事業主の記帳、銀行連携、AI、帳票、税理士共有、費用で比較。公開資料で確認できた範囲と未検証の項目を分け、同じサンプルによる出力・残高照合の方法を紹介します。",
+    "summary": "freeeとOpenTaxを記帳・明細連携・AI・帳票・共有・費用の同じ軸で比べます。公開資料で確認した機能と、同一サンプルの実測が必要な項目を分けて判断します。",
+    "category": "comparison",
+    "articleType": "alternative",
+    "productPlacement": "comparison-entry",
+    "primaryKeyword": "OpenTax freee 比較",
+    "secondaryKeywords": [
+      "OpenTax 代替",
+      "OpenTax 会計ソフト"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "他記事で知った候補の実際の機能と使い方を確かめ、個人事業主が自分の業務に合う方を判断するための証拠ページ。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.freee.co.jp/pricing/",
+        "title": "個人向けの料金・機能",
+        "publisher": "freee株式会社",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax",
+        "title": "README",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "既知の制限事項",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
+        "verified": true
+      },
+      {
+        "url": "https://opentax.fragmentware.com/docs/self-hosting",
+        "title": "既存ドキュメント",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "復元済みmainの導入資料と本番公開ページを直接照合",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "freee-cost-review",
+      "freee-alternatives",
+      "switch-from-freee",
+      "open-source-accounting-software",
+      "self-hosted-accounting-cost",
+      "open-source-accounting-japan-checklist",
+      "accounting-mcp-comparison"
+    ],
+    "reviewDueAt": "2026-11-02",
+    "applicableDate": "2026-10-02",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "sourcePath": "content/articles/opentax-vs-freee.md",
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
+    ],
+    "suggestedEnhancements": [
+      "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
+    ]
+  },
+  {
+    "id": "41",
+    "slug": "double-entry-bookkeeping-howto",
+    "title": "複式簿記のやり方を5つの取引で学ぶ：個人事業主の仕訳から帳簿まで",
+    "description": "複式簿記を架空の5取引で練習。借方・貸方から仕訳帳、元帳、試算表まで数字をつなぎ、売掛金・カード・私費立替の誤りを確認します。個人事業主が自分の資料に置き換えて確認できるチェック項目も掲載。",
+    "summary": "取引の資料と支払元を確認し、増減する科目を借方・貸方へ記録します。架空の5件から仕訳帳、元帳、試算表をつなぎ、左右の一致と実際の残高を検算します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "複式簿記 やり方",
+    "secondaryKeywords": [
+      "複式簿記 書き方",
+      "複式簿記 個人事業主",
+      "借方 貸方 覚え方",
+      "仕訳帳 総勘定元帳"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "用語説明だけで終わらず、売上・経費・掛売上・カード・私費立替の5例を自分で仕訳し、貸借と帳簿残高を確認できる。申告全体は扱わない。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "No.2070 青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿と保存の原則",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/fd8a5da6d2b61c9087a21c51b8a546ff81ebd5e7/lib/accounting/reports.ts",
+        "title": "OpenTax 損益・月別集計処理",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "記事の架空5件で売上80000円・経費6000円・控除前利益74000円を検算。画面保存や送信は対象外。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "sole-proprietor-bookkeeping-routine",
+      "owners-drawings-contributions-journal",
+      "credit-card-journal-sole-proprietor",
+      "blue-return-financial-statements-howto"
+    ],
+    "reviewDueAt": "2026-11-01",
+    "applicableTaxYear": 2026,
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/double-entry-bookkeeping-howto.md",
+    "verifiedFeatureRefs": [
+      "article-example-41-aggregation"
+    ],
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "42",
+    "slug": "ai-tax-return-howto",
+    "title": "AIを使った確定申告のやり方：資料整理から帳簿確認・e-Tax提出まで",
+    "description": "AIで確定申告の準備を進める手順。資料整理、仕訳候補、帳簿の照合、決算書、e-Taxの送信後確認を工程別に整理します。個人事業主が自分の資料に置き換えて確認できるチェック項目も掲載。",
+    "summary": "AIは資料整理と仕訳候補づくりに使い、人が帳簿・決算書・申告内容を確認します。対象年分の公式案内に沿って提出し、受信通知と納付まで別々に確かめます。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "AI 確定申告 やり方",
+    "secondaryKeywords": [
+      "AI 確定申告 個人事業主",
+      "ChatGPT 確定申告 方法",
+      "AI 青色申告",
+      "確定申告 AI 活用"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "AIを使う工程、会計帳簿で確定する工程、本人が申告内容を確認する工程を1本の流れにする。読後に資料不足と次の作業が分かる。AI製品ランキング・無料比較は既存38に分離。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "title": "個人で事業を行っている方の記帳・帳簿等の保存について",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "記帳対象、記録項目、白色申告の保存区分",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "title": "No.2210 必要経費の知識",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "必要経費の時期、家事関連費の区分",
+        "verified": true
+      },
+      {
+        "url": "https://www.e-tax.nta.go.jp/kojin.html",
+        "title": "個人でご利用の方",
+        "publisher": "国税庁 e-Tax",
+        "accessedAt": "2026-10-02",
+        "claim": "確定申告書等作成コーナーへの導線と適用確認",
+        "verified": true
+      },
+      {
+        "url": "https://www.e-tax.nta.go.jp/toiawase/qa/yokuaru05/03.htm",
+        "title": "申告等データが正常に送信されたかどうかの確認方法",
+        "publisher": "国税庁 e-Tax",
+        "accessedAt": "2026-10-02",
+        "claim": "即時通知と受信通知、エラー時の対応",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "ai-journal-entry-workflow",
+      "receipt-organization-sole-proprietor",
+      "monthly-bookkeeping-reconciliation",
+      "year-end-bookkeeping-adjustments",
+      "blue-return-financial-statements-howto",
+      "etax-filing-sole-proprietor"
+    ],
+    "reviewDueAt": "2026-11-01",
+    "applicableTaxYear": 2026,
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/ai-tax-return-howto.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "43",
+    "slug": "sole-proprietor-bookkeeping-routine",
+    "title": "個人事業主の帳簿の付け方：集める・記録する・照合するの基本手順",
+    "description": "個人事業主の帳簿を続ける基本手順。資料の集約、取引の記録、週次の未処理確認、月末照合を架空の1週間で説明します。個人事業主が自分の資料に置き換えて確認できるチェック項目も掲載。",
+    "summary": "個人事業主の帳簿を続ける基本手順。資料の集約、取引の記録、週次の未処理確認、月末照合を架空の1週間で説明します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "個人事業主 帳簿 付け方",
+    "secondaryKeywords": [
+      "帳簿 付け方 初心者",
+      "個人事業主 記帳 やり方",
+      "帳簿 何から",
+      "帳簿 毎日"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "何を用意し、いつ何を入力するかを決め、1週間分の取引を漏れなく記録できる。複式簿記の理論41と分け、運用ルーティンを主役にする。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "title": "個人で事業を行っている方の記帳・帳簿等の保存について",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "記帳対象、記録項目、白色申告の保存区分",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "No.2070 青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿と保存の原則",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "double-entry-bookkeeping-howto",
+      "receipt-organization-sole-proprietor",
+      "bank-statement-csv-bookkeeping",
+      "monthly-bookkeeping-reconciliation"
+    ],
+    "reviewDueAt": "2026-11-01",
+    "applicableTaxYear": 2026,
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/sole-proprietor-bookkeeping-routine.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "44",
+    "slug": "ai-journal-entry-workflow",
+    "title": "AIで仕訳候補を作る方法：入力例・プロンプト・確認の手順",
+    "description": "AIで仕訳候補を作る入力例と確認手順。架空10件で売掛金回収、カード引落し、私用・資産・資料不足の扱いを練習します。個人事業主が自分の資料に置き換えて確認できるチェック項目も掲載。",
+    "summary": "AIで仕訳候補を作る入力例と確認手順。架空10件で売掛金回収、カード引落し、私用・資産・資料不足の扱いを練習します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "AI 仕訳 やり方",
+    "secondaryKeywords": [
+      "AI 仕訳 自動化",
+      "ChatGPT 仕訳",
+      "AI 勘定科目 分類",
+      "AI 経費 仕訳 個人事業主"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "サンプル明細から仕訳候補を作り、根拠不足・重複・私用混在を確認して帳簿へ反映する手順を学べる。42の申告全体、38の料金比較とは別。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "title": "No.2210 必要経費の知識",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "必要経費の時期、家事関連費の区分",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+        "title": "No.2100 減価償却のあらまし",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "取得した資産の経費配分と取得時期・適用要件の確認",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "double-entry-bookkeeping-howto",
+      "ai-tax-return-howto",
+      "owners-drawings-contributions-journal",
+      "business-use-expense-apportionment",
+      "withheld-freelance-fees-journal",
+      "computer-depreciation-sole-proprietor"
+    ],
+    "reviewDueAt": "2026-11-01",
+    "applicableTaxYear": 2026,
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/ai-journal-entry-workflow.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "45",
+    "slug": "receipt-organization-sole-proprietor",
+    "title": "個人事業主の領収書・レシート整理：ためない分類と記帳後の保管方法",
+    "description": "紙と電子の領収書を、未処理・保留・記帳済みで整理する方法。資料番号による帳簿との照合、二重入力防止、保存期間の確認を説明します。個人事業主が自分の資料に置き換えて確認できるチェック項目も掲載。",
+    "summary": "紙と電子の領収書を、未処理・保留・記帳済みで整理する方法。資料番号による帳簿との照合、二重入力防止、保存期間の確認を説明します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "領収書 整理 方法 個人事業主",
+    "secondaryKeywords": [
+      "レシート 整理 確定申告",
+      "領収書 保管 方法",
+      "領収書 月別",
+      "証憑 管理"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "受領→未処理→記帳済み→保存の流れを作り、任意の1件を帳簿と照合できる。移行25・システム復元33は扱わない。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "title": "個人で事業を行っている方の記帳・帳簿等の保存について",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "記帳対象、記録項目、白色申告の保存区分",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "title": "No.2070 青色申告制度",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "青色申告の帳簿と保存の原則",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/4-3.htm",
+        "title": "電子帳簿保存法一問一答（Q&A）",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2026年7月版の電子帳簿・スキャナ・電子取引の区分",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "sole-proprietor-bookkeeping-routine",
+      "electronic-transaction-records-howto",
+      "ai-journal-entry-workflow",
+      "monthly-bookkeeping-reconciliation"
+    ],
+    "reviewDueAt": "2026-11-01",
+    "applicableTaxYear": 2026,
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/receipt-organization-sole-proprietor.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "46",
+    "slug": "electronic-transaction-records-howto",
+    "title": "電子取引データの保存方法：個人事業主がPDF請求書・領収書を整理する手順",
+    "description": "PDF請求書など電子取引データの受領、索引、保存、検索、表示、取り出しの手順。国税庁の2026年7月Q&Aを確認先に整理します。個人事業主が自分の資料に置き換えて確認できるチェック項目も掲載。",
+    "summary": "PDF請求書など電子取引データの受領、索引、保存、検索、表示、取り出しの手順。国税庁の2026年7月Q&Aを確認先に整理します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "電子取引 データ保存 方法 個人事業主",
+    "secondaryKeywords": [
+      "電子帳簿保存法 個人事業主 やり方",
+      "PDF 領収書 保存",
+      "電子請求書 保存 方法"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "自分に必要な保存要件を確認し、受領から検索まで再現できる。一般的なバックアップ記事33にはしない。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/4-3.htm",
+        "title": "電子帳簿保存法一問一答（Q&A）",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2026年7月版の電子帳簿・スキャナ・電子取引の区分",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+        "title": "電子帳簿保存法一問一答 電子取引関係 令和8年7月",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "問18・19の保存要件とフォルダー保存例",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/0021006-031.htm",
+        "title": "参考資料（各種規程等のサンプル）",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "事務処理規程のサンプル提供",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "receipt-organization-sole-proprietor",
+      "sole-proprietor-bookkeeping-routine",
+      "monthly-bookkeeping-reconciliation"
+    ],
+    "reviewDueAt": "2026-11-01",
+    "applicableTaxYear": 2026,
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/electronic-transaction-records-howto.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "47",
+    "slug": "bank-statement-csv-bookkeeping",
+    "title": "銀行明細CSVを会計ソフトに取り込む方法：毎月の記帳と重複チェック",
+    "description": "銀行明細CSVを毎月の記帳へ使う手順。原本保存、列の対応、試験取込、重複確認と、架空5件の件数・入出金・月末残高の検算を説明します。個人事業主が自分の資料に置き換えて確認できるチェック項目も掲載。",
+    "summary": "銀行明細CSVを毎月の記帳へ使う手順。原本保存、列の対応、試験取込、重複確認と、架空5件の件数・入出金・月末残高の検算を説明します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "銀行明細 CSV 会計ソフト 取り込み",
+    "secondaryKeywords": [
+      "銀行 CSV 記帳",
+      "入出金明細 帳簿",
+      "銀行明細 インポート やり方"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "銀行から出した1か月分の明細の対象期間・件数・金額を確認し、対応する帳簿記録を作れる。他社会計ソフトからの乗り換えは扱わない。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.musashinobank.co.jp/banking/csv.html",
+        "title": "ヘルプ（CSVダウンロード）",
+        "publisher": "武蔵野銀行",
+        "accessedAt": "2026-10-02",
+        "claim": "ヘッダーと取引レコード、入出金・残高列の構成",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "sole-proprietor-bookkeeping-routine",
+      "accounts-receivable-reconciliation-howto",
+      "credit-card-journal-sole-proprietor",
+      "monthly-bookkeeping-reconciliation"
+    ],
+    "reviewDueAt": "2026-11-01",
+    "applicableTaxYear": 2026,
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/bank-statement-csv-bookkeeping.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": [
+      "特定の銀行・会計ソフト間の実機CSV取込未確認。本文は一般手順と架空照合例"
+    ]
+  },
+  {
+    "id": "48",
+    "slug": "owners-drawings-contributions-journal",
+    "title": "事業主貸・事業主借の仕訳：私費立替・生活費・個人口座の入金を整理",
+    "description": "事業主貸と事業主借を資金の向きで判断。私費立替、生活費、個人口座の売上回収、事業カードの私用支出を架空仕訳で整理します。個人事業主が自分の資料に置き換えて確認できるチェック項目も掲載。",
+    "summary": "事業主貸と事業主借を資金の向きで判断。私費立替、生活費、個人口座の売上回収、事業カードの私用支出を架空仕訳で整理します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "事業主貸 事業主借 仕訳",
+    "secondaryKeywords": [
+      "個人のお金 経費 仕訳",
+      "生活費 引き出し 仕訳",
+      "個人口座 売上 仕訳"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "事業と個人のどちらからどちらへ資金が動いたか判断し、4つの頻出ケースを記帳できる。法人の役員貸付・借入へ展開しない。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "title": "No.2210 必要経費の知識",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "必要経費の時期、家事関連費の区分",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "double-entry-bookkeeping-howto",
+      "business-use-expense-apportionment",
+      "credit-card-journal-sole-proprietor",
+      "withheld-freelance-fees-journal",
+      "blue-return-financial-statements-howto"
+    ],
+    "reviewDueAt": "2026-11-01",
+    "applicableTaxYear": 2026,
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/owners-drawings-contributions-journal.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "49",
+    "slug": "business-use-expense-apportionment",
+    "title": "家事按分のやり方：家賃・通信費の割合を決めて仕訳するまで",
+    "description": "家事按分の基準を利用実態から作る方法。架空の家賃・通信費で割合、計算、支払元別の仕訳、年末調整、根拠資料をつなぎます。個人事業主が自分の資料に置き換えて確認できるチェック項目も掲載。",
+    "summary": "家事按分の基準を利用実態から作る方法。架空の家賃・通信費で割合、計算、支払元別の仕訳、年末調整、根拠資料をつなぎます。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "家事按分 やり方",
+    "secondaryKeywords": [
+      "家事按分 割合 決め方",
+      "個人事業主 家賃 按分",
+      "通信費 家事按分",
+      "家事按分 仕訳"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "一律のおすすめ割合に頼らず、実際の利用状況から説明できる基準と計算根拠を作り、経費額を記録する。",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "title": "No.2210 必要経費の知識",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "必要経費の時期、家事関連費の区分",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm",
+        "title": "所得税基本通達45-1・45-2 家事関連費",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "利用実態と明確な区分に基づく必要部分の判断",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "owners-drawings-contributions-journal",
+      "sole-proprietor-bookkeeping-routine",
+      "computer-depreciation-sole-proprietor",
+      "year-end-bookkeeping-adjustments"
+    ],
+    "reviewDueAt": "2026-11-01",
+    "applicableTaxYear": 2026,
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/business-use-expense-apportionment.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "50",
+    "slug": "credit-card-journal-sole-proprietor",
+    "title": "個人事業主のクレジットカード仕訳：利用日・引落日・私用混在の記帳例",
+    "description": "個人事業主のカード払いを、利用時・引落し時・私費立替・私用混在に分けて解説。架空の仕訳例と月末の未払残高照合から、経費の二重計上を防ぐ日々の記帳方法を確認できます。",
+    "summary": "カード利用時に経費と未払金を記録し、引落し時に未払金を精算します。個人カードや私用混在の仕訳も分けて確認します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "クレジットカード 仕訳 個人事業主",
+    "secondaryKeywords": [
+      "カード払い 経費 仕訳",
+      "クレジットカード 引き落とし 仕訳",
+      "個人カード 事業主借"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "クレジットカード支払いの仕訳方法",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "title": "No.2210 必要経費の知識",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "必要経費の時期・家事費区分",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/046.pdf",
+        "title": "令和7年分 青色申告者のための貸借対照表作成の手引き",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "owners-drawings-contributions-journal",
+      "receipt-organization-sole-proprietor",
+      "bank-statement-csv-bookkeeping",
+      "monthly-bookkeeping-reconciliation",
+      "year-end-bookkeeping-adjustments"
+    ],
+    "reviewDueAt": "2027-01-15",
+    "applicableTaxYear": "2026",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/credit-card-journal-sole-proprietor.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "51",
+    "slug": "accounts-receivable-reconciliation-howto",
+    "title": "売掛金の入金消込のやり方：請求書と入金を合わせる個人事業主の手順",
+    "description": "個人事業主の売掛金消込を、請求一覧から未入金一覧を作る順序で解説。金額一致、手数料差引き、合算振込、部分入金の架空例を使い、売上の二重計上と誤った消込を防ぎます。",
+    "summary": "請求別の売掛金に入金を対応させ、手数料や源泉税を分けて消し込みます。残額の合計を帳簿と照合して未入金を残します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "売掛金 消込 やり方",
+    "secondaryKeywords": [
+      "入金消込 個人事業主",
+      "売掛金 入金 仕訳",
+      "請求額 入金額 違う",
+      "振込手数料 売掛金"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "売掛金の入金消込のやり方",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+        "title": "令和7年分 青色申告決算書（一般用）の書き方",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "帳簿と決算書の対応。2025年分資料",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/046.pdf",
+        "title": "令和7年分 青色申告者のための貸借対照表作成の手引き",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "withheld-freelance-fees-journal",
+      "bank-statement-csv-bookkeeping",
+      "monthly-bookkeeping-reconciliation",
+      "year-end-bookkeeping-adjustments"
+    ],
+    "reviewDueAt": "2027-01-15",
+    "applicableTaxYear": "2026",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/accounts-receivable-reconciliation-howto.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "52",
+    "slug": "withheld-freelance-fees-journal",
+    "title": "源泉徴収された報酬の仕訳：請求額・入金額・税額を分けて記帳する方法",
+    "description": "源泉徴収された原稿料などを受け取る個人事業主向けに、請求・入金の仕訳と年間集計を解説。消費税の表示、振込手数料、端数処理を明示した2026年の架空例で検算できます。",
+    "summary": "源泉徴収された報酬は売上総額、源泉税、実際の入金を分けます。取引先別に集計し、申告へ引き継ぐ税額を確認します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "源泉徴収 報酬 仕訳 個人事業主",
+    "secondaryKeywords": [
+      "源泉徴収 入金 売上",
+      "デザイン料 源泉徴収 仕訳",
+      "原稿料 仕訳",
+      "源泉所得税 事業主貸"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "源泉徴収された報酬の仕訳方法",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm",
+        "title": "No.2795 原稿料や講演料等を支払ったとき",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2026年源泉税率・対象額・端数・2027年税目表記",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/046.pdf",
+        "title": "令和7年分 青色申告者のための貸借対照表作成の手引き",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "accounts-receivable-reconciliation-howto",
+      "owners-drawings-contributions-journal",
+      "blue-return-financial-statements-howto",
+      "etax-filing-sole-proprietor"
+    ],
+    "reviewDueAt": "2027-01-15",
+    "applicableTaxYear": "2026",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。",
+      "2026年分の申告書で源泉税の記載欄と年分の扱いを正式資料と照合する。"
+    ],
+    "sourcePath": "content/articles/withheld-freelance-fees-journal.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "2026年分の申告書で源泉税の記載欄と年分の扱いを正式資料と照合する。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "53",
+    "slug": "startup-costs-bookkeeping-sole-proprietor",
+    "title": "個人事業主の開業費の仕訳：開業前の支出整理から償却まで",
+    "description": "個人事業主の開業前支出を十件の架空例で分類し、開業費の計上と償却を解説。固定資産や敷金との違いを確認し、支出明細、根拠資料、翌年へ引き継ぐ未償却残高を整理できます。",
+    "summary": "開業前の支出を明細にし、開業費、固定資産、商品、返還予定金、家事費へ分類します。償却額と未償却残高を残します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "開業費 仕訳 個人事業主",
+    "secondaryKeywords": [
+      "開業費 計上 やり方",
+      "開業前 経費 帳簿",
+      "開業費 任意償却",
+      "開業費 明細"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "開業費を整理して記帳する方法",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/08.htm",
+        "title": "償却期間経過後における開業費の任意償却",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "開業費償却と未償却残高。2025年8月1日基準",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/046.pdf",
+        "title": "令和7年分 青色申告者のための貸借対照表作成の手引き",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "receipt-organization-sole-proprietor",
+      "owners-drawings-contributions-journal",
+      "computer-depreciation-sole-proprietor",
+      "sole-proprietor-bookkeeping-routine",
+      "blue-return-financial-statements-howto"
+    ],
+    "reviewDueAt": "2027-01-15",
+    "applicableTaxYear": "2026",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/startup-costs-bookkeeping-sole-proprietor.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "54",
+    "slug": "computer-depreciation-sole-proprietor",
+    "title": "個人事業主のパソコン代の記帳方法：経費・資産の判定と減価償却の計算",
+    "description": "個人事業主のパソコン代について、少額資産、一括償却、青色申告の特例、通常償却を整理。2026年4月の取得価額基準変更と架空の月割計算から、固定資産台帳の作り方を確認できます。",
+    "summary": "取得価額と取得日で経費・資産の処理方法を確認し、使用月数と事業割合から償却額を計算します。2026年の特例変更にも対応します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "パソコン 減価償却 個人事業主",
+    "secondaryKeywords": [
+      "減価償却 計算 やり方",
+      "パソコン 経費 仕訳",
+      "固定資産台帳 個人事業主",
+      "少額減価償却資産"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "パソコンの減価償却のやり方",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+        "title": "No.2100 減価償却のあらまし",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2026年4月取得から40万円未満、以前30万円未満、年300万円",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2106.htm",
+        "title": "No.2106 定額法と定率法による減価償却",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "定額法算式・月数・取得価額・1円残存",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/046.pdf",
+        "title": "令和7年分 青色申告者のための貸借対照表作成の手引き",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/2100_01.pdf",
+        "title": "主な減価償却資産の耐用年数表",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "サーバー用以外のパーソナルコンピュータ4年",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/2100_02.pdf",
+        "title": "減価償却資産の償却率等表",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "4年の定額法償却率0.250",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "business-use-expense-apportionment",
+      "startup-costs-bookkeeping-sole-proprietor",
+      "year-end-bookkeeping-adjustments",
+      "blue-return-financial-statements-howto"
+    ],
+    "reviewDueAt": "2027-01-15",
+    "applicableTaxYear": "2026",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/computer-depreciation-sole-proprietor.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "55",
+    "slug": "monthly-bookkeeping-reconciliation",
+    "title": "個人事業主の月末経理：帳簿と預金・未入金・未払金を照合する手順",
+    "description": "個人事業主の月末経理を、現金・預金・売掛金・カード未払金の照合から解説。入力漏れ、重複、日付違いの架空例と確認表で、帳尻合わせをせず差額の原因を探す手順を示します。",
+    "summary": "月末日の現金・預金・売掛金・未払金を資料と照合します。差額の原因を特定し、確認済み範囲と未解決事項を残します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "個人事業主 月次締め やり方",
+    "secondaryKeywords": [
+      "帳簿 残高 確認",
+      "預金残高 帳簿 合わない",
+      "個人事業主 月末 経理",
+      "記帳 チェックリスト"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "月末に帳簿残高を確認する方法",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "title": "No.2210 必要経費の知識",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "支払と経費時期の区別",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/046.pdf",
+        "title": "令和7年分 青色申告者のための貸借対照表作成の手引き",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "sole-proprietor-bookkeeping-routine",
+      "bank-statement-csv-bookkeeping",
+      "credit-card-journal-sole-proprietor",
+      "accounts-receivable-reconciliation-howto",
+      "year-end-bookkeeping-adjustments",
+      "accounting-migration-reconciliation"
+    ],
+    "reviewDueAt": "2027-01-15",
+    "applicableTaxYear": "2026",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "sourcePath": "content/articles/monthly-bookkeeping-reconciliation.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "56",
+    "slug": "year-end-bookkeeping-adjustments",
+    "title": "個人事業主の決算整理のやり方：年末に確認する帳簿と仕訳のチェックリスト",
+    "description": "個人事業主の決算整理を順序付きチェックリストで解説。サービス業の年またぎ取引を主例に、物販の棚卸、減価償却、家事分への分岐と翌年の精算まで、必要な資料と仕訳を確認できます。",
+    "summary": "年末残高を確認して、未払・前払・前受、棚卸、減価償却、家事分を整理します。該当項目の根拠と仕訳をそろえて決算書へ進みます。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "決算整理 個人事業主 やり方",
+    "secondaryKeywords": [
+      "個人事業主 年末 経理",
+      "決算整理仕訳 チェックリスト",
+      "確定申告 帳簿 締め方"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "個人事業主の決算整理のやり方",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "title": "No.2210 必要経費の知識",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "債務確定による経費時期",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+        "title": "令和7年分 青色申告決算書（一般用）の書き方",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "棚卸・決算書対応の参考。2025年分",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/046.pdf",
+        "title": "令和7年分 青色申告者のための貸借対照表作成の手引き",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "monthly-bookkeeping-reconciliation",
+      "business-use-expense-apportionment",
+      "credit-card-journal-sole-proprietor",
+      "accounts-receivable-reconciliation-howto",
+      "computer-depreciation-sole-proprietor",
+      "blue-return-financial-statements-howto"
+    ],
+    "reviewDueAt": "2027-01-15",
+    "applicableTaxYear": "2026",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。",
+      "2026年分の正式決算書手引きで年末整理と転記対象を照合する。"
+    ],
+    "sourcePath": "content/articles/year-end-bookkeeping-adjustments.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "2026年分の正式決算書手引きで年末整理と転記対象を照合する。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "57",
+    "slug": "blue-return-financial-statements-howto",
+    "title": "青色申告決算書の書き方：帳簿から各欄に数字を移す手順と記入例",
+    "description": "一般用の青色申告決算書を初めて作る個人事業主向けに、帳簿から各欄へ数字を移す手順を解説。架空の損益例と照合表を示し、確認済みの2025年分資料と2026年分の確認事項を区別します。",
+    "summary": "決算整理後の帳簿を売上・経費・資産・負債の欄へ移し、内訳と合計を照合します。様式の年分と控除要件も確認します。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "青色申告決算書 書き方",
+    "secondaryKeywords": [
+      "青色申告決算書 作り方",
+      "貸借対照表 書き方 個人事業主",
+      "損益計算書 青色申告"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "青色申告決算書の作り方",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+        "title": "令和7年分 青色申告決算書（一般用）の書き方",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "一般用決算書記入・帳簿対応。2025年分",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+        "title": "No.2072 青色申告特別控除",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "要件付き控除の確認先",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/046.pdf",
+        "title": "令和7年分 青色申告者のための貸借対照表作成の手引き",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "year-end-bookkeeping-adjustments",
+      "computer-depreciation-sole-proprietor",
+      "owners-drawings-contributions-journal",
+      "withheld-freelance-fees-journal",
+      "etax-filing-sole-proprietor",
+      "free-blue-return-software"
+    ],
+    "reviewDueAt": "2027-01-15",
+    "applicableTaxYear": "2026",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。",
+      "2026年分の正式様式・控除要件・入力画面を照合する（本文は確認済み2025年資料と区別済み）。"
+    ],
+    "sourcePath": "content/articles/blue-return-financial-statements-howto.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "2026年分の正式様式・控除要件・入力画面を照合する（本文は確認済み2025年資料と区別済み）。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  },
+  {
+    "id": "58",
+    "slug": "etax-filing-sole-proprietor",
+    "title": "個人事業主のe-Tax確定申告のやり方：準備・入力・送信後の確認まで",
+    "description": "個人事業主のe-Tax申告を、資料準備、認証、事業所得の入力、送信、受信通知、納付・還付の順に解説。年分の選択と認証方式の変更を確認し、送信後に残る手続も把握できます。",
+    "summary": "決算書などを用意し、作成コーナーで入力・送信後に受信結果を確認します。控えの保存と納付・還付の確認も別に進めます。",
+    "category": "how-to",
+    "articleType": "howto",
+    "productPlacement": "contextual-example",
+    "primaryKeyword": "e-Tax 個人事業主 やり方",
+    "secondaryKeywords": [
+      "個人事業主 確定申告 ネット やり方",
+      "e-Tax 青色申告 手順",
+      "確定申告書等作成コーナー 事業所得"
+    ],
+    "audience": "sole-proprietor",
+    "intent": "個人事業主がe-Taxで確定申告する方法",
+    "authorId": "opentax-editorial",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "reviewedAt": null,
+    "sources": [
+      {
+        "url": "https://www.e-tax.nta.go.jp/kojin.html",
+        "title": "e-Tax 個人でご利用の方",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "作成コーナー利用・利用対象確認",
+        "verified": true
+      },
+      {
+        "url": "https://www.e-tax.nta.go.jp/kojin/idpw.htm",
+        "title": "ID・パスワード方式について",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2027年分から利用終了予定・新規発行停止案内",
+        "verified": true
+      },
+      {
+        "url": "https://www.e-tax.nta.go.jp/toiawase/qa/yokuaru05/03.htm",
+        "title": "正常送信の確認方法",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "受信結果を確認する手順の公式参照先",
+        "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/046.pdf",
+        "title": "令和7年分 青色申告者のための貸借対照表作成の手引き",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
+        "verified": true
+      }
+    ],
+    "relatedSlugs": [
+      "blue-return-financial-statements-howto",
+      "year-end-bookkeeping-adjustments",
+      "withheld-freelance-fees-journal",
+      "ai-tax-return-howto",
+      "sole-proprietor-bookkeeping-routine"
+    ],
+    "reviewDueAt": "2027-01-15",
+    "applicableTaxYear": "2026",
+    "reviewBlockers": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。",
+      "2026年分の正式期限・作成画面・納付案内を公開後の公式資料で照合する。"
+    ],
+    "sourcePath": "content/articles/etax-filing-sole-proprietor.md",
+    "requiresTaxReview": true,
+    "correctionLog": [],
+    "verificationNotes": [
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+    ],
+    "evidenceGaps": [
+      "2026年分の正式期限・作成画面・納付案内を公開後の公式資料で照合する。"
+    ],
+    "verificationStatus": "additional-evidence-needed",
+    "publicationApproval": "pending",
+    "reviewRequirements": [
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
+      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+    ],
+    "suggestedEnhancements": []
+  }
+]

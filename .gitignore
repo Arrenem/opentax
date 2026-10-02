@@ -40,3 +40,7 @@ packages/opentax-mcp/dist/
 # Static site build output (npm run site:build)
 site/dist/
 .wrangler/
+
+# Local browser verification artifacts
+.playwright-cli/
+output/playwright/
