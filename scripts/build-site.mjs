@@ -1,6 +1,6 @@
 // Builds the public site (LP + documentation) into site/dist for Cloudflare Pages.
 // The Markdown files in the repository are the single source; this script only renders them.
-import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Marked } from 'marked';
@@ -10,6 +10,13 @@ const siteDir = path.join(root, 'site');
 const outDir = path.join(siteDir, 'dist');
 const repoUrl = 'https://github.com/arrenem/opentax';
 const siteUrl = 'https://opentax.fragmentware.com';
+// Existing OpenTax WEB stream. Public identifier, never an API secret.
+// Explicit empty override can build an untracked preview.
+const analyticsSettings = JSON.parse(await readFile(path.join(siteDir, 'analytics-settings.json'), 'utf8'));
+const measurementId = process.env.SITE_GA4_MEASUREMENT_ID ?? analyticsSettings.measurementId;
+if (measurementId && !/^G-[A-Z0-9]+$/.test(measurementId)) {
+  throw new Error('SITE_GA4_MEASUREMENT_ID must be a GA4 G- measurement ID');
+}
 
 const groups = [
   {
@@ -191,7 +198,7 @@ function bySourceSlug(slug) {
 async function main() {
   await rm(outDir, { recursive: true, force: true });
   await mkdir(path.join(outDir, 'docs'), { recursive: true });
-  for (const f of ['index.html', 'styles.css', 'docs.css', 'main.js', 'favicon.svg', 'logo.svg', '_headers', '404.html']) {
+  for (const f of ['index.html', 'styles.css', 'docs.css', 'main.js', 'analytics.js', 'privacy.html', 'favicon.svg', 'logo.svg', '_headers', '404.html']) {
     await cp(path.join(siteDir, f), path.join(outDir, f));
   }
 
@@ -218,7 +225,7 @@ ${groups
     layout({ title: 'ドキュメント', description: 'OpenTax のセットアップ・AIエージェント接続・設計・税制ルールのドキュメント', slug: null, body: index })
   );
 
-  const urls = ['/', '/docs/', ...pages.map((p) => `/docs/${p.slug}`)];
+  const urls = ['/', '/privacy', '/docs/', ...pages.map((p) => `/docs/${p.slug}`)];
   await writeFile(
     path.join(outDir, 'sitemap.xml'),
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
@@ -226,6 +233,27 @@ ${groups
       .join('\n')}\n</urlset>\n`
   );
   await writeFile(path.join(outDir, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n`);
+  // One final pass covers every generated HTML page, including future articles.
+  const htmlFiles = [];
+  async function collect(dir) {
+    for (const entry of await readdir(dir, { withFileTypes: true })) {
+      const file = path.join(dir, entry.name);
+      if (entry.isDirectory()) await collect(file);
+      else if (entry.name.endsWith('.html')) htmlFiles.push(file);
+    }
+  }
+  await collect(outDir);
+  const publicPaths = htmlFiles.map((file) => '/' + path.relative(outDir, file).replaceAll(path.sep, '/'))
+    .map((url) => url.replace(/index\.html$/, '').replace(/\.html$/, ''));
+  await writeFile(path.join(outDir, 'analytics-config.js'), `window.opentaxAnalytics = ${JSON.stringify({ measurementId, publicPaths, campaignAllowlist: analyticsSettings.campaignAllowlist })};\n`);
+  for (const file of htmlFiles) {
+    const html = await readFile(file, 'utf8');
+    if (/googletagmanager|google-analytics|gtag\(/i.test(html)) throw new Error(`Duplicate analytics tag: ${file}`);
+    const privacyLink = '<p style="text-align:center;padding:16px;font-size:14px"><a href="/privacy">Privacy Policy</a></p>';
+    const linkedHtml = html.includes('</footer>') ? html.replace('</footer>', privacyLink + '</footer>')
+      : html.replace('</body>', privacyLink + '</body>');
+    await writeFile(file, linkedHtml.replace('</head>', '<script src="/analytics-config.js" defer></script>\n<script src="/analytics.js" defer></script>\n</head>'));
+  }
   console.log(`Built ${pages.length + 1} doc pages into ${path.relative(root, outDir)}`);
 }
 
