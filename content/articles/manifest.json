@@ -2,9 +2,9 @@
   {
     "id": "01",
     "slug": "freee-cost-review",
-    "title": "freee会計を安く使うには？料金プラン・年払い・契約期間の見直し方",
-    "description": "freee会計を使い続けながら費用を見直す個人事業主向けに、スターター・スタンダードの税込料金、利用月数別の総額、申告期だけ月払いで使う条件、未契約中の制限と保存手順を説明します。",
-    "summary": "通年利用なら年払い、短い利用期間なら月払いの総額を比べ、必要な機能を残せるプランを選びます。申告期だけ利用する場合も、未契約中の操作制限と次回請求前の停止条件を確認してください。",
+    "title": "freeeをもっと安く使うには？年9,600円下がる払い方とプランの選び方",
+    "description": "freeeを通年使うなら、Web契約のスターター年払いは年11,760円。3プランの料金・機能、短期間の月払い、やよいへの乗り換えで安くなる条件を比べます。",
+    "summary": "freeeを1年通して使うなら、Web契約ではスターターの年払いが最安です。\n年11,760円で青色申告に対応し、月払いを続けるより年間9,600円安くなります。",
     "category": "pricing",
     "articleType": "explanation",
     "productPlacement": "end-only",
@@ -24,27 +24,51 @@
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
-        "title": "【個人】freee会計のプランについて",
+        "title": "個人向けプランの料金・機能",
         "publisher": "freee",
         "accessedAt": "2026-10-02",
-        "claim": "個人版料金、機能差、お試し・未契約制限",
-        "verified": true
+        "verified": true,
+        "claim": "2026年9月29日更新のWeb通常料金、機能、未契約制限"
+      },
+      {
+        "url": "https://support.freee.co.jp/hc/ja/articles/115000703043",
+        "title": "支払い方法・プランの変更手順",
+        "publisher": "freee",
+        "accessedAt": "2026-10-02",
+        "verified": true,
+        "claim": "年払い変更・ダウングレードの次回支払日適用"
       },
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/202848470",
-        "title": "freeeから退会する（お支払いを停止する）",
+        "title": "支払い停止後の利用期間",
         "publisher": "freee",
         "accessedAt": "2026-10-02",
-        "claim": "購入経路別停止、残存期間、事業所削除との違い",
-        "verified": true
+        "verified": true,
+        "claim": "支払済期間の終了と未契約への移行"
       },
       {
-        "url": "https://www.freee.co.jp/terms/",
-        "title": "freee利用規約",
-        "publisher": "freee",
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "title": "やよいの青色申告 オンライン料金",
+        "publisher": "弥生",
         "accessedAt": "2026-10-02",
-        "claim": "第6条・第13条の受領済み料金返金不可、第11条のバックアップ責任と無料会員データ消去条件",
-        "verified": true
+        "verified": true,
+        "claim": "セルフ通常年額11800円・サポートなし"
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/lp/aoiro-ol-05/",
+        "title": "消費税申告・キャンペーン条件",
+        "publisher": "弥生",
+        "accessedAt": "2026-10-02",
+        "verified": true,
+        "claim": "初年度無料対象・2027年3月15日申込期限・次年度自動更新"
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "title": "OpenTaxの機能と利用方法",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "verified": true,
+        "claim": "開発中の個人事業主向けソフト本体無料とAI連携"
       }
     ],
     "relatedSlugs": [
@@ -60,7 +84,6 @@
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "pricingRefs": [
-      "freee-input-outsourced-annual",
       "freee-premium-annual",
       "freee-standard-annual",
       "freee-standard-monthly",
@@ -80,7 +103,26 @@
     ],
     "suggestedEnhancements": [
       "月額契約の独立した最低1か月条項未確認。実際の申込画面で初回期間・次回請求日・停止期限を確認する。"
-    ]
+    ],
+    "thumbnailTitle": "freee、もっと安く。\nプランと払い方を見直す",
+    "images": [
+      {
+        "path": "/article-assets/freee-cost-review/calculator.jpg",
+        "alt": "ノートの計算メモと電卓",
+        "caption": "短期間の利用なら、月額の安さより「使う月数 × 月額」で比べると判断しやすくなります。",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
+        "width": 1400,
+        "height": 933
+      }
+    ],
+    "cta": {
+      "href": "/",
+      "label": "OpenTaxの機能と使い方を見る"
+    }
   },
   {
     "id": "02",
