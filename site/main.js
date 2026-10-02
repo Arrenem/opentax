@@ -128,6 +128,7 @@
       const text = btn.parentElement.querySelector('code').innerText;
       try {
         await navigator.clipboard.writeText(text);
+        document.dispatchEvent(new Event('opentax:code-copied'));
         btn.textContent = 'コピーしました';
       } catch {
         btn.textContent = 'コピーできませんでした';

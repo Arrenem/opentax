@@ -15,6 +15,7 @@
     "mcp:start": "node packages/opentax-mcp/dist/server.mjs",
     "mcp:build": "npm run build --workspace @opentax/mcp",
     "mcp:test": "vitest run packages/opentax-mcp",
+    "site:test": "npm run site:build && node --test scripts/site-analytics.test.mjs",
     "site:build": "node scripts/build-site.mjs",
     "site:deploy": "npm run site:build && cd site && npx wrangler pages deploy dist --project-name opentax --branch main"
   },
