@@ -69,6 +69,14 @@
         "accessedAt": "2026-10-02",
         "verified": true,
         "claim": "開発中の個人事業主向けソフト本体無料とAI連携"
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "title": "OpenTaxの現在の対応範囲",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-02",
+        "claim": "開発中の対応範囲と未対応機能",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -116,12 +124,27 @@
         "licenseName": "Unsplash License",
         "accessedAt": "2026-10-02",
         "width": 1400,
-        "height": 933
+        "height": 933,
+        "showCredit": false
+      },
+      {
+        "path": "/article-assets/freee-cost-review/opentax-demo.png",
+        "alt": "AIに銀行明細の登録を頼むと、37件の仕訳が確認待ちとして並ぶOpenTax公式LPのデモ画面",
+        "caption": "OpenTax公式LPの銀行明細デモ。AIが登録した仕訳を「確認待ち」画面で確かめます（取引・金額は説明用）。",
+        "credit": "OpenTax",
+        "sourceUrl": "https://opentax.fragmentware.com/",
+        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+        "licenseName": "OpenTax AGPL-3.0",
+        "accessedAt": "2026-10-02",
+        "width": 1072,
+        "height": 567,
+        "showCredit": false,
+        "expandable": true
       }
     ],
     "cta": {
       "href": "/",
-      "label": "OpenTaxの機能と使い方を見る"
+      "label": "OpenTaxを使ってみる"
     }
   },
   {

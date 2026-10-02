@@ -87,6 +87,8 @@ test('article images require local approved assets and attribution', () => {
   const withImage = {...article,images:[{path,alt:'電卓',credit:'Photo author',sourceUrl:'https://example.org/photo',licenseUrl:'https://example.org/license',accessedAt:'2026-10-02',width:1400,height:933}]};
   assert.doesNotThrow(() => validateManifest([withImage],categories,authors));
   const result = renderArticleMarkdown(`![料金を比較](${path})`,withImage,[withImage],true).html;
+  const noCredit = renderArticleMarkdown(`![料金を比較](${path})`,{...withImage,images:[{...withImage.images[0],showCredit:false}]},[withImage],true).html;
+  assert.doesNotMatch(noCredit,/Photo author/);
   assert.match(result,/^<figure/); assert.doesNotMatch(result,/<p><figure/); assert.match(result,/Photo author/); assert.match(result,/alt="電卓"/);
   assert.throws(() => validateManifest([{...withImage,images:[{...withImage.images[0],path:'/article-assets/test-guide/../private.jpg'}]}],categories,authors),/image provenance/);
 });
