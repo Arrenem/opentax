@@ -24,29 +24,291 @@
     reveals.forEach((el) => io.observe(el));
   }
 
-  // Terminal: replay the demo line by line
-  const term = document.querySelector('[data-term] code');
-  if (term && !reduced) {
-    const lines = term.innerHTML.split('\n');
-    const caret = '<span class="caret"></span>';
-    let i = 0;
-    let started = false;
-    term.innerHTML = caret;
-    const step = () => {
-      i += 1;
-      term.innerHTML = lines.slice(0, i).join('\n') + (i < lines.length ? caret : '');
-      if (i < lines.length) {
-        const prev = lines[i - 1];
-        const delay = prev.includes('⏺') ? 520 : prev.trim() === '' ? 160 : 260;
-        setTimeout(step, delay);
+  // Hero demo: CLI agent × OpenTax GUI, three scenes on a loop
+  const demo = document.querySelector('[data-demo]');
+  if (demo) {
+    const $ = (sel) => demo.querySelector(sel);
+    const $$ = (sel) => [...demo.querySelectorAll(sel)];
+    const termEl = $('[data-term]');
+    const mainEl = $('[data-app-main]');
+    const steps = $$('[data-step]');
+    const cursor = $('[data-cursor]');
+    const yen = (n) => `¥${Math.round(n).toLocaleString('ja-JP')}`;
+
+    const CANCEL = Symbol('cancel');
+    let run = 0;        // bumps on every restart; stale timelines reject
+    let fast = false;   // replay without delays (jumping to a later scene)
+    let paused = true;  // off-screen or tab hidden
+
+    const wait = (ms) => new Promise((resolve, reject) => {
+      const token = run;
+      if (fast) return token === run ? resolve() : reject(CANCEL);
+      let left = ms;
+      let last = performance.now();
+      const tick = () => {
+        if (token !== run) return reject(CANCEL);
+        const now = performance.now();
+        if (!paused) left -= now - last;
+        last = now;
+        if (left <= 0) resolve(); else setTimeout(tick, Math.min(left, 120));
+      };
+      setTimeout(tick, Math.min(ms, 120));
+    });
+
+    const tween = async (ms, fn) => {
+      if (fast) { fn(1); return; }
+      const frames = Math.max(1, Math.round(ms / 40));
+      for (let f = 1; f <= frames; f += 1) { fn(f / frames); await wait(40); }
+    };
+
+    // ── Terminal
+    const line = (html, cls = '') => {
+      const el = document.createElement('div');
+      el.className = `tl ${cls}`;
+      el.innerHTML = html;
+      termEl.append(el);
+      while (termEl.children.length > 40) termEl.firstChild.remove();
+      return el;
+    };
+    const gap = () => line('', 'tl--gap');
+    const prompt = async (text, file) => {
+      const el = line('', 'tl--user');
+      const head = '<span class="t-prompt">&gt;</span> ';
+      for (let i = 1; i <= text.length; i += 1) {
+        el.innerHTML = head + text.slice(0, i).replace(/\n/g, '\n  ') + '<span class="caret"></span>';
+        await wait(text[i - 1] === '\n' ? 180 : 42);
+      }
+      el.innerHTML = head + text.replace(/\n/g, '\n  ') + (file ? `\n  <span class="t-file">⎘ ${file}</span>` : '');
+      await wait(450);
+    };
+    const tool = async (fn, args, ms = 900) => {
+      const el = line(`<span class="t-tool is-run">⏺</span> <span class="t-fn">opentax.${fn}</span>${args ? ` <span class="t-dim">${args}</span>` : ''}`);
+      await wait(ms);
+      el.firstChild.classList.remove('is-run');
+    };
+    const out = (html) => line(`<span class="t-dim">⎿</span> ${html}`, 'tl--sub');
+    const say = (html) => line(`<span class="t-tool">⏺</span> ${html}`, 'tl--reply');
+
+    // ── GUI
+    const navs = $$('[data-nav]');
+    const urlEl = $('[data-url]');
+    const badge = $('[data-badge]');
+    const PATHS = { review: '/review', evidence: '/documents', billing: '/billing/inv-2026-0012' };
+    const show = (view) => {
+      $$('[data-view]').forEach((v) => v.classList.toggle('is-active', v.dataset.view === view));
+      navs.forEach((n) => n.classList.toggle('is-active', n.dataset.nav === view));
+      urlEl.textContent = `opentax.example.com${PATHS[view]}`;
+    };
+    const setBadge = (n) => {
+      badge.hidden = n === 0;
+      badge.textContent = n;
+      badge.classList.remove('is-bump');
+      void badge.offsetWidth;
+      badge.classList.add('is-bump');
+    };
+    const rowsEl = $('[data-rows]');
+    const moreEl = $('[data-rows-more]');
+    const countAll = $('[data-count-all]');
+    const countFlag = $('[data-count-flag]');
+    const row = (r) => {
+      const li = document.createElement('li');
+      if (r.flag) li.className = 'is-flag';
+      if (r.fresh) li.className = 'is-new';
+      li.innerHTML = `<span class="date num">${r.date}</span><span class="desc"><b>${r.name}</b><small>${r.acct}</small></span>`
+        + `<span class="amt num">${r.amt}</span><span class="mk">${r.flag ? '!' : r.fresh ? '+' : '✓'}</span>`;
+      return li;
+    };
+    const moveCursor = async (el) => {
+      const box = mainEl.getBoundingClientRect();
+      const r = el.getBoundingClientRect();
+      cursor.style.setProperty('--x', `${r.left - box.left + r.width * 0.55}px`);
+      cursor.style.setProperty('--y', `${r.top - box.top + r.height * 0.55}px`);
+      cursor.classList.add('is-on');
+      await wait(1000);
+    };
+
+    const reset = () => {
+      termEl.innerHTML = '';
+      termEl.append(Object.assign(document.createElement('div'), { className: 'tl', innerHTML: '<span class="t-dim">$</span> claude' }));
+      gap();
+      rowsEl.innerHTML = '';
+      moreEl.textContent = '';
+      countAll.textContent = '0';
+      countFlag.textContent = '0';
+      badge.hidden = true;
+      $$('.ev__paper, [data-ev-field], [data-ev-link], .inv > *, [data-inv-line], .inv__actions, [data-toast]')
+        .forEach((el) => el.classList.remove('is-in'));
+      $('[data-inv-sub]').textContent = yen(0);
+      $('[data-inv-tax]').textContent = yen(0);
+      $('[data-inv-total]').textContent = yen(0);
+      const status = $('[data-inv-status]');
+      status.textContent = '下書き';
+      status.className = 'pill';
+      const issue = $('[data-inv-issue]');
+      issue.textContent = '発行する';
+      issue.className = 'inv__issue';
+      cursor.classList.remove('is-on');
+      show('review');
+    };
+
+    const BANK = [
+      { date: '09/01', name: '事務所家賃', acct: '地代家賃 / 普通預金', amt: '¥88,000' },
+      { date: '09/03', name: 'AWS', acct: '通信費 / 普通預金', amt: '¥4,812' },
+      { date: '09/10', name: '合同会社ミナト', acct: '普通預金 / 売掛金', amt: '¥220,000' },
+      { date: '09/14', name: 'ヨドバシカメラ', acct: '消耗品費？ 工具器具備品？', amt: '¥38,280', flag: true },
+      { date: '09/22', name: 'Adobe', acct: '通信費 / 普通預金', amt: '¥7,780' },
+    ];
+
+    const SCENES = [
+      // 1. 銀行明細をまとめて登録
+      async (progress) => {
+        show('review');
+        await prompt('9月の銀行明細。全部登録しておいて。', 'bank-2026-09.csv');
+        progress(0.25);
+        await tool('get_business_context', '', 700);
+        await tool('search_journals', 'period=2026-09', 700);
+        const done = tool('create_journals', 'items=37', 2400);
+        let shown = 0;
+        await tween(2200, (t) => {
+          const n = Math.round(37 * t);
+          countAll.textContent = n;
+          while (shown < BANK.length && shown < Math.ceil(BANK.length * t)) {
+            const r = BANK[shown];
+            rowsEl.append(row(r));
+            if (r.flag) countFlag.textContent = '1';
+            shown += 1;
+          }
+          badge.hidden = n === 0;
+          badge.textContent = n;
+          moreEl.textContent = n > BANK.length ? `…ほか${n - BANK.length}件` : '';
+        });
+        await done;
+        countFlag.textContent = '4';
+        setBadge(37);
+        progress(0.65);
+        out('<span class="t-ok">✓</span> 37件を確認待ちとして登録しました');
+        out('<span class="t-warn">!</span> 4件は判断に迷ったので、メモを残しました');
+        await wait(500);
+        const flagged = rowsEl.querySelector('.is-flag');
+        const note = document.createElement('p');
+        note.className = 'note';
+        note.textContent = '用途が判別できません。業務用の周辺機器なら消耗品費で登録します。';
+        flagged.append(note);
+        await wait(700);
+        say('レビュー画面で確認してください。');
+        progress(1);
+        await wait(2600);
+      },
+      // 2. 領収書を証憑として保存し、仕訳と紐づけ
+      async (progress) => {
+        gap();
+        await prompt('この領収書の支出も登録して。', 'receipt-0928.jpg');
+        progress(0.25);
+        show('evidence');
+        await tool('upload_evidence', 'type=receipt', 900);
+        $('.ev__paper').classList.add('is-in');
+        await wait(500);
+        for (const f of $$('[data-ev-field]')) { f.classList.add('is-in'); await wait(220); }
+        progress(0.55);
+        await tool('create_journals', 'items=1', 900);
+        $('[data-ev-link]').classList.add('is-in');
+        setBadge(38);
+        countAll.textContent = '38';
+        rowsEl.prepend(row({ date: '09/28', name: 'コーヒースタンド', acct: '会議費 / 現金 · 証憑あり', amt: '¥1,320', fresh: true }));
+        if (rowsEl.children.length > 5) rowsEl.lastElementChild.remove();
+        moreEl.textContent = '…ほか33件';
+        out('<span class="t-ok">✓</span> 領収書を保存し、会議費 ¥1,320 の仕訳と紐づけて登録しました');
+        progress(1);
+        await wait(2600);
+      },
+      // 3. 案件の請求書を下書き → あなたが発行
+      async (progress) => {
+        gap();
+        await prompt('そういえばWebサイト改修の案件が終わった。\n請求書を発行して。');
+        progress(0.2);
+        await tool('search_projects', 'q="Webサイト改修"', 800);
+        out('株式会社サンプル · 税抜 ¥300,000');
+        show('billing');
+        await tool('create_billing_draft', 'kind=invoice', 700);
+        const parts = $$('.inv > *');
+        parts[0].classList.add('is-in');
+        await wait(250);
+        parts[1].classList.add('is-in');
+        for (const l of $$('[data-inv-line]')) { await wait(300); l.classList.add('is-in'); }
+        parts[2].classList.add('is-in');
+        await tween(700, (t) => {
+          $('[data-inv-sub]').textContent = yen(300000 * t);
+          $('[data-inv-tax]').textContent = yen(30000 * t);
+          $('[data-inv-total]').textContent = yen(330000 * t);
+        });
+        $('.inv__actions').classList.add('is-in');
+        progress(0.55);
+        out('<span class="t-ok">✓</span> 請求書の下書きを作成しました（合計 ¥330,000）');
+        say('発行はOpenTaxの画面から行ってください。');
+        await wait(900);
+        const issue = $('[data-inv-issue]');
+        await moveCursor(issue);
+        issue.classList.add('is-press');
+        await wait(180);
+        issue.classList.remove('is-press');
+        issue.classList.add('is-done');
+        issue.textContent = '発行済み';
+        const status = $('[data-inv-status]');
+        status.textContent = '発行済み';
+        status.className = 'pill pill--ok';
+        $('[data-toast]').classList.add('is-in');
+        progress(1);
+        await wait(900);
+        cursor.classList.remove('is-on');
+        await wait(2600);
+        $('[data-toast]').classList.remove('is-in');
+      },
+    ];
+
+    const select = (idx) => steps.forEach((s, i) => {
+      s.setAttribute('aria-selected', String(i === idx));
+      s.classList.toggle('is-done', i < idx);
+      s.querySelector('.demo__bar i').style.transform = `scaleX(${i < idx ? 1 : 0})`;
+    });
+    const progressFor = (idx) => (p) => {
+      steps[idx].querySelector('.demo__bar i').style.transform = `scaleX(${p})`;
+    };
+
+    const play = async (from) => {
+      run += 1;
+      const token = run;
+      reset();
+      try {
+        fast = true;
+        for (let i = 0; i < from; i += 1) await SCENES[i](() => {});
+        fast = reduced;
+        for (let i = from; ; i = (i + 1) % SCENES.length) {
+          if (i === 0 && i !== from) reset();
+          select(i);
+          await SCENES[i](progressFor(i));
+          if (reduced) return;
+        }
+      } catch (e) {
+        if (e !== CANCEL) throw e;
+      } finally {
+        if (token === run) fast = false;
       }
     };
-    const start = () => { if (!started) { started = true; setTimeout(step, 500); } };
+
+    steps.forEach((s, i) => s.addEventListener('click', () => { started = true; play(i); }));
+
+    let started = false;
+    let inView = false;
+    const sync = () => {
+      paused = !inView || document.hidden;
+      if (!paused && !started) { started = true; play(0); }
+    };
+    document.addEventListener('visibilitychange', sync);
     if ('IntersectionObserver' in window) {
-      const tio = new IntersectionObserver(([e]) => { if (e.isIntersecting) { start(); tio.disconnect(); } });
-      tio.observe(term);
+      new IntersectionObserver(([e]) => { inView = e.isIntersecting; sync(); }, { threshold: 0.25 }).observe(demo);
     } else {
-      start();
+      inView = true;
+      sync();
     }
   }
 
