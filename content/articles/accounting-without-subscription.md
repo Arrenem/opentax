@@ -23,6 +23,12 @@
 
 [GnuCash](https://www.gnucash.org/)と[OpenTax](https://github.com/arrenem/opentax)は提供形態が異なります。OpenTaxはFirebaseを利用する構成で、ソフト利用料と外部費用を分けます。どちらも「買い切り製品の代わりに日本の申告全体が完成する」と一括りにしないことが大切です。販売終了した製品や法人専用の価格を、個人向けの現行候補として混ぜないでください。
 
+## やよいのインストール型を金額で比べる
+
+[公式ストアの価格表](https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/)では、やよいの青色申告26のセルフ・ベーシック付き初年度優待は税抜{{pricing:yayoi-desktop-26-purchase:amountExclTaxDisplay}}円、税込計算{{pricing:yayoi-desktop-26-purchase:amountInclTaxDisplay}}円です。セルフ保守の通常年額は税抜{{pricing:yayoi-desktop-self-maintenance:amountExclTaxDisplay}}円、税込計算{{pricing:yayoi-desktop-self-maintenance:amountInclTaxDisplay}}円です。製品単体は店舗ごとのオープン価格なので、この優待額をすべての購入方法の価格とはしません。
+
+初年度優待を使い、2・3年目もセルフ保守を継続し現行額が変わらない仮定なら、3年は14,000＋12,300×2＝38,600円（税抜）、税込計算42,460円です。これは将来価格の保証ではありません。保守中の後継版・法令改正対応が含まれる条件と、更新を止める場合の案内を確認して比べます。ベーシックから翌年セルフへ変える場合も、自動で変わる前提にせず更新手続きを確認します。
+
 ## 三年間の比較表を自分で作る
 
 |費用の行|一年目|二年目|三年目|

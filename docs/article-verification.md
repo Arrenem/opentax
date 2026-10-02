@@ -1,20 +1,21 @@
 # 記事実装の確認記録（2026-10-02）
 
-公開承認は未取得。全55本をdraftで実装し、編集レビュー可能45本と追加資料確認10本を区別した。
-税務レビューは一般HowTo18本で別途必要。25・31は電子保存の専門レビューも必要。
+公開承認は未取得。全55本をdraftで実装し、編集レビュー可能53本と追加資料確認2本を区別した。
+一般HowTo18本のうち7本は具体的な専門論点の編集品質確認待ち、11本は専門レビュー推奨。
+法的な一律監修義務を意味しない。25・31も電子保存の専門レビュー推奨。
 編集レビュー可能は、公開readyや有資格者監修済みを意味しない。
 
 ## 検査結果
 
 - 静的サイト検査22/22、アプリテスト18ファイル104/104、lint成功。
 - Next.jsは `next build --webpack` 成功。標準Turbopackは実行環境のポート制限で完走できず。
-- 55記事×360/768/1440px、一覧・6カテゴリ×3幅の186表示検査で横はみ出し・HTTP・H1・preview noindex検査成功。
+- 初回55記事×360/768/1440px、一覧・6カテゴリ×3幅の186表示検査と更新10記事の追加30表示検査で横はみ出し・HTTP・H1・preview noindex検査成功。
 - 代表記事のPC/mobile画像、LPの銀行・領収書・請求書3場面を復元済みmainと比較。
 - LP変更は記事リンク2か所。main.js/styles.css/analytics.js/PrivacyのSHA回帰検査成功。
 - draft詳細を本番出力とsitemapから除外。previewは全ページnoindex・GA IDなし。
 - 本番GA ID G-HWFFMYR32Hを維持。記事イベントは公開記事・許可ID・非PIIのみ。
-- 価格30レコード、架空計算13組、実際の帳簿集計関数6例を検算。
-- 外部URL56件を確認。45件成功、freee5件はcurl bot block、GitHub6件は一時503。HTTP404はなし。freeeは公式Web読取、OpenTaxはローカルmainソースで補完。
+- 価格32レコード、架空計算13組、実際の帳簿集計関数6例を検算。
+- 初回の外部URL56件を確認。45件成功、freee5件はcurl bot block、GitHub6件は一時503。HTTP404はなし。freeeは公式Web読取、OpenTaxはローカルmainソースで補完。
 
 ## 補完した一次資料
 
@@ -41,7 +42,7 @@
 |14|[白色申告向け無料ソフトの選び方：帳簿・収支内訳書・申告書の違い](../content/articles/free-white-return-software.md)|編集レビュー可能||
 |15|[副業の会計ソフトは無料で足りる？取引量と必要な帳簿で選ぶ](../content/articles/free-accounting-side-business.md)|編集レビュー可能||
 |16|[Mac・Linuxで使える無料会計ソフト：ブラウザ・デスクトップ・OSSを比較](../content/articles/free-accounting-mac-linux.md)|編集レビュー可能||
-|17|[会計ソフトを買い切り・無料デスクトップ・OSSで選ぶ：更新と保守も比較](../content/articles/accounting-without-subscription.md)|追加事実確認|買切り候補の現行販売価格と翌年の申告対応費用を一次資料で追加確認する。|
+|17|[会計ソフトを買い切り・無料デスクトップ・OSSで選ぶ：更新と保守も比較](../content/articles/accounting-without-subscription.md)|編集レビュー可能||
 |18|[Excelの帳簿から無料会計ソフトへ移るべき？移行の条件とデータ整理](../content/articles/excel-to-accounting-software.md)|編集レビュー可能||
 |19|[freee会計から乗り換える前に：移行データと照合手順のチェックリスト](../content/articles/switch-from-freee.md)|編集レビュー可能||
 |20|[freee会計の仕訳CSVをエクスポートする前に確認する形式・期間・出力範囲](../content/articles/freee-journal-csv-export.md)|編集レビュー可能||
@@ -82,3 +83,12 @@
 |56|[個人事業主の決算整理のやり方：年末に確認する帳簿と仕訳のチェックリスト](../content/articles/year-end-bookkeeping-adjustments.md)|追加事実確認|2026年分の正式決算書手引きで年末整理と転記対象を照合する。|
 |57|[青色申告決算書の書き方：帳簿から各欄に数字を移す手順と記入例](../content/articles/blue-return-financial-statements-howto.md)|追加事実確認|2026年分の正式様式・控除要件・入力画面を照合する（本文は確認済み2025年資料と区別済み）。|
 |58|[個人事業主のe-Tax確定申告のやり方：準備・入力・送信後の確認まで](../content/articles/etax-filing-sole-proprietor.md)|追加事実確認|2026年分の正式期限・作成画面・納付案内を公開後の公式資料で照合する。|
+
+## 追加照合で解消した8件
+
+- 17: やよい26のストア優待14,000円+税、セルフ保守12,300円+税と改定適用日を確認。店舗本体価格と保守を区別し、3年費用38,600円+税は将来価格据置を仮定した計算例とする。
+- 28/34/36: 公式Get Started→Web版 `frappe/frappe-books`、README→旧Desktop `frappe/books` を直接追跡。Web developコミット `276e139fd6f4878621836b6ce06025e4ee6a968f` を参照固定。安定版・日本対応の動作保証はしない。
+- 37/38: MF公式サポートがクラウド確定申告も対象、MCP追加料金なし、契約プラン制限継続を明記。操作一覧・OAuthスコープ/APIキー権限を確認。
+- 52/56: 本文を源泉報酬の記帳・照合と年末帳簿整理までへ限定。申告書の欄番号や2026年入力画面を説明する記事として扱わない。
+
+57/58の残件は「2026資料が全く未公表」ではない。国税庁の所得税ページには変更可能な令和8年分暫定申告書が掲載されている。最終手引き・申告期入力画面は未確認であり、2026年対応の完成ガイドとしての公開は保留する。一般手順と2025年確定資料の説明は区別済み。

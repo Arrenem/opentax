@@ -1158,6 +1158,22 @@
         "accessedAt": "2026-10-02",
         "claim": "本文内の提供形態・対象機能・制度条件の該当記述",
         "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/",
+        "title": "やよいの青色申告26 公式価格・サポート表",
+        "claim": "初年度優待14,000円+税、セルフ保守12,300円+税、製品単体はオープン価格、保守更新条件",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "verified": true
+      },
+      {
+        "url": "https://www.yayoi-kk.co.jp/yss/info/detail.20260803-1/",
+        "title": "弥生 あんしん保守サポート価格改定",
+        "claim": "新規2026年9月申込分、既存次年度契約2026年10月開始分の適用日",
+        "publisher": "弥生株式会社",
+        "accessedAt": "2026-10-02",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -1168,24 +1184,26 @@
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "買切り候補の現行販売価格と翌年の申告対応費用を一次資料で追加確認する。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/accounting-without-subscription.md",
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "公式インストール型価格表・保守改定適用日を照合。3年費用は現行価格が続く仮定の計算例と区別。"
     ],
-    "evidenceGaps": [
-      "買切り候補の現行販売価格と翌年の申告対応費用を一次資料で追加確認する。"
-    ],
-    "verificationStatus": "additional-evidence-needed",
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
+    ],
+    "pricingRefs": [
+      "yayoi-desktop-26-purchase",
+      "yayoi-desktop-self-maintenance"
     ]
   },
   {
@@ -1787,7 +1805,7 @@
     "applicableDate": "2026-10-02",
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "電子帳簿保存法の要件と運用の専門レビュー（未実施）。"
+      "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
     ],
     "sourcePath": "content/articles/accounting-evidence-migration.md",
     "correctionLog": [],
@@ -1799,7 +1817,7 @@
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "電子帳簿保存法の要件と運用の専門レビュー（未実施）。"
+      "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
     ],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
@@ -2023,6 +2041,14 @@
         "accessedAt": "2026-10-02",
         "claim": "共同作業権限未提供、対象所得・XTX範囲を現行checkoutで確認",
         "verified": true
+      },
+      {
+        "url": "https://github.com/frappe/frappe-books/blob/276e139fd6f4878621836b6ce06025e4ee6a968f/README.md",
+        "title": "Frappe Books Web版 README（参照コミット固定）",
+        "claim": "公式Get Startedの接続先。Framework上のWeb版と旧デスクトップrepoを区別。",
+        "publisher": "Frappe Technologies",
+        "accessedAt": "2026-10-02",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -2037,18 +2063,16 @@
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "Frappe公式Web版と公開デスクトップrepoの対応版・配布物を提供元資料で確定する。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/open-source-accounting-software.md",
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "公式Get Started→frappe/frappe-books→READMEの旧Desktopリンクまで直接確認。対象repoの不一致を解消。"
     ],
-    "evidenceGaps": [
-      "Frappe公式Web版と公開デスクトップrepoの対応版・配布物を提供元資料で確定する。"
-    ],
-    "verificationStatus": "additional-evidence-needed",
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
@@ -2255,7 +2279,7 @@
     "applicableDate": "2026-10-02",
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "電子帳簿保存法の要件と運用の専門レビュー（未実施）。"
+      "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
     ],
     "sourcePath": "content/articles/open-source-accounting-japan-checklist.md",
     "correctionLog": [],
@@ -2267,7 +2291,7 @@
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "電子帳簿保存法の要件と運用の専門レビュー（未実施）。"
+      "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
     ],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
@@ -2465,6 +2489,14 @@
         "accessedAt": "2026-10-02",
         "claim": "デスクトップ記述・AGPL表示。現行サイトとの対象版整合は未確認",
         "verified": true
+      },
+      {
+        "url": "https://github.com/frappe/frappe-books/blob/276e139fd6f4878621836b6ce06025e4ee6a968f/README.md",
+        "title": "Frappe Books Web版 README（参照コミット固定）",
+        "claim": "公式Get Startedの接続先。Framework上のWeb版と旧デスクトップrepoを区別。",
+        "publisher": "Frappe Technologies",
+        "accessedAt": "2026-10-02",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -2476,18 +2508,16 @@
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "Frappeの対象版と運用方式を提供元資料で確定する。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/accounting-operations-options.md",
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "公式Get Started→frappe/frappe-books→READMEの旧Desktopリンクまで直接確認。対象repoの不一致を解消。"
     ],
-    "evidenceGaps": [
-      "Frappeの対象版と運用方式を提供元資料で確定する。"
-    ],
-    "verificationStatus": "additional-evidence-needed",
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
@@ -2614,6 +2644,14 @@
         "accessedAt": "2026-10-02",
         "claim": "青色申告の帳簿・書類に関する一般要件",
         "verified": true
+      },
+      {
+        "url": "https://github.com/frappe/frappe-books/blob/276e139fd6f4878621836b6ce06025e4ee6a968f/README.md",
+        "title": "Frappe Books Web版 README（参照コミット固定）",
+        "claim": "公式Get Startedの接続先。Framework上のWeb版と旧デスクトップrepoを区別。",
+        "publisher": "Frappe Technologies",
+        "accessedAt": "2026-10-02",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -2625,18 +2663,16 @@
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "Frappeの現行Web版と旧デスクトップ版の配布物・対応ドキュメントを確定する。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/frappe-books-japan-review.md",
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "公式Get Started→frappe/frappe-books→READMEの旧Desktopリンクまで直接確認。対象repoの不一致を解消。"
     ],
-    "evidenceGaps": [
-      "Frappeの現行Web版と旧デスクトップ版の配布物・対応ドキュメントを確定する。"
-    ],
-    "verificationStatus": "additional-evidence-needed",
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
@@ -2681,8 +2717,8 @@
         "title": "マネーフォワード MCPサーバー",
         "publisher": "マネーフォワード",
         "accessedAt": "2026-10-02",
-        "claim": "公式入口を確認。本文取得が限定的で個人対象・操作・料金は未確認",
-        "verified": false
+        "claim": "公式MCP入口から個人確定申告対象ガイドと認証資料を確認",
+        "verified": true
       },
       {
         "url": "https://github.com/Arrenem/opentax/blob/main/docs/mcp.md",
@@ -2690,6 +2726,22 @@
         "publisher": "OpenTax",
         "accessedAt": "2026-10-02",
         "claim": "現行checkoutのremote/stdio、確認待ち、MCPから確定不可を確認",
+        "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/account/guide/others/ot10.html",
+        "title": "MFクラウド会計MCPサーバー公式ガイド",
+        "claim": "個人確定申告利用者も対象、追加料金なし、契約プランの制限継続、操作一覧とアプリポータル設定",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "verified": true
+      },
+      {
+        "url": "https://developers.biz.moneyforward.com/docs/mcp-common/authentication/",
+        "title": "MF MCP認証・認可",
+        "claim": "OAuthスコープとAPIキー発行者権限の範囲",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
         "verified": true
       }
     ],
@@ -2702,18 +2754,16 @@
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "マネーフォワードMCPの個人契約での対象操作・権限・料金・データ範囲を公式資料で確定する。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/accounting-mcp-comparison.md",
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "個人確定申告の対象・料金・操作・認証範囲を公式サポートで解消。38はモデル別価格を主張せず費用計算の手順を対象とする。"
     ],
-    "evidenceGaps": [
-      "マネーフォワードMCPの個人契約での対象操作・権限・料金・データ範囲を公式資料で確定する。"
-    ],
-    "verificationStatus": "additional-evidence-needed",
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
@@ -2758,8 +2808,8 @@
         "title": "マネーフォワード MCPサーバー",
         "publisher": "マネーフォワード",
         "accessedAt": "2026-10-02",
-        "claim": "公式入口を確認。本文取得が限定的で個人対象・操作・料金は未確認",
-        "verified": false
+        "claim": "公式MCP入口から個人確定申告対象ガイドと認証資料を確認",
+        "verified": true
       },
       {
         "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
@@ -2784,6 +2834,22 @@
         "accessedAt": "2026-10-02",
         "claim": "構成・利用量別料金の確認先。選択リージョンの実額試算は未実施",
         "verified": true
+      },
+      {
+        "url": "https://biz.moneyforward.com/support/account/guide/others/ot10.html",
+        "title": "MFクラウド会計MCPサーバー公式ガイド",
+        "claim": "個人確定申告利用者も対象、追加料金なし、契約プランの制限継続、操作一覧とアプリポータル設定",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "verified": true
+      },
+      {
+        "url": "https://developers.biz.moneyforward.com/docs/mcp-common/authentication/",
+        "title": "MF MCP認証・認可",
+        "claim": "OAuthスコープとAPIキー発行者権限の範囲",
+        "publisher": "マネーフォワード",
+        "accessedAt": "2026-10-02",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -2794,18 +2860,16 @@
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "マネーフォワードMCPの個人契約対象範囲と料金、利用するAIモデルの現行課金条件を確定する。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/free-ai-accounting-limits.md",
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "個人確定申告の対象・料金・操作・認証範囲を公式サポートで解消。38はモデル別価格を主張せず費用計算の手順を対象とする。"
     ],
-    "evidenceGaps": [
-      "マネーフォワードMCPの個人契約対象範囲と料金、利用するAIモデルの現行課金条件を確定する。"
-    ],
-    "verificationStatus": "additional-evidence-needed",
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
@@ -2949,14 +3013,13 @@
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/double-entry-bookkeeping-howto.md",
     "verifiedFeatureRefs": [
       "article-example-41-aggregation"
     ],
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -2965,10 +3028,13 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   },
   {
     "id": "42",
@@ -3038,11 +3104,10 @@
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/ai-tax-return-howto.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -3051,10 +3116,13 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   },
   {
     "id": "43",
@@ -3106,11 +3174,10 @@
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/sole-proprietor-bookkeeping-routine.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -3119,10 +3186,13 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   },
   {
     "id": "44",
@@ -3176,11 +3246,10 @@
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/ai-journal-entry-workflow.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -3189,10 +3258,13 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   },
   {
     "id": "45",
@@ -3252,11 +3324,10 @@
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/receipt-organization-sole-proprietor.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -3265,10 +3336,13 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   },
   {
     "id": "46",
@@ -3327,7 +3401,7 @@
     "applicableTaxYear": 2026,
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 電子取引保存の要件と運用。法的な一律監修義務を意味しない。"
     ],
     "sourcePath": "content/articles/electronic-transaction-records-howto.md",
     "requiresTaxReview": true,
@@ -3340,9 +3414,13 @@
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 電子取引保存の要件と運用。法的な一律監修義務を意味しない。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "電子取引保存の要件と運用"
+    ]
   },
   {
     "id": "47",
@@ -3385,11 +3463,10 @@
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/bank-statement-csv-bookkeeping.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -3398,11 +3475,14 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "suggestedEnhancements": [
       "特定の銀行・会計ソフト間の実機CSV取込未確認。本文は一般手順と架空照合例"
+    ],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
     ]
   },
   {
@@ -3447,11 +3527,10 @@
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/owners-drawings-contributions-journal.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -3460,10 +3539,13 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   },
   {
     "id": "49",
@@ -3516,7 +3598,7 @@
     "applicableTaxYear": 2026,
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 家事按分の事業割合と根拠。法的な一律監修義務を意味しない。"
     ],
     "sourcePath": "content/articles/business-use-expense-apportionment.md",
     "requiresTaxReview": true,
@@ -3529,9 +3611,13 @@
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 家事按分の事業割合と根拠。法的な一律監修義務を意味しない。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "家事按分の事業割合と根拠"
+    ]
   },
   {
     "id": "50",
@@ -3583,11 +3669,10 @@
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/credit-card-journal-sole-proprietor.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -3596,10 +3681,13 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   },
   {
     "id": "51",
@@ -3651,11 +3739,10 @@
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/accounts-receivable-reconciliation-howto.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -3664,10 +3751,13 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   },
   {
     "id": "52",
@@ -3720,25 +3810,27 @@
     "applicableTaxYear": "2026",
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。",
-      "2026年分の申告書で源泉税の記載欄と年分の扱いを正式資料と照合する。"
+      "編集品質基準として専門レビュー待ち: 源泉対象・消費税区分・年またぎの引継ぎ。法的な一律監修義務を意味しない。"
     ],
     "sourcePath": "content/articles/withheld-freelance-fees-journal.md",
     "requiresTaxReview": true,
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "本文を記帳・照合の確定済み範囲へ限定。正式2026年様式を前提にする欄番号や画面手順は扱わない。"
     ],
-    "evidenceGaps": [
-      "2026年分の申告書で源泉税の記載欄と年分の扱いを正式資料と照合する。"
-    ],
-    "verificationStatus": "additional-evidence-needed",
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 源泉対象・消費税区分・年またぎの引継ぎ。法的な一律監修義務を意味しない。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "源泉対象・消費税区分・年またぎの引継ぎ"
+    ]
   },
   {
     "id": "53",
@@ -3792,7 +3884,7 @@
     "applicableTaxYear": "2026",
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 開業費と資産・通常経費の区分。法的な一律監修義務を意味しない。"
     ],
     "sourcePath": "content/articles/startup-costs-bookkeeping-sole-proprietor.md",
     "requiresTaxReview": true,
@@ -3805,9 +3897,13 @@
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 開業費と資産・通常経費の区分。法的な一律監修義務を意味しない。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "開業費と資産・通常経費の区分"
+    ]
   },
   {
     "id": "54",
@@ -3884,7 +3980,7 @@
     "applicableTaxYear": "2026",
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 少額資産特例・耐用年数と事業割合。法的な一律監修義務を意味しない。"
     ],
     "sourcePath": "content/articles/computer-depreciation-sole-proprietor.md",
     "requiresTaxReview": true,
@@ -3897,9 +3993,13 @@
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 少額資産特例・耐用年数と事業割合。法的な一律監修義務を意味しない。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "少額資産特例・耐用年数と事業割合"
+    ]
   },
   {
     "id": "55",
@@ -3953,11 +4053,10 @@
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
     "sourcePath": "content/articles/monthly-bookkeeping-reconciliation.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
@@ -3966,10 +4065,13 @@
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   },
   {
     "id": "56",
@@ -4031,25 +4133,27 @@
     "applicableTaxYear": "2026",
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。",
-      "2026年分の正式決算書手引きで年末整理と転記対象を照合する。"
+      "編集品質基準として専門レビュー待ち: 収益認識・債務確定・短期前払特例・棚卸。法的な一律監修義務を意味しない。"
     ],
     "sourcePath": "content/articles/year-end-bookkeeping-adjustments.md",
     "requiresTaxReview": true,
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "本文を記帳・照合の確定済み範囲へ限定。正式2026年様式を前提にする欄番号や画面手順は扱わない。"
     ],
-    "evidenceGaps": [
-      "2026年分の正式決算書手引きで年末整理と転記対象を照合する。"
-    ],
-    "verificationStatus": "additional-evidence-needed",
+    "evidenceGaps": [],
+    "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 収益認識・債務確定・短期前払特例・棚卸。法的な一律監修義務を意味しない。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "収益認識・債務確定・短期前払特例・棚卸"
+    ]
   },
   {
     "id": "57",
@@ -4097,6 +4201,14 @@
         "accessedAt": "2026-10-02",
         "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
         "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+        "title": "国税庁 所得税の確定申告（2026年暫定資料の掲載案内）",
+        "claim": "令和8年分申告書は変更する場合があると明記。確定済み最終手引き・入力画面との区別。",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -4111,8 +4223,8 @@
     "applicableTaxYear": "2026",
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。",
-      "2026年分の正式様式・控除要件・入力画面を照合する（本文は確認済み2025年資料と区別済み）。"
+      "編集品質基準として専門レビュー待ち: 控除要件と元入金・貸借の対応。法的な一律監修義務を意味しない。",
+      "国税庁は2026年分申告書の変更可能な暫定版を掲載。最終手引き・申告期入力画面を確認できていないため、2026年対応の完成ガイドとしての公開は保留。"
     ],
     "sourcePath": "content/articles/blue-return-financial-statements-howto.md",
     "requiresTaxReview": true,
@@ -4121,15 +4233,19 @@
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
     ],
     "evidenceGaps": [
-      "2026年分の正式様式・控除要件・入力画面を照合する（本文は確認済み2025年資料と区別済み）。"
+      "国税庁は2026年分申告書の変更可能な暫定版を掲載。最終手引き・申告期入力画面を確認できていないため、2026年対応の完成ガイドとしての公開は保留。"
     ],
     "verificationStatus": "additional-evidence-needed",
     "publicationApproval": "pending",
     "reviewRequirements": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "編集品質基準として専門レビュー待ち: 控除要件と元入金・貸借の対応。法的な一律監修義務を意味しない。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "控除要件と元入金・貸借の対応"
+    ]
   },
   {
     "id": "58",
@@ -4185,6 +4301,14 @@
         "accessedAt": "2026-10-02",
         "claim": "2025年資料の正規の簿記・元帳・試算表・損益計算書と貸借対照表の流れ（冊子2〜15頁を画像で確認）。2026年様式の保証には使用しない。",
         "verified": true
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+        "title": "国税庁 所得税の確定申告（2026年暫定資料の掲載案内）",
+        "claim": "令和8年分申告書は変更する場合があると明記。確定済み最終手引き・入力画面との区別。",
+        "publisher": "国税庁",
+        "accessedAt": "2026-10-02",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -4198,24 +4322,26 @@
     "applicableTaxYear": "2026",
     "reviewBlockers": [
       "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。",
-      "2026年分の正式期限・作成画面・納付案内を公開後の公式資料で照合する。"
+      "国税庁は2026年分申告書の変更可能な暫定版を掲載。最終手引き・申告期入力画面を確認できていないため、2026年対応の完成ガイドとしての公開は保留。"
     ],
     "sourcePath": "content/articles/etax-filing-sole-proprietor.md",
-    "requiresTaxReview": true,
+    "requiresTaxReview": false,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
     ],
     "evidenceGaps": [
-      "2026年分の正式期限・作成画面・納付案内を公開後の公式資料で照合する。"
+      "国税庁は2026年分申告書の変更可能な暫定版を掲載。最終手引き・申告期入力画面を確認できていないため、2026年対応の完成ガイドとしての公開は保留。"
     ],
     "verificationStatus": "additional-evidence-needed",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "会計・税務の有資格者による適用条件と仕訳のレビュー（未実施）。"
+      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
     ],
-    "suggestedEnhancements": []
+    "suggestedEnhancements": [],
+    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewTopics": [
+      "本文の基本記帳例と利用時の前提条件（推奨確認）"
+    ]
   }
 ]

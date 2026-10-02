@@ -6,7 +6,7 @@ test('shared official pricing records are all used and calculated amounts agree'
   const records = await load('pricing.json');
   const articles = await load('manifest.json');
   const used = new Set();
-  assert.equal(records.length, 30);
+  assert.equal(records.length, 32);
   assert.equal(new Set(records.map((r) => r.id)).size, records.length);
   for (const article of articles) {
     const markdown = await readFile(new URL('../../' + article.sourcePath, import.meta.url), 'utf8');
@@ -19,6 +19,10 @@ test('shared official pricing records are all used and calculated amounts agree'
     }
   }
   assert.equal(used.size, records.length);
+  const desktopPurchase = records.find(r => r.id === 'yayoi-desktop-26-purchase');
+  const desktopMaintenance = records.find(r => r.id === 'yayoi-desktop-self-maintenance');
+  assert.equal(desktopPurchase.amountExclTax + desktopMaintenance.amountExclTax * 2, 38600);
+  assert.equal(desktopPurchase.amountInclTax + desktopMaintenance.amountInclTax * 2, 42460);
   for (const record of records) {
     assert.equal(record.verified, true);
     assert.equal(record.audience, 'sole-proprietor');

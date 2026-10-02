@@ -863,5 +863,55 @@
     "amountInclTaxDisplay": "0",
     "conditionsDisplay": "最大2か月。一部機能のみ。決算・申告機能不可。 初年度無償キャンペーン契約とは別。",
     "maximumMonthsDisplay": "2"
+  },
+  {
+    "id": "yayoi-desktop-26-purchase",
+    "service": "やよいの青色申告26 インストール型",
+    "plan": "セルフ/ベーシック付き初年度優待",
+    "audience": "sole-proprietor",
+    "billingPeriod": "one-time",
+    "currency": "JPY",
+    "amountExclTax": 14000,
+    "taxRate": 0.1,
+    "taxAmount": 1400,
+    "amountInclTax": 15400,
+    "taxCalculation": "税込は公式税抜価格に10%を加えた計算値",
+    "effectiveFrom": "2026-09-01",
+    "effectiveUntil": null,
+    "effectiveDateBasis": "公式表2026年9月1日現在。既存保守更新は2026年10月以降適用の改定案内を確認。",
+    "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/",
+    "accessedAt": "2026-10-02",
+    "verified": true,
+    "conditions": [
+      "公式ストアの初年度優待。製品単体は販売店ごとのオープン価格。",
+      "保守は自動更新、停止は更新案内に従う。"
+    ],
+    "amountExclTaxDisplay": "14,000",
+    "amountInclTaxDisplay": "15,400"
+  },
+  {
+    "id": "yayoi-desktop-self-maintenance",
+    "service": "やよいの青色申告26 インストール型",
+    "plan": "セルフ保守通常年額",
+    "audience": "sole-proprietor",
+    "billingPeriod": "annual",
+    "currency": "JPY",
+    "amountExclTax": 12300,
+    "taxRate": 0.1,
+    "taxAmount": 1230,
+    "amountInclTax": 13530,
+    "taxCalculation": "税込は公式税抜価格に10%を加えた計算値",
+    "effectiveFrom": "2026-09-01",
+    "effectiveUntil": null,
+    "effectiveDateBasis": "公式表2026年9月1日現在。既存保守更新は2026年10月以降適用の改定案内を確認。",
+    "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/",
+    "accessedAt": "2026-10-02",
+    "verified": true,
+    "conditions": [
+      "公式ストアの初年度優待。製品単体は販売店ごとのオープン価格。",
+      "保守は自動更新、停止は更新案内に従う。"
+    ],
+    "amountExclTaxDisplay": "12,300",
+    "amountInclTaxDisplay": "13,530"
   }
 ]
