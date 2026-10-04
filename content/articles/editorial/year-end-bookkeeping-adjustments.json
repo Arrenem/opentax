@@ -117,5 +117,31 @@
     "additionalFactualReview": "completed",
     "jargonReview": "completed"
   },
-  "description": "決算整理は、年末までの入出金を、その年の売上・経費と12月31日の資産・負債へ整理する作業です。12月に終えた仕事が1月入金なら未入金の売上を記録し、翌年分の家賃を先払いしたなら当年経費から分けます。普段の記帳漏れを直した後に、年またぎ、在庫、減価償却、私用分を順に見れば、必要な仕訳を整理できます。"
+  "description": "決算整理は、年末までの入出金を、その年の売上・経費と12月31日の資産・負債へ整理する作業です。12月に終えた仕事が1月入金なら未入金の売上を記録し、翌年分の家賃を先払いしたなら当年経費から分けます。普段の記帳漏れを直した後に、年またぎ、在庫、減価償却、私用分を順に見れば、必要な仕訳を整理できます。",
+  "publicationPreparationReview": {
+    "articleId": "56",
+    "slug": "year-end-bookkeeping-adjustments",
+    "reviewedAt": "2026-10-04",
+    "performedBy": "Codex（AIアシスタント）",
+    "responsibleEditorialId": "opentax-editorial",
+    "professionalSupervision": false,
+    "method": "国税庁一次資料とリポジトリ実装の照合。記事内の限定された架空例を対象とし、個別申告の適法性や専門家監修を示さない。",
+    "checks": [
+      "現金主義特例を使わない一般例。経費債務確定3条件、提供済み収益と翌年サービスの前受を区別。棚卸は期首＋仕入−期末。",
+      "短期前払特例を適用せず通常の期間配分例。前受金科目は未対応で預り金に置換しない。集計完成を一律に保証しない。"
+    ],
+    "sources": [
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+      "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+    ],
+    "reviewedBodySha256": "ee1f77a4618fb66128de8171113d833c97e0332fc42ff267bac4f0ab8384db38",
+    "implementationEvidence": [
+      "lib/accounting/reports.ts",
+      "lib/accounting/chartOfAccounts.ts"
+    ],
+    "runtimeEvidence": "lib/accounting/articlePublicationExamples.test.ts"
+  },
+  "reviewedSourceSha256": "ee1f77a4618fb66128de8171113d833c97e0332fc42ff267bac4f0ab8384db38"
 }

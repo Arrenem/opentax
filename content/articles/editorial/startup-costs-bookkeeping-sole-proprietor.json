@@ -113,5 +113,31 @@
     "additionalFactualReview": "completed",
     "jargonReview": "completed"
   },
-  "description": "開業前に払ったお金は、開業準備の費用、固定資産、商品、返還される敷金などに分けて記帳します。開業費に当たる支出は繰延資産として記録し、償却した額を必要経費にします。任意償却なら、一度に全額を償却するほか、未償却残高の範囲で年ごとに償却額を決められます。"
+  "description": "開業前に払ったお金は、開業準備の費用、固定資産、商品、返還される敷金などに分けて記帳します。開業費に当たる支出は繰延資産として記録し、償却した額を必要経費にします。任意償却なら、一度に全額を償却するほか、未償却残高の範囲で年ごとに償却額を決められます。",
+  "publicationPreparationReview": {
+    "articleId": "53",
+    "slug": "startup-costs-bookkeeping-sole-proprietor",
+    "reviewedAt": "2026-10-04",
+    "performedBy": "Codex（AIアシスタント）",
+    "responsibleEditorialId": "opentax-editorial",
+    "professionalSupervision": false,
+    "method": "国税庁一次資料とリポジトリ実装の照合。記事内の限定された架空例を対象とし、個別申告の適法性や専門家監修を示さない。",
+    "checks": [
+      "開業費は60か月均等又は任意償却。未償却額があれば60か月後も任意償却可能。取得資産とは区別。",
+      "勘定科目表に開業費がないため、OpenTaxへの開業費記帳・償却対応の訴求を削除した。"
+    ],
+    "sources": [
+      "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+      "https://www.nta.go.jp/law/shitsugi/shotoku/04/08.htm",
+      "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+    ],
+    "reviewedBodySha256": "56bda148dfdd10f1074dc347fbdb6e8b90a4c76a313e781a109d0abe64c3c86b",
+    "implementationEvidence": [
+      "lib/accounting/chartOfAccounts.ts",
+      "lib/domain/journals/service.ts"
+    ],
+    "runtimeEvidence": "実装の静的照合（電子帳簿保存法の適合認証・実際の確定申告は未実施）"
+  },
+  "reviewedSourceSha256": "56bda148dfdd10f1074dc347fbdb6e8b90a4c76a313e781a109d0abe64c3c86b"
 }

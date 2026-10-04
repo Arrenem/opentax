@@ -6015,8 +6015,7 @@
     "relatedSlugs": [
       "credit-card-journal-sole-proprietor",
       "sole-proprietor-bookkeeping-routine",
-      "owners-drawings-contributions-journal",
-      "blue-return-financial-statements-howto"
+      "owners-drawings-contributions-journal"
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
@@ -6132,7 +6131,7 @@
     "authorId": "opentax-editorial",
     "status": "draft",
     "publishedAt": null,
-    "updatedAt": "2026-10-03",
+    "updatedAt": "2026-10-04",
     "reviewedAt": null,
     "sources": [
       {
@@ -6193,12 +6192,10 @@
       }
     ],
     "relatedSlugs": [
-      "etax-filing-sole-proprietor",
       "ai-journal-entry-workflow",
       "receipt-organization-sole-proprietor",
       "monthly-bookkeeping-reconciliation",
-      "year-end-bookkeeping-adjustments",
-      "blue-return-financial-statements-howto"
+      "year-end-bookkeeping-adjustments"
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
@@ -6796,7 +6793,7 @@
     "status": "draft",
     "publishedAt": null,
     "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "reviewedAt": "2026-10-04",
     "sources": [
       {
         "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
@@ -6839,24 +6836,24 @@
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 電子取引保存の要件と運用。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "sourcePath": "content/articles/electronic-transaction-records-howto.md",
     "requiresTaxReview": true,
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "電子取引原データを保存。訂正削除防止と可視性を組み合わせる。2026年の検索免除判定は2024年売上5,000万円以下かつダウンロード対応。",
+      "PDF保管・記帳依頼は対応するが、アップロード自体で法令全要件を満たすとは記載していない。"
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 電子取引保存の要件と運用。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "suggestedEnhancements": [],
-    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
       "電子取引保存の要件と運用"
     ],
@@ -6926,7 +6923,10 @@
         "headingId": "section-5",
         "alt": "索引から原資料へ戻れるようにする。詳しい内容は直後のテキストと本文に記載。"
       }
-    ]
+    ],
+    "taxReviewerId": "opentax-editorial",
+    "taxReviewedAt": "2026-10-04",
+    "taxReviewRecordPath": "content/articles/publication-tax-review-2026-10-04.json"
   },
   {
     "id": "47",
@@ -7126,8 +7126,7 @@
       "business-use-expense-apportionment",
       "double-entry-bookkeeping-howto",
       "credit-card-journal-sole-proprietor",
-      "withheld-freelance-fees-journal",
-      "blue-return-financial-statements-howto"
+      "withheld-freelance-fees-journal"
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
@@ -7240,8 +7239,8 @@
     "authorId": "opentax-editorial",
     "status": "draft",
     "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "updatedAt": "2026-10-04",
+    "reviewedAt": "2026-10-04",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
@@ -7285,24 +7284,24 @@
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 家事按分の事業割合と根拠。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "sourcePath": "content/articles/business-use-expense-apportionment.md",
     "requiresTaxReview": true,
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "必要経費は記録に基づいて明確に区分できる事業分。50％以下でも明確な区分が必要。親族家賃・住宅ローン元本は別扱い。",
+      "実際の集計が家賃・通信費の設定割合を掛けるため、全額入力と設定割合を明示し二重按分を避けた。"
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 家事按分の事業割合と根拠。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "suggestedEnhancements": [],
-    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
       "家事按分の事業割合と根拠"
     ],
@@ -7372,7 +7371,10 @@
         "headingId": "section-2",
         "alt": "面積20％なら、家賃の事業分は2万円。詳しい内容は直後のテキストと本文に記載。"
       }
-    ]
+    ],
+    "taxReviewerId": "opentax-editorial",
+    "taxReviewedAt": "2026-10-04",
+    "taxReviewRecordPath": "content/articles/publication-tax-review-2026-10-04.json"
   },
   {
     "id": "50",
@@ -7692,8 +7694,8 @@
     "authorId": "opentax-editorial",
     "status": "draft",
     "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "updatedAt": "2026-10-04",
+    "reviewedAt": "2026-10-04",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm",
@@ -7734,40 +7736,54 @@
         "accessedAt": "2026-10-03",
         "claim": "報酬減額禁止の対象取引では合意があっても通常の振込手数料を受注者負担として差し引けない。",
         "verified": true
+      },
+      {
+        "title": "国税庁：源泉徴収が必要な報酬・料金等とは",
+        "publisher": "国税庁",
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2792.htm",
+        "claim": "国内の居住者に支払う対象報酬の範囲",
+        "accessedAt": "2026-10-04",
+        "verified": true
+      },
+      {
+        "title": "国税庁：源泉徴収義務者とは",
+        "publisher": "国税庁",
+        "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm",
+        "claim": "給与所得の源泉徴収義務を有しない個人の報酬支払の例外",
+        "accessedAt": "2026-10-04",
+        "verified": true
       }
     ],
     "relatedSlugs": [
       "accounts-receivable-reconciliation-howto",
-      "owners-drawings-contributions-journal",
-      "blue-return-financial-statements-howto",
-      "etax-filing-sole-proprietor"
+      "owners-drawings-contributions-journal"
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 源泉対象・消費税区分・年またぎの引継ぎ。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "sourcePath": "content/articles/withheld-freelance-fees-journal.md",
     "requiresTaxReview": true,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
-      "本文を記帳・照合の確定済み範囲へ限定。正式2026年様式を前提にする欄番号や画面手順は扱わない。"
+      "本文を記帳・照合の確定済み範囲へ限定。正式2026年様式を前提にする欄番号や画面手順は扱わない。",
+      "2026年の居住者・対象原稿料等に限定。100万円以下10.21％、超過部分20.42％、端数切捨て。消費税明示時の源泉対象額区別。",
+      "税込売上110,000円、源泉10,210円、入金99,790円。源泉は経費ではなく事業主貸。対象外報酬・個人支払者例外を補足。"
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 源泉対象・消費税区分・年またぎの引継ぎ。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "suggestedEnhancements": [],
-    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
       "源泉対象・消費税区分・年またぎの引継ぎ"
     ],
-    "sourcesMarkdown": "制度・公開機能は2026年10月3日に確認しました。\n\n1. [国税庁：原稿料や講演料等を支払ったとき](https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm)\n2. [国税庁：必要経費の知識](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm)\n3. [OpenTax：機能と利用方法](https://github.com/Arrenem/opentax/blob/main/README.md)\n4. [OpenTax：現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)\n\n5. [公正取引委員会：フリーランス法Q&A Q78](https://www.jftc.go.jp/fllaw_limited/fllaw_qa.html)",
+    "sourcesMarkdown": "制度・公開機能は2026年10月3日に確認しました。\n\n1. [国税庁：原稿料や講演料等を支払ったとき](https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm)\n2. [国税庁：必要経費の知識](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm)\n3. [OpenTax：機能と利用方法](https://github.com/Arrenem/opentax/blob/main/README.md)\n4. [OpenTax：現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)\n\n5. [公正取引委員会：フリーランス法Q&A Q78](https://www.jftc.go.jp/fllaw_limited/fllaw_qa.html)\n6. [国税庁：源泉徴収が必要な報酬・料金等とは](https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2792.htm)\n7. [国税庁：源泉徴収義務者とは](https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm)",
     "sourcesCheckedAt": "2026-10-03",
     "cta": {
       "href": "https://opentax.fragmentware.com/",
@@ -7832,7 +7848,10 @@
         "headingId": "section-3",
         "alt": "源泉対象額で入金額は変わる。詳しい内容は直後のテキストと本文に記載。"
       }
-    ]
+    ],
+    "taxReviewerId": "opentax-editorial",
+    "taxReviewedAt": "2026-10-04",
+    "taxReviewRecordPath": "content/articles/publication-tax-review-2026-10-04.json"
   },
   {
     "id": "53",
@@ -7855,8 +7874,8 @@
     "authorId": "opentax-editorial",
     "status": "draft",
     "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "updatedAt": "2026-10-04",
+    "reviewedAt": "2026-10-04",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
@@ -7895,30 +7914,29 @@
       "computer-depreciation-sole-proprietor",
       "receipt-organization-sole-proprietor",
       "owners-drawings-contributions-journal",
-      "sole-proprietor-bookkeeping-routine",
-      "blue-return-financial-statements-howto"
+      "sole-proprietor-bookkeeping-routine"
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 開業費と資産・通常経費の区分。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "sourcePath": "content/articles/startup-costs-bookkeeping-sole-proprietor.md",
     "requiresTaxReview": true,
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "開業費は60か月均等又は任意償却。未償却額があれば60か月後も任意償却可能。取得資産とは区別。",
+      "勘定科目表に開業費がないため、OpenTaxへの開業費記帳・償却対応の訴求を削除した。"
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 開業費と資産・通常経費の区分。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "suggestedEnhancements": [],
-    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
       "開業費と資産・通常経費の区分"
     ],
@@ -7988,7 +8006,10 @@
         "headingId": "section-4",
         "alt": "開業費10万円を3年で償却する例。詳しい内容は直後のテキストと本文に記載。"
       }
-    ]
+    ],
+    "taxReviewerId": "opentax-editorial",
+    "taxReviewedAt": "2026-10-04",
+    "taxReviewRecordPath": "content/articles/publication-tax-review-2026-10-04.json"
   },
   {
     "id": "54",
@@ -8011,8 +8032,8 @@
     "authorId": "opentax-editorial",
     "status": "draft",
     "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "updatedAt": "2026-10-04",
+    "reviewedAt": "2026-10-04",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
@@ -8066,30 +8087,29 @@
     "relatedSlugs": [
       "year-end-bookkeeping-adjustments",
       "business-use-expense-apportionment",
-      "startup-costs-bookkeeping-sole-proprietor",
-      "blue-return-financial-statements-howto"
+      "startup-costs-bookkeeping-sole-proprietor"
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 少額資産特例・耐用年数と事業割合。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "sourcePath": "content/articles/computer-depreciation-sole-proprietor.md",
     "requiresTaxReview": true,
     "correctionLog": [],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "2026年3月以前30万円未満、4月以後40万円未満。適用期限2029年3月31日、年間300万円、対象者条件、貸付例外、一括償却重複不可、税込税抜の価額基準を確認。",
+      "実装は30万円基準・取得月計算・事業部分残高。制度の一般説明と実装の対応範囲を分けた。24万円の通常定額・取得供用同月の例に限定。"
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 少額資産特例・耐用年数と事業割合。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "suggestedEnhancements": [],
-    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
       "少額資産特例・耐用年数と事業割合"
     ],
@@ -8158,7 +8178,10 @@
         "headingId": "section-3",
         "alt": "24万円のPC：購入と償却を分ける。詳しい内容は直後のテキストと本文に記載。"
       }
-    ]
+    ],
+    "taxReviewerId": "opentax-editorial",
+    "taxReviewedAt": "2026-10-04",
+    "taxReviewRecordPath": "content/articles/publication-tax-review-2026-10-04.json"
   },
   {
     "id": "55",
@@ -8327,8 +8350,8 @@
     "authorId": "opentax-editorial",
     "status": "draft",
     "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "updatedAt": "2026-10-04",
+    "reviewedAt": "2026-10-04",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
@@ -8368,31 +8391,30 @@
       "monthly-bookkeeping-reconciliation",
       "business-use-expense-apportionment",
       "credit-card-journal-sole-proprietor",
-      "accounts-receivable-reconciliation-howto",
-      "blue-return-financial-statements-howto"
+      "accounts-receivable-reconciliation-howto"
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
     "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 収益認識・債務確定・短期前払特例・棚卸。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "sourcePath": "content/articles/year-end-bookkeeping-adjustments.md",
     "requiresTaxReview": true,
     "correctionLog": [],
     "verificationNotes": [
       "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
-      "本文を記帳・照合の確定済み範囲へ限定。正式2026年様式を前提にする欄番号や画面手順は扱わない。"
+      "本文を記帳・照合の確定済み範囲へ限定。正式2026年様式を前提にする欄番号や画面手順は扱わない。",
+      "現金主義特例を使わない一般例。経費債務確定3条件、提供済み収益と翌年サービスの前受を区別。棚卸は期首＋仕入−期末。",
+      "短期前払特例を適用せず通常の期間配分例。前受金科目は未対応で預り金に置換しない。集計完成を一律に保証しない。"
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
     "publicationApproval": "pending",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "編集品質基準として専門レビュー待ち: 収益認識・債務確定・短期前払特例・棚卸。法的な一律監修義務を意味しない。"
+      "公開承認待ち。"
     ],
     "suggestedEnhancements": [],
-    "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
+    "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
       "収益認識・債務確定・短期前払特例・棚卸"
     ],
@@ -8461,7 +8483,10 @@
         "headingId": "section-2",
         "alt": "年末の未入金と前金を分ける。詳しい内容は直後のテキストと本文に記載。"
       }
-    ]
+    ],
+    "taxReviewerId": "opentax-editorial",
+    "taxReviewedAt": "2026-10-04",
+    "taxReviewRecordPath": "content/articles/publication-tax-review-2026-10-04.json"
   },
   {
     "id": "57",
@@ -8536,7 +8561,6 @@
       }
     ],
     "relatedSlugs": [
-      "etax-filing-sole-proprietor",
       "year-end-bookkeeping-adjustments",
       "computer-depreciation-sole-proprietor",
       "owners-drawings-contributions-journal",
@@ -8715,7 +8739,6 @@
       }
     ],
     "relatedSlugs": [
-      "blue-return-financial-statements-howto",
       "year-end-bookkeeping-adjustments",
       "withheld-freelance-fees-journal",
       "ai-tax-return-howto",

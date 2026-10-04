@@ -121,5 +121,31 @@
     "additionalFactualReview": "completed",
     "jargonReview": "completed"
   },
-  "description": "家事按分は、仕事と生活で共用している支出から、事業に必要な部分を分けることです。全員に共通する「家賃は何％まで」という割合はなく、仕事で使う面積や利用記録など、実態に合う根拠で計算します。"
+  "description": "家事按分は、仕事と生活で共用している支出から、事業に必要な部分を分けることです。全員に共通する「家賃は何％まで」という割合はなく、仕事で使う面積や利用記録など、実態に合う根拠で計算します。",
+  "publicationPreparationReview": {
+    "articleId": "49",
+    "slug": "business-use-expense-apportionment",
+    "reviewedAt": "2026-10-04",
+    "performedBy": "Codex（AIアシスタント）",
+    "responsibleEditorialId": "opentax-editorial",
+    "professionalSupervision": false,
+    "method": "国税庁一次資料とリポジトリ実装の照合。記事内の限定された架空例を対象とし、個別申告の適法性や専門家監修を示さない。",
+    "checks": [
+      "必要経費は記録に基づいて明確に区分できる事業分。50％以下でも明確な区分が必要。親族家賃・住宅ローン元本は別扱い。",
+      "実際の集計が家賃・通信費の設定割合を掛けるため、全額入力と設定割合を明示し二重按分を避けた。"
+    ],
+    "sources": [
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm",
+      "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+    ],
+    "reviewedBodySha256": "e45025d9bcce3c41357f6f822c74ac9094829e8bbfd2dcfd2c35c369bb886116",
+    "implementationEvidence": [
+      "lib/tax/allocation.ts",
+      "lib/accounting/reports.ts"
+    ],
+    "runtimeEvidence": "lib/accounting/articlePublicationExamples.test.ts"
+  },
+  "reviewedSourceSha256": "e45025d9bcce3c41357f6f822c74ac9094829e8bbfd2dcfd2c35c369bb886116"
 }

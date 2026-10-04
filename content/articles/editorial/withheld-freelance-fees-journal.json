@@ -130,5 +130,34 @@
     "additionalFactualReview": "completed",
     "jargonReview": "completed"
   },
-  "description": "源泉徴収された報酬は、振込額だけを売上にせず、報酬総額と引かれた税額を分けて記録します。報酬100,000円と消費税10,000円を明確に分けて請求し、報酬部分だけを源泉対象とした例なら、源泉税は10,210円、入金は99,790円です。以下は2026年に原稿料を受け取る個人事業主側の記帳例です。"
+  "description": "源泉徴収された報酬は、振込額だけを売上にせず、報酬総額と引かれた税額を分けて記録します。報酬100,000円と消費税10,000円を明確に分けて請求し、報酬部分だけを源泉対象とした例なら、源泉税は10,210円、入金は99,790円です。以下は2026年に原稿料を受け取る個人事業主側の記帳例です。",
+  "publicationPreparationReview": {
+    "articleId": "52",
+    "slug": "withheld-freelance-fees-journal",
+    "reviewedAt": "2026-10-04",
+    "performedBy": "Codex（AIアシスタント）",
+    "responsibleEditorialId": "opentax-editorial",
+    "professionalSupervision": false,
+    "method": "国税庁一次資料とリポジトリ実装の照合。記事内の限定された架空例を対象とし、個別申告の適法性や専門家監修を示さない。",
+    "checks": [
+      "2026年の居住者・対象原稿料等に限定。100万円以下10.21％、超過部分20.42％、端数切捨て。消費税明示時の源泉対象額区別。",
+      "税込売上110,000円、源泉10,210円、入金99,790円。源泉は経費ではなく事業主貸。対象外報酬・個人支払者例外を補足。"
+    ],
+    "sources": [
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm",
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "https://www.jftc.go.jp/fllaw_limited/fllaw_qa.html",
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2792.htm",
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm"
+    ],
+    "reviewedBodySha256": "d89bc8c14ad69926d6b9bedcdbbc9036b9a05043fc30578b438991d27333df0c",
+    "implementationEvidence": [
+      "lib/billing/accountingPost.ts",
+      "lib/accounting/reports.ts"
+    ],
+    "runtimeEvidence": "lib/accounting/articlePublicationExamples.test.ts"
+  },
+  "reviewedSourceSha256": "d89bc8c14ad69926d6b9bedcdbbc9036b9a05043fc30578b438991d27333df0c"
 }

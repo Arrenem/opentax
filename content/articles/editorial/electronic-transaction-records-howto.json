@@ -115,5 +115,31 @@
     "additionalFactualReview": "completed",
     "jargonReview": "completed"
   },
-  "description": "メールや購入サイトで受け取った請求書・領収書は、電子データのまま、後から探して表示できる形で保存します。少量なら、フォルダーに原データを置き、日付・金額・取引先の索引と、訂正削除を防ぐ運用を組み合わせる方法があります。ファイル名を付けるだけで終えず、表示・検索・取り出しまでできることが大切です。"
+  "description": "メールや購入サイトで受け取った請求書・領収書は、電子データのまま、後から探して表示できる形で保存します。少量なら、フォルダーに原データを置き、日付・金額・取引先の索引と、訂正削除を防ぐ運用を組み合わせる方法があります。ファイル名を付けるだけで終えず、表示・検索・取り出しまでできることが大切です。",
+  "publicationPreparationReview": {
+    "articleId": "46",
+    "slug": "electronic-transaction-records-howto",
+    "reviewedAt": "2026-10-04",
+    "performedBy": "Codex（AIアシスタント）",
+    "responsibleEditorialId": "opentax-editorial",
+    "professionalSupervision": false,
+    "method": "国税庁一次資料とリポジトリ実装の照合。記事内の限定された架空例を対象とし、個別申告の適法性や専門家監修を示さない。",
+    "checks": [
+      "電子取引原データを保存。訂正削除防止と可視性を組み合わせる。2026年の検索免除判定は2024年売上5,000万円以下かつダウンロード対応。",
+      "PDF保管・記帳依頼は対応するが、アップロード自体で法令全要件を満たすとは記載していない。"
+    ],
+    "sources": [
+      "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+      "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/0021006-031.htm",
+      "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+    ],
+    "reviewedBodySha256": "d7aebdf747ed0415b73a48f25f9d2469d406ce26db33f2ec1bdbf1fe5c2696d1",
+    "implementationEvidence": [
+      "app/api/documents/route.ts",
+      "packages/opentax-mcp/server.ts"
+    ],
+    "runtimeEvidence": "実装の静的照合（電子帳簿保存法の適合認証・実際の確定申告は未実施）"
+  },
+  "reviewedSourceSha256": "d7aebdf747ed0415b73a48f25f9d2469d406ce26db33f2ec1bdbf1fe5c2696d1"
 }

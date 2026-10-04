@@ -134,5 +134,32 @@
     "additionalFactualReview": "completed",
     "jargonReview": "completed"
   },
-  "description": "仕事用パソコンは、取得価額10万円未満なら原則として使い始めた年の経費にし、10万円以上は一括償却や青色申告者の特例、通常の減価償却から処理を判断します。2026年は、一定の青色申告者が使える少額資産特例の価額基準が、4月1日以後の取得分から40万円未満へ変わっています。"
+  "description": "仕事用パソコンは、取得価額10万円未満なら原則として使い始めた年の経費にし、10万円以上は一括償却や青色申告者の特例、通常の減価償却から処理を判断します。2026年は、一定の青色申告者が使える少額資産特例の価額基準が、4月1日以後の取得分から40万円未満へ変わっています。",
+  "publicationPreparationReview": {
+    "articleId": "54",
+    "slug": "computer-depreciation-sole-proprietor",
+    "reviewedAt": "2026-10-04",
+    "performedBy": "Codex（AIアシスタント）",
+    "responsibleEditorialId": "opentax-editorial",
+    "professionalSupervision": false,
+    "method": "国税庁一次資料とリポジトリ実装の照合。記事内の限定された架空例を対象とし、個別申告の適法性や専門家監修を示さない。",
+    "checks": [
+      "2026年3月以前30万円未満、4月以後40万円未満。適用期限2029年3月31日、年間300万円、対象者条件、貸付例外、一括償却重複不可、税込税抜の価額基準を確認。",
+      "実装は30万円基準・取得月計算・事業部分残高。制度の一般説明と実装の対応範囲を分けた。24万円の通常定額・取得供用同月の例に限定。"
+    ],
+    "sources": [
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2106.htm",
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/2100_01.pdf",
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/2100_02.pdf",
+      "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+    ],
+    "reviewedBodySha256": "93a0a811f339bc17887b92928d4e727ab3acd2204aea12d702972ee33b6e04c5",
+    "implementationEvidence": [
+      "lib/tax/depreciation.ts"
+    ],
+    "runtimeEvidence": "lib/accounting/articlePublicationExamples.test.ts"
+  },
+  "reviewedSourceSha256": "93a0a811f339bc17887b92928d4e727ab3acd2204aea12d702972ee33b6e04c5"
 }

@@ -94,7 +94,7 @@ AIが出した合計も、請求書や支払資料の数字から再計算すれ
 
 [出典5](#sources)
 
-書類ができた後の送信と受付確認は、[個人事業主のe-Tax手順](/articles/etax-filing-sole-proprietor)へ進めます。
+書類ができた後の送信と受付確認は、[国税庁 e-Taxの個人向け案内](https://www.e-tax.nta.go.jp/kojin.html)へ進めます。
 
 ## AIの候補を帳簿へつなぐならOpenTax {#section-6}
 
