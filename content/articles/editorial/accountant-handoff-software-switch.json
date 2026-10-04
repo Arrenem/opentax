@@ -1,0 +1,107 @@
+{
+  "id": "26",
+  "slug": "accountant-handoff-software-switch",
+  "title": "税理士に頼んでいても会計ソフトは変えられる？受け渡しと修正の決め方",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "税理士とやり取り中に会計ソフトを変える条件は何か",
+  "answerSummary": "受け渡し形式と帳簿の修正担当を決め、少量データで取込と修正の往復を確認する。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "会計ソフト間のCSV受け渡しには形式と科目の対応が必要",
+      "sourceUrl": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxに税理士共同作業用の権限管理はない",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "freee：仕訳帳をCSV・PDF形式で出力する",
+      "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "マネーフォワード：freeeの仕訳インポート",
+      "url": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "original-diagram-or-table",
+      "placement": "修正例の表",
+      "purpose": "双方の修正の食い違いを防ぐ",
+      "content": "T018の変更前→変更後→反映担当→確認済みの順。機能実画面ではなく運用図。",
+      "license": "新規オリジナル図表。本文の事実・架空計算例を使用。第三者画像なし。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTax紹介直後、出典前"
+  },
+  "headingAnchors": [
+    {
+      "heading": "製品名より、今の確認方法から考える",
+      "id": "section-1"
+    },
+    {
+      "heading": "切替前に合わせる六つの項目",
+      "id": "section-2"
+    },
+    {
+      "heading": "修正は「どちらの帳簿が最新か」を決める",
+      "id": "section-3"
+    },
+    {
+      "heading": "年末と翌年初めの資料も引き継ぐ",
+      "id": "section-4"
+    },
+    {
+      "heading": "OpenTaxを選ぶなら、共同編集とは分けて考える",
+      "id": "section-5"
+    }
+  ],
+  "changes": [
+    "冒頭で主質問に回答",
+    "操作・検算の具体例を残して一文一段落に改稿",
+    "記事固有のOpenTax紹介と直下CTA",
+    "重複出典と宿題調の末尾を整理",
+    "主題に貢献しない計算練習・重複注意書きを削減し、出典を小見出しへ統一。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "6a1ff66480ff29e74f0e3cddd45c106464b254357c04269753033ddd4f99819c",
+  "wordingReview": "人手の専門監修・実機検証済みとは表記しない",
+  "editorialReview": {
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "sourceSeparation": "single compact list",
+    "publicationAuthorized": false,
+    "structuralPass": "completed",
+    "baselineChanged": false,
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "verificationNotes": [
+    "税理士側の実データ受入テストは未実施。OpenTaxの任意会計ソフト向け出力互換を主張しない。"
+  ],
+  "reviewGate": "公開前の編集承認・必要な税務レビューと実装検査。資料比較のまま実機検証済みと表示しない。",
+  "description": "税理士に依頼していても、データの受け渡し方を合わせれば、会計ソフトの変更を検討できます。先に決めたいのは、送るファイルの形式と、誰が帳簿を直すかの二つです。同じソフトを使う必要があるか、CSVやPDFでやり取りできるかによって、選べる候補が変わります。"
+}

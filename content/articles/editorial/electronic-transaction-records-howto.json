@@ -1,0 +1,119 @@
+{
+  "id": "46",
+  "slug": "electronic-transaction-records-howto",
+  "title": "電子取引データの保存方法：PDF請求書をフォルダーで管理する手順",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "PDF請求書やネットの領収書は、専用ソフトがなくてもどう保存できる？",
+  "answerSummary": "メールや購入サイトで受け取った請求書・領収書は、電子データのまま、後から探して表示できる形で保存します。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "電子取引の保存には真実性・可視性を確保する要件があり、規程を定め備え付け運用する方法がある。",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "個人事業者の前々年売上5,000万円以下等ではダウンロードの求めへの対応を条件に検索要件が緩和される。",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：電子帳簿保存法一問一答 電子取引関係（令和8年7月）",
+      "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：事務処理規程などのサンプル",
+      "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/0021006-031.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "受け取ったデータに索引を付けるの説明直後",
+      "purpose": "受け取ったデータに索引を付けるを具体的な数字・条件で理解できるようにする",
+      "content": "| 索引ID | 取引日 | 金額 | 取引先 | ファイル名の例 |\n| --- | --- | ---: | --- | --- |\n| E001 | 2026年9月2日 | 11,000円 | A通信 | 20260902_11000_A通信_E001.pdf |\n| E002 | 2026年9月10日 | 22,000円 | B制作 | 20260910_22000_B制作_E002.pdf |\n| E003 | 2026年9月21日 | 3,300円 | C文具 | 20260921_3300_C文具_E003.pdf |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "保存できたかは、探して開くところまで確かめるの説明直後",
+      "purpose": "保存できたかは、探して開くところまで確かめるを具体的な数字・条件で理解できるようにする",
+      "content": "| 確かめること | この例での確認結果 |\n| --- | --- |\n| 索引から検索できる | E002にB制作・22,000円を登録 |\n| 原資料を表示できる | PDFの全ページと文字を確認 |\n| データを取り出せる | 元のPDFをコピーして開ける |\n| 訂正を追える | 訂正版があれば元資料と変更理由を記録 |\n| 帳簿とつながる | 摘要のE002から同じPDFに戻れる |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "3件36,300円の索引例を維持。",
+    "受領だけでなく送信した電子取引資料も対象と明記。",
+    "検索緩和の売上基準と2026年の判定対象2024年を説明。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。",
+    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "電子取引と紙のスキャンは別の扱い",
+      "id": "section-1"
+    },
+    {
+      "heading": "受け取ったデータに索引を付ける",
+      "id": "section-2"
+    },
+    {
+      "heading": "専用ソフトがなくても、改ざん防止の運用を作れる",
+      "id": "section-3"
+    },
+    {
+      "heading": "検索の緩和があっても、データ保存は続ける",
+      "id": "section-4"
+    },
+    {
+      "heading": "保存できたかは、探して開くところまで確かめる",
+      "id": "section-5"
+    },
+    {
+      "heading": "証憑と帳簿を一緒に扱うOpenTaxの使い方",
+      "id": "section-6"
+    }
+  ],
+  "sourceSnapshotSha256": "cd6513536de42812ac5338f254214073320554f276f0a5a5a2ac5a7b09adf5fb",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "メールや購入サイトで受け取った請求書・領収書は、電子データのまま、後から探して表示できる形で保存します。少量なら、フォルダーに原データを置き、日付・金額・取引先の索引と、訂正削除を防ぐ運用を組み合わせる方法があります。ファイル名を付けるだけで終えず、表示・検索・取り出しまでできることが大切です。"
+}

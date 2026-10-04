@@ -1,0 +1,161 @@
+{
+  "id": "10",
+  "slug": "free-cloud-accounting",
+  "title": "無料のクラウド会計はある？個人事業主向けWebサービスとOpenTaxの違い",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "ブラウザで無料の会計ソフトを使えるか。WebサービスとWeb型OSSは何が違うか。",
+  "answerSummary": "白色向け継続無料はやよい白色。青色の国内サービスは期間限定。OpenTaxと現行Frappe Booksは自分の運用環境を使うWeb型で、保存と外部費用を分ける。",
+  "articleType": "comparison",
+  "productPlacement": "comparison-entry",
+  "keyClaims": [
+    {
+      "claim": "やよい白色フリーは継続無料。",
+      "sourceUrl": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "やよい青色セルフは対象者初年度0円の後に年11,800円税抜。",
+      "sourceUrl": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "freee試用では申告書出力不可。",
+      "sourceUrl": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "MF未契約では年50件・事業所得申告書出力不可。",
+      "sourceUrl": "https://biz.moneyforward.com/support/plan/guide/p024.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "Frappe Books現行版は自前サーバーでブラウザ利用。旧デスクトップアプリはサポート終了。",
+      "sourceUrl": "https://frappe.io/books",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは確認待ち仕訳がある年度のXTX出力不可。対象は青色一般用と申告書の一部。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは本体無料のオープンソースで、外部AIが解釈、OpenTaxが記帳、人が確認確定する。帳簿/請求書/証憑/固定資産を扱う。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは個人の事業所得が対象。保存先・外部AI費用は別の場合があり、申告範囲と共同作業には現行制約がある。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "弥生：白色申告の料金・機能",
+      "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "弥生：青色申告の料金・キャンペーン",
+      "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "無料体験の制限",
+      "url": "https://support.yayoi-kk.co.jp/faq_Subcontents.html?page_id=302",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "freee：個人向け無料利用の制限",
+      "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "マネーフォワード：トライアル",
+      "url": "https://biz.moneyforward.com/support/plan/guide/p008.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "無償利用の範囲",
+      "url": "https://biz.moneyforward.com/support/plan/guide/p024.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "Frappe Books：現行の提供形態と機能",
+      "url": "https://frappe.io/books",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と使い方",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "白色なら、継続無料のWebサービスがある {#services}",
+      "purpose": "本文の比較条件と数値・作業範囲を一覧で読めるようにする",
+      "content": "| サービス | 無料条件 | 記帳・申告で知っておきたいこと |\n| --- | --- | --- |\n| やよい白色・フリー | 継続無料 | 白色の帳簿と申告に対応、有人の操作質問サポートは対象外 |\n| やよい青色・セルフ | 対象者は初年度無料 | 決算・申告まで対応、次年度から年11,800円 |\n| freee会計 | 一定期間のお試し | 申告内容の入力まで、申告書出力は有料 |\n| MFクラウド確定申告 | 1か月トライアル、未契約も一部無料 | 未契約は年間50仕訳、事業所得の申告書出力は有料 |",
+      "license": "編集部作成。一次資料の事実と明記した架空例を再構成。"
+    },
+    {
+      "type": "table",
+      "placement": "保存と更新を誰が担うかで比べる",
+      "purpose": "本文の比較条件と数値・作業範囲を一覧で読めるようにする",
+      "content": "| 比較点 | 提供会社のWebサービス | 自分の環境で使うWeb型OSS |\n| --- | --- | --- |\n| アプリの提供・更新 | 提供会社 | 自分の運用環境で管理 |\n| 保存先 | サービス側 | 構築時に選んだ保存先 |\n| 費用 | プラン・無料期間による | 本体料と保存・ホスティング費を分ける |\n| 契約をやめたとき | 閲覧・出力制限を確認 | データとバックアップを自分で維持 |\n| AIへの入力依頼 | 製品ごとの対応範囲 | OpenTaxでは外部AIと連携可能 |",
+      "license": "編集部作成。一次資料の事実と明記した架空例を再構成。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "最後のOpenTax節直下、出典前"
+  },
+  "changes": [
+    "検索質問への具体的な結論を目次直後へ配置",
+    "一次資料を再読し2026-10-03の料金・無料条件・提供範囲へ更新",
+    "元本文の重要条件と記事固有の具体例・計算を維持",
+    "一文一段落と固有比較表へ整理",
+    "OpenTaxは記事の残る課題につなぎ、CTAを紹介直後へ配置",
+    "関連する次の作業への文脈リンクを追加",
+    "文字数目標を設けず、一般論や不要な確認宿題・反復する否定文を削減",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "ebde0da5f94451f1a9ba446a136454d4f6e0c43a8d24eaba7e7754a65b3b18ce",
+  "headingAnchors": [
+    {
+      "heading": "白色なら、継続無料のWebサービスがある",
+      "id": "services"
+    },
+    {
+      "heading": "本体無料のWeb型のオープンソース会計も、ブラウザで使える",
+      "id": "web-oss"
+    },
+    {
+      "heading": "入力・保存・申告を、実際の使い方で確かめる",
+      "id": "workflow"
+    },
+    {
+      "heading": "AIと一緒に日々の記帳を進めたいなら",
+      "id": "opentax"
+    }
+  ],
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "白色申告をブラウザで進めたいなら、やよいの白色申告 オンラインのフリープランを継続無料で使えます。青色申告向けの国内クラウド会計は、初年度無料や期間限定のお試しが中心です。"
+}

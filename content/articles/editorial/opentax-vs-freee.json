@@ -1,0 +1,119 @@
+{
+  "id": "39",
+  "slug": "opentax-vs-freee",
+  "title": "OpenTaxとfreeeを比較：料金・AI記帳・銀行連携・申告で選ぶ",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "OpenTaxとfreeeは料金と日々の作業・申告範囲でどう違い、どちらが合うか。",
+  "answerSummary": "freeeは銀行連携・共有・申告をまとめるサービス、OpenTaxは本体無料のAI連携帳簿。費用、仕訳確認、共同作業、申告範囲、移行サンプルを同じ軸で比較。",
+  "articleType": "alternative",
+  "productPlacement": "comparison-entry",
+  "keyClaims": [
+    {
+      "claim": "freeeスターターWeb年11,760円、月1,780円。スタンダード年23,760円、月2,980円税抜。",
+      "sourceUrl": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "freeeスターターから所得税申告、スタンダード以上で消費税申告、招待は制度とプランに依存。",
+      "sourceUrl": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは外部AIが内容解釈、OpenTaxが検証記録し人がAI登録仕訳を確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTax対象は暦年の個人事業所得、他所得合算/損益通算/純損失繰越や共同編集権限は非対応、XTXは一部。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "freee：個人向け料金・機能・税理士招待",
+      "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能・AI連携・利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：申告・共同作業などの現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "freeeは申告までのサービス、OpenTaxはAIと使う帳簿 {#comparison}",
+      "purpose": "本文の比較条件と数値・作業範囲を一覧で読めるようにする",
+      "content": "| 比べること | freee会計・個人向け | OpenTax |\n| --- | --- | --- |\n| 日々の記帳 | 手入力、銀行・カード明細の取り込み | 手入力、連携したAIからの記帳 |\n| AIとの分担 | 製品内の入力支援や連携機能を利用 | ChatGPTやClaudeが解釈、OpenTaxが検証・記録 |\n| 仕訳の確認 | 登録内容を確認・修正 | AI登録は確認待ちにし、人が画面で確定 |\n| 帳簿・レポート | 仕訳帳、元帳、試算表など | 複式帳簿、損益計算書・貸借対照表など |\n| 請求・証憑・固定資産 | プランの範囲で対応 | 見積書・請求書、証憑保管、固定資産に対応 |\n| 税理士との共有 | アドバイザー制度とプランに応じた招待 | 共同作業向けの権限管理は未対応 |\n| 所得税の申告 | スターターから申告書作成に対応 | 税額プレビューと一部内容のXTX出力 |\n| 消費税申告 | スタンダード以上 | 対応範囲を確認し、申告を別途仕上げる |",
+      "license": "編集部作成。一次資料の事実と明記した架空例を再構成。"
+    },
+    {
+      "type": "table",
+      "placement": "費用は、freeeの年額とOpenTaxの外部費用を比べる {#cost}",
+      "purpose": "本文の比較条件と数値・作業範囲を一覧で読めるようにする",
+      "content": "| 費用 | freee会計 | OpenTax |\n| --- | --- | --- |\n| ソフトの利用料 | スターター年11,760円、スタンダード年23,760円 | 本体無料 |\n| 月払い | スターター月1,780円、スタンダード月2,980円 | 本体の月額契約なし |\n| 保存先 | 契約内の容量・条件による | Firebaseなどの保存先費用がかかる場合あり |\n| 外部AI | 利用する連携による | 接続するChatGPT・Claudeなどの契約による |\n| 税理士との共同作業 | 招待条件とプランに応じる | 帳簿の受け渡し方法を別に決める |",
+      "license": "編集部作成。一次資料の事実と明記した架空例を再構成。"
+    },
+    {
+      "type": "table",
+      "placement": "乗り換えるなら、請求と入金の3件から確かめる {#migration}",
+      "purpose": "本文の比較条件と数値・作業範囲を一覧で読めるようにする",
+      "content": "| 確認する数字 | 3件を記帳したあとの状態 |\n| --- | ---: |\n| 売上 | 30,000円 |\n| 売掛金 | 入金後は0円 |\n| 消耗品費 | 2,000円 |\n| 事業主借 | 2,000円 |",
+      "license": "編集部作成。一次資料の事実と明記した架空例を再構成。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "最後のOpenTax節直下、出典前"
+  },
+  "changes": [
+    "検索質問への具体的な結論を目次直後へ配置",
+    "一次資料を再読し2026-10-03の料金・無料条件・提供範囲へ更新",
+    "元本文の重要条件と記事固有の具体例・計算を維持",
+    "一文一段落と固有比較表へ整理",
+    "OpenTaxは記事の残る課題につなぎ、CTAを紹介直後へ配置",
+    "関連する次の作業への文脈リンクを追加",
+    "文字数目標を設けず、一般論や不要な確認宿題・反復する否定文を削減",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。",
+    "独立レビューにより、直接CSV取込の未確認と消費税申告の担当範囲を曖昧にしない表現へ修正。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "91a55e6adf368f6feb92d415b87d8f96209a2e905e2b99da2c55f1da048bcb71",
+  "headingAnchors": [
+    {
+      "heading": "freeeは申告までのサービス、OpenTaxはAIと使う帳簿",
+      "id": "comparison"
+    },
+    {
+      "heading": "費用は、freeeの年額とOpenTaxの外部費用を比べる",
+      "id": "cost"
+    },
+    {
+      "heading": "乗り換えるなら、請求と入金の3件から確かめる",
+      "id": "migration"
+    },
+    {
+      "heading": "普段のAIへ記帳を頼みたい方へ",
+      "id": "opentax"
+    }
+  ],
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "銀行明細の同期、税理士との共同作業、申告書の作成までまとめたいなら、freee会計が候補です。普段のChatGPTやClaudeへ記帳を依頼し、自分で仕訳を確認しながらソフト代を抑えたいなら、OpenTaxが候補になります。この記事はOpenTaxの開発元が、両製品の公開資料をもとに編集しています。"
+}

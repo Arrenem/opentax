@@ -1,0 +1,102 @@
+{
+  "id": "32",
+  "slug": "accounting-open-source-license",
+  "title": "無料・ソース公開・オープンソースはどう違う？会計ソフトの選び方",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "無料ソフトとオープンソースの違いは何か",
+  "answerSummary": "無料は価格、ソース公開は見える状態、オープンソースは利用・改変・再配布の権利と条件。用途別に必要な確認が違う。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "オープンソースの定義は再配布・派生物等の条件を含む",
+      "sourceUrl": "https://opensource.org/osd",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AGPL13条はネットワーク越しの改変版利用者への対応ソース提供を定める",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Open Source Initiative：オープンソースの定義",
+      "url": "https://opensource.org/osd",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：AGPL第3版ライセンス原文",
+      "url": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "original-diagram-or-table",
+      "placement": "言葉の比較表",
+      "purpose": "価格と権利を混同しない",
+      "content": "無料＝価格、ソース公開＝閲覧、オープンソース＝許諾条件の3列。",
+      "license": "新規オリジナル図表。本文の事実・架空計算例を使用。第三者画像なし。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTax紹介直後、出典前"
+  },
+  "headingAnchors": [
+    {
+      "heading": "三つの言葉から分かること",
+      "id": "section-1"
+    },
+    {
+      "heading": "記帳に使う人と、改変して提供する人では見る点が違う",
+      "id": "section-2"
+    },
+    {
+      "heading": "AGPLのソフトで気になる「公開するもの」",
+      "id": "section-3"
+    },
+    {
+      "heading": "ライセンス以外の費用もある",
+      "id": "section-4"
+    },
+    {
+      "heading": "仕組みが見える個人事業向け会計ソフトを選ぶなら",
+      "id": "section-5"
+    }
+  ],
+  "changes": [
+    "冒頭で主質問に回答",
+    "操作・検算の具体例を残して一文一段落に改稿",
+    "記事固有のOpenTax紹介と直下CTA",
+    "重複出典と宿題調の末尾を整理",
+    "主題に貢献しない計算練習・重複注意書きを削減し、出典を小見出しへ統一。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "09a865cab9ddbdab56cf1f2aa75377108c798106087a89c2e3aff0569e941f6c",
+  "wordingReview": "人手の専門監修・実機検証済みとは表記しない",
+  "editorialReview": {
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "sourceSeparation": "single compact list",
+    "publicationAuthorized": false,
+    "structuralPass": "completed",
+    "baselineChanged": false,
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "verificationNotes": [
+    "ライセンス原文第13条を確認。特定の第三者サービスの法的適合判断はしていない。"
+  ],
+  "reviewGate": "公開前の編集承認・必要な税務レビューと実装検査。資料比較のまま実機検証済みと表示しない。",
+  "description": "「無料」は料金の話、「ソース公開」は仕組みを見られるという話、「オープンソース」は利用・改変・再配布の権利と条件の話です。会計ソフトを選ぶとき、この三つは別々に見ます。オープンソースのソフトを使った有料サービスもあれば、利用は無料でもコードを公開していないサービスもあります。"
+}

@@ -1,0 +1,154 @@
+{
+  "id": "11",
+  "slug": "free-accounting-for-freelancers",
+  "title": "開業したばかりの個人事業主へ：無料会計ソフトを選ぶ初年度の導入チェック",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "開業直後の初年度に、無料会計ソフトを導入する前に何を決め、どう選べばよいか。",
+  "answerSummary": "青白と申請期限、税理士との分担、売上1件・経費2件の入力修正出力で初年度に必要な道具を決める。製品一覧は親の無料会計比較記事へ分離。",
+  "articleType": "howto",
+  "productPlacement": "end-only",
+  "keyClaims": [
+    {
+      "claim": "青色申請は原則3月15日、新規開業が1月16日以降なら開業から2か月以内。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "2026年分55万円控除は複式帳簿・貸借対照表損益計算書等が必要で65万円はe-Tax等追加要件。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "白色申告者にも記帳・帳簿書類保存義務がある。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "税理士へ仕訳CSVを渡すならMFはパーソナル以上が必要。",
+      "sourceUrl": "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "やよい青色セルフは優待対象なら初年度0円、次年度11,800円税抜。",
+      "sourceUrl": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは本体無料のオープンソースで、外部AIが解釈、OpenTaxが記帳、人が確認確定する。帳簿/請求書/証憑/固定資産を扱う。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは個人の事業所得が対象。保存先・外部AI費用は別の場合があり、申告範囲と共同作業には現行制約がある。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：青色申告制度と申請期限",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "青色申告特別控除",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：個人事業者の記帳・保存",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "弥生：青色申告の料金とキャンペーン",
+      "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "マネーフォワード：プラン別機能",
+      "url": "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と使い方",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "最初に、青色・白色と申請日を確認する {#return-type}",
+      "purpose": "本文の比較条件と数値・作業範囲を一覧で読めるようにする",
+      "content": "| 開業時にそろえるもの | ソフトの設定・記帳で使う場所 |\n| --- | --- |\n| 開業日、青色申告承認申請の状況 | 申告方式と対象年度 |\n| 事業用の現金・銀行口座 | 開始時点の残高と入出金 |\n| 仕事に使うカード、個人の立替分 | 事業と私用の区分 |\n| 未入金の請求、未払いの経費 | 売掛金・未払金などの残高 |\n| パソコンなどの固定資産、商品在庫 | 減価償却や年末棚卸 |",
+      "license": "編集部作成。一次資料の事実と明記した架空例を再構成。"
+    },
+    {
+      "type": "table",
+      "placement": "税理士へ何を任せるかで、必要な機能が変わる {#roles}",
+      "purpose": "本文の比較条件と数値・作業範囲を一覧で読めるようにする",
+      "content": "| 分担 | 自分が使うソフトで必要なもの | 引き継ぐもの |\n| --- | --- | --- |\n| 記帳から申告まで自分 | 帳簿・決算書・申告書、提出手段 | 提出後の控えを自分で保存 |\n| 記帳は自分、決算と申告は税理士 | 仕訳・残高・証憑を渡せること | 指定のCSVや帳簿、資料 |\n| 記帳も税理士へ依頼 | 売上・請求・経費資料を集める仕組み | 請求書、領収書、口座明細など |",
+      "license": "編集部作成。一次資料の事実と明記した架空例を再構成。"
+    },
+    {
+      "type": "table",
+      "placement": "自分の仕事に近い3件で、初めのソフトを選ぶ {#sample}",
+      "purpose": "本文の比較条件と数値・作業範囲を一覧で読めるようにする",
+      "content": "| サンプル | 入力後に見えるとよいこと |\n| --- | --- |\n| 納品済みの売上30,000円、翌月入金予定 | 今月の売上30,000円と未入金30,000円が分かる |\n| 個人のお金で消耗品2,000円を立替 | 経費と個人の立替が分かれ、領収書に戻れる |\n| 事業口座から通信費3,000円を支払い | 経費と預金の減少が同じ取引で残る |",
+      "license": "編集部作成。一次資料の事実と明記した架空例を再構成。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "最後のOpenTax節直下、出典前"
+  },
+  "changes": [
+    "検索質問への具体的な結論を目次直後へ配置",
+    "一次資料を再読し2026-10-03の料金・無料条件・提供範囲へ更新",
+    "元本文の重要条件と記事固有の具体例・計算を維持",
+    "一文一段落と固有比較表へ整理",
+    "OpenTaxは記事の残る課題につなぎ、CTAを紹介直後へ配置",
+    "関連する次の作業への文脈リンクを追加",
+    "文字数目標を設けず、一般論や不要な確認宿題・反復する否定文を削減",
+    "09との競合を避け開業初年度の申請・税理士分担・サンプル取引テストへ限定",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "89758f89444c4c496c76b7a08f67582f0e6c3568302cd47223519c6b6631da8c",
+  "headingAnchors": [
+    {
+      "heading": "最初に、青色・白色と申請日を確認する",
+      "id": "return-type"
+    },
+    {
+      "heading": "税理士へ何を任せるかで、必要な機能が変わる",
+      "id": "roles"
+    },
+    {
+      "heading": "自分の仕事に近い3件で、初めのソフトを選ぶ",
+      "id": "sample"
+    },
+    {
+      "heading": "記帳をためずに続けたいなら、AIとOpenTaxを使う",
+      "id": "opentax"
+    }
+  ],
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "開業初年度の無料会計ソフトは、申告方式、自分と税理士の分担、よくある取引の順に決めると選びやすくなります。白色なら無料の専用サービス、青色の申告まで自分で行うなら初年度無料の申告ソフト、記帳を自分で行い申告は別に仕上げるなら本体無料の会計ソフトが候補です。"
+}

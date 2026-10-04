@@ -1,0 +1,121 @@
+{
+  "id": "56",
+  "slug": "year-end-bookkeeping-adjustments",
+  "title": "個人事業主の決算整理：年末の未入金・未払い・前払いを仕訳する",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "年末に普段の記帳へ何を追加し、翌年の取引とどう分ける？",
+  "answerSummary": "決算整理は、年末までの入出金を、その年の売上・経費と12月31日の資産・負債へ整理する作業です。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "必要経費は年末までに債務が確定した金額等を計上する。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "売上原価は期首棚卸高＋年間仕入高−期末棚卸高で計算する。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：必要経費の知識",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：令和7年分 青色申告の決算の手引き（一般用）",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "未入金の売上と、まだ提供していない仕事の前金の説明直後",
+      "purpose": "未入金の売上と、まだ提供していない仕事の前金を具体的な数字・条件で理解できるようにする",
+      "content": "| 年末の状況 | 年末の記録 | 翌年の処理 |\n| --- | --- | --- |\n| 12月に完了、1月に120,000円入金 | 売掛金／売上120,000円 | 普通預金／売掛金120,000円 |\n| 12月に60,000円受領、仕事は翌年 | 普通預金／前受金60,000円 | 提供時に前受金／売上60,000円 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "商品があれば、売れ残りを棚卸するの説明直後",
+      "purpose": "商品があれば、売れ残りを棚卸するを具体的な数字・条件で理解できるようにする",
+      "content": "| 売上原価の計算 | 金額 |\n| --- | ---: |\n| 期首在庫 | 50,000円 |\n| 年間仕入 | ＋300,000円 |\n| 期末在庫 | −80,000円 |\n| 当年の売上原価 | 270,000円 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "年またぎ4例、棚卸原価270,000円、翌年の精算までを保持。",
+    "前払いの二つの代替仕訳を区別し、二重調整の危険を具体化。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "最初に12月末の残高を合わせる",
+      "id": "section-1"
+    },
+    {
+      "heading": "未入金の売上と、まだ提供していない仕事の前金",
+      "id": "section-2"
+    },
+    {
+      "heading": "未払いの経費と、翌年分の前払い",
+      "id": "section-3"
+    },
+    {
+      "heading": "商品があれば、売れ残りを棚卸する",
+      "id": "section-4"
+    },
+    {
+      "heading": "減価償却と家事按分を反映する",
+      "id": "section-5"
+    },
+    {
+      "heading": "整理後の残高を、翌年の精算へ引き継ぐ",
+      "id": "section-6"
+    },
+    {
+      "heading": "決算整理も、確認できる形でOpenTaxへ",
+      "id": "section-7"
+    }
+  ],
+  "sourceSnapshotSha256": "ed599a214c30c110f1dede4fc13789242d14493578304822a02c126c6f8184ae",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "決算整理は、年末までの入出金を、その年の売上・経費と12月31日の資産・負債へ整理する作業です。12月に終えた仕事が1月入金なら未入金の売上を記録し、翌年分の家賃を先払いしたなら当年経費から分けます。普段の記帳漏れを直した後に、年またぎ、在庫、減価償却、私用分を順に見れば、必要な仕訳を整理できます。"
+}

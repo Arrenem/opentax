@@ -1,0 +1,114 @@
+{
+  "id": "05",
+  "slug": "freee-starter-standard-choice",
+  "title": "freeeスターターとスタンダードはどちらを選ぶ？年12,000円の差が必要になる機能",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "スターターとスタンダードの年額差を払う必要があるのはどんな使い方か。",
+  "answerSummary": "青色申告と基本記帳ならスターターが候補。消費税申告・多量の画像取込・入金管理・通常メンバー追加が選び分けの条件で、年払いの差は12,000円税抜。",
+  "articleType": "explanation",
+  "productPlacement": "end-only",
+  "keyClaims": [
+    {
+      "claim": "年払いはスターター11,760円、スタンダード23,760円。差12,000円税抜。どちらも青色申告に対応。",
+      "sourceUrl": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "スターター画像取込月5枚、スタンダード月10GB。消費税申告・入金管理・定期合算請求はスタンダード以上。",
+      "sourceUrl": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "下位プランへの変更は次回支払い日から適用。",
+      "sourceUrl": "https://support.freee.co.jp/hc/ja/articles/115000703043",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxはAIが解釈した記帳依頼を記録し、AI登録仕訳を人が確認確定する。帳簿、請求書、証憑、固定資産に対応。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは個人の事業所得が対象で、税理士との共同作業権限や申告全体の代行は対応範囲外。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "freee：個人向け料金・機能・メンバー招待条件",
+      "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "freee：プラン・支払いサイクルの変更",
+      "url": "https://support.freee.co.jp/hc/ja/articles/115000703043",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と使い方",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "青色申告だけなら、スターターでも使える {#basic}",
+      "purpose": "料金・機能・無料条件を同じ軸で比較する",
+      "content": "| 比較する項目 | スターター | スタンダード |\n| --- | ---: | ---: |\n| Web契約の年払い | 11,760円 | 23,760円 |\n| Web契約の月払い | 1,780円 | 2,980円 |\n| 月払いを12回続けた総額 | 21,360円 | 35,760円 |\n| 所得税申告・青色申告決算書 | 対応 | 対応 |\n| 家事按分・固定資産台帳 | 対応 | 対応 |\n| 領収書などの画像取り込み | 月5枚まで | 月10GBまで |\n| 消費税申告 | 対象外 | 対応 |\n| 入金・支払管理レポート | 対象外 | 対応 |\n| 定期請求・合算請求 | 対象外 | 対応 |",
+      "license": "編集部作成。一次資料の事実を再構成。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "末尾のOpenTax紹介直後、出典の前"
+  },
+  "changes": [
+    "冒頭で検索意図への結論を回答",
+    "価格・機能・計算条件を公式資料で再確認",
+    "元の具体例と重要な出力/契約条件を保持し自然な説明へ整理",
+    "一文一段落と記事固有の比較表へ再構成",
+    "OpenTaxを本文末尾の残る費用・入力課題につないで紹介",
+    "次の料金検討またはデータ保存への文脈リンクを追加",
+    "再レビューで検索意図から逸れる入力練習・一般論と末尾の反復否定文を削減",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "038c4735c59a268f61563e8d517c4a056f1d3e592993fcd0f308873bfbe34931",
+  "headingAnchors": [
+    {
+      "heading": "青色申告だけなら、スターターでも使える",
+      "id": "basic"
+    },
+    {
+      "heading": "スタンダードが必要になるのは、こんなとき",
+      "id": "standard"
+    },
+    {
+      "heading": "プランを下げる前に、保存と共有を確認する",
+      "id": "change"
+    },
+    {
+      "heading": "毎年のソフト代と入力の手間を抑えたいなら",
+      "id": "opentax"
+    }
+  ],
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "所得税の確定申告と基本的な記帳が目的なら、freeeスターターで足りることがあります。消費税申告、月5枚を超える領収書の画像取り込み、入金管理レポートなどを使うなら、スタンダードが候補です。"
+}

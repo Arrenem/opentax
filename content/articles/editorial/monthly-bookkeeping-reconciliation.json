@@ -1,0 +1,112 @@
+{
+  "id": "55",
+  "slug": "monthly-bookkeeping-reconciliation",
+  "title": "個人事業主の月末経理：預金・現金・売掛金・未払金を合わせる手順",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "月末に何を照合し、残高の差額をどう調べればよい？",
+  "answerSummary": "月末経理では、預金・現金・売掛金・未払金を、同じ月末日の資料と一つずつ合わせます。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "必要経費は支払い済みかどうかだけでなく債務確定等によって計上時期を判断する。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：必要経費の知識",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "預金が合わないときは、漏れ・重複・日付を調べるの説明直後",
+      "purpose": "預金が合わないときは、漏れ・重複・日付を調べるを具体的な数字・条件で理解できるようにする",
+      "content": "| 帳簿の残高 | 差額 | 原因の例 | 修正後 |\n| --- | ---: | --- | ---: |\n| 530,000円 | 30,000円多い | 銀行の支払い30,000円が記帳漏れ | 500,000円 |\n| 480,000円 | 20,000円少ない | 支払い20,000円を二重計上 | 500,000円 |\n| 550,000円 | 50,000円多い | 10月1日の入金を9月30日で記帳 | 500,000円 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "確認済みの数字と、残った用件を記録するの説明直後",
+      "purpose": "確認済みの数字と、残った用件を記録するを具体的な数字・条件で理解できるようにする",
+      "content": "| 対象 | 帳簿 | 確認した実残高・明細 | 次に残る作業 |\n| --- | ---: | ---: | --- |\n| 普通預金 | 500,000円 | 500,000円 | 照合済み |\n| 現金 | 12,400円 | 12,400円 | 実査記録を保存 |\n| 売掛金 | 143,000円 | 143,000円 | 未入金2件の予定を管理 |\n| カード未払金 | 25,000円 | 25,000円 | 翌月の引落しと対応付け |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "預金差額3例と現金12,400円・売掛143,000円・未払25,000円を維持。",
+    "月を分割して原因を絞る調査手順を本文で解決。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。",
+    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "まず資料の日付を同じ月末にそろえる",
+      "id": "section-1"
+    },
+    {
+      "heading": "預金が合わないときは、漏れ・重複・日付を調べる",
+      "id": "section-2"
+    },
+    {
+      "heading": "差額が見つからなければ、月を二つに分ける",
+      "id": "section-3"
+    },
+    {
+      "heading": "現金は実際に数えた金額と比べる",
+      "id": "section-4"
+    },
+    {
+      "heading": "売掛金は請求ごと、未払金は支払いごとに残す",
+      "id": "section-5"
+    },
+    {
+      "heading": "確認済みの数字と、残った用件を記録する",
+      "id": "section-6"
+    },
+    {
+      "heading": "OpenTaxの帳簿を月末確認に使う",
+      "id": "section-7"
+    }
+  ],
+  "sourceSnapshotSha256": "d7b4804bd0059b51f7ec7354f24c3c78ae5c1da7b1d57525ddc20881004c2683",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "月末経理では、預金・現金・売掛金・未払金を、同じ月末日の資料と一つずつ合わせます。銀行残高だけが一致していても、未入金の請求やカード代の二重計上が残ることがあります。差額が出たときは雑費で埋めず、最後に一致していた日から、漏れ・重複・日付のずれを探すと原因を絞れます。"
+}

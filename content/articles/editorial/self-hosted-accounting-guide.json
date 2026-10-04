@@ -1,0 +1,101 @@
+{
+  "id": "29",
+  "slug": "self-hosted-accounting-guide",
+  "title": "会計ソフトのセルフホストとは？データの置き場所と使い方をやさしく解説",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "セルフホストの会計ソフトは何が自分の管理になるか",
+  "answerSummary": "自分で用意した環境にアプリを置く使い方で、アプリ・帳簿・証憑の保存先は別々の場合がある。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "OpenTaxの構成にはFirebaseの認証・帳簿DB・証憑保存が含まれる",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "Cloud StorageにBlazeプランが必要",
+      "sourceUrl": "https://firebase.google.com/docs/storage/faqs-storage-changes-announced-sept-2024?hl=ja",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "GnuCash公式サイト",
+      "url": "https://www.gnucash.org/index.phtml?lang=ja_JP",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "Firebase：Cloud Storageの料金プラン変更",
+      "url": "https://firebase.google.com/docs/storage/faqs-storage-changes-announced-sept-2024?hl=ja",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "original-diagram-or-table",
+      "placement": "構成要素の表",
+      "purpose": "セルフホスト＝全データ手元という誤解を防ぐ",
+      "content": "ブラウザ→アプリ→帳簿DB/証憑Storage、認証を別箱に。OpenTax例と一般構成を区別。",
+      "license": "新規オリジナル図表。本文の事実・架空計算例を使用。第三者画像なし。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTax紹介直後、出典前"
+  },
+  "headingAnchors": [
+    {
+      "heading": "「自分で置く」のはアプリだけの場合もある",
+      "id": "section-1"
+    },
+    {
+      "heading": "パソコン用アプリとの違い",
+      "id": "section-2"
+    },
+    {
+      "heading": "更新とバックアップは設置後も続く",
+      "id": "section-3"
+    },
+    {
+      "heading": "OpenTaxなら、ブラウザとAIから同じ帳簿を扱える",
+      "id": "section-4"
+    }
+  ],
+  "changes": [
+    "冒頭で主質問に回答",
+    "操作・検算の具体例を残して一文一段落に改稿",
+    "記事固有のOpenTax紹介と直下CTA",
+    "重複出典と宿題調の末尾を整理",
+    "主題に貢献しない計算練習・重複注意書きを削減し、出典を小見出しへ統一。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "62f27bd8d7e2bb56141d8cd33e62bbf74d8f3fff7bbe4a11821d9145fce8f49a",
+  "wordingReview": "人手の専門監修・実機検証済みとは表記しない",
+  "editorialReview": {
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "sourceSeparation": "single compact list",
+    "publicationAuthorized": false,
+    "structuralPass": "completed",
+    "baselineChanged": false,
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "verificationNotes": [],
+  "reviewGate": "公開前の編集承認・必要な税務レビューと実装検査。資料比較のまま実機検証済みと表示しない。",
+  "description": "会計ソフトのセルフホストは、自分で用意した環境にソフトを設置して使う方法です。ブラウザから操作する製品でも、提供会社のサービスを月額契約する代わりに、自分の環境で動かせます。ただし、アプリを手元のパソコンに置いても、帳簿の保存先が外部クラウドになる製品もあります。"
+}

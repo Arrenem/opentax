@@ -1,0 +1,134 @@
+{
+  "id": "52",
+  "slug": "withheld-freelance-fees-journal",
+  "title": "源泉徴収された報酬の仕訳：10万円の原稿料から請求・入金・税額を計算",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "源泉徴収で少なく入金された報酬は、いくらを売上と税額に記録する？",
+  "answerSummary": "請求額と入金額を対応づけ、源泉税と未回収の差額を分ける。理由未確認の差額は売掛金に残す。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "原稿料等の源泉税は対象額100万円以下で10.21％、1円未満は切捨て。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "請求書等で報酬と消費税額が明確に区分される場合は報酬額だけを源泉対象としてよい。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "所得税や住民税は必要経費にならない。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "報酬減額禁止の対象取引では合意があっても通常の振込手数料を受注者負担として差し引けない。",
+      "sourceUrl": "https://www.jftc.go.jp/fllaw_limited/fllaw_qa.html",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：原稿料や講演料等を支払ったとき",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：必要経費の知識",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "公正取引委員会：フリーランス法Q&A Q78",
+      "url": "https://www.jftc.go.jp/fllaw_limited/fllaw_qa.html",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "報酬10万円、消費税1万円の請求を記帳するの説明直後",
+      "purpose": "報酬10万円、消費税1万円の請求を記帳するを具体的な数字・条件で理解できるようにする",
+      "content": "| 借方 | 金額 | 貸方 | 金額 |\n| --- | ---: | --- | ---: |\n| 普通預金 | 99,790円 | 売掛金 | 110,000円 |\n| 事業主貸（源泉所得税等） | 10,210円 | ― | ― |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "税込総額を源泉対象にした場合との違いの説明直後",
+      "purpose": "税込総額を源泉対象にした場合との違いを具体的な数字・条件で理解できるようにする",
+      "content": "| 源泉対象にする額 | 源泉税 | 手数料なしの入金 |\n| --- | ---: | ---: |\n| 明確に区分した報酬100,000円 | 10,210円 | 99,790円 |\n| 消費税込みの110,000円 | 11,231円 | 98,769円 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "110,000円請求、源泉10,210円、手数料330円、入金99,460円と端数例を保持。",
+    "税込総額を源泉対象にした場合の比較を追加し、請求書表示の違いを具体化。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。",
+    "独立レビューを反映。合意済み振込手数料の例を廃止し、理由未確認の330円は売掛金に残す例へ変更。公取委Q78を追加。",
+    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "まず、対象になる報酬と請求書の表示を確認する",
+      "id": "section-1"
+    },
+    {
+      "heading": "報酬10万円、消費税1万円の請求を記帳する",
+      "id": "section-2"
+    },
+    {
+      "heading": "税込総額を源泉対象にした場合との違い",
+      "id": "section-3"
+    },
+    {
+      "heading": "入金が計算より少ない場合",
+      "id": "section-4"
+    },
+    {
+      "heading": "年間の源泉税は、取引先別の内訳で確かめる",
+      "id": "section-5"
+    },
+    {
+      "heading": "OpenTaxへは、入金と差引額を一緒に伝える",
+      "id": "section-6"
+    }
+  ],
+  "sourceSnapshotSha256": "faa965dec1736782f848f4e2df05f203f3e0686cbe1133430c49971cefce0a9c",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "源泉徴収された報酬は、振込額だけを売上にせず、報酬総額と引かれた税額を分けて記録します。報酬100,000円と消費税10,000円を明確に分けて請求し、報酬部分だけを源泉対象とした例なら、源泉税は10,210円、入金は99,790円です。以下は2026年に原稿料を受け取る個人事業主側の記帳例です。"
+}

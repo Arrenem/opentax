@@ -1,0 +1,117 @@
+{
+  "id": "53",
+  "slug": "startup-costs-bookkeeping-sole-proprietor",
+  "title": "個人事業主の開業費の仕訳：対象になる支出と、償却の計算例",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "開業前の支出をどこまで開業費にでき、いつ経費にする？",
+  "answerSummary": "開業前に払ったお金は、開業準備の費用、固定資産、商品、返還される敷金などに分けて記帳します。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "開業費は開業準備の費用として繰延資産の償却対象となる。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "開業費は60か月均等償却または任意償却で、60か月経過後も未償却残高を償却できる。",
+      "sourceUrl": "https://www.nta.go.jp/law/shitsugi/shotoku/04/08.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：令和7年分 青色申告の決算の手引き（一般用）",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：開業費の任意償却（2025年8月1日現在の法令等）",
+      "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/08.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "10件の支出を分けた例の説明直後",
+      "purpose": "10件の支出を分けた例を具体的な数字・条件で理解できるようにする",
+      "content": "| 支出 | 金額 | 分類 | 判断のポイント |\n| --- | ---: | --- | --- |\n| 開業広告の制作 | 40,000円 | 開業費候補 | 開業準備の広告か |\n| 開業準備の交通費 | 12,000円 | 開業費候補 | 訪問先と準備の目的 |\n| 準備用資料 | 8,000円 | 開業費候補 | 事業準備との関係 |\n| 市場調査 | 30,000円 | 開業費候補 | 調査の内容と目的 |\n| 開業前の打合せ | 10,000円 | 開業費候補 | 相手と打合せ内容 |\n| パソコン | 240,000円 | 固定資産等 | 取得日・使用開始日・適用制度 |\n| 販売用の商品 | 50,000円 | 棚卸資産 | 数量と在庫 |\n| 返還予定の敷金 | 100,000円 | 差入保証金等 | 契約上の返還条件 |\n| 私用の衣服 | 15,000円 | 家事費 | 事業経費へ含めない |\n| 開業後の通信費 | 6,000円 | 通常経費 | 対象期間と事業部分 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "任意償却は、残っている額の範囲で行うの説明直後",
+      "purpose": "任意償却は、残っている額の範囲で行うを具体的な数字・条件で理解できるようにする",
+      "content": "| 年 | 年初の残高 | その年の償却額 | 年末の未償却残高 |\n| --- | ---: | ---: | ---: |\n| 2026年 | 100,000円 | 30,000円 | 70,000円 |\n| 2027年 | 70,000円 | 40,000円 | 30,000円 |\n| 2028年 | 30,000円 | 30,000円 | 0円 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "10件分類と開業費100,000円、3年の償却30,000円・40,000円・30,000円を保持。",
+    "開始残高への二重計上を防ぐ説明を加え、任意償却の根拠日を明示。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "開業前の支払いをすべて開業費にしない",
+      "id": "section-1"
+    },
+    {
+      "heading": "10件の支出を分けた例",
+      "id": "section-2"
+    },
+    {
+      "heading": "私費で払った開業費を帳簿に入れる",
+      "id": "section-3"
+    },
+    {
+      "heading": "任意償却は、残っている額の範囲で行う",
+      "id": "section-4"
+    },
+    {
+      "heading": "翌年も、最初の明細と償却累計を残す",
+      "id": "section-5"
+    },
+    {
+      "heading": "開業資料の整理からOpenTaxへつなぐ",
+      "id": "section-6"
+    }
+  ],
+  "sourceSnapshotSha256": "bb5353835379111bfa245c03cc55b5e03a634798493a938135d8d46933000726",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "開業前に払ったお金は、開業準備の費用、固定資産、商品、返還される敷金などに分けて記帳します。開業費に当たる支出は繰延資産として記録し、償却した額を必要経費にします。任意償却なら、一度に全額を償却するほか、未償却残高の範囲で年ごとに償却額を決められます。"
+}

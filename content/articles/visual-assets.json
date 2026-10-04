@@ -1,0 +1,3094 @@
+{
+  "accountant-handoff-software-switch": {
+    "guide": {
+      "src": "/article-assets/accountant-handoff-software-switch/guide.svg",
+      "width": 720,
+      "height": 1025,
+      "alt": "取引番号で、修正前後をつなぐ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "取引番号で、修正前後をつなぐ。本人が反映して税理士が確認するのか、税理士が直接直して本人へ知らせるのかを一つに決めます。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "取引番号：T018",
+        "変更前：消耗品費1,100円",
+        "変更後：通信費1,100円。携帯電話の利用料だったため",
+        "本人が反映して税理士が確認するのか、税理士が直接直して本人へ知らせるのかを一つに決めます。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/accountant-handoff-software-switch/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "取引番号で、修正前後をつなぐ：本文の比較・具体例の要点",
+      "caption": "取引番号で、修正前後をつなぐ。本人が反映して税理士が確認するのか、税理士が直接直して本人へ知らせるのかを一つに決めます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accountant-handoff-software-switch.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://support.freee.co.jp/hc/ja/articles/204615564",
+        "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "b5a6ce99017efdabe6d0ad37df3008f838bd971b0b89c1a58c3bbbb89c018cfa",
+      "sourceTableIndex": null,
+      "sourceRowIndexes": null,
+      "sourceColumnIndexes": null,
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounting-backup-restore": {
+    "guide": {
+      "src": "/article-assets/accounting-backup-restore/guide.svg",
+      "width": 720,
+      "height": 1355,
+      "alt": "戻したいものから保存方法を選ぶ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "戻したいものから保存方法を選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "PDFの帳簿・決算書：得意なこと：元の数字をそのまま読む。含まれないことがあるもの：再入力用データ、添付資料",
+        "仕訳CSV：得意なこと：表で確認する、対応ソフトへ移す。含まれないことがあるもの：証憑本体、設定、操作履歴",
+        "製品のバックアップ：得意なこと：同じソフトの状態を復元する。含まれないことがあるもの：別保存の画像、外部サービス設定",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/accounting-backup-restore/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "戻したいものから保存方法を選ぶ：本文の比較・具体例の要点",
+      "caption": "戻したいものから保存方法を選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounting-backup-restore.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.gnucash.org/docs/v5/C/gnucash-guide/basics-backup1.html",
+        "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "https://github.com/Arrenem/opentax/blob/main/README.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "1864c57f5f122b57e6e50ca285f6326357b8b702fb58a99c852f3c14a9555ea6",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounting-csv-import-errors": {
+    "guide": {
+      "src": "/article-assets/accounting-csv-import-errors/guide.svg",
+      "width": 720,
+      "height": 1355,
+      "alt": "CSVエラーの症状から直す場所へ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "CSVエラーの症状から直す場所へ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "日本語が読めない：よくある原因：文字コードが違う。直すポイント：取込先が指定するUTF-8やShift-JISで保存",
+        "列が途中からずれる：よくある原因：摘要中のカンマや改行。直すポイント：引用符と区切り文字を正しく保つ",
+        "科目が見つからない：よくある原因：名前や補助科目が未登録。直すポイント：旧名と新名の対応を決める",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/accounting-csv-import-errors/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "CSVエラーの症状から直す場所へ：本文の比較・具体例の要点",
+      "caption": "CSVエラーの症状から直す場所へ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounting-csv-import-errors.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://support.freee.co.jp/hc/ja/articles/204615564",
+        "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "5c81d4e2143a91fb204605d6f1650bc8b54653617282d6d8421f52042364c468",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        4
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounting-evidence-migration": {
+    "guide": {
+      "src": "/article-assets/accounting-evidence-migration/guide.svg",
+      "width": 720,
+      "height": 907,
+      "alt": "取引番号とファイルを結び付ける。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "取引番号とファイルを結び付ける。本文の架空例。T002には請求書と支払控えの2ファイルを対応づけます。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "T001：E001.pdf。2026/10/02・1,100円・架空通信",
+        "T002：E002-請求書.pdf\nE003-支払控え.pdf。2026/10/05・11,000円・架空文具店",
+        "本文の架空例。T002には請求書と支払控えの2ファイルを対応づけます。"
+      ],
+      "kind": "mapping"
+    },
+    "share": {
+      "src": "/article-assets/accounting-evidence-migration/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "取引番号とファイルを結び付ける：本文の比較・具体例の要点",
+      "caption": "取引番号とファイルを結び付ける。本文の架空例。T002には請求書と支払控えの2ファイルを対応づけます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounting-evidence-migration.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
+        "https://support.freee.co.jp/hc/ja/articles/204615564",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "0b0c7e99654fd6dd35db7103e5935112b0ea386bc4fe248890f2b3e225b0d45a",
+      "sourceTableIndex": null,
+      "sourceRowIndexes": null,
+      "sourceColumnIndexes": null,
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounting-mcp-comparison": {
+    "guide": {
+      "src": "/article-assets/accounting-mcp-comparison/guide.svg",
+      "width": 720,
+      "height": 1555,
+      "alt": "会計MCPの操作範囲と確認事項。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "会計MCPの操作範囲と確認事項。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "freee：公式資料で確認できること：会計などのデータとAIをつなぐ公式MCP案内。料金・確認のポイント：外部の生成AIサービスが別途必要。個人向けの操作・プランは個別確認",
+        "マネーフォワード：公式資料で確認できること：仕訳の参照・作成・更新、試算表・明細の取得など。料金・確認のポイント：MCPの追加料金なし。会計プランの制限は継続",
+        "OpenTax：公式資料で確認できること：仕訳、請求書下書き、証憑、固定資産、レポートなど。料金・確認のポイント：本体無料。AI登録仕訳は人が画面で確定",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/accounting-mcp-comparison/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "会計MCPの操作範囲と確認事項：本文の比較・具体例の要点",
+      "caption": "会計MCPの操作範囲と確認事項。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounting-mcp-comparison.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.freee.co.jp/ai/mcp/",
+        "https://biz.moneyforward.com/support/account/guide/others/ot10.html",
+        "https://developers.biz.moneyforward.com/docs/mcp-common/authentication/",
+        "https://github.com/Arrenem/opentax/blob/main/docs/mcp.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "613cf3018aaa98010dc04df3bb1c14b97a7bb3e520904da5f85ed95df201a384",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounting-migration-reconciliation": {
+    "guide": {
+      "src": "/article-assets/accounting-migration-reconciliation/guide.svg",
+      "width": 720,
+      "height": 1017,
+      "alt": "入金の二重登録は残高のペアで発見。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "入金の二重登録は残高のペアで発見。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "普通預金：元の帳簿：125,000円。二重登録した帳簿：155,000円。差額：＋30,000円",
+        "売掛金：元の帳簿：0円。二重登録した帳簿：−30,000円。差額：−30,000円",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/accounting-migration-reconciliation/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "入金の二重登録は残高のペアで発見：本文の比較・具体例の要点",
+      "caption": "入金の二重登録は残高のペアで発見。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounting-migration-reconciliation.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://support.freee.co.jp/hc/ja/articles/204615564",
+        "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "8b3439c29a15909cd4856616bc2c1fc5a558e29e791919b45b2367d3a783ba5d",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounting-migration-timing": {
+    "guide": {
+      "src": "/article-assets/accounting-migration-timing/guide.svg",
+      "width": 720,
+      "height": 1458,
+      "alt": "切替時期で、引き継ぐデータが変わる。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "切替時期で、引き継ぐデータが変わる。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "1月1日から使う：新しい帳簿に入れるもの：前年末からの残高、未決済、固定資産。向いている状況：年度の区切りで簡単に変えたい",
+        "期中に変え、年初分も移す：新しい帳簿に入れるもの：期首残高と1月から切替日までの仕訳。向いている状況：当年の集計を一つにまとめたい",
+        "期中残高から使う：新しい帳簿に入れるもの：切替時点の残高と以後の取引。向いている状況：年前半の損益を別に管理・合算できる",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/accounting-migration-timing/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "切替時期で、引き継ぐデータが変わる：本文の比較・具体例の要点",
+      "caption": "切替時期で、引き継ぐデータが変わる。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounting-migration-timing.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "a7fab20653400dcef716dca322696fd44eb2a6352cdfa78c4f551545e8d75d92",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounting-open-source-license": {
+    "guide": {
+      "src": "/article-assets/accounting-open-source-license/guide.svg",
+      "width": 720,
+      "height": 1407,
+      "alt": "「無料」と「ソース公開」の違い。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "「無料」と「ソース公開」の違い。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "無料：分かること：対象の利用料が0円。その表示だけでは分からないこと：無料の期間、機能、保存先の費用",
+        "ソース公開：分かること：コードを閲覧できる。その表示だけでは分からないこと：自由な改変や再配布が許されるか",
+        "オープンソース：分かること：ライセンスに基づき利用・改変・再配布できる。その表示だけでは分からないこと：サポートやクラウド利用まで無料か",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/accounting-open-source-license/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "「無料」と「ソース公開」の違い：本文の比較・具体例の要点",
+      "caption": "「無料」と「ソース公開」の違い。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounting-open-source-license.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://opensource.org/osd",
+        "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+        "https://github.com/Arrenem/opentax/blob/main/README.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "f984da2eca1c922bca9f7c2f45a7fe1691b193fcd5a8a475b9967108d609a037",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounting-operations-options": {
+    "guide": {
+      "src": "/article-assets/accounting-operations-options/guide.svg",
+      "width": 720,
+      "height": 1309,
+      "alt": "導入後の更新・保存を誰が担うか。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "導入後の更新・保存を誰が担うか。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "自分で運用：導入：自分。その後の更新・保存：自分",
+        "導入支援を利用：導入：依頼した担当者。その後の更新・保存：原則は自分。契約で追加可能",
+        "継続運用を依頼：導入：契約の担当者。その後の更新・保存：契約に含まれる範囲を担当者",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/accounting-operations-options/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "導入後の更新・保存を誰が担うか：本文の比較・具体例の要点",
+      "caption": "導入後の更新・保存を誰が担うか。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounting-operations-options.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.gnucash.org/index.phtml?lang=ja_JP",
+        "https://frappe.io/books",
+        "https://github.com/frappe/frappe-books/blob/develop/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/README.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "7ccc7372442f2f7bb43763c436a597c6722e7c306d6214bdffe1b317f19bc2b4",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounting-without-subscription": {
+    "guide": {
+      "src": "/article-assets/accounting-without-subscription/guide.svg",
+      "width": 720,
+      "height": 1570,
+      "alt": "やよいを3年使う費用の例。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "やよいを3年使う費用の例。料金が変わらない場合の例。税抜・税込を併記。2026年10月3日確認。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "1年目：税抜額：14,000円。税込額の計算：15,400円",
+        "2年目：税抜額：12,300円。税込額の計算：13,530円",
+        "3年目：税抜額：12,300円。税込額の計算：13,530円",
+        "合計：税抜額：38,600円。税込額の計算：42,460円",
+        "料金が変わらない場合の例。税抜・税込を併記。2026年10月3日確認。"
+      ],
+      "kind": "amount"
+    },
+    "share": {
+      "src": "/article-assets/accounting-without-subscription/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "やよいを3年使う費用の例：本文の比較・具体例の要点",
+      "caption": "やよいを3年使う費用の例。料金が変わらない場合の例。税抜・税込を併記。2026年10月3日確認。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounting-without-subscription.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/",
+        "https://www.yayoi-kk.co.jp/products/spec/",
+        "https://www.yayoi-kk.co.jp/yss/info/detail.20260803-1/",
+        "https://www.gnucash.org/",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "https://www.yayoi-kk.co.jp/yss/service/support_point/"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "cf3730b64a112a0a77da4b7b1b26420f1df431dcfbdcf6aafd0d5b8f2c8a3dcb",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        2,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "accounts-receivable-reconciliation-howto": {
+    "guide": {
+      "src": "/article-assets/accounts-receivable-reconciliation-howto/guide.svg",
+      "width": 720,
+      "height": 1355,
+      "alt": "請求ごとに入金と残額を合わせる。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "請求ごとに入金と残額を合わせる。本文の架空例。理由未確認の330円は売掛金に残します。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "A-01：請求額：55,000円。銀行入金：55,000円。月末に残る売掛金：0円",
+        "B-02：請求額：110,000円。銀行入金：109,670円。月末に残る売掛金：330円",
+        "C-03：請求額：88,000円。銀行入金：0円。月末に残る売掛金：88,000円",
+        "本文の架空例。理由未確認の330円は売掛金に残します。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/accounts-receivable-reconciliation-howto/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "請求ごとに入金と残額を合わせる：本文の比較・具体例の要点",
+      "caption": "請求ごとに入金と残額を合わせる。本文の架空例。理由未確認の330円は売掛金に残します。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/accounts-receivable-reconciliation-howto.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "https://www.jftc.go.jp/fllaw_limited/fllaw_qa.html"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "44eebb68d45a2fdb14a74d42b90e6de6e65d370aa65f5a4c6d8c1bced1b2cbab",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "ai-journal-entry-workflow": {
+    "guide": {
+      "src": "/article-assets/ai-journal-entry-workflow/guide.svg",
+      "width": 720,
+      "height": 1458,
+      "alt": "AIの仕訳を、取引の中身で確認。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "AIの仕訳を、取引の中身で確認。本文の架空10件から3件を抜粋。登録結果は人が確認します。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "T02：取引：計上済み売掛金50,000円の回収。確認後の仕訳・扱い：普通預金／売掛金50,000円",
+        "T04：取引：前月の未払金3,000円を銀行で支払い。確認後の仕訳・扱い：未払金／普通預金3,000円",
+        "T06：取引：事業口座から生活費20,000円を引出し。確認後の仕訳・扱い：事業主貸／普通預金20,000円",
+        "本文の架空10件から3件を抜粋。登録結果は人が確認します。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/ai-journal-entry-workflow/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "AIの仕訳を、取引の中身で確認：本文の比較・具体例の要点",
+      "caption": "AIの仕訳を、取引の中身で確認。本文の架空10件から3件を抜粋。登録結果は人が確認します。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/ai-journal-entry-workflow.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "2bb14b41d212796c6c899d9e012b4aa85c82fdc32d7cc7a9f9aef09b58df371c",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        1,
+        3,
+        5
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "ai-tax-return-howto": {
+    "guide": {
+      "src": "/article-assets/ai-tax-return-howto/guide.svg",
+      "width": 720,
+      "height": 1269,
+      "alt": "請求と入金を別の仕訳にする。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "請求と入金を別の仕訳にする。本文の架空例。入金で売上を再計上しません。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "サービス提供が完了：記録する仕訳：売掛金100,000円／売上100,000円。確かめる点：契約上の売上計上時点",
+        "請求代金を回収：記録する仕訳：普通預金100,000円／売掛金100,000円。確かめる点：売上を再計上しない",
+        "当月通信代をカード利用：記録する仕訳：通信費6,000円／未払金6,000円。確かめる点：引落し前の支払いが残る",
+        "本文の架空例。入金で売上を再計上しません。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/ai-tax-return-howto/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "請求と入金を別の仕訳にする：本文の比較・具体例の要点",
+      "caption": "請求と入金を別の仕訳にする。本文の架空例。入金で売上を再計上しません。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/ai-tax-return-howto.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "https://www.e-tax.nta.go.jp/kojin.html",
+        "https://www.e-tax.nta.go.jp/toiawase/qa/yokuaru05/03.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "349bc411121ef21c388e21aed30c6e281b828ea6267b5db8ae09c088a4ffd8ca",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "bank-statement-csv-bookkeeping": {
+    "guide": {
+      "src": "/article-assets/bank-statement-csv-bookkeeping/guide.svg",
+      "width": 720,
+      "height": 1178,
+      "alt": "銀行明細から、売上と精算を分ける。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "銀行明細から、売上と精算を分ける。本文の架空5件から3件を抜粋。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "9月3日：明細の内容：請求済み代金の回収。仕訳：普通預金／売掛金50,000円",
+        "9月5日：明細の内容：記帳済みカード代の引落し。仕訳：未払金／普通預金12,000円",
+        "9月10日：明細の内容：生活費の引出し。仕訳：事業主貸／普通預金20,000円",
+        "本文の架空5件から3件を抜粋。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/bank-statement-csv-bookkeeping/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "銀行明細から、売上と精算を分ける：本文の比較・具体例の要点",
+      "caption": "銀行明細から、売上と精算を分ける。本文の架空5件から3件を抜粋。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/bank-statement-csv-bookkeeping.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.musashinobank.co.jp/banking/csv.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "f6191b30809784a8ad97635ccf48c2b178be918350628c56a5adc1d479707a9e",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        4
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "blue-return-financial-statements-howto": {
+    "guide": {
+      "src": "/article-assets/blue-return-financial-statements-howto/guide.svg",
+      "width": 720,
+      "height": 1027,
+      "alt": "売上から控除前の所得へ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "売上から控除前の所得へ。本文の架空例。青色申告特別控除前の所得です。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "売上：帳簿から移す金額：3,600,000円",
+        "必要経費の合計：帳簿から移す金額：1,000,000円",
+        "青色申告特別控除前の所得：帳簿から移す金額：2,600,000円",
+        "本文の架空例。青色申告特別控除前の所得です。"
+      ],
+      "kind": "amount"
+    },
+    "share": {
+      "src": "/article-assets/blue-return-financial-statements-howto/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "売上から控除前の所得へ：本文の比較・具体例の要点",
+      "caption": "売上から控除前の所得へ。本文の架空例。青色申告特別控除前の所得です。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/blue-return-financial-statements-howto.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "5a56e0c8082070f09f80eeb6e48694f17c70af60ce864b2bc45fc2e6aae085a8",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        7,
+        8
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "business-use-expense-apportionment": {
+    "guide": {
+      "src": "/article-assets/business-use-expense-apportionment/guide.svg",
+      "width": 720,
+      "height": 1135,
+      "alt": "面積20％なら、家賃の事業分は2万円。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "面積20％なら、家賃の事業分は2万円。本文の架空例。仕事専用の面積で区分できる場合。使い方が変われば根拠も見直します。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "月の家賃：100,000円",
+        "事業割合：10÷50＝20％。住居全体の面積50㎡、仕事専用部分の面積10㎡",
+        "月の事業部分：20,000円。100,000×20％＝20,000円",
+        "本文の架空例。仕事専用の面積で区分できる場合。使い方が変われば根拠も見直します。"
+      ],
+      "kind": "amount"
+    },
+    "share": {
+      "src": "/article-assets/business-use-expense-apportionment/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "面積20％なら、家賃の事業分は2万円：本文の比較・具体例の要点",
+      "caption": "面積20％なら、家賃の事業分は2万円。本文の架空例。仕事専用の面積で区分できる場合。使い方が変われば根拠も見直します。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/business-use-expense-apportionment.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "4e2d7e06ac8df649cd1837094384c594d050a970f4cdad7c63cc2284c1f18219",
+      "sourceTableIndex": null,
+      "sourceRowIndexes": null,
+      "sourceColumnIndexes": null,
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "computer-depreciation-sole-proprietor": {
+    "guide": {
+      "src": "/article-assets/computer-depreciation-sole-proprietor/guide.svg",
+      "width": 720,
+      "height": 946,
+      "alt": "24万円のPC：購入と償却を分ける。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "24万円のPC：購入と償却を分ける。本文の架空例。新品・4年定額法、7〜12月の6か月。特例は使わない場合。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "事業口座で購入：仕訳：工具器具備品／普通預金。金額：240,000円",
+        "年末に償却・直接法の例：仕訳：減価償却費／工具器具備品。金額：30,000円",
+        "本文の架空例。新品・4年定額法、7〜12月の6か月。特例は使わない場合。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/computer-depreciation-sole-proprietor/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "24万円のPC：購入と償却を分ける：本文の比較・具体例の要点",
+      "caption": "24万円のPC：購入と償却を分ける。本文の架空例。新品・4年定額法、7〜12月の6か月。特例は使わない場合。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/computer-depreciation-sole-proprietor.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2106.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/2100_01.pdf",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/2100_02.pdf",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "b9d6a776640efb260bed26b183cce150e886a23d53c881464882fe31ed6b72a7",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "credit-card-journal-sole-proprietor": {
+    "guide": {
+      "src": "/article-assets/credit-card-journal-sole-proprietor/guide.svg",
+      "width": 720,
+      "height": 1129,
+      "alt": "カード利用と引落しは2回に分ける。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "カード利用と引落しは2回に分ける。本文の架空例。引落し時に経費を重ねて計上しません。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "9月20日：内容：仕事用文具の購入。借方：消耗品費。貸方：未払金。金額：8,800円",
+        "10月27日：内容：カード代の引落し。借方：未払金。貸方：普通預金。金額：8,800円",
+        "本文の架空例。引落し時に経費を重ねて計上しません。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/credit-card-journal-sole-proprietor/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "カード利用と引落しは2回に分ける：本文の比較・具体例の要点",
+      "caption": "カード利用と引落しは2回に分ける。本文の架空例。引落し時に経費を重ねて計上しません。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/credit-card-journal-sole-proprietor.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "be1c54b30f240e1969e506ae29cb40b56cd6ca592b6989a8222d738d0b3b3995",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "double-entry-bookkeeping-howto": {
+    "guide": {
+      "src": "/article-assets/double-entry-bookkeeping-howto/guide.svg",
+      "width": 720,
+      "height": 1361,
+      "alt": "取引を、借方と貸方で記録する。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "取引を、借方と貸方で記録する。本文の架空5取引から3件を抜粋。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "③ サービス提供が完了し、代金は翌月入金：借方：売掛金。貸方：売上。金額：50,000円",
+        "④ 当月の事業用通信代をカード払い：借方：通信費。貸方：未払金。金額：3,000円",
+        "⑤ 仕事用の文具を私用財布から支払い：借方：消耗品費。貸方：事業主借。金額：1,000円",
+        "本文の架空5取引から3件を抜粋。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/double-entry-bookkeeping-howto/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "取引を、借方と貸方で記録する：本文の比較・具体例の要点",
+      "caption": "取引を、借方と貸方で記録する。本文の架空5取引から3件を抜粋。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/double-entry-bookkeeping-howto.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "cd3f50c45821f1e4cd8e88158ff131c4947c49e114f0d61f03672a717fdf69ca",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        2,
+        3,
+        4
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "electronic-transaction-records-howto": {
+    "guide": {
+      "src": "/article-assets/electronic-transaction-records-howto/guide.svg",
+      "width": 720,
+      "height": 1067,
+      "alt": "索引から原資料へ戻れるようにする。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "索引から原資料へ戻れるようにする。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-5",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "索引から検索できる：この例での確認結果：E002にB制作・22,000円を登録",
+        "原資料を表示できる：この例での確認結果：PDFの全ページと文字を確認",
+        "帳簿とつながる：この例での確認結果：摘要のE002から同じPDFに戻れる",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/electronic-transaction-records-howto/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "索引から原資料へ戻れるようにする：本文の比較・具体例の要点",
+      "caption": "索引から原資料へ戻れるようにする。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/electronic-transaction-records-howto.md",
+      "sourceHeadingId": "section-5",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+        "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/0021006-031.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "d7aebdf747ed0415b73a48f25f9d2469d406ce26db33f2ec1bdbf1fe5c2696d1",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1,
+        4
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "etax-filing-sole-proprietor": {
+    "guide": {
+      "src": "/article-assets/etax-filing-sole-proprietor/guide.svg",
+      "width": 720,
+      "height": 1315,
+      "alt": "e-Taxは送信後の確認まで。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "e-Taxは送信後の確認まで。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-6",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "申告書を送った：残す記録：送信日時・受付番号",
+        "受付結果を確認した：残す記録：受信通知・エラーの有無",
+        "控えを保存した：残す記録：申告書・決算書・必要な添付資料",
+        "納付・還付を確認した：残す記録：支払完了、引落予定、還付状況など",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/etax-filing-sole-proprietor/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "e-Taxは送信後の確認まで：本文の比較・具体例の要点",
+      "caption": "e-Taxは送信後の確認まで。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/etax-filing-sole-proprietor.md",
+      "sourceHeadingId": "section-6",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.e-tax.nta.go.jp/kojin.html",
+        "https://www.e-tax.nta.go.jp/kojin/idpw.htm",
+        "https://www.e-tax.nta.go.jp/toiawase/qa/yokuaru05/03.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "e2bf50b74ab35772108a71f1e6e1258b6e619e8de3774602d15e0b36bdbad949",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "excel-to-accounting-software": {
+    "guide": {
+      "src": "/article-assets/excel-to-accounting-software/guide.svg",
+      "width": 720,
+      "height": 1487,
+      "alt": "Excelからの移行は3件で試す。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "Excelからの移行は3件で試す。本文の架空例。売上20,000円、借方・貸方合計は各41,000円。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "売上を請求：借方：売掛金20,000円。貸方：売上20,000円。確認したい動き：売上と未入金が増える",
+        "後日、口座へ入金：借方：普通預金20,000円。貸方：売掛金20,000円。確認したい動き：預金が増え、未入金が減る",
+        "現金で消耗品を購入：借方：消耗品費1,000円。貸方：現金1,000円。確認したい動き：経費が増え、現金が減る",
+        "本文の架空例。売上20,000円、借方・貸方合計は各41,000円。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/excel-to-accounting-software/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "Excelからの移行は3件で試す：本文の比較・具体例の要点",
+      "caption": "Excelからの移行は3件で試す。本文の架空例。売上20,000円、借方・貸方合計は各41,000円。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/excel-to-accounting-software.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://biz.moneyforward.com/support/tax-return/guide/import-books/ib01.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "aa798bfae1efa60f3ccf896cf72883da8241a71e7d2e0c9bb4c61c93a449d873",
+      "sourceTableIndex": 2,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "frappe-books-japan-review": {
+    "guide": {
+      "src": "/article-assets/frappe-books-japan-review/guide.svg",
+      "width": 720,
+      "height": 1361,
+      "alt": "Frappe Booksの現行版と旧版。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "Frappe Booksの現行版と旧版。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "主な操作場所：現行Web版：パソコンやスマホのブラウザ。旧デスクトップ版：パソコン用アプリ",
+        "保存の考え方：現行Web版：設置したWeb環境のデータとファイル。旧デスクトップ版：旧アプリのファイル方式",
+        "新規導入時の扱い：現行Web版：現行の導入手順を使用。旧デスクトップ版：公式はサポート終了を案内",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/frappe-books-japan-review/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "Frappe Booksの現行版と旧版：本文の比較・具体例の要点",
+      "caption": "Frappe Booksの現行版と旧版。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/frappe-books-japan-review.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://frappe.io/books",
+        "https://github.com/frappe/frappe-books/blob/develop/README.md",
+        "https://github.com/frappe/books",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "7b4daf2d7c34d9c915d2fe1b4171057c29ee7379d9336118ad93ec056a5b9974",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        2,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "free-accounting-for-freelancers": {
+    "guide": {
+      "src": "/article-assets/free-accounting-for-freelancers/guide.svg",
+      "width": 720,
+      "height": 1361,
+      "alt": "税理士との分担からソフトを選ぶ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "税理士との分担からソフトを選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "roles",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "記帳から申告まで自分：自分が使うソフトで必要なもの：帳簿・決算書・申告書、提出手段。引き継ぐもの：提出後の控えを自分で保存",
+        "記帳は自分、決算と申告は税理士：自分が使うソフトで必要なもの：仕訳・残高・証憑を渡せること。引き継ぐもの：指定のCSVや帳簿、資料",
+        "記帳も税理士へ依頼：自分が使うソフトで必要なもの：売上・請求・経費資料を集める仕組み。引き継ぐもの：請求書、領収書、口座明細など",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/free-accounting-for-freelancers/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "税理士との分担からソフトを選ぶ：本文の比較・具体例の要点",
+      "caption": "税理士との分担からソフトを選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/free-accounting-for-freelancers.md",
+      "sourceHeadingId": "roles",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "903b08fc1aaf00f358b59d83e419c015b68ebf749202574f120c0e638783be9a",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "free-accounting-mac-linux": {
+    "guide": {
+      "src": "/article-assets/free-accounting-mac-linux/guide.svg",
+      "width": 720,
+      "height": 1458,
+      "alt": "Mac・Linuxの利用条件を比べる。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "Mac・Linuxの利用条件を比べる。本文の候補から抜粋。Linuxの「記載なし」は利用不可という意味ではありません。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "GnuCash：Mac・Linuxでの使い方：macOS・Linux向けの公式配布あり。日本の申告：帳簿を集計し、申告書は別途作成",
+        "やよいの白色申告 オンライン：Mac・Linuxでの使い方：Macは公式対象、Linuxは要件表に記載なし。日本の申告：白色の申告書作成・e-Taxに対応",
+        "OpenTax：Mac・Linuxでの使い方：Web画面を使う、自分の利用環境で確認。日本の申告：個人事業所得の記帳と一部のe-Tax用ファイル出力",
+        "本文の候補から抜粋。Linuxの「記載なし」は利用不可という意味ではありません。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/free-accounting-mac-linux/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "Mac・Linuxの利用条件を比べる：本文の比較・具体例の要点",
+      "caption": "Mac・Linuxの利用条件を比べる。本文の候補から抜粋。Linuxの「記載なし」は利用不可という意味ではありません。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/free-accounting-mac-linux.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.gnucash.org/",
+        "https://www.yayoi-kk.co.jp/products/spec/index-ol/",
+        "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "https://frappe.io/books",
+        "https://www.e-tax.nta.go.jp/kojin.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "74362b7be81b3ea0f0f74f5db7d0497fdaa96e54fb5bc34cb888d96ab5773afc",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "free-accounting-side-business": {
+    "guide": {
+      "src": "/article-assets/free-accounting-side-business/guide.svg",
+      "width": 720,
+      "height": 1355,
+      "alt": "副業は件数より取引の中身で選ぶ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "副業は件数より取引の中身で選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "翌月払いの報酬：管理しておきたいこと：売上と未入金の金額。帳簿に必要な処理：請求と入金を対応させる",
+        "自宅の通信費など：管理しておきたいこと：事業で使う割合とその根拠。帳簿に必要な処理：按分後の金額を確認する",
+        "源泉徴収や手数料がある入金：管理しておきたいこと：請求額と入金額の差。帳簿に必要な処理：売上を手取り額だけで記録しない",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/free-accounting-side-business/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "副業は件数より取引の中身で選ぶ：本文の比較・具体例の要点",
+      "caption": "副業は件数より取引の中身で選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/free-accounting-side-business.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "https://www.gnucash.org/",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "fde2c5e67c8b19cf1e7fcff32838af9fd4272d68fee6dbcc5ad18388472e8d4b",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        2,
+        4
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "free-accounting-software": {
+    "guide": {
+      "src": "/article-assets/free-accounting-software/guide.svg",
+      "width": 720,
+      "height": 1355,
+      "alt": "継続無料・初年度無料・お試し。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "継続無料・初年度無料・お試し。本文の6候補から3候補を抜粋。年額は税抜、2026年10月3日確認。",
+      "placement": {
+        "headingId": "comparison",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "やよい白色・フリー：無料の条件：継続無料。無料では足りない部分：操作質問の有人サポート",
+        "やよい青色・セルフ：無料の条件：対象者は初年度無料。無料では足りない部分：2年目以降は年11,800円",
+        "freee会計：無料の条件：一定期間のお試し。無料では足りない部分：年間帳簿や申告書の出力、未契約での記帳継続",
+        "本文の6候補から3候補を抜粋。年額は税抜、2026年10月3日確認。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/free-accounting-software/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "継続無料・初年度無料・お試し：本文の比較・具体例の要点",
+      "caption": "継続無料・初年度無料・お試し。本文の6候補から3候補を抜粋。年額は税抜、2026年10月3日確認。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/free-accounting-software.md",
+      "sourceHeadingId": "comparison",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "https://support.yayoi-kk.co.jp/faq_Subcontents.html?page_id=302",
+        "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "https://biz.moneyforward.com/support/plan/guide/p008.html",
+        "https://biz.moneyforward.com/support/plan/guide/p024.html",
+        "https://www.gnucash.org/",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "https://www.e-tax.nta.go.jp/toiawase/faq/gaiyo/07.htm"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "f50c0689eb73c3e7a3741cdd56982f0832749cd24ff3a777a3cf3b1b297d6b9f",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "free-ai-accounting-limits": {
+    "guide": {
+      "src": "/article-assets/free-ai-accounting-limits/guide.svg",
+      "width": 720,
+      "height": 1258,
+      "alt": "AIに頼む作業と、人が見る点。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "AIに頼む作業と、人が見る点。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "資料の整理：AIに頼める例：日付、金額、相手を表にする。人が見る点：元の領収書と一致するか",
+        "仕訳候補の作成：AIに頼める例：科目と借方・貸方の案を出す。人が見る点：事業の用途や取引の時期",
+        "帳簿への記帳：AIに頼める例：対応連携で仕訳を登録する。人が見る点：重複、登録内容、確定状態",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/free-ai-accounting-limits/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "AIに頼む作業と、人が見る点：本文の比較・具体例の要点",
+      "caption": "AIに頼む作業と、人が見る点。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/free-ai-accounting-limits.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.freee.co.jp/ai/mcp/",
+        "https://biz.moneyforward.com/support/account/guide/others/ot10.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/docs/mcp.md",
+        "https://firebase.google.com/pricing?hl=ja"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "d821f1d45f64a4a273f720a227a3d7ec464e3021c8eccbf6730697330bd4733b",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "free-blue-return-software": {
+    "guide": {
+      "src": "/article-assets/free-blue-return-software/guide.svg",
+      "width": 720,
+      "height": 1653,
+      "alt": "青色決算書へ移す前の確認。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "青色決算書へ移す前の確認。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "売上：決算書へ移す前の確認：年間合計と月別合計が一致するか。よくある間違い：未入金の売上を落とす",
+        "経費：決算書へ移す前の確認：科目別合計が明細と合うか。よくある間違い：私用分や翌年分を含める",
+        "固定資産：決算書へ移す前の確認：取得額・償却額・期末残高がつながるか。よくある間違い：購入額と償却額を二重に経費にする",
+        "貸借対照表：決算書へ移す前の確認：資産と負債・資本の合計が合うか。よくある間違い：開始残高を入れ忘れる",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/free-blue-return-software/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "青色決算書へ移す前の確認：本文の比較・具体例の要点",
+      "caption": "青色決算書へ移す前の確認。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/free-blue-return-software.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "https://www.gnucash.org/",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/",
+        "https://www.e-tax.nta.go.jp/kojin.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "965ce8fee682ebafc6df6da57cba49ab29e1b7bdcbee8c2823a9fdc2faa25195",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "free-cloud-accounting": {
+    "guide": {
+      "src": "/article-assets/free-cloud-accounting/guide.svg",
+      "width": 720,
+      "height": 1401,
+      "alt": "Web会計の更新と保存の担当。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "Web会計の更新と保存の担当。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-5",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "アプリの提供・更新：提供会社のWebサービス：提供会社。自分の環境で使うWeb型のオープンソース会計：自分の運用環境で管理",
+        "保存先：提供会社のWebサービス：サービス側。自分の環境で使うWeb型のオープンソース会計：構築時に選んだ保存先",
+        "契約をやめたとき：提供会社のWebサービス：閲覧・出力制限を確認。自分の環境で使うWeb型のオープンソース会計：データとバックアップを自分で維持",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/free-cloud-accounting/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "Web会計の更新と保存の担当：本文の比較・具体例の要点",
+      "caption": "Web会計の更新と保存の担当。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/free-cloud-accounting.md",
+      "sourceHeadingId": "section-5",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "https://support.yayoi-kk.co.jp/faq_Subcontents.html?page_id=302",
+        "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "https://biz.moneyforward.com/support/plan/guide/p008.html",
+        "https://biz.moneyforward.com/support/plan/guide/p024.html",
+        "https://frappe.io/books",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "da567618e7042c321a341f5601666a5c775e458bd43ecd229665dc53bb75ef7b",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "free-white-return-software": {
+    "guide": {
+      "src": "/article-assets/free-white-return-software/guide.svg",
+      "width": 720,
+      "height": 1458,
+      "alt": "白色申告までに必要な作業を比べる。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "白色申告までに必要な作業を比べる。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "やよいの白色申告 オンライン・フリー：費用の考え方：継続無料。申告までに必要な作業：自分で入力内容を確認し、公式手順で提出",
+        "表計算＋国税庁の作成コーナー：費用の考え方：手持ちの表計算の契約費は別、作成コーナーは無料。申告までに必要な作業：集計・決算整理・転記・提出を自分で行う",
+        "OpenTax＋別の申告手段：費用の考え方：ソフト本体無料、保存先・AI費用は別の場合あり。申告までに必要な作業：白色用の収支内訳書や申告書は別途作成する前提",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/free-white-return-software/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "白色申告までに必要な作業を比べる：本文の比較・具体例の要点",
+      "caption": "白色申告までに必要な作業を比べる。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/free-white-return-software.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "53a85a32a0840357aa3a47a201dc2057430c317851e0e9420424d4e5e74a9888",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "freee-alternatives": {
+    "guide": {
+      "src": "/article-assets/freee-alternatives/guide.svg",
+      "width": 720,
+      "height": 1407,
+      "alt": "困りごとからfreeeの代わりを選ぶ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "困りごとからfreeeの代わりを選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "choices",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "青色申告の年額を抑えたい：最初に比べたい候補：やよい青色セルフ、MFパーソナルミニ。選ぶときに残したい条件：消費税申告とCSV出力の要否",
+        "PCに帳簿データを残したい：最初に比べたい候補：GnuCash。選ぶときに残したい条件：日本の申告書は別に作ること",
+        "普段のAIから記帳したい：最初に比べたい候補：OpenTax。選ぶときに残したい条件：AIの仕訳を人が確認する運用",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/freee-alternatives/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "困りごとからfreeeの代わりを選ぶ：本文の比較・具体例の要点",
+      "caption": "困りごとからfreeeの代わりを選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/freee-alternatives.md",
+      "sourceHeadingId": "choices",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "https://biz.moneyforward.com/price/individual/",
+        "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+        "https://biz.moneyforward.com/support/plan/news/20260924.html",
+        "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "https://www.gnucash.org/",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "55e74bfafad7c8469c497be76ce8b314e36acffa844237a66000f35b8896d14b",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        3,
+        4
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "freee-cancellation-data-checklist": {
+    "guide": {
+      "src": "/article-assets/freee-cancellation-data-checklist/guide.svg",
+      "width": 720,
+      "height": 1514,
+      "alt": "解約前に、五つの資料を保存。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "解約前に、五つの資料を保存。領収書のリンクだけでなく、ファイル本体まで保存します。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "仕訳：仕訳CSVと仕訳帳PDF",
+        "帳簿・帳票：総勘定元帳、試算表、貸借対照表などの帳簿・帳票",
+        "申告：確定申告書、青色申告決算書や収支内訳書、送信結果",
+        "未決済・固定資産：未入金・未払いの一覧と固定資産の取得・償却資料",
+        "元のファイル：領収書、請求書、銀行明細などのファイル本体",
+        "領収書のリンクだけでなく、ファイル本体まで保存します。"
+      ],
+      "kind": "checklist"
+    },
+    "share": {
+      "src": "/article-assets/freee-cancellation-data-checklist/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "解約前に、五つの資料を保存：本文の比較・具体例の要点",
+      "caption": "解約前に、五つの資料を保存。領収書のリンクだけでなく、ファイル本体まで保存します。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/freee-cancellation-data-checklist.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://support.freee.co.jp/hc/ja/articles/202848470",
+        "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "https://support.freee.co.jp/hc/ja/articles/204615564",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "f09ccb8a9f462cf52da78c8fc3bc7449485e35078f502a464aa4c7c140110882",
+      "sourceTableIndex": null,
+      "sourceRowIndexes": null,
+      "sourceColumnIndexes": null,
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "freee-free-plan-limits": {
+    "guide": {
+      "src": "/article-assets/freee-free-plan-limits/guide.svg",
+      "width": 720,
+      "height": 1218,
+      "alt": "freeeの無料お試しと有料契約。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "freeeの無料お試しと有料契約。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "trial",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "仕訳帳・総勘定元帳のCSV／PDF出力：お試し中：お試し10データまで。有料契約中：出力可能",
+        "取引データのCSV出力：お試し中：利用不可。有料契約中：出力可能",
+        "確定申告書類：お試し中：内容の入力まで。有料契約中：作成・出力まで",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/freee-free-plan-limits/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "freeeの無料お試しと有料契約：本文の比較・具体例の要点",
+      "caption": "freeeの無料お試しと有料契約。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/freee-free-plan-limits.md",
+      "sourceHeadingId": "trial",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "https://support.freee.co.jp/hc/ja/articles/202848470",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "049328ac2be7ed2d91ab4afa1cf84f75170f182eebdf54ba8108cf1b77db4f86",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        1,
+        2,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "freee-journal-csv-export": {
+    "guide": {
+      "src": "/article-assets/freee-journal-csv-export/guide.svg",
+      "width": 720,
+      "height": 1744,
+      "alt": "freeeの出力形式を目的で選ぶ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "freeeの出力形式を目的で選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "他社用テンプレート：主な使い道：対応ソフトへの移行。選ぶときのポイント：受け取り先が指定するテンプレートを使う",
+        "旧CSV：主な使い道：一般的な仕訳項目の保存・分析。選ぶときのポイント：任意項目を外すと列構成も変わる",
+        "新CSV：主な使い道：多くの情報を含む仕訳の保存・受け渡し。選ぶときのポイント：全項目出力が取込先で受け付けられるかを合わせる",
+        "PDF：主な使い道：人が読む帳簿の控え。選ぶときのポイント：CSVの代わりに一括取込するものではない",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/freee-journal-csv-export/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "freeeの出力形式を目的で選ぶ：本文の比較・具体例の要点",
+      "caption": "freeeの出力形式を目的で選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/freee-journal-csv-export.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://support.freee.co.jp/hc/ja/articles/204615564",
+        "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "d4f6147fb280e510af5ea274ba365e37bf3a5f882daae6994bf2fad564590aac",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "freee-starter-standard-choice": {
+    "guide": {
+      "src": "/article-assets/freee-starter-standard-choice/guide.svg",
+      "width": 720,
+      "height": 1178,
+      "alt": "freeeの年額と必要機能を比べる。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "freeeの年額と必要機能を比べる。Web契約の年払い・税抜。2026年10月3日確認。",
+      "placement": {
+        "headingId": "basic",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "Web契約の年払い：スターター：11,760円。スタンダード：23,760円",
+        "消費税申告：スターター：対象外。スタンダード：対応",
+        "入金・支払管理レポート：スターター：対象外。スタンダード：対応",
+        "Web契約の年払い・税抜。2026年10月3日確認。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/freee-starter-standard-choice/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "freeeの年額と必要機能を比べる：本文の比較・具体例の要点",
+      "caption": "freeeの年額と必要機能を比べる。Web契約の年払い・税抜。2026年10月3日確認。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/freee-starter-standard-choice.md",
+      "sourceHeadingId": "basic",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "https://support.freee.co.jp/hc/ja/articles/115000703043",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "109bf5a3dcf47791cda68b38c7056f39d617e6ca412887291c3c02535bd21f0f",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        6,
+        7
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "gnucash-japan-accounting-review": {
+    "guide": {
+      "src": "/article-assets/gnucash-japan-accounting-review/guide.svg",
+      "width": 720,
+      "height": 1118,
+      "alt": "GnuCashの帳簿から日本の申告へ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "GnuCashの帳簿から日本の申告へ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "現金・預金・売掛金などの記録：使うもの：GnuCashの勘定科目と複式簿記",
+        "売上・経費・残高の確認：使うもの：GnuCashの帳票",
+        "日本の決算書・申告書の作成：使うもの：帳簿の集計と国税庁の作成コーナーなど",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/gnucash-japan-accounting-review/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "GnuCashの帳簿から日本の申告へ：本文の比較・具体例の要点",
+      "caption": "GnuCashの帳簿から日本の申告へ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/gnucash-japan-accounting-review.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.gnucash.org/index.phtml?lang=ja_JP",
+        "https://www.gnucash.org/docs/v5/C/gnucash-guide/basics-backup1.html",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "b2215e9aef5fd784eec39e017122c772fdf12cf33e713733e3d533ed00e56ed0",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "moneyforward-cost-review": {
+    "guide": {
+      "src": "/article-assets/moneyforward-cost-review/guide.svg",
+      "width": 720,
+      "height": 1218,
+      "alt": "MF年額：2026年12月の改定前後。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "MF年額：2026年12月の改定前後。Web契約・税抜。改定は2026年12月1日。既存契約は以降の更新から。",
+      "placement": {
+        "headingId": "revision",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "ミニ・年払い：2026年10月時点：10,800円。改定後：10,800円",
+        "パーソナル・年払い：2026年10月時点：15,360円。改定後：22,560円",
+        "プラス・年払い：2026年10月時点：35,760円。改定後：38,160円",
+        "Web契約・税抜。改定は2026年12月1日。既存契約は以降の更新から。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/moneyforward-cost-review/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "MF年額：2026年12月の改定前後：本文の比較・具体例の要点",
+      "caption": "MF年額：2026年12月の改定前後。Web契約・税抜。改定は2026年12月1日。既存契約は以降の更新から。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/moneyforward-cost-review.md",
+      "sourceHeadingId": "revision",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://biz.moneyforward.com/price/individual/",
+        "https://biz.moneyforward.com/support/plan/news/20260924.html",
+        "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "50cbd29993cc40f51cb2660dde55b194e4cdf575132f07393c02248b2e5c054b",
+      "sourceTableIndex": 2,
+      "sourceRowIndexes": [
+        1,
+        3,
+        4
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "moneyforward-free-limits": {
+    "guide": {
+      "src": "/article-assets/moneyforward-free-limits/guide.svg",
+      "width": 720,
+      "height": 1025,
+      "alt": "月13件なら、年間は156件。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "月13件なら、年間は156件。本文の架空例。仕訳の件数は請求書の枚数だけでは数えません。",
+      "placement": {
+        "headingId": "count",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "毎月記録するもの：売上4件＋入金4件＋経費5件。一月の合計：13件",
+        "同じ取引量の12か月分：156件",
+        "未契約での無償利用：1会計年度50件まで",
+        "本文の架空例。仕訳の件数は請求書の枚数だけでは数えません。"
+      ],
+      "kind": "amount"
+    },
+    "share": {
+      "src": "/article-assets/moneyforward-free-limits/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "月13件なら、年間は156件：本文の比較・具体例の要点",
+      "caption": "月13件なら、年間は156件。本文の架空例。仕訳の件数は請求書の枚数だけでは数えません。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/moneyforward-free-limits.md",
+      "sourceHeadingId": "count",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://biz.moneyforward.com/support/plan/guide/p008.html",
+        "https://biz.moneyforward.com/support/plan/guide/p024.html",
+        "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+        "https://biz.moneyforward.com/price/individual/",
+        "https://biz.moneyforward.com/support/plan/news/20260924.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "751a9400130d47544edb37a389799ff639810eb9f289650117c6653be0c69566",
+      "sourceTableIndex": null,
+      "sourceRowIndexes": null,
+      "sourceColumnIndexes": null,
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "monthly-bookkeeping-reconciliation": {
+    "guide": {
+      "src": "/article-assets/monthly-bookkeeping-reconciliation/guide.svg",
+      "width": 720,
+      "height": 1407,
+      "alt": "預金の差額から原因を探す。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "預金の差額から原因を探す。本文の架空例。銀行の実残高は500,000円。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "530,000円：差額：30,000円多い。原因の例：銀行の支払い30,000円が記帳漏れ。修正後：500,000円",
+        "480,000円：差額：20,000円少ない。原因の例：支払い20,000円を二重計上。修正後：500,000円",
+        "550,000円：差額：50,000円多い。原因の例：10月1日の入金を9月30日で記帳。修正後：500,000円",
+        "本文の架空例。銀行の実残高は500,000円。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/monthly-bookkeeping-reconciliation/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "預金の差額から原因を探す：本文の比較・具体例の要点",
+      "caption": "預金の差額から原因を探す。本文の架空例。銀行の実残高は500,000円。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/monthly-bookkeeping-reconciliation.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "e3eebde52dffd5b2a27a518ab463430495a144ff5cd7030210f314e8db5c3199",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "open-source-accounting-japan-checklist": {
+    "guide": {
+      "src": "/article-assets/open-source-accounting-japan-checklist/guide.svg",
+      "width": 720,
+      "height": 1804,
+      "alt": "記帳から提出まで、四つの工程。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "記帳から提出まで、四つの工程。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "日々の記帳：必要なもの：仕訳帳・総勘定元帳、売掛金や未払金の内訳。ソフトで足りない場合の補い方：対応する帳簿を出せる製品を選ぶ",
+        "決算整理：必要なもの：固定資産、棚卸し、家事按分など。ソフトで足りない場合の補い方：明細を別にまとめて帳簿へ反映",
+        "決算書・申告書：必要なもの：対象年分の様式と各欄の数字。ソフトで足りない場合の補い方：国税庁の作成コーナーなどへ入力",
+        "提出・確認：必要なもの：e-Tax送信、受信結果。ソフトで足りない場合の補い方：選んだ提出方法で送信し結果を保存",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/open-source-accounting-japan-checklist/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "記帳から提出まで、四つの工程：本文の比較・具体例の要点",
+      "caption": "記帳から提出まで、四つの工程。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/open-source-accounting-japan-checklist.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "a28ae13261ebbb14f0bee0bd63cadd4947b444215bd9a62dcacc1bbcca9eeb24",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "open-source-accounting-software": {
+    "guide": {
+      "src": "/article-assets/open-source-accounting-software/guide.svg",
+      "width": 720,
+      "height": 1355,
+      "alt": "3製品の使う場所と申告の分担。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "3製品の使う場所と申告の分担。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "GnuCash：使う場所：パソコン用アプリ。日本の申告との関係：帳簿を作り、申告用の作業は別に組み合わせる",
+        "Frappe Books 現行版：使う場所：自分で設置したWeb環境。日本の申告との関係：日本向け申告帳票は今回未確認",
+        "OpenTax：使う場所：ブラウザ。日本の申告との関係：e-Tax用出力は限定範囲。提出前の確認が必要",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/open-source-accounting-software/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "3製品の使う場所と申告の分担：本文の比較・具体例の要点",
+      "caption": "3製品の使う場所と申告の分担。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/open-source-accounting-software.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.gnucash.org/index.phtml?lang=ja_JP",
+        "https://frappe.io/books",
+        "https://github.com/frappe/books",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "1a882229439caaa6893c8491f3206771f5483cca24eaec1fb982010b898ed1dc",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "opentax-vs-freee": {
+    "guide": {
+      "src": "/article-assets/opentax-vs-freee/guide.svg",
+      "width": 720,
+      "height": 1407,
+      "alt": "freeeとOpenTaxの記帳・確認・連携。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "freeeとOpenTaxの記帳・確認・連携。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "comparison",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "日々の記帳：freee会計・個人向け：手入力、銀行・カード明細の取り込み。OpenTax：手入力、連携したAIからの記帳",
+        "仕訳の確認：freee会計・個人向け：登録内容を確認・修正。OpenTax：AI登録は確認待ちにし、人が画面で確定",
+        "請求・証憑・固定資産：freee会計・個人向け：プランの範囲で対応。OpenTax：見積書・請求書、証憑保管、固定資産に対応",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/opentax-vs-freee/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "freeeとOpenTaxの記帳・確認・連携：本文の比較・具体例の要点",
+      "caption": "freeeとOpenTaxの記帳・確認・連携。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/opentax-vs-freee.md",
+      "sourceHeadingId": "comparison",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://support.freee.co.jp/hc/ja/articles/213726523",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "3365ef8907c2f217a341e983c96d6bfc1ebdf2063e790866a96d01eb641a273d",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        2,
+        4
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "owners-drawings-contributions-journal": {
+    "guide": {
+      "src": "/article-assets/owners-drawings-contributions-journal/guide.svg",
+      "width": 720,
+      "height": 1218,
+      "alt": "お金の向きで事業主勘定を分ける。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "お金の向きで事業主勘定を分ける。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "私用財布で仕事の経費を支払う：基本の考え方：個人が事業の支出を負担。使う事業主勘定：事業主借",
+        "事業口座から生活費を出す：基本の考え方：事業から個人へ資金を移す。使う事業主勘定：事業主貸",
+        "売掛金が帳簿外の個人口座へ入る：基本の考え方：事業の代金を個人が受け取る。使う事業主勘定：事業主貸",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/owners-drawings-contributions-journal/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "お金の向きで事業主勘定を分ける：本文の比較・具体例の要点",
+      "caption": "お金の向きで事業主勘定を分ける。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/owners-drawings-contributions-journal.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "2e38ad4837807a88ea45ad6c14257cd22a06672d97ab2094490bf6a76592f209",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "receipt-organization-sole-proprietor": {
+    "guide": {
+      "src": "/article-assets/receipt-organization-sole-proprietor/guide.svg",
+      "width": 720,
+      "height": 1218,
+      "alt": "領収書は資料番号と処理状況で追う。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "領収書は資料番号と処理状況で追う。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "2026-P0901：内容：A文具の仕事用ファイル。状況：記帳済み・仕訳101",
+        "2026-E0902：内容：B通信の事業専用回線。状況：支払元の確認待ち",
+        "2026-E0903：内容：C交通で客先へ移動。状況：用務メモの確認待ち",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/receipt-organization-sole-proprietor/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "領収書は資料番号と処理状況で追う：本文の比較・具体例の要点",
+      "caption": "領収書は資料番号と処理状況で追う。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/receipt-organization-sole-proprietor.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "7280d0025a78bc4362686a2dab1967d46e9a7236cf9912438c5895819800745b",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        2,
+        4
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "self-hosted-accounting-cost": {
+    "guide": {
+      "src": "/article-assets/self-hosted-accounting-cost/guide.svg",
+      "width": 720,
+      "height": 1081,
+      "alt": "領収書100枚から年間保存量を見積もる。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "領収書100枚から年間保存量を見積もる。本文の架空の容量計算。料金の試算ではありません。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "毎月増える証憑：この例で入れる値：100枚×0.5MB＝50MB",
+        "初年度に増える原本：この例で入れる値：50MB×12＝600MB",
+        "過年度とバックアップ：この例で入れる値：実際に残す容量を追加",
+        "本文の架空の容量計算。料金の試算ではありません。"
+      ],
+      "kind": "amount"
+    },
+    "share": {
+      "src": "/article-assets/self-hosted-accounting-cost/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "領収書100枚から年間保存量を見積もる：本文の比較・具体例の要点",
+      "caption": "領収書100枚から年間保存量を見積もる。本文の架空の容量計算。料金の試算ではありません。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/self-hosted-accounting-cost.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://firebase.google.com/docs/storage/faqs-storage-changes-announced-sept-2024?hl=ja",
+        "https://firebase.google.com/pricing?hl=ja",
+        "https://www.gnucash.org/index.phtml?lang=ja_JP"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "b08b60069254f4135fc9fecf8cbaea424d4fded0444d9786ea8b5a25f1e4dd82",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "self-hosted-accounting-guide": {
+    "guide": {
+      "src": "/article-assets/self-hosted-accounting-guide/guide.svg",
+      "width": 720,
+      "height": 1647,
+      "alt": "アプリ・帳簿・ファイル・認証。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "アプリ・帳簿・ファイル・認証。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-1",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "アプリ：役割：入力画面と処理を動かす。保存・管理するもの：ソフトのバージョン、接続設定",
+        "帳簿の保存先：役割：仕訳や取引先を残す。保存・管理するもの：データベースの内容",
+        "ファイルの保存先：役割：領収書や請求書を残す。保存・管理するもの：PDFや画像の本体",
+        "認証：役割：誰が使えるかを決める。保存・管理するもの：ログイン方法と利用者の設定",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "structure"
+    },
+    "share": {
+      "src": "/article-assets/self-hosted-accounting-guide/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "アプリ・帳簿・ファイル・認証：本文の比較・具体例の要点",
+      "caption": "アプリ・帳簿・ファイル・認証。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/self-hosted-accounting-guide.md",
+      "sourceHeadingId": "section-1",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.gnucash.org/index.phtml?lang=ja_JP",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://firebase.google.com/docs/storage/faqs-storage-changes-announced-sept-2024?hl=ja",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "1208094e25de2a855f6def65256ee91bc7a926e22f787cceed2d7c0dc657a2b6",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "sole-proprietor-bookkeeping-routine": {
+    "guide": {
+      "src": "/article-assets/sole-proprietor-bookkeeping-routine/guide.svg",
+      "width": 720,
+      "height": 1355,
+      "alt": "1週間の記帳：請求から回収まで。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "1週間の記帳：請求から回収まで。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "月：取引：サービス提供が完了し40,000円を請求。仕訳：売掛金40,000円／売上40,000円",
+        "火：取引：文具1,500円を事業現金で購入。仕訳：消耗品費1,500円／現金1,500円",
+        "水：取引：月曜の請求が全額入金。仕訳：普通預金40,000円／売掛金40,000円",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/sole-proprietor-bookkeeping-routine/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "1週間の記帳：請求から回収まで：本文の比較・具体例の要点",
+      "caption": "1週間の記帳：請求から回収まで。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/sole-proprietor-bookkeeping-routine.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "e276a75674a4c7e0e8085a8833e24c0393d9f2779ccbc0d66d3d2a010dc4d6b7",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "startup-costs-bookkeeping-sole-proprietor": {
+    "guide": {
+      "src": "/article-assets/startup-costs-bookkeeping-sole-proprietor/guide.svg",
+      "width": 720,
+      "height": 1395,
+      "alt": "開業費10万円を3年で償却する例。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "開業費10万円を3年で償却する例。本文の架空例。償却額は未償却残高の範囲で決めます。",
+      "placement": {
+        "headingId": "section-4",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "2026年：年初の残高：100,000円。その年の償却額：30,000円。年末の未償却残高：70,000円",
+        "2027年：年初の残高：70,000円。その年の償却額：40,000円。年末の未償却残高：30,000円",
+        "2028年：年初の残高：30,000円。その年の償却額：30,000円。年末の未償却残高：0円",
+        "本文の架空例。償却額は未償却残高の範囲で決めます。"
+      ],
+      "kind": "flow"
+    },
+    "share": {
+      "src": "/article-assets/startup-costs-bookkeeping-sole-proprietor/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "開業費10万円を3年で償却する例：本文の比較・具体例の要点",
+      "caption": "開業費10万円を3年で償却する例。本文の架空例。償却額は未償却残高の範囲で決めます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/startup-costs-bookkeeping-sole-proprietor.md",
+      "sourceHeadingId": "section-4",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+        "https://www.nta.go.jp/law/shitsugi/shotoku/04/08.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "4cf7692207d2ead16d446b86eb98eae7dec34945d89c48df318023e0f609c56a",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "switch-from-freee": {
+    "guide": {
+      "src": "/article-assets/switch-from-freee/guide.svg",
+      "width": 720,
+      "height": 1153,
+      "alt": "移行後の預金残高を検算する。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "移行後の預金残高を検算する。架空例：100,000＋30,000−5,000＝125,000円。売掛金も0円か確認。",
+      "placement": {
+        "headingId": "section-4",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "期首の普通預金：100,000円。売掛金30,000円",
+        "売掛金を全額回収：＋30,000円。通信費5,000円を支払った",
+        "普通預金：125,000円。売掛金は0円",
+        "架空例：100,000＋30,000−5,000＝125,000円。売掛金も0円か確認。"
+      ],
+      "kind": "amount"
+    },
+    "share": {
+      "src": "/article-assets/switch-from-freee/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "移行後の預金残高を検算する：本文の比較・具体例の要点",
+      "caption": "移行後の預金残高を検算する。架空例：100,000＋30,000−5,000＝125,000円。売掛金も0円か確認。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/switch-from-freee.md",
+      "sourceHeadingId": "section-4",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://support.freee.co.jp/hc/ja/articles/204615564",
+        "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+        "https://support.freee.co.jp/hc/ja/articles/202848470",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "cdbb7773a99ac7b22448aa947a3167a010ccd6fa4f9e95f7e4b3b39111480633",
+      "sourceTableIndex": null,
+      "sourceRowIndexes": null,
+      "sourceColumnIndexes": null,
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "switch-from-moneyforward": {
+    "guide": {
+      "src": "/article-assets/switch-from-moneyforward/guide.svg",
+      "width": 720,
+      "height": 1309,
+      "alt": "MFの書き出し形式を目的で選ぶ。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "MFの書き出し形式を目的で選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "CSV形式：残せる内容：定められた仕訳項目。主な用途：相手がこの形式を指定する場合の取込",
+        "MF形式：残せる内容：すべての仕訳項目。主な用途：元の情報を多く残す控え・対応先への取込",
+        "PDF：残せる内容：人が読める仕訳帳。主な用途：帳簿の確認と保存",
+        "本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+      ],
+      "kind": "decision"
+    },
+    "share": {
+      "src": "/article-assets/switch-from-moneyforward/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "MFの書き出し形式を目的で選ぶ：本文の比較・具体例の要点",
+      "caption": "MFの書き出し形式を目的で選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/switch-from-moneyforward.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
+        "https://biz.moneyforward.com/support/tax-return/guide/books2/bo01.html",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "4b79f5383e2a479266f4b720c4706a74555a1666327e2390fb9b3d0337fa51d1",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "withheld-freelance-fees-journal": {
+    "guide": {
+      "src": "/article-assets/withheld-freelance-fees-journal/guide.svg",
+      "width": 720,
+      "height": 926,
+      "alt": "源泉対象額で入金額は変わる。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "源泉対象額で入金額は変わる。2026年の原稿料の例。請求総額110,000円、振込手数料なし。",
+      "placement": {
+        "headingId": "section-3",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "明確に区分した報酬100,000円：源泉税：10,210円。手数料なしの入金：99,790円",
+        "消費税込みの110,000円：源泉税：11,231円。手数料なしの入金：98,769円",
+        "2026年の原稿料の例。請求総額110,000円、振込手数料なし。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/withheld-freelance-fees-journal/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "源泉対象額で入金額は変わる：本文の比較・具体例の要点",
+      "caption": "源泉対象額で入金額は変わる。2026年の原稿料の例。請求総額110,000円、振込手数料なし。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/withheld-freelance-fees-journal.md",
+      "sourceHeadingId": "section-3",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+        "https://www.jftc.go.jp/fllaw_limited/fllaw_qa.html"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "0438556c38baf74cb34338e5351b24ba8ada2c8b57a0bd308d63cc25f9d24e8e",
+      "sourceTableIndex": 1,
+      "sourceRowIndexes": [
+        0,
+        1
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "yayoi-free-options": {
+    "guide": {
+      "src": "/article-assets/yayoi-free-options/guide.svg",
+      "width": 720,
+      "height": 1584,
+      "alt": "やよいの無料条件を三つに分ける。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "やよいの無料条件を三つに分ける。2026年10月3日確認。初年度無料と無料体験は条件が異なります。",
+      "placement": {
+        "headingId": "three-options",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "白色申告 オンライン・フリー：無料になる期間：継続無料。無料で使える範囲：白色の記帳・申告などの製品機能。主な条件：電話・メール・チャットの操作サポートなし",
+        "青色申告 オンライン・セルフ／ベーシックの初年度無料：無料になる期間：契約から1年間。無料で使える範囲：決算・申告を含む全機能。主な条件：キャンペーン対象者、決済登録、自動更新",
+        "青色申告 オンライン・無料体験：無料になる期間：申込月の翌月末まで、最大2か月。無料で使える範囲：入力などのお試し。主な条件：決算・申告機能は利用不可",
+        "2026年10月3日確認。初年度無料と無料体験は条件が異なります。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/yayoi-free-options/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "やよいの無料条件を三つに分ける：本文の比較・具体例の要点",
+      "caption": "やよいの無料条件を三つに分ける。2026年10月3日確認。初年度無料と無料体験は条件が異なります。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/yayoi-free-options.md",
+      "sourceHeadingId": "three-options",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+        "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
+        "https://support.yayoi-kk.co.jp/faq_Subcontents.html?page_id=302",
+        "https://www.yayoi-kk.co.jp/lp/aoiro-ol-05/",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "050705236705306a5fca0f838da305c57171860387ce3bb2276d2e572294b854",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1,
+        2
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  },
+  "year-end-bookkeeping-adjustments": {
+    "guide": {
+      "src": "/article-assets/year-end-bookkeeping-adjustments/guide.svg",
+      "width": 720,
+      "height": 1017,
+      "alt": "年末の未入金と前金を分ける。詳しい内容は直後のテキストと本文に記載。",
+      "caption": "年末の未入金と前金を分ける。本文の架空例。完了した仕事と翌年に提供する仕事を分けます。",
+      "placement": {
+        "headingId": "section-2",
+        "position": "after-heading"
+      },
+      "accessibleText": [
+        "12月に完了、1月に120,000円入金：年末の記録：売掛金／売上120,000円。翌年の処理：普通預金／売掛金120,000円",
+        "12月に60,000円受領、仕事は翌年：年末の記録：普通預金／前受金60,000円。翌年の処理：提供時に前受金／売上60,000円",
+        "本文の架空例。完了した仕事と翌年に提供する仕事を分けます。"
+      ],
+      "kind": "compare"
+    },
+    "share": {
+      "src": "/article-assets/year-end-bookkeeping-adjustments/share.png",
+      "width": 1200,
+      "height": 630,
+      "alt": "年末の未入金と前金を分ける：本文の比較・具体例の要点",
+      "caption": "年末の未入金と前金を分ける。本文の架空例。完了した仕事と翌年に提供する仕事を分けます。"
+    },
+    "provenance": {
+      "creator": "OpenTax編集部",
+      "license": "original-editorial",
+      "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
+      "sourceArticle": "content/articles/year-end-bookkeeping-adjustments.md",
+      "sourceHeadingId": "section-2",
+      "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
+      "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
+      "sourceUrls": [
+        "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+        "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+        "https://github.com/Arrenem/opentax/blob/main/README.md",
+        "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md"
+      ],
+      "checkedAt": "2026-10-03",
+      "articleSha256": "dc7c4cbd283c2f87f76f72624e7ed929b5240b784d1028c81e60d42a9cd00f36",
+      "sourceTableIndex": 0,
+      "sourceRowIndexes": [
+        0,
+        1
+      ],
+      "sourceColumnIndexes": [
+        0,
+        1,
+        2
+      ],
+      "thirdPartyBinary": false,
+      "generator": "scripts/site/generate-article-visuals.py"
+    }
+  }
+}

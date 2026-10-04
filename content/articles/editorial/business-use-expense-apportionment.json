@@ -1,0 +1,125 @@
+{
+  "id": "49",
+  "slug": "business-use-expense-apportionment",
+  "title": "家事按分のやり方：家賃20％・通信費40％の計算例と仕訳",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "自宅の家賃や通信費は何％を経費にでき、どう仕訳する？",
+  "answerSummary": "家事按分は、仕事と生活で共用している支出から、事業に必要な部分を分けることです。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "家事関連費は業務上直接必要な部分を明確に区分した額に限り必要経費となる。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "必要な部分が50％以下でも明確に区分できればその部分を必要経費に算入できる。",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：必要経費の知識",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：所得税基本通達45-1・45-2 家事関連費",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "家賃は、仕事で使う場所から計算するの説明直後",
+      "purpose": "家賃は、仕事で使う場所から計算するを具体的な数字・条件で理解できるようにする",
+      "content": "| 家賃の計算に使う情報 | 架空例 |\n| --- | --- |\n| 住居全体の面積 | 50㎡ |\n| 仕事専用部分の面積 | 10㎡ |\n| 事業割合 | 10÷50＝20％ |\n| 月の家賃 | 100,000円 |\n| 月の事業部分 | 20,000円 |\n| 残す根拠 | 契約、間取り、部屋の用途、使用開始時期 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "毎月分ける方法と、年末に私用分を戻す方法の説明直後",
+      "purpose": "毎月分ける方法と、年末に私用分を戻す方法を具体的な数字・条件で理解できるようにする",
+      "content": "| 借方 | 金額 | 貸方 | 金額 |\n| --- | ---: | --- | ---: |\n| 地代家賃 | 20,000円 | 普通預金 | 100,000円 |\n| 事業主貸 | 80,000円 | ― | ― |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "年間合計と、途中で使い方が変わった場合の説明直後",
+      "purpose": "年間合計と、途中で使い方が変わった場合を具体的な数字・条件で理解できるようにする",
+      "content": "| 費用 | 年間支出 | 事業部分 | 私用部分 |\n| --- | ---: | ---: | ---: |\n| 家賃・20％ | 1,200,000円 | 240,000円 | 960,000円 |\n| 通信費・40％ | 120,000円 | 48,000円 | 72,000円 |\n| 合計 | 1,320,000円 | 288,000円 | 1,032,000円 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "元の面積20％・通信40％・年間288,000円と仕訳2方式を保持。",
+    "割合変更の半期例180,000円を追加して期間配分を具体化。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。",
+    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "共用している費用だけを按分する",
+      "id": "section-1"
+    },
+    {
+      "heading": "家賃は、仕事で使う場所から計算する",
+      "id": "section-2"
+    },
+    {
+      "heading": "通信費は、サービスの内訳と利用記録を見る",
+      "id": "section-3"
+    },
+    {
+      "heading": "毎月分ける方法と、年末に私用分を戻す方法",
+      "id": "section-4"
+    },
+    {
+      "heading": "年間合計と、途中で使い方が変わった場合",
+      "id": "section-5"
+    },
+    {
+      "heading": "根拠を決めた按分仕訳をOpenTaxへ記録する",
+      "id": "section-6"
+    }
+  ],
+  "sourceSnapshotSha256": "e71b82b86952b99be8987cd54945a3d37414ae7ae7fd4c0db52ed77cb44c2aa0",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "家事按分は、仕事と生活で共用している支出から、事業に必要な部分を分けることです。全員に共通する「家賃は何％まで」という割合はなく、仕事で使う面積や利用記録など、実態に合う根拠で計算します。"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "28",
+  "slug": "open-source-accounting-software",
+  "title": "オープンソースの会計ソフト3つを比較｜GnuCash・Frappe Books・OpenTax",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "個人事業主に合うオープンソース会計はどれか",
+  "answerSummary": "手元PC中心ならGnuCash、Web運用と販売業務ならFrappe Books、日本の個人事業とAI記帳ならOpenTaxが比較候補。",
+  "articleType": "comparison",
+  "productPlacement": "comparison-entry",
+  "keyClaims": [
+    {
+      "claim": "GnuCashは複式記帳と各種OSを公式に案内",
+      "sourceUrl": "https://www.gnucash.org/index.phtml?lang=ja_JP",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "Frappe Books現行版はWeb型で旧desktop版はサポート終了",
+      "sourceUrl": "https://frappe.io/books",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxのe-Tax出力は一部範囲に限る",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "GnuCash公式サイト",
+      "url": "https://www.gnucash.org/index.phtml?lang=ja_JP",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "Frappe Books公式サイト",
+      "url": "https://frappe.io/books",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "Frappe Books旧デスクトップ版の公開リポジトリ",
+      "url": "https://github.com/frappe/books",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "original-diagram-or-table",
+      "placement": "3製品比較表",
+      "purpose": "製品の優劣ではなく利用目的の違いを示す",
+      "content": "PC記帳/GnuCash、販売在庫/Web版Frappe、日本個人事業AI/OpenTaxの3列。いずれも申告完了保証を付けない。",
+      "license": "新規オリジナル図表。本文の事実・架空計算例を使用。第三者画像なし。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTax紹介直後、出典前"
+  },
+  "headingAnchors": [
+    {
+      "heading": "3製品は使う場所と得意な仕事が違う",
+      "id": "section-1"
+    },
+    {
+      "heading": "パソコン中心の記帳ならGnuCash",
+      "id": "section-2"
+    },
+    {
+      "heading": "販売や在庫もまとめるならFrappe Books",
+      "id": "section-3"
+    },
+    {
+      "heading": "日本の個人事業とAI記帳ならOpenTax",
+      "id": "section-4"
+    },
+    {
+      "heading": "使い方に合う候補から選ぶ",
+      "id": "section-5"
+    }
+  ],
+  "changes": [
+    "冒頭で主質問に回答",
+    "操作・検算の具体例を残して一文一段落に改稿",
+    "記事固有のOpenTax紹介と直下CTA",
+    "重複出典と宿題調の末尾を整理",
+    "主題に貢献しない計算練習・重複注意書きを削減し、出典を小見出しへ統一。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "5a7be27f5a32d9e342c45020e61e0680d91e3717fa88b26b05168c8f740358b2",
+  "wordingReview": "人手の専門監修・実機検証済みとは表記しない",
+  "editorialReview": {
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "sourceSeparation": "single compact list",
+    "publicationAuthorized": false,
+    "structuralPass": "completed",
+    "baselineChanged": false,
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "verificationNotes": [
+    "三製品同一データの実機比較は未実施。資料比較と記載。Frappe日本対応を未対応と断定しない。"
+  ],
+  "reviewGate": "公開前の編集承認・必要な税務レビューと実装検査。資料比較のまま実機検証済みと表示しない。",
+  "description": "手元のパソコンで帳簿を付けたいならGnuCash、ブラウザで販売・在庫まで扱いたいならFrappe Books、日本の個人事業の記帳をAIに手伝ってもらいたいならOpenTaxが候補です。いずれもソースコードが公開された会計ソフトですが、使い方と日本の申告までの担当範囲は異なります。"
+}

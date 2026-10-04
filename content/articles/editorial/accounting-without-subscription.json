@@ -1,0 +1,145 @@
+{
+  "id": "17",
+  "slug": "accounting-without-subscription",
+  "title": "会計ソフトを買い切りで選ぶには？無料ソフトと3年分の費用を比較",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "月額課金を避けるには買い切りと無料会計ソフトのどちらがよく、総額はいくらか。",
+  "answerSummary": "購入型でも保守・制度更新費を含めて比較する。やよい26の初年度優待14,000円とセルフ年12,300円を3年間使う仮定では税抜38,600円、税込42,460円。無料OSSは外部費用を別に見積もる。",
+  "articleType": "comparison",
+  "productPlacement": "comparison-entry",
+  "keyClaims": [
+    {
+      "claim": "やよい26のセルフ/ベーシック初年度優待は14,000円税抜、セルフ通常保守は年12,300円税抜。製品単体はオープン価格。",
+      "sourceUrl": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "同額が続き初年度優待後にセルフ保守を2年継続すると14,000+12,300×2=38,600円税抜、10%税込42,460円。",
+      "sourceUrl": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "優待は1事業者1製品1回等の条件があり、決済登録が必要で保守は自動更新。セルフ保守は版更新・法令改正対応を含む。",
+      "sourceUrl": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "やよい青色申告26の公式デスクトップOS要件はWindows。",
+      "sourceUrl": "https://www.yayoi-kk.co.jp/products/spec/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは帳簿・請求書・証憑・固定資産を扱い、外部AIが解釈して登録した仕訳を人が確認・確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "保守解約後は弥生ドライブの閲覧/共有、スマート取引取込の閲覧/取込などが利用できなくなる。",
+      "sourceUrl": "https://www.yayoi-kk.co.jp/yss/service/support_point/",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "やよい青色申告26 価格・保守条件",
+      "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "弥生 デスクトップシステム要件",
+      "url": "https://www.yayoi-kk.co.jp/products/spec/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "弥生 保守価格改定案内",
+      "url": "https://www.yayoi-kk.co.jp/yss/info/detail.20260803-1/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "GnuCash公式",
+      "url": "https://www.gnucash.org/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax README",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax 現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "弥生 保守解約時のサービス制限",
+      "url": "https://www.yayoi-kk.co.jp/yss/service/support_point/",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "買い切りと無料ソフトは何が違う",
+      "purpose": "購入/保守とソフト本体無料の違いを示す",
+      "content": "やよい26・GnuCash・OpenTaxの費用と申告分担",
+      "license": "編集部作成の表。一次資料に基づく独自整理。"
+    },
+    {
+      "type": "table",
+      "placement": "やよいの青色申告を3年使うといくらか",
+      "purpose": "原文の3年費用試算を明瞭にする",
+      "content": "14,000円/12,300円/12,300円、税抜38,600円・税込42,460円の表",
+      "license": "編集部作成の表。一次資料に基づく独自整理。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTaxの紹介・費用注記の直後、出典の前"
+  },
+  "changes": [
+    "冒頭で購入型と無料本体の選択肢、3年総額を回答",
+    "原文の税込・税抜価格と三年計算を保持",
+    "価格据置の仮定と初年度保守優待の条件を明示",
+    "Windows向け製品であることと保守を止めた場合の具体的な制限を補足",
+    "OpenTaxの費用を本体と保存先・AIに分ける導線を設置",
+    "自分で三年表を埋める宿題を削り、購入型と無料OSSの選ぶ目安へ変更。保守を止めた際の一般論を、公式に確認した弥生の具体的な利用制限に置き換えた。",
+    "文字数目標を外して全段落を検索質問への貢献で再読し、共通の否定的な販促文を避け、提供機能と費用範囲を記事固有の文脈で説明した。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "964b3471421c668517017aca76c2afc0014801efa161623fa6bf1a62ee814c5e",
+  "headingAnchors": [
+    {
+      "heading": "買い切りと無料ソフトは何が違う",
+      "id": "section-1"
+    },
+    {
+      "heading": "やよいの青色申告を3年使うといくらか",
+      "id": "section-2"
+    },
+    {
+      "heading": "購入型と無料ソフトのどちらを選ぶか",
+      "id": "section-3"
+    },
+    {
+      "heading": "買った後の更新と保存を確認する",
+      "id": "section-4"
+    },
+    {
+      "heading": "ソフトの継続料金を抑えたいならOpenTaxも",
+      "id": "section-5"
+    }
+  ],
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "会計ソフトの毎月の支払いを避けたいなら、購入型の申告ソフトか、GnuCash・OpenTaxのようなソフト本体が無料のものが候補です。購入型でも、翌年の申告書や制度改正への対応に保守料がかかる場合があるため、購入価格だけで選ばないようにしましょう。"
+}
