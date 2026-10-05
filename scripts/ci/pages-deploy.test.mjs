@@ -6,7 +6,7 @@ import { createRequire } from 'node:module';
 import path from 'node:path';
 import os from 'node:os';
 import { checkPublication, prepareRelease } from './prepare-site-release.mjs';
-import { publicPath } from './verify-site-release.mjs';
+import { publicPath, publicBodyHash, sha256 } from './verify-site-release.mjs';
 const require = createRequire(import.meta.url);
 const { load } = require('js-yaml');
 const root = path.resolve(new URL('../..', import.meta.url).pathname);
@@ -103,4 +103,31 @@ test('public paths follow the Pages extensionless HTML convention', () => {
   assert.equal(publicPath('site/articles/category/pricing/index.html'), '/articles/category/pricing/');
   assert.equal(publicPath('site/articles.css'), '/articles.css');
   assert.throws(() => publicPath('../secret'));
+});
+
+test('only the known Cloudflare email transform may normalize on the two demo docs', () => {
+  const expected = '<p><code>test@example.com</code> is a public development-only example.</p><script src="/main.js" defer></script>';
+  const script = '<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>';
+  const encode = (value, salt) => Buffer.from([salt, ...Buffer.from(value)].map((byte, index) => index ? byte ^ salt : byte)).toString('hex');
+  const url = 'https://opentax.fragmentware.com/docs/self-hosting';
+  for (const salt of [0, 42, 159, 218, 255]) {
+    const anchor = `<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="${encode('test@example.com', salt)}">[email&#160;protected]</a>`;
+    const observed = expected.replace('test@example.com', anchor).replace('<script src=', script + '<script src=');
+    assert.equal(publicBodyHash(Buffer.from(observed), url), sha256(expected));
+    assert.equal(publicBodyHash(Buffer.from(observed), 'https://opentax.fragmentware.com/docs/contributing'), sha256(expected));
+    for (const changed of [
+      observed.replace('development-only', 'production'),
+      observed.replace(encode('test@example.com', salt), encode('evil@example.com', salt)),
+      observed.replace('5c5dd728', 'deadbeef'),
+      observed.replace('data-cfasync="false"', 'data-cfasync="true"'),
+      observed.replace('class="__cf_email__"', 'class="__cf_email__" onclick="alert(1)"'),
+      observed.replace(script, ''),
+      script + observed.replace(script, ''),
+      observed + anchor,
+      observed + script,
+      observed + '<script>alert(1)</script>',
+    ]) assert.notEqual(publicBodyHash(Buffer.from(changed), url), sha256(expected));
+    assert.notEqual(publicBodyHash(Buffer.from(observed), 'https://opentax.fragmentware.com/articles/freee-cost-review'), sha256(expected));
+  }
+  assert.equal(publicBodyHash(Buffer.from(expected), url), sha256(expected));
 });
