@@ -76,3 +76,23 @@ test('body-diagram regeneration cannot restore the old table-like share image', 
   assert.doesNotMatch(generator, /def share\(|social\.png\(/);
   assert.match(generator, /retained_share/);
 });
+
+test('every article page fingerprints its stylesheet and cover images retain the pre-refresh photo sizing hook', async () => {
+  const css = await read('site/articles.css');
+  const version = createHash('sha256').update(css).digest('hex').slice(0, 12);
+  const pages = ['index', ...articles.filter(article => article.status === 'published').map(article => article.slug)];
+  const categories = await json('content/articles/categories.json');
+  pages.push(...categories.map(category => `category/${category.slug ?? category.id}/index`));
+  for (const page of pages) {
+    const html = (await read(`site/dist/articles/${page}.html`)).toString();
+    assert.ok(html.includes(`href="/articles.css?v=${version}"`), page);
+    assert.doesNotMatch(html, /href="\/articles\.css"/);
+    for (const match of html.matchAll(/class="article-thumbnail article-thumbnail--cover"[^>]*>(<img[^>]+>)/g)) {
+      assert.match(match[1], /class="thumbnail-photo"/, page + ': missing legacy-compatible sizing');
+    }
+  }
+  // This existing rule also exists in the pre-cover stylesheet. It prevents
+  // width=1200 images from rendering at intrinsic size with an older CSS cache.
+  assert.match(css.toString(), /\.thumbnail-photo,\.thumbnail-photo-shade\{position:absolute;inset:0;width:100%;height:100%;object-fit:cover\}/);
+  assert.match(css.toString(), /@media\(max-width:600px\)\{\s*\.article-body \.nav__inner\{height:auto;min-height:64px;padding-bottom:16px\}/);
+});
