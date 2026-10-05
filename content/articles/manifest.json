@@ -292,17 +292,17 @@
         ]
       },
       {
-        "path": "/article-assets/freee-alternatives/share.png",
-        "alt": "困りごとからfreeeの代わりを選ぶ：本文の比較・具体例の要点",
-        "caption": "困りごとからfreeeの代わりを選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/freee-alternatives/share.jpg",
+        "alt": "freeeの代わりは？ 使い方から選ぶ",
+        "caption": "freeeの代わりは？ 使い方から選ぶ",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -320,10 +320,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "freeeの代わりはどれ",
-    "representativeImage": "/article-assets/freee-alternatives/guide.svg",
-    "socialImage": "/article-assets/freee-alternatives/share.png",
-    "thumbnailImage": "/article-assets/freee-alternatives/share.png",
+    "thumbnailTitle": "freeeの代わりは？\n使い方から選ぶ",
+    "representativeImage": "/article-assets/freee-alternatives/share.jpg",
+    "socialImage": "/article-assets/freee-alternatives/share.jpg",
+    "thumbnailImage": "/article-assets/freee-alternatives/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/freee-alternatives/guide.svg",
@@ -442,17 +442,17 @@
         ]
       },
       {
-        "path": "/article-assets/freee-free-plan-limits/share.png",
-        "alt": "freeeの無料お試しと有料契約：本文の比較・具体例の要点",
-        "caption": "freeeの無料お試しと有料契約。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/freee-free-plan-limits/share.jpg",
+        "alt": "freeeはどこまで無料？ お試しの範囲を知る",
+        "caption": "freeeはどこまで無料？ お試しの範囲を知る",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -470,10 +470,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "freee会計は無料でどこまで使える",
-    "representativeImage": "/article-assets/freee-free-plan-limits/guide.svg",
-    "socialImage": "/article-assets/freee-free-plan-limits/share.png",
-    "thumbnailImage": "/article-assets/freee-free-plan-limits/share.png",
+    "thumbnailTitle": "freeeはどこまで無料？\nお試しの範囲を知る",
+    "representativeImage": "/article-assets/freee-free-plan-limits/share.jpg",
+    "socialImage": "/article-assets/freee-free-plan-limits/share.jpg",
+    "thumbnailImage": "/article-assets/freee-free-plan-limits/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/freee-free-plan-limits/guide.svg",
@@ -591,17 +591,17 @@
         ]
       },
       {
-        "path": "/article-assets/freee-starter-standard-choice/share.png",
-        "alt": "freeeの年額と必要機能を比べる：本文の比較・具体例の要点",
-        "caption": "freeeの年額と必要機能を比べる。Web契約の年払い・税抜。2026年10月3日確認。",
+        "path": "/article-assets/freee-starter-standard-choice/share.jpg",
+        "alt": "freeeのプラン選び。 必要な機能で比べる",
+        "caption": "freeeのプラン選び。 必要な機能で比べる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -619,10 +619,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "freeeスターターとスタンダードはどちらを選ぶ",
-    "representativeImage": "/article-assets/freee-starter-standard-choice/guide.svg",
-    "socialImage": "/article-assets/freee-starter-standard-choice/share.png",
-    "thumbnailImage": "/article-assets/freee-starter-standard-choice/share.png",
+    "thumbnailTitle": "freeeのプラン選び。\n必要な機能で比べる",
+    "representativeImage": "/article-assets/freee-starter-standard-choice/share.jpg",
+    "socialImage": "/article-assets/freee-starter-standard-choice/share.jpg",
+    "thumbnailImage": "/article-assets/freee-starter-standard-choice/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/freee-starter-standard-choice/guide.svg",
@@ -756,17 +756,17 @@
         ]
       },
       {
-        "path": "/article-assets/moneyforward-cost-review/share.png",
-        "alt": "MF年額：2026年12月の改定前後：本文の比較・具体例の要点",
-        "caption": "MF年額：2026年12月の改定前後。Web契約・税抜。改定は2026年12月1日。既存契約は以降の更新から。",
+        "path": "/article-assets/moneyforward-cost-review/share.jpg",
+        "alt": "マネーフォワードを 安く使うには？",
+        "caption": "マネーフォワードを 安く使うには？",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -784,10 +784,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "マネーフォワードを安く使うには",
-    "representativeImage": "/article-assets/moneyforward-cost-review/guide.svg",
-    "socialImage": "/article-assets/moneyforward-cost-review/share.png",
-    "thumbnailImage": "/article-assets/moneyforward-cost-review/share.png",
+    "thumbnailTitle": "マネーフォワードを\n安く使うには？",
+    "representativeImage": "/article-assets/moneyforward-cost-review/share.jpg",
+    "socialImage": "/article-assets/moneyforward-cost-review/share.jpg",
+    "thumbnailImage": "/article-assets/moneyforward-cost-review/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/moneyforward-cost-review/guide.svg",
@@ -927,17 +927,17 @@
         ]
       },
       {
-        "path": "/article-assets/moneyforward-free-limits/share.png",
-        "alt": "月13件なら、年間は156件：本文の比較・具体例の要点",
-        "caption": "月13件なら、年間は156件。本文の架空例。仕訳の件数は請求書の枚数だけでは数えません。",
+        "path": "/article-assets/moneyforward-free-limits/share.jpg",
+        "alt": "マネーフォワード。 無料でできること",
+        "caption": "マネーフォワード。 無料でできること",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -955,10 +955,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "マネーフォワード クラウド確定申告は無料で何ができる",
-    "representativeImage": "/article-assets/moneyforward-free-limits/guide.svg",
-    "socialImage": "/article-assets/moneyforward-free-limits/share.png",
-    "thumbnailImage": "/article-assets/moneyforward-free-limits/share.png",
+    "thumbnailTitle": "マネーフォワード。\n無料でできること",
+    "representativeImage": "/article-assets/moneyforward-free-limits/share.jpg",
+    "socialImage": "/article-assets/moneyforward-free-limits/share.jpg",
+    "thumbnailImage": "/article-assets/moneyforward-free-limits/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/moneyforward-free-limits/guide.svg",
@@ -1098,17 +1098,17 @@
         ]
       },
       {
-        "path": "/article-assets/yayoi-free-options/share.png",
-        "alt": "やよいの無料条件を三つに分ける：本文の比較・具体例の要点",
-        "caption": "やよいの無料条件を三つに分ける。2026年10月3日確認。初年度無料と無料体験は条件が異なります。",
+        "path": "/article-assets/yayoi-free-options/share.jpg",
+        "alt": "やよいは無料？ 白色と青色を比べる",
+        "caption": "やよいは無料？ 白色と青色を比べる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -1126,10 +1126,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "やよいはどこまで無料",
-    "representativeImage": "/article-assets/yayoi-free-options/guide.svg",
-    "socialImage": "/article-assets/yayoi-free-options/share.png",
-    "thumbnailImage": "/article-assets/yayoi-free-options/share.png",
+    "thumbnailTitle": "やよいは無料？\n白色と青色を比べる",
+    "representativeImage": "/article-assets/yayoi-free-options/share.jpg",
+    "socialImage": "/article-assets/yayoi-free-options/share.jpg",
+    "thumbnailImage": "/article-assets/yayoi-free-options/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/yayoi-free-options/guide.svg",
@@ -1303,17 +1303,17 @@
         ]
       },
       {
-        "path": "/article-assets/free-accounting-software/share.png",
-        "alt": "継続無料・初年度無料・お試し：本文の比較・具体例の要点",
-        "caption": "継続無料・初年度無料・お試し。本文の6候補から3候補を抜粋。年額は税抜、2026年10月3日確認。",
+        "path": "/article-assets/free-accounting-software/share.jpg",
+        "alt": "無料の会計ソフト。 自分に合う選び方",
+        "caption": "無料の会計ソフト。 自分に合う選び方",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -1331,10 +1331,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "個人事業主向け無料会計ソフトを比較：ずっと無料・初年度無料・オープンソースの選び方",
-    "representativeImage": "/article-assets/free-accounting-software/guide.svg",
-    "socialImage": "/article-assets/free-accounting-software/share.png",
-    "thumbnailImage": "/article-assets/free-accounting-software/share.png",
+    "thumbnailTitle": "無料の会計ソフト。\n自分に合う選び方",
+    "representativeImage": "/article-assets/free-accounting-software/share.jpg",
+    "socialImage": "/article-assets/free-accounting-software/share.jpg",
+    "thumbnailImage": "/article-assets/free-accounting-software/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/free-accounting-software/guide.svg",
@@ -1489,17 +1489,17 @@
         ]
       },
       {
-        "path": "/article-assets/free-cloud-accounting/share.png",
-        "alt": "Web会計の更新と保存の担当：本文の比較・具体例の要点",
-        "caption": "Web会計の更新と保存の担当。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/free-cloud-accounting/share.jpg",
+        "alt": "無料のクラウド会計。 使い方の違いを知る",
+        "caption": "無料のクラウド会計。 使い方の違いを知る",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -1517,10 +1517,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "無料のクラウド会計はある",
-    "representativeImage": "/article-assets/free-cloud-accounting/guide.svg",
-    "socialImage": "/article-assets/free-cloud-accounting/share.png",
-    "thumbnailImage": "/article-assets/free-cloud-accounting/share.png",
+    "thumbnailTitle": "無料のクラウド会計。\n使い方の違いを知る",
+    "representativeImage": "/article-assets/free-cloud-accounting/share.jpg",
+    "socialImage": "/article-assets/free-cloud-accounting/share.jpg",
+    "thumbnailImage": "/article-assets/free-cloud-accounting/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/free-cloud-accounting/guide.svg",
@@ -1658,17 +1658,17 @@
         ]
       },
       {
-        "path": "/article-assets/free-accounting-for-freelancers/share.png",
-        "alt": "税理士との分担からソフトを選ぶ：本文の比較・具体例の要点",
-        "caption": "税理士との分担からソフトを選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/free-accounting-for-freelancers/share.jpg",
+        "alt": "開業したら、 会計ソフトを選ぼう",
+        "caption": "開業したら、 会計ソフトを選ぼう",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -1686,10 +1686,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "開業したばかりの個人事業主へ：無料会計ソフトを選ぶ初年度の導入チェック",
-    "representativeImage": "/article-assets/free-accounting-for-freelancers/guide.svg",
-    "socialImage": "/article-assets/free-accounting-for-freelancers/share.png",
-    "thumbnailImage": "/article-assets/free-accounting-for-freelancers/share.png",
+    "thumbnailTitle": "開業したら、\n会計ソフトを選ぼう",
+    "representativeImage": "/article-assets/free-accounting-for-freelancers/share.jpg",
+    "socialImage": "/article-assets/free-accounting-for-freelancers/share.jpg",
+    "thumbnailImage": "/article-assets/free-accounting-for-freelancers/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/free-accounting-for-freelancers/guide.svg",
@@ -1843,17 +1843,17 @@
         ]
       },
       {
-        "path": "/article-assets/free-blue-return-software/share.png",
-        "alt": "青色決算書へ移す前の確認：本文の比較・具体例の要点",
-        "caption": "青色決算書へ移す前の確認。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/free-blue-return-software/share.jpg",
+        "alt": "青色申告を無料で。 ソフト選びから申告へ",
+        "caption": "青色申告を無料で。 ソフト選びから申告へ",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -1871,10 +1871,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "青色申告を無料で進めるには",
-    "representativeImage": "/article-assets/free-blue-return-software/guide.svg",
-    "socialImage": "/article-assets/free-blue-return-software/share.png",
-    "thumbnailImage": "/article-assets/free-blue-return-software/share.png",
+    "thumbnailTitle": "青色申告を無料で。\nソフト選びから申告へ",
+    "representativeImage": "/article-assets/free-blue-return-software/share.jpg",
+    "socialImage": "/article-assets/free-blue-return-software/share.jpg",
+    "thumbnailImage": "/article-assets/free-blue-return-software/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/free-blue-return-software/guide.svg",
@@ -2000,17 +2000,17 @@
         ]
       },
       {
-        "path": "/article-assets/free-white-return-software/share.png",
-        "alt": "白色申告までに必要な作業を比べる：本文の比較・具体例の要点",
-        "caption": "白色申告までに必要な作業を比べる。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/free-white-return-software/share.jpg",
+        "alt": "白色申告のソフト。 無料で使える選択肢",
+        "caption": "白色申告のソフト。 無料で使える選択肢",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -2028,10 +2028,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "白色申告に使える無料ソフトは",
-    "representativeImage": "/article-assets/free-white-return-software/guide.svg",
-    "socialImage": "/article-assets/free-white-return-software/share.png",
-    "thumbnailImage": "/article-assets/free-white-return-software/share.png",
+    "thumbnailTitle": "白色申告のソフト。\n無料で使える選択肢",
+    "representativeImage": "/article-assets/free-white-return-software/share.jpg",
+    "socialImage": "/article-assets/free-white-return-software/share.jpg",
+    "thumbnailImage": "/article-assets/free-white-return-software/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/free-white-return-software/guide.svg",
@@ -2159,17 +2159,17 @@
         ]
       },
       {
-        "path": "/article-assets/free-accounting-side-business/share.png",
-        "alt": "副業は件数より取引の中身で選ぶ：本文の比較・具体例の要点",
-        "caption": "副業は件数より取引の中身で選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/free-accounting-side-business/share.jpg",
+        "alt": "副業の会計ソフト。 無料で足りる？",
+        "caption": "副業の会計ソフト。 無料で足りる？",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -2187,10 +2187,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "副業の会計ソフトは無料で足りる",
-    "representativeImage": "/article-assets/free-accounting-side-business/guide.svg",
-    "socialImage": "/article-assets/free-accounting-side-business/share.png",
-    "thumbnailImage": "/article-assets/free-accounting-side-business/share.png",
+    "thumbnailTitle": "副業の会計ソフト。\n無料で足りる？",
+    "representativeImage": "/article-assets/free-accounting-side-business/share.jpg",
+    "socialImage": "/article-assets/free-accounting-side-business/share.jpg",
+    "thumbnailImage": "/article-assets/free-accounting-side-business/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/free-accounting-side-business/guide.svg",
@@ -2336,17 +2336,17 @@
         ]
       },
       {
-        "path": "/article-assets/free-accounting-mac-linux/share.png",
-        "alt": "Mac・Linuxの利用条件を比べる：本文の比較・具体例の要点",
-        "caption": "Mac・Linuxの利用条件を比べる。本文の候補から抜粋。Linuxの「記載なし」は利用不可という意味ではありません。",
+        "path": "/article-assets/free-accounting-mac-linux/share.jpg",
+        "alt": "Mac・Linuxの会計。 無料ソフトを選ぶ",
+        "caption": "Mac・Linuxの会計。 無料ソフトを選ぶ",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -2364,10 +2364,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "Mac・Linuxで使える無料会計ソフトは",
-    "representativeImage": "/article-assets/free-accounting-mac-linux/guide.svg",
-    "socialImage": "/article-assets/free-accounting-mac-linux/share.png",
-    "thumbnailImage": "/article-assets/free-accounting-mac-linux/share.png",
+    "thumbnailTitle": "Mac・Linuxの会計。\n無料ソフトを選ぶ",
+    "representativeImage": "/article-assets/free-accounting-mac-linux/share.jpg",
+    "socialImage": "/article-assets/free-accounting-mac-linux/share.jpg",
+    "thumbnailImage": "/article-assets/free-accounting-mac-linux/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/free-accounting-mac-linux/guide.svg",
@@ -2509,17 +2509,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounting-without-subscription/share.png",
-        "alt": "やよいを3年使う費用の例：本文の比較・具体例の要点",
-        "caption": "やよいを3年使う費用の例。料金が変わらない場合の例。税抜・税込を併記。2026年10月3日確認。",
+        "path": "/article-assets/accounting-without-subscription/share.jpg",
+        "alt": "買い切りの会計ソフト。 3年分の費用で比べる",
+        "caption": "買い切りの会計ソフト。 3年分の費用で比べる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -2537,10 +2537,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "会計ソフトを買い切りで選ぶには",
-    "representativeImage": "/article-assets/accounting-without-subscription/guide.svg",
-    "socialImage": "/article-assets/accounting-without-subscription/share.png",
-    "thumbnailImage": "/article-assets/accounting-without-subscription/share.png",
+    "thumbnailTitle": "買い切りの会計ソフト。\n3年分の費用で比べる",
+    "representativeImage": "/article-assets/accounting-without-subscription/share.jpg",
+    "socialImage": "/article-assets/accounting-without-subscription/share.jpg",
+    "thumbnailImage": "/article-assets/accounting-without-subscription/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounting-without-subscription/guide.svg",
@@ -2644,17 +2644,17 @@
         ]
       },
       {
-        "path": "/article-assets/excel-to-accounting-software/share.png",
-        "alt": "Excelからの移行は3件で試す：本文の比較・具体例の要点",
-        "caption": "Excelからの移行は3件で試す。本文の架空例。売上20,000円、借方・貸方合計は各41,000円。",
+        "path": "/article-assets/excel-to-accounting-software/share.jpg",
+        "alt": "Excelの帳簿から 会計ソフトへ",
+        "caption": "Excelの帳簿から 会計ソフトへ",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -2672,10 +2672,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "Excelの帳簿から会計ソフトへ移るには",
-    "representativeImage": "/article-assets/excel-to-accounting-software/guide.svg",
-    "socialImage": "/article-assets/excel-to-accounting-software/share.png",
-    "thumbnailImage": "/article-assets/excel-to-accounting-software/share.png",
+    "thumbnailTitle": "Excelの帳簿から\n会計ソフトへ",
+    "representativeImage": "/article-assets/excel-to-accounting-software/share.jpg",
+    "socialImage": "/article-assets/excel-to-accounting-software/share.jpg",
+    "thumbnailImage": "/article-assets/excel-to-accounting-software/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/excel-to-accounting-software/guide.svg",
@@ -2808,17 +2808,17 @@
         ]
       },
       {
-        "path": "/article-assets/switch-from-freee/share.png",
-        "alt": "移行後の預金残高を検算する：本文の比較・具体例の要点",
-        "caption": "移行後の預金残高を検算する。架空例：100,000＋30,000−5,000＝125,000円。売掛金も0円か確認。",
+        "path": "/article-assets/switch-from-freee/share.jpg",
+        "alt": "freeeから乗り換える。 保存と残高の確認",
+        "caption": "freeeから乗り換える。 保存と残高の確認",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -2836,10 +2836,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "freeeから乗り換えるには",
-    "representativeImage": "/article-assets/switch-from-freee/guide.svg",
-    "socialImage": "/article-assets/switch-from-freee/share.png",
-    "thumbnailImage": "/article-assets/switch-from-freee/share.png",
+    "thumbnailTitle": "freeeから乗り換える。\n保存と残高の確認",
+    "representativeImage": "/article-assets/switch-from-freee/share.jpg",
+    "socialImage": "/article-assets/switch-from-freee/share.jpg",
+    "thumbnailImage": "/article-assets/switch-from-freee/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/switch-from-freee/guide.svg",
@@ -2957,17 +2957,17 @@
         ]
       },
       {
-        "path": "/article-assets/freee-journal-csv-export/share.png",
-        "alt": "freeeの出力形式を目的で選ぶ：本文の比較・具体例の要点",
-        "caption": "freeeの出力形式を目的で選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/freee-journal-csv-export/share.jpg",
+        "alt": "freeeの仕訳CSV。 出力と保存の手順",
+        "caption": "freeeの仕訳CSV。 出力と保存の手順",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -2985,10 +2985,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "freeeの仕訳CSVを出力する方法｜形式の選び方と保存後の確認",
-    "representativeImage": "/article-assets/freee-journal-csv-export/guide.svg",
-    "socialImage": "/article-assets/freee-journal-csv-export/share.png",
-    "thumbnailImage": "/article-assets/freee-journal-csv-export/share.png",
+    "thumbnailTitle": "freeeの仕訳CSV。\n出力と保存の手順",
+    "representativeImage": "/article-assets/freee-journal-csv-export/share.jpg",
+    "socialImage": "/article-assets/freee-journal-csv-export/share.jpg",
+    "thumbnailImage": "/article-assets/freee-journal-csv-export/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/freee-journal-csv-export/guide.svg",
@@ -3115,17 +3115,17 @@
         ]
       },
       {
-        "path": "/article-assets/freee-cancellation-data-checklist/share.png",
-        "alt": "解約前に、五つの資料を保存：本文の比較・具体例の要点",
-        "caption": "解約前に、五つの資料を保存。領収書のリンクだけでなく、ファイル本体まで保存します。",
+        "path": "/article-assets/freee-cancellation-data-checklist/share.jpg",
+        "alt": "freeeの解約前に。 残しておきたいデータ",
+        "caption": "freeeの解約前に。 残しておきたいデータ",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -3143,10 +3143,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "freeeを解約する前に保存するもの｜支払い停止後に困らない手順",
-    "representativeImage": "/article-assets/freee-cancellation-data-checklist/guide.svg",
-    "socialImage": "/article-assets/freee-cancellation-data-checklist/share.png",
-    "thumbnailImage": "/article-assets/freee-cancellation-data-checklist/share.png",
+    "thumbnailTitle": "freeeの解約前に。\n残しておきたいデータ",
+    "representativeImage": "/article-assets/freee-cancellation-data-checklist/share.jpg",
+    "socialImage": "/article-assets/freee-cancellation-data-checklist/share.jpg",
+    "thumbnailImage": "/article-assets/freee-cancellation-data-checklist/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/freee-cancellation-data-checklist/guide.svg",
@@ -3259,17 +3259,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounting-migration-timing/share.png",
-        "alt": "切替時期で、引き継ぐデータが変わる：本文の比較・具体例の要点",
-        "caption": "切替時期で、引き継ぐデータが変わる。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/accounting-migration-timing/share.jpg",
+        "alt": "会計ソフトの乗り換え。 いつ切り替える？",
+        "caption": "会計ソフトの乗り換え。 いつ切り替える？",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -3287,10 +3287,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "会計ソフトの乗り換えは1月がおすすめ",
-    "representativeImage": "/article-assets/accounting-migration-timing/guide.svg",
-    "socialImage": "/article-assets/accounting-migration-timing/share.png",
-    "thumbnailImage": "/article-assets/accounting-migration-timing/share.png",
+    "thumbnailTitle": "会計ソフトの乗り換え。\nいつ切り替える？",
+    "representativeImage": "/article-assets/accounting-migration-timing/share.jpg",
+    "socialImage": "/article-assets/accounting-migration-timing/share.jpg",
+    "thumbnailImage": "/article-assets/accounting-migration-timing/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounting-migration-timing/guide.svg",
@@ -3403,17 +3403,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounting-csv-import-errors/share.png",
-        "alt": "CSVエラーの症状から直す場所へ：本文の比較・具体例の要点",
-        "caption": "CSVエラーの症状から直す場所へ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/accounting-csv-import-errors/share.jpg",
+        "alt": "CSVを取り込めない。 原因を順に確かめる",
+        "caption": "CSVを取り込めない。 原因を順に確かめる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -3431,10 +3431,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "会計CSVが取り込めないときの直し方｜エラー別に見る6つの原因",
-    "representativeImage": "/article-assets/accounting-csv-import-errors/guide.svg",
-    "socialImage": "/article-assets/accounting-csv-import-errors/share.png",
-    "thumbnailImage": "/article-assets/accounting-csv-import-errors/share.png",
+    "thumbnailTitle": "CSVを取り込めない。\n原因を順に確かめる",
+    "representativeImage": "/article-assets/accounting-csv-import-errors/share.jpg",
+    "socialImage": "/article-assets/accounting-csv-import-errors/share.jpg",
+    "thumbnailImage": "/article-assets/accounting-csv-import-errors/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounting-csv-import-errors/guide.svg",
@@ -3546,17 +3546,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounting-migration-reconciliation/share.png",
-        "alt": "入金の二重登録は残高のペアで発見：本文の比較・具体例の要点",
-        "caption": "入金の二重登録は残高のペアで発見。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/accounting-migration-reconciliation/share.jpg",
+        "alt": "移行後の残高が違う。 差額から原因を探す",
+        "caption": "移行後の残高が違う。 差額から原因を探す",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -3574,10 +3574,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "会計ソフト移行後に残高が合わないとき｜差額の原因を順に探す方法",
-    "representativeImage": "/article-assets/accounting-migration-reconciliation/guide.svg",
-    "socialImage": "/article-assets/accounting-migration-reconciliation/share.png",
-    "thumbnailImage": "/article-assets/accounting-migration-reconciliation/share.png",
+    "thumbnailTitle": "移行後の残高が違う。\n差額から原因を探す",
+    "representativeImage": "/article-assets/accounting-migration-reconciliation/share.jpg",
+    "socialImage": "/article-assets/accounting-migration-reconciliation/share.jpg",
+    "thumbnailImage": "/article-assets/accounting-migration-reconciliation/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounting-migration-reconciliation/guide.svg",
@@ -3695,17 +3695,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounting-evidence-migration/share.png",
-        "alt": "取引番号とファイルを結び付ける：本文の比較・具体例の要点",
-        "caption": "取引番号とファイルを結び付ける。本文の架空例。T002には請求書と支払控えの2ファイルを対応づけます。",
+        "path": "/article-assets/accounting-evidence-migration/share.jpg",
+        "alt": "領収書の引っ越し。 仕訳とファイルを結ぶ",
+        "caption": "領収書の引っ越し。 仕訳とファイルを結ぶ",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -3723,10 +3723,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "会計ソフトの乗り換えで領収書はどう移す",
-    "representativeImage": "/article-assets/accounting-evidence-migration/guide.svg",
-    "socialImage": "/article-assets/accounting-evidence-migration/share.png",
-    "thumbnailImage": "/article-assets/accounting-evidence-migration/share.png",
+    "thumbnailTitle": "領収書の引っ越し。\n仕訳とファイルを結ぶ",
+    "representativeImage": "/article-assets/accounting-evidence-migration/share.jpg",
+    "socialImage": "/article-assets/accounting-evidence-migration/share.jpg",
+    "thumbnailImage": "/article-assets/accounting-evidence-migration/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounting-evidence-migration/guide.svg",
@@ -3841,17 +3841,17 @@
         ]
       },
       {
-        "path": "/article-assets/accountant-handoff-software-switch/share.png",
-        "alt": "取引番号で、修正前後をつなぐ：本文の比較・具体例の要点",
-        "caption": "取引番号で、修正前後をつなぐ。本人が反映して税理士が確認するのか、税理士が直接直して本人へ知らせるのかを一つに決めます。",
+        "path": "/article-assets/accountant-handoff-software-switch/share.jpg",
+        "alt": "税理士と進める 会計ソフトの乗り換え",
+        "caption": "税理士と進める 会計ソフトの乗り換え",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -3869,10 +3869,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "税理士に頼んでいても会計ソフトは変えられる",
-    "representativeImage": "/article-assets/accountant-handoff-software-switch/guide.svg",
-    "socialImage": "/article-assets/accountant-handoff-software-switch/share.png",
-    "thumbnailImage": "/article-assets/accountant-handoff-software-switch/share.png",
+    "thumbnailTitle": "税理士と進める\n会計ソフトの乗り換え",
+    "representativeImage": "/article-assets/accountant-handoff-software-switch/share.jpg",
+    "socialImage": "/article-assets/accountant-handoff-software-switch/share.jpg",
+    "thumbnailImage": "/article-assets/accountant-handoff-software-switch/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accountant-handoff-software-switch/guide.svg",
@@ -3990,17 +3990,17 @@
         ]
       },
       {
-        "path": "/article-assets/switch-from-moneyforward/share.png",
-        "alt": "MFの書き出し形式を目的で選ぶ：本文の比較・具体例の要点",
-        "caption": "MFの書き出し形式を目的で選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/switch-from-moneyforward/share.jpg",
+        "alt": "マネーフォワードから 乗り換えるには？",
+        "caption": "マネーフォワードから 乗り換えるには？",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -4018,10 +4018,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "マネーフォワードから乗り換える方法｜出力プランと移すデータを整理",
-    "representativeImage": "/article-assets/switch-from-moneyforward/guide.svg",
-    "socialImage": "/article-assets/switch-from-moneyforward/share.png",
-    "thumbnailImage": "/article-assets/switch-from-moneyforward/share.png",
+    "thumbnailTitle": "マネーフォワードから\n乗り換えるには？",
+    "representativeImage": "/article-assets/switch-from-moneyforward/share.jpg",
+    "socialImage": "/article-assets/switch-from-moneyforward/share.jpg",
+    "thumbnailImage": "/article-assets/switch-from-moneyforward/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/switch-from-moneyforward/guide.svg",
@@ -4147,17 +4147,17 @@
         ]
       },
       {
-        "path": "/article-assets/open-source-accounting-software/share.png",
-        "alt": "3製品の使う場所と申告の分担：本文の比較・具体例の要点",
-        "caption": "3製品の使う場所と申告の分担。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/open-source-accounting-software/share.jpg",
+        "alt": "オープンソース会計。 3つのソフトを比べる",
+        "caption": "オープンソース会計。 3つのソフトを比べる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -4175,10 +4175,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "オープンソースの会計ソフト3つを比較｜GnuCash・Frappe Books・OpenTax",
-    "representativeImage": "/article-assets/open-source-accounting-software/guide.svg",
-    "socialImage": "/article-assets/open-source-accounting-software/share.png",
-    "thumbnailImage": "/article-assets/open-source-accounting-software/share.png",
+    "thumbnailTitle": "オープンソース会計。\n3つのソフトを比べる",
+    "representativeImage": "/article-assets/open-source-accounting-software/share.jpg",
+    "socialImage": "/article-assets/open-source-accounting-software/share.jpg",
+    "thumbnailImage": "/article-assets/open-source-accounting-software/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/open-source-accounting-software/guide.svg",
@@ -4293,17 +4293,17 @@
         ]
       },
       {
-        "path": "/article-assets/self-hosted-accounting-guide/share.png",
-        "alt": "アプリ・帳簿・ファイル・認証：本文の比較・具体例の要点",
-        "caption": "アプリ・帳簿・ファイル・認証。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/self-hosted-accounting-guide/share.jpg",
+        "alt": "会計をセルフホスト。 データの置き場所は？",
+        "caption": "会計をセルフホスト。 データの置き場所は？",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -4321,10 +4321,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "会計ソフトのセルフホストとは",
-    "representativeImage": "/article-assets/self-hosted-accounting-guide/guide.svg",
-    "socialImage": "/article-assets/self-hosted-accounting-guide/share.png",
-    "thumbnailImage": "/article-assets/self-hosted-accounting-guide/share.png",
+    "thumbnailTitle": "会計をセルフホスト。\nデータの置き場所は？",
+    "representativeImage": "/article-assets/self-hosted-accounting-guide/share.jpg",
+    "socialImage": "/article-assets/self-hosted-accounting-guide/share.jpg",
+    "thumbnailImage": "/article-assets/self-hosted-accounting-guide/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/self-hosted-accounting-guide/guide.svg",
@@ -4439,17 +4439,17 @@
         ]
       },
       {
-        "path": "/article-assets/self-hosted-accounting-cost/share.png",
-        "alt": "領収書100枚から年間保存量を見積もる：本文の比較・具体例の要点",
-        "caption": "領収書100枚から年間保存量を見積もる。本文の架空の容量計算。料金の試算ではありません。",
+        "path": "/article-assets/self-hosted-accounting-cost/share.jpg",
+        "alt": "無料ソフトの運用費。 年間コストを考える",
+        "caption": "無料ソフトの運用費。 年間コストを考える",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -4467,10 +4467,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "無料の会計ソフトでも費用はかかる",
-    "representativeImage": "/article-assets/self-hosted-accounting-cost/guide.svg",
-    "socialImage": "/article-assets/self-hosted-accounting-cost/share.png",
-    "thumbnailImage": "/article-assets/self-hosted-accounting-cost/share.png",
+    "thumbnailTitle": "無料ソフトの運用費。\n年間コストを考える",
+    "representativeImage": "/article-assets/self-hosted-accounting-cost/share.jpg",
+    "socialImage": "/article-assets/self-hosted-accounting-cost/share.jpg",
+    "thumbnailImage": "/article-assets/self-hosted-accounting-cost/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/self-hosted-accounting-cost/guide.svg",
@@ -4590,17 +4590,17 @@
         ]
       },
       {
-        "path": "/article-assets/open-source-accounting-japan-checklist/share.png",
-        "alt": "記帳から提出まで、四つの工程：本文の比較・具体例の要点",
-        "caption": "記帳から提出まで、四つの工程。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/open-source-accounting-japan-checklist/share.jpg",
+        "alt": "オープンソース会計。 日本の申告に使える？",
+        "caption": "オープンソース会計。 日本の申告に使える？",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -4618,10 +4618,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "オープンソース会計は日本の確定申告に使える",
-    "representativeImage": "/article-assets/open-source-accounting-japan-checklist/guide.svg",
-    "socialImage": "/article-assets/open-source-accounting-japan-checklist/share.png",
-    "thumbnailImage": "/article-assets/open-source-accounting-japan-checklist/share.png",
+    "thumbnailTitle": "オープンソース会計。\n日本の申告に使える？",
+    "representativeImage": "/article-assets/open-source-accounting-japan-checklist/share.jpg",
+    "socialImage": "/article-assets/open-source-accounting-japan-checklist/share.jpg",
+    "thumbnailImage": "/article-assets/open-source-accounting-japan-checklist/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/open-source-accounting-japan-checklist/guide.svg",
@@ -4729,17 +4729,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounting-open-source-license/share.png",
-        "alt": "「無料」と「ソース公開」の違い：本文の比較・具体例の要点",
-        "caption": "「無料」と「ソース公開」の違い。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/accounting-open-source-license/share.jpg",
+        "alt": "無料とソース公開。 その違いを知る",
+        "caption": "無料とソース公開。 その違いを知る",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -4757,10 +4757,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "無料・ソース公開・オープンソースはどう違う",
-    "representativeImage": "/article-assets/accounting-open-source-license/guide.svg",
-    "socialImage": "/article-assets/accounting-open-source-license/share.png",
-    "thumbnailImage": "/article-assets/accounting-open-source-license/share.png",
+    "thumbnailTitle": "無料とソース公開。\nその違いを知る",
+    "representativeImage": "/article-assets/accounting-open-source-license/share.jpg",
+    "socialImage": "/article-assets/accounting-open-source-license/share.jpg",
+    "thumbnailImage": "/article-assets/accounting-open-source-license/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounting-open-source-license/guide.svg",
@@ -4866,17 +4866,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounting-backup-restore/share.png",
-        "alt": "戻したいものから保存方法を選ぶ：本文の比較・具体例の要点",
-        "caption": "戻したいものから保存方法を選ぶ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/accounting-backup-restore/share.jpg",
+        "alt": "会計のバックアップ。 保存から復元まで",
+        "caption": "会計のバックアップ。 保存から復元まで",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -4894,10 +4894,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "会計データのバックアップ方法｜帳簿・領収書を残して復元する手順",
-    "representativeImage": "/article-assets/accounting-backup-restore/guide.svg",
-    "socialImage": "/article-assets/accounting-backup-restore/share.png",
-    "thumbnailImage": "/article-assets/accounting-backup-restore/share.png",
+    "thumbnailTitle": "会計のバックアップ。\n保存から復元まで",
+    "representativeImage": "/article-assets/accounting-backup-restore/share.jpg",
+    "socialImage": "/article-assets/accounting-backup-restore/share.jpg",
+    "thumbnailImage": "/article-assets/accounting-backup-restore/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounting-backup-restore/guide.svg",
@@ -5012,17 +5012,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounting-operations-options/share.png",
-        "alt": "導入後の更新・保存を誰が担うか：本文の比較・具体例の要点",
-        "caption": "導入後の更新・保存を誰が担うか。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/accounting-operations-options/share.jpg",
+        "alt": "会計ソフトの運用。 自分で？支援を頼む？",
+        "caption": "会計ソフトの運用。 自分で？支援を頼む？",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Christin Hume / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/person-using-laptop-computer-Hcfwew744z4",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -5040,10 +5040,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "オープンソース会計は自分で運用する",
-    "representativeImage": "/article-assets/accounting-operations-options/guide.svg",
-    "socialImage": "/article-assets/accounting-operations-options/share.png",
-    "thumbnailImage": "/article-assets/accounting-operations-options/share.png",
+    "thumbnailTitle": "会計ソフトの運用。\n自分で？支援を頼む？",
+    "representativeImage": "/article-assets/accounting-operations-options/share.jpg",
+    "socialImage": "/article-assets/accounting-operations-options/share.jpg",
+    "thumbnailImage": "/article-assets/accounting-operations-options/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounting-operations-options/guide.svg",
@@ -5165,17 +5165,17 @@
         ]
       },
       {
-        "path": "/article-assets/gnucash-japan-accounting-review/share.png",
-        "alt": "GnuCashの帳簿から日本の申告へ：本文の比較・具体例の要点",
-        "caption": "GnuCashの帳簿から日本の申告へ。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/gnucash-japan-accounting-review/share.jpg",
+        "alt": "GnuCashを使うなら。 帳簿から申告まで",
+        "caption": "GnuCashを使うなら。 帳簿から申告まで",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -5193,10 +5193,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "GnuCashは日本の個人事業で使える",
-    "representativeImage": "/article-assets/gnucash-japan-accounting-review/guide.svg",
-    "socialImage": "/article-assets/gnucash-japan-accounting-review/share.png",
-    "thumbnailImage": "/article-assets/gnucash-japan-accounting-review/share.png",
+    "thumbnailTitle": "GnuCashを使うなら。\n帳簿から申告まで",
+    "representativeImage": "/article-assets/gnucash-japan-accounting-review/share.jpg",
+    "socialImage": "/article-assets/gnucash-japan-accounting-review/share.jpg",
+    "thumbnailImage": "/article-assets/gnucash-japan-accounting-review/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/gnucash-japan-accounting-review/guide.svg",
@@ -5320,17 +5320,17 @@
         ]
       },
       {
-        "path": "/article-assets/frappe-books-japan-review/share.png",
-        "alt": "Frappe Booksの現行版と旧版：本文の比較・具体例の要点",
-        "caption": "Frappe Booksの現行版と旧版。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/frappe-books-japan-review/share.jpg",
+        "alt": "Frappe Books。 現行版と旧版の違い",
+        "caption": "Frappe Books。 現行版と旧版の違い",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -5348,10 +5348,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "Frappe Booksは日本で使える",
-    "representativeImage": "/article-assets/frappe-books-japan-review/guide.svg",
-    "socialImage": "/article-assets/frappe-books-japan-review/share.png",
-    "thumbnailImage": "/article-assets/frappe-books-japan-review/share.png",
+    "thumbnailTitle": "Frappe Books。\n現行版と旧版の違い",
+    "representativeImage": "/article-assets/frappe-books-japan-review/share.jpg",
+    "socialImage": "/article-assets/frappe-books-japan-review/share.jpg",
+    "thumbnailImage": "/article-assets/frappe-books-japan-review/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/frappe-books-japan-review/guide.svg",
@@ -5476,17 +5476,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounting-mcp-comparison/share.png",
-        "alt": "会計MCPの操作範囲と確認事項：本文の比較・具体例の要点",
-        "caption": "会計MCPの操作範囲と確認事項。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/accounting-mcp-comparison/share.jpg",
+        "alt": "MCPで会計をつなぐ。 できることを比べる",
+        "caption": "MCPで会計をつなぐ。 できることを比べる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Christin Hume / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/person-using-laptop-computer-Hcfwew744z4",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -5504,10 +5504,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "MCP対応の会計ソフトを比較｜freee・マネーフォワード・OpenTaxで何ができる",
-    "representativeImage": "/article-assets/accounting-mcp-comparison/guide.svg",
-    "socialImage": "/article-assets/accounting-mcp-comparison/share.png",
-    "thumbnailImage": "/article-assets/accounting-mcp-comparison/share.png",
+    "thumbnailTitle": "MCPで会計をつなぐ。\nできることを比べる",
+    "representativeImage": "/article-assets/accounting-mcp-comparison/share.jpg",
+    "socialImage": "/article-assets/accounting-mcp-comparison/share.jpg",
+    "thumbnailImage": "/article-assets/accounting-mcp-comparison/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounting-mcp-comparison/guide.svg",
@@ -5630,17 +5630,17 @@
         ]
       },
       {
-        "path": "/article-assets/free-ai-accounting-limits/share.png",
-        "alt": "AIに頼む作業と、人が見る点：本文の比較・具体例の要点",
-        "caption": "AIに頼む作業と、人が見る点。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/free-ai-accounting-limits/share.jpg",
+        "alt": "無料のAI会計。 どこまで頼める？",
+        "caption": "無料のAI会計。 どこまで頼める？",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Christin Hume / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/person-using-laptop-computer-Hcfwew744z4",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -5658,10 +5658,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "無料のAI会計はどこまでできる",
-    "representativeImage": "/article-assets/free-ai-accounting-limits/guide.svg",
-    "socialImage": "/article-assets/free-ai-accounting-limits/share.png",
-    "thumbnailImage": "/article-assets/free-ai-accounting-limits/share.png",
+    "thumbnailTitle": "無料のAI会計。\nどこまで頼める？",
+    "representativeImage": "/article-assets/free-ai-accounting-limits/share.jpg",
+    "socialImage": "/article-assets/free-ai-accounting-limits/share.jpg",
+    "thumbnailImage": "/article-assets/free-ai-accounting-limits/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/free-ai-accounting-limits/guide.svg",
@@ -5769,17 +5769,17 @@
         ]
       },
       {
-        "path": "/article-assets/opentax-vs-freee/share.png",
-        "alt": "freeeとOpenTaxの記帳・確認・連携：本文の比較・具体例の要点",
-        "caption": "freeeとOpenTaxの記帳・確認・連携。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/opentax-vs-freee/share.jpg",
+        "alt": "OpenTaxとfreee。 使い方から比べる",
+        "caption": "OpenTaxとfreee。 使い方から比べる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -5797,10 +5797,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "OpenTaxとfreeeを比較：料金・AI記帳・銀行連携・申告で選ぶ",
-    "representativeImage": "/article-assets/opentax-vs-freee/guide.svg",
-    "socialImage": "/article-assets/opentax-vs-freee/share.png",
-    "thumbnailImage": "/article-assets/opentax-vs-freee/share.png",
+    "thumbnailTitle": "OpenTaxとfreee。\n使い方から比べる",
+    "representativeImage": "/article-assets/opentax-vs-freee/share.jpg",
+    "socialImage": "/article-assets/opentax-vs-freee/share.jpg",
+    "thumbnailImage": "/article-assets/opentax-vs-freee/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/opentax-vs-freee/guide.svg",
@@ -5920,17 +5920,17 @@
         ]
       },
       {
-        "path": "/article-assets/double-entry-bookkeeping-howto/share.png",
-        "alt": "取引を、借方と貸方で記録する：本文の比較・具体例の要点",
-        "caption": "取引を、借方と貸方で記録する。本文の架空5取引から3件を抜粋。",
+        "path": "/article-assets/double-entry-bookkeeping-howto/share.jpg",
+        "alt": "複式簿記を始めよう。 仕訳の基本をつかむ",
+        "caption": "複式簿記を始めよう。 仕訳の基本をつかむ",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -5948,10 +5948,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "複式簿記のやり方を5つの仕訳で理解する：個人事業主の帳簿入門",
-    "representativeImage": "/article-assets/double-entry-bookkeeping-howto/guide.svg",
-    "socialImage": "/article-assets/double-entry-bookkeeping-howto/share.png",
-    "thumbnailImage": "/article-assets/double-entry-bookkeeping-howto/share.png",
+    "thumbnailTitle": "複式簿記を始めよう。\n仕訳の基本をつかむ",
+    "representativeImage": "/article-assets/double-entry-bookkeeping-howto/share.jpg",
+    "socialImage": "/article-assets/double-entry-bookkeeping-howto/share.jpg",
+    "thumbnailImage": "/article-assets/double-entry-bookkeeping-howto/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/double-entry-bookkeeping-howto/guide.svg",
@@ -6093,17 +6093,17 @@
         ]
       },
       {
-        "path": "/article-assets/ai-tax-return-howto/share.png",
-        "alt": "請求と入金を別の仕訳にする：本文の比較・具体例の要点",
-        "caption": "請求と入金を別の仕訳にする。本文の架空例。入金で売上を再計上しません。",
+        "path": "/article-assets/ai-tax-return-howto/share.jpg",
+        "alt": "AIと進める確定申告。 資料整理から提出へ",
+        "caption": "AIと進める確定申告。 資料整理から提出へ",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Christin Hume / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/person-using-laptop-computer-Hcfwew744z4",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -6121,10 +6121,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "AIを使った確定申告の進め方：資料整理から帳簿確認、e-Tax送信まで",
-    "representativeImage": "/article-assets/ai-tax-return-howto/guide.svg",
-    "socialImage": "/article-assets/ai-tax-return-howto/share.png",
-    "thumbnailImage": "/article-assets/ai-tax-return-howto/share.png",
+    "thumbnailTitle": "AIと進める確定申告。\n資料整理から提出へ",
+    "representativeImage": "/article-assets/ai-tax-return-howto/share.jpg",
+    "socialImage": "/article-assets/ai-tax-return-howto/share.jpg",
+    "thumbnailImage": "/article-assets/ai-tax-return-howto/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/ai-tax-return-howto/guide.svg",
@@ -6250,17 +6250,17 @@
         ]
       },
       {
-        "path": "/article-assets/sole-proprietor-bookkeeping-routine/share.png",
-        "alt": "1週間の記帳：請求から回収まで：本文の比較・具体例の要点",
-        "caption": "1週間の記帳：請求から回収まで。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/sole-proprietor-bookkeeping-routine/share.jpg",
+        "alt": "日々の帳簿の付け方。 1週間の記帳をたどる",
+        "caption": "日々の帳簿の付け方。 1週間の記帳をたどる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -6278,10 +6278,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "個人事業主の帳簿の付け方：1週間の記帳例と月末に見る数字",
-    "representativeImage": "/article-assets/sole-proprietor-bookkeeping-routine/guide.svg",
-    "socialImage": "/article-assets/sole-proprietor-bookkeeping-routine/share.png",
-    "thumbnailImage": "/article-assets/sole-proprietor-bookkeeping-routine/share.png",
+    "thumbnailTitle": "日々の帳簿の付け方。\n1週間の記帳をたどる",
+    "representativeImage": "/article-assets/sole-proprietor-bookkeeping-routine/share.jpg",
+    "socialImage": "/article-assets/sole-proprietor-bookkeeping-routine/share.jpg",
+    "thumbnailImage": "/article-assets/sole-proprietor-bookkeeping-routine/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/sole-proprietor-bookkeeping-routine/guide.svg",
@@ -6401,17 +6401,17 @@
         ]
       },
       {
-        "path": "/article-assets/ai-journal-entry-workflow/share.png",
-        "alt": "AIの仕訳を、取引の中身で確認：本文の比較・具体例の要点",
-        "caption": "AIの仕訳を、取引の中身で確認。本文の架空10件から3件を抜粋。登録結果は人が確認します。",
+        "path": "/article-assets/ai-journal-entry-workflow/share.jpg",
+        "alt": "AIに仕訳を頼む。 確定前に見たいこと",
+        "caption": "AIに仕訳を頼む。 確定前に見たいこと",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Christin Hume / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/person-using-laptop-computer-Hcfwew744z4",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -6429,10 +6429,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "AIで仕訳を作るには",
-    "representativeImage": "/article-assets/ai-journal-entry-workflow/guide.svg",
-    "socialImage": "/article-assets/ai-journal-entry-workflow/share.png",
-    "thumbnailImage": "/article-assets/ai-journal-entry-workflow/share.png",
+    "thumbnailTitle": "AIに仕訳を頼む。\n確定前に見たいこと",
+    "representativeImage": "/article-assets/ai-journal-entry-workflow/share.jpg",
+    "socialImage": "/article-assets/ai-journal-entry-workflow/share.jpg",
+    "thumbnailImage": "/article-assets/ai-journal-entry-workflow/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/ai-journal-entry-workflow/guide.svg",
@@ -6566,17 +6566,17 @@
         ]
       },
       {
-        "path": "/article-assets/receipt-organization-sole-proprietor/share.png",
-        "alt": "領収書は資料番号と処理状況で追う：本文の比較・具体例の要点",
-        "caption": "領収書は資料番号と処理状況で追う。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/receipt-organization-sole-proprietor/share.jpg",
+        "alt": "領収書を整理しよう。 紙とPDFの残し方",
+        "caption": "領収書を整理しよう。 紙とPDFの残し方",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -6594,10 +6594,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "個人事業主の領収書整理：紙・PDFの保管方法と二重入力を防ぐコツ",
-    "representativeImage": "/article-assets/receipt-organization-sole-proprietor/guide.svg",
-    "socialImage": "/article-assets/receipt-organization-sole-proprietor/share.png",
-    "thumbnailImage": "/article-assets/receipt-organization-sole-proprietor/share.png",
+    "thumbnailTitle": "領収書を整理しよう。\n紙とPDFの残し方",
+    "representativeImage": "/article-assets/receipt-organization-sole-proprietor/share.jpg",
+    "socialImage": "/article-assets/receipt-organization-sole-proprietor/share.jpg",
+    "thumbnailImage": "/article-assets/receipt-organization-sole-proprietor/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/receipt-organization-sole-proprietor/guide.svg",
@@ -6715,17 +6715,17 @@
         ]
       },
       {
-        "path": "/article-assets/electronic-transaction-records-howto/share.png",
-        "alt": "索引から原資料へ戻れるようにする：本文の比較・具体例の要点",
-        "caption": "索引から原資料へ戻れるようにする。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/electronic-transaction-records-howto/share.jpg",
+        "alt": "電子取引データ。 あとで探せる保存方法",
+        "caption": "電子取引データ。 あとで探せる保存方法",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Wesley Tingey / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -6743,10 +6743,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "電子取引データの保存方法：PDF請求書をフォルダーで管理する手順",
-    "representativeImage": "/article-assets/electronic-transaction-records-howto/guide.svg",
-    "socialImage": "/article-assets/electronic-transaction-records-howto/share.png",
-    "thumbnailImage": "/article-assets/electronic-transaction-records-howto/share.png",
+    "thumbnailTitle": "電子取引データ。\nあとで探せる保存方法",
+    "representativeImage": "/article-assets/electronic-transaction-records-howto/share.jpg",
+    "socialImage": "/article-assets/electronic-transaction-records-howto/share.jpg",
+    "thumbnailImage": "/article-assets/electronic-transaction-records-howto/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/electronic-transaction-records-howto/guide.svg",
@@ -6860,17 +6860,17 @@
         ]
       },
       {
-        "path": "/article-assets/bank-statement-csv-bookkeeping/share.png",
-        "alt": "銀行明細から、売上と精算を分ける：本文の比較・具体例の要点",
-        "caption": "銀行明細から、売上と精算を分ける。本文の架空5件から3件を抜粋。",
+        "path": "/article-assets/bank-statement-csv-bookkeeping/share.jpg",
+        "alt": "銀行明細で記帳する。 CSV取込と残高確認",
+        "caption": "銀行明細で記帳する。 CSV取込と残高確認",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -6888,10 +6888,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "銀行明細CSVで記帳する方法：取り込み前の準備と重複・残高チェック",
-    "representativeImage": "/article-assets/bank-statement-csv-bookkeeping/guide.svg",
-    "socialImage": "/article-assets/bank-statement-csv-bookkeeping/share.png",
-    "thumbnailImage": "/article-assets/bank-statement-csv-bookkeeping/share.png",
+    "thumbnailTitle": "銀行明細で記帳する。\nCSV取込と残高確認",
+    "representativeImage": "/article-assets/bank-statement-csv-bookkeeping/share.jpg",
+    "socialImage": "/article-assets/bank-statement-csv-bookkeeping/share.jpg",
+    "thumbnailImage": "/article-assets/bank-statement-csv-bookkeeping/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/bank-statement-csv-bookkeeping/guide.svg",
@@ -7000,17 +7000,17 @@
         ]
       },
       {
-        "path": "/article-assets/owners-drawings-contributions-journal/share.png",
-        "alt": "お金の向きで事業主勘定を分ける：本文の比較・具体例の要点",
-        "caption": "お金の向きで事業主勘定を分ける。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/owners-drawings-contributions-journal/share.jpg",
+        "alt": "事業主貸と事業主借。 お金の向きで考える",
+        "caption": "事業主貸と事業主借。 お金の向きで考える",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -7028,10 +7028,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "事業主貸・事業主借の仕訳：私費の立替と生活費を4つの例で整理",
-    "representativeImage": "/article-assets/owners-drawings-contributions-journal/guide.svg",
-    "socialImage": "/article-assets/owners-drawings-contributions-journal/share.png",
-    "thumbnailImage": "/article-assets/owners-drawings-contributions-journal/share.png",
+    "thumbnailTitle": "事業主貸と事業主借。\nお金の向きで考える",
+    "representativeImage": "/article-assets/owners-drawings-contributions-journal/share.jpg",
+    "socialImage": "/article-assets/owners-drawings-contributions-journal/share.jpg",
+    "thumbnailImage": "/article-assets/owners-drawings-contributions-journal/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/owners-drawings-contributions-journal/guide.svg",
@@ -7151,17 +7151,17 @@
         ]
       },
       {
-        "path": "/article-assets/business-use-expense-apportionment/share.png",
-        "alt": "面積20％なら、家賃の事業分は2万円：本文の比較・具体例の要点",
-        "caption": "面積20％なら、家賃の事業分は2万円。本文の架空例。仕事専用の面積で区分できる場合。使い方が変われば根拠も見直します。",
+        "path": "/article-assets/business-use-expense-apportionment/share.jpg",
+        "alt": "家事按分のやり方。 仕事の分だけ経費に",
+        "caption": "家事按分のやり方。 仕事の分だけ経費に",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -7179,10 +7179,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "家事按分のやり方：家賃20％・通信費40％の計算例と仕訳",
-    "representativeImage": "/article-assets/business-use-expense-apportionment/guide.svg",
-    "socialImage": "/article-assets/business-use-expense-apportionment/share.png",
-    "thumbnailImage": "/article-assets/business-use-expense-apportionment/share.png",
+    "thumbnailTitle": "家事按分のやり方。\n仕事の分だけ経費に",
+    "representativeImage": "/article-assets/business-use-expense-apportionment/share.jpg",
+    "socialImage": "/article-assets/business-use-expense-apportionment/share.jpg",
+    "thumbnailImage": "/article-assets/business-use-expense-apportionment/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/business-use-expense-apportionment/guide.svg",
@@ -7294,17 +7294,17 @@
         ]
       },
       {
-        "path": "/article-assets/credit-card-journal-sole-proprietor/share.png",
-        "alt": "カード利用と引落しは2回に分ける：本文の比較・具体例の要点",
-        "caption": "カード利用と引落しは2回に分ける。本文の架空例。引落し時に経費を重ねて計上しません。",
+        "path": "/article-assets/credit-card-journal-sole-proprietor/share.jpg",
+        "alt": "カード払いの仕訳。 利用と引落しを分ける",
+        "caption": "カード払いの仕訳。 利用と引落しを分ける",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -7322,10 +7322,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "個人事業主のクレジットカード仕訳：利用時と引落し時を分けて記帳する",
-    "representativeImage": "/article-assets/credit-card-journal-sole-proprietor/guide.svg",
-    "socialImage": "/article-assets/credit-card-journal-sole-proprietor/share.png",
-    "thumbnailImage": "/article-assets/credit-card-journal-sole-proprietor/share.png",
+    "thumbnailTitle": "カード払いの仕訳。\n利用と引落しを分ける",
+    "representativeImage": "/article-assets/credit-card-journal-sole-proprietor/share.jpg",
+    "socialImage": "/article-assets/credit-card-journal-sole-proprietor/share.jpg",
+    "thumbnailImage": "/article-assets/credit-card-journal-sole-proprietor/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/credit-card-journal-sole-proprietor/guide.svg",
@@ -7443,17 +7443,17 @@
         ]
       },
       {
-        "path": "/article-assets/accounts-receivable-reconciliation-howto/share.png",
-        "alt": "請求ごとに入金と残額を合わせる：本文の比較・具体例の要点",
-        "caption": "請求ごとに入金と残額を合わせる。本文の架空例。理由未確認の330円は売掛金に残します。",
+        "path": "/article-assets/accounts-receivable-reconciliation-howto/share.jpg",
+        "alt": "売掛金の入金消込。 請求と入金を合わせる",
+        "caption": "売掛金の入金消込。 請求と入金を合わせる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -7471,10 +7471,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "売掛金の入金消込のやり方：手数料・合算振込・一部入金の仕訳例",
-    "representativeImage": "/article-assets/accounts-receivable-reconciliation-howto/guide.svg",
-    "socialImage": "/article-assets/accounts-receivable-reconciliation-howto/share.png",
-    "thumbnailImage": "/article-assets/accounts-receivable-reconciliation-howto/share.png",
+    "thumbnailTitle": "売掛金の入金消込。\n請求と入金を合わせる",
+    "representativeImage": "/article-assets/accounts-receivable-reconciliation-howto/share.jpg",
+    "socialImage": "/article-assets/accounts-receivable-reconciliation-howto/share.jpg",
+    "thumbnailImage": "/article-assets/accounts-receivable-reconciliation-howto/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/accounts-receivable-reconciliation-howto/guide.svg",
@@ -7616,17 +7616,17 @@
         ]
       },
       {
-        "path": "/article-assets/withheld-freelance-fees-journal/share.png",
-        "alt": "源泉対象額で入金額は変わる：本文の比較・具体例の要点",
-        "caption": "源泉対象額で入金額は変わる。2026年の原稿料の例。請求総額110,000円、振込手数料なし。",
+        "path": "/article-assets/withheld-freelance-fees-journal/share.jpg",
+        "alt": "源泉徴収された報酬。 請求と入金の仕訳",
+        "caption": "源泉徴収された報酬。 請求と入金の仕訳",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -7644,10 +7644,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "源泉徴収された報酬の仕訳：10万円の原稿料から請求・入金・税額を計算",
-    "representativeImage": "/article-assets/withheld-freelance-fees-journal/guide.svg",
-    "socialImage": "/article-assets/withheld-freelance-fees-journal/share.png",
-    "thumbnailImage": "/article-assets/withheld-freelance-fees-journal/share.png",
+    "thumbnailTitle": "源泉徴収された報酬。\n請求と入金の仕訳",
+    "representativeImage": "/article-assets/withheld-freelance-fees-journal/share.jpg",
+    "socialImage": "/article-assets/withheld-freelance-fees-journal/share.jpg",
+    "thumbnailImage": "/article-assets/withheld-freelance-fees-journal/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/withheld-freelance-fees-journal/guide.svg",
@@ -7770,17 +7770,17 @@
         ]
       },
       {
-        "path": "/article-assets/startup-costs-bookkeeping-sole-proprietor/share.png",
-        "alt": "開業費10万円を3年で償却する例：本文の比較・具体例の要点",
-        "caption": "開業費10万円を3年で償却する例。本文の架空例。償却額は未償却残高の範囲で決めます。",
+        "path": "/article-assets/startup-costs-bookkeeping-sole-proprietor/share.jpg",
+        "alt": "開業費の記帳。 支出と償却を整理する",
+        "caption": "開業費の記帳。 支出と償却を整理する",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -7798,10 +7798,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "個人事業主の開業費の仕訳：対象になる支出と、償却の計算例",
-    "representativeImage": "/article-assets/startup-costs-bookkeeping-sole-proprietor/guide.svg",
-    "socialImage": "/article-assets/startup-costs-bookkeeping-sole-proprietor/share.png",
-    "thumbnailImage": "/article-assets/startup-costs-bookkeeping-sole-proprietor/share.png",
+    "thumbnailTitle": "開業費の記帳。\n支出と償却を整理する",
+    "representativeImage": "/article-assets/startup-costs-bookkeeping-sole-proprietor/share.jpg",
+    "socialImage": "/article-assets/startup-costs-bookkeeping-sole-proprietor/share.jpg",
+    "thumbnailImage": "/article-assets/startup-costs-bookkeeping-sole-proprietor/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/startup-costs-bookkeeping-sole-proprietor/guide.svg",
@@ -7938,17 +7938,17 @@
         ]
       },
       {
-        "path": "/article-assets/computer-depreciation-sole-proprietor/share.png",
-        "alt": "24万円のPC：購入と償却を分ける：本文の比較・具体例の要点",
-        "caption": "24万円のPC：購入と償却を分ける。本文の架空例。新品・4年定額法、7〜12月の6か月。特例は使わない場合。",
+        "path": "/article-assets/computer-depreciation-sole-proprietor/share.jpg",
+        "alt": "パソコン代と経費。 減価償却を考える",
+        "caption": "パソコン代と経費。 減価償却を考える",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "JESHOOTS.COM / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -7966,10 +7966,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "個人事業主のパソコン代は経費にできる",
-    "representativeImage": "/article-assets/computer-depreciation-sole-proprietor/guide.svg",
-    "socialImage": "/article-assets/computer-depreciation-sole-proprietor/share.png",
-    "thumbnailImage": "/article-assets/computer-depreciation-sole-proprietor/share.png",
+    "thumbnailTitle": "パソコン代と経費。\n減価償却を考える",
+    "representativeImage": "/article-assets/computer-depreciation-sole-proprietor/share.jpg",
+    "socialImage": "/article-assets/computer-depreciation-sole-proprietor/share.jpg",
+    "thumbnailImage": "/article-assets/computer-depreciation-sole-proprietor/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/computer-depreciation-sole-proprietor/guide.svg",
@@ -8084,17 +8084,17 @@
         ]
       },
       {
-        "path": "/article-assets/monthly-bookkeeping-reconciliation/share.png",
-        "alt": "預金の差額から原因を探す：本文の比較・具体例の要点",
-        "caption": "預金の差額から原因を探す。本文の架空例。銀行の実残高は500,000円。",
+        "path": "/article-assets/monthly-bookkeeping-reconciliation/share.jpg",
+        "alt": "月末の経理チェック。 帳簿と残高を合わせる",
+        "caption": "月末の経理チェック。 帳簿と残高を合わせる",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Aaron Lefler / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-piece-of-paper-ySZdYkPGEbs",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-02",
         "showCredit": false
       },
       {
@@ -8112,10 +8112,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "個人事業主の月末経理：預金・現金・売掛金・未払金を合わせる手順",
-    "representativeImage": "/article-assets/monthly-bookkeeping-reconciliation/guide.svg",
-    "socialImage": "/article-assets/monthly-bookkeeping-reconciliation/share.png",
-    "thumbnailImage": "/article-assets/monthly-bookkeeping-reconciliation/share.png",
+    "thumbnailTitle": "月末の経理チェック。\n帳簿と残高を合わせる",
+    "representativeImage": "/article-assets/monthly-bookkeeping-reconciliation/share.jpg",
+    "socialImage": "/article-assets/monthly-bookkeeping-reconciliation/share.jpg",
+    "thumbnailImage": "/article-assets/monthly-bookkeeping-reconciliation/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/monthly-bookkeeping-reconciliation/guide.svg",
@@ -8235,17 +8235,17 @@
         ]
       },
       {
-        "path": "/article-assets/year-end-bookkeeping-adjustments/share.png",
-        "alt": "年末の未入金と前金を分ける：本文の比較・具体例の要点",
-        "caption": "年末の未入金と前金を分ける。本文の架空例。完了した仕事と翌年に提供する仕事を分けます。",
+        "path": "/article-assets/year-end-bookkeeping-adjustments/share.jpg",
+        "alt": "年末の決算整理。 未入金・未払いを確認",
+        "caption": "年末の決算整理。 未入金・未払いを確認",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -8263,10 +8263,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "個人事業主の決算整理：年末の未入金・未払い・前払いを仕訳する",
-    "representativeImage": "/article-assets/year-end-bookkeeping-adjustments/guide.svg",
-    "socialImage": "/article-assets/year-end-bookkeeping-adjustments/share.png",
-    "thumbnailImage": "/article-assets/year-end-bookkeeping-adjustments/share.png",
+    "thumbnailTitle": "年末の決算整理。\n未入金・未払いを確認",
+    "representativeImage": "/article-assets/year-end-bookkeeping-adjustments/share.jpg",
+    "socialImage": "/article-assets/year-end-bookkeeping-adjustments/share.jpg",
+    "thumbnailImage": "/article-assets/year-end-bookkeeping-adjustments/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/year-end-bookkeeping-adjustments/guide.svg",
@@ -8416,17 +8416,17 @@
         ]
       },
       {
-        "path": "/article-assets/blue-return-financial-statements-howto/share.png",
-        "alt": "売上から控除前の所得へ：本文の比較・具体例の要点",
-        "caption": "売上から控除前の所得へ。本文の架空例。青色申告特別控除前の所得です。",
+        "path": "/article-assets/blue-return-financial-statements-howto/share.jpg",
+        "alt": "青色申告決算書。 帳簿から各欄へ移す",
+        "caption": "青色申告決算書。 帳簿から各欄へ移す",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Cht Gsml / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -8444,10 +8444,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "青色申告決算書の書き方：売上360万円の例で、帳簿から各欄へ移す",
-    "representativeImage": "/article-assets/blue-return-financial-statements-howto/guide.svg",
-    "socialImage": "/article-assets/blue-return-financial-statements-howto/share.png",
-    "thumbnailImage": "/article-assets/blue-return-financial-statements-howto/share.png",
+    "thumbnailTitle": "青色申告決算書。\n帳簿から各欄へ移す",
+    "representativeImage": "/article-assets/blue-return-financial-statements-howto/share.jpg",
+    "socialImage": "/article-assets/blue-return-financial-statements-howto/share.jpg",
+    "thumbnailImage": "/article-assets/blue-return-financial-statements-howto/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/blue-return-financial-statements-howto/guide.svg",
@@ -8592,17 +8592,17 @@
         ]
       },
       {
-        "path": "/article-assets/etax-filing-sole-proprietor/share.png",
-        "alt": "e-Taxは送信後の確認まで：本文の比較・具体例の要点",
-        "caption": "e-Taxは送信後の確認まで。本文の表・具体例から要点を抜粋。詳しい条件は本文で確認できます。",
+        "path": "/article-assets/etax-filing-sole-proprietor/share.jpg",
+        "alt": "e-Taxで確定申告。 準備から送信確認まで",
+        "caption": "e-Taxで確定申告。 準備から送信確認まで",
         "width": 1200,
         "height": 630,
-        "kind": "share",
-        "credit": "OpenTax編集部作成（記事内の比較表・架空例を図解）",
-        "sourceUrl": "https://github.com/Arrenem/opentax/pull/4",
-        "licenseUrl": "https://github.com/Arrenem/opentax/blob/main/LICENSE",
-        "licenseName": "OpenTax original editorial diagram / AGPL-3.0",
-        "accessedAt": "2026-10-03",
+        "kind": "cover",
+        "credit": "Christin Hume / Unsplash",
+        "sourceUrl": "https://unsplash.com/photos/person-using-laptop-computer-Hcfwew744z4",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseName": "Unsplash License",
+        "accessedAt": "2026-10-05",
         "showCredit": false
       },
       {
@@ -8620,10 +8620,10 @@
         "expandable": true
       }
     ],
-    "thumbnailTitle": "個人事業主のe-Tax確定申告：準備から送信・受信通知・納付まで",
-    "representativeImage": "/article-assets/etax-filing-sole-proprietor/guide.svg",
-    "socialImage": "/article-assets/etax-filing-sole-proprietor/share.png",
-    "thumbnailImage": "/article-assets/etax-filing-sole-proprietor/share.png",
+    "thumbnailTitle": "e-Taxで確定申告。\n準備から送信確認まで",
+    "representativeImage": "/article-assets/etax-filing-sole-proprietor/share.jpg",
+    "socialImage": "/article-assets/etax-filing-sole-proprietor/share.jpg",
+    "thumbnailImage": "/article-assets/etax-filing-sole-proprietor/share.jpg",
     "visualInsertions": [
       {
         "path": "/article-assets/etax-filing-sole-proprietor/guide.svg",

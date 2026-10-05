@@ -1,0 +1,383 @@
+{
+  "version": 1,
+  "covers": {
+    "freee-alternatives": {
+      "titleLines": [
+        "freeeの代わりは？",
+        "使い方から選ぶ"
+      ],
+      "photo": "desk"
+    },
+    "freee-free-plan-limits": {
+      "titleLines": [
+        "freeeはどこまで無料？",
+        "お試しの範囲を知る"
+      ],
+      "photo": "calculator"
+    },
+    "freee-starter-standard-choice": {
+      "titleLines": [
+        "freeeのプラン選び。",
+        "必要な機能で比べる"
+      ],
+      "photo": "calculator"
+    },
+    "moneyforward-cost-review": {
+      "titleLines": [
+        "マネーフォワードを",
+        "安く使うには？"
+      ],
+      "photo": "calculator"
+    },
+    "moneyforward-free-limits": {
+      "titleLines": [
+        "マネーフォワード。",
+        "無料でできること"
+      ],
+      "photo": "calculator"
+    },
+    "yayoi-free-options": {
+      "titleLines": [
+        "やよいは無料？",
+        "白色と青色を比べる"
+      ],
+      "photo": "calculator"
+    },
+    "free-accounting-software": {
+      "titleLines": [
+        "無料の会計ソフト。",
+        "自分に合う選び方"
+      ],
+      "photo": "desk"
+    },
+    "free-cloud-accounting": {
+      "titleLines": [
+        "無料のクラウド会計。",
+        "使い方の違いを知る"
+      ],
+      "photo": "desk"
+    },
+    "free-accounting-for-freelancers": {
+      "titleLines": [
+        "開業したら、",
+        "会計ソフトを選ぼう"
+      ],
+      "photo": "desk"
+    },
+    "free-blue-return-software": {
+      "titleLines": [
+        "青色申告を無料で。",
+        "ソフト選びから申告へ"
+      ],
+      "photo": "paperwork"
+    },
+    "free-white-return-software": {
+      "titleLines": [
+        "白色申告のソフト。",
+        "無料で使える選択肢"
+      ],
+      "photo": "paperwork"
+    },
+    "free-accounting-side-business": {
+      "titleLines": [
+        "副業の会計ソフト。",
+        "無料で足りる？"
+      ],
+      "photo": "desk"
+    },
+    "free-accounting-mac-linux": {
+      "titleLines": [
+        "Mac・Linuxの会計。",
+        "無料ソフトを選ぶ"
+      ],
+      "photo": "desk"
+    },
+    "accounting-without-subscription": {
+      "titleLines": [
+        "買い切りの会計ソフト。",
+        "3年分の費用で比べる"
+      ],
+      "photo": "calculator"
+    },
+    "excel-to-accounting-software": {
+      "titleLines": [
+        "Excelの帳簿から",
+        "会計ソフトへ"
+      ],
+      "photo": "desk"
+    },
+    "switch-from-freee": {
+      "titleLines": [
+        "freeeから乗り換える。",
+        "保存と残高の確認"
+      ],
+      "photo": "files"
+    },
+    "freee-journal-csv-export": {
+      "titleLines": [
+        "freeeの仕訳CSV。",
+        "出力と保存の手順"
+      ],
+      "photo": "files"
+    },
+    "freee-cancellation-data-checklist": {
+      "titleLines": [
+        "freeeの解約前に。",
+        "残しておきたいデータ"
+      ],
+      "photo": "files"
+    },
+    "accounting-migration-timing": {
+      "titleLines": [
+        "会計ソフトの乗り換え。",
+        "いつ切り替える？"
+      ],
+      "photo": "files"
+    },
+    "accounting-csv-import-errors": {
+      "titleLines": [
+        "CSVを取り込めない。",
+        "原因を順に確かめる"
+      ],
+      "photo": "desk"
+    },
+    "accounting-migration-reconciliation": {
+      "titleLines": [
+        "移行後の残高が違う。",
+        "差額から原因を探す"
+      ],
+      "photo": "calculator"
+    },
+    "accounting-evidence-migration": {
+      "titleLines": [
+        "領収書の引っ越し。",
+        "仕訳とファイルを結ぶ"
+      ],
+      "photo": "files"
+    },
+    "accountant-handoff-software-switch": {
+      "titleLines": [
+        "税理士と進める",
+        "会計ソフトの乗り換え"
+      ],
+      "photo": "files"
+    },
+    "switch-from-moneyforward": {
+      "titleLines": [
+        "マネーフォワードから",
+        "乗り換えるには？"
+      ],
+      "photo": "files"
+    },
+    "open-source-accounting-software": {
+      "titleLines": [
+        "オープンソース会計。",
+        "3つのソフトを比べる"
+      ],
+      "photo": "desk"
+    },
+    "self-hosted-accounting-guide": {
+      "titleLines": [
+        "会計をセルフホスト。",
+        "データの置き場所は？"
+      ],
+      "photo": "desk"
+    },
+    "self-hosted-accounting-cost": {
+      "titleLines": [
+        "無料ソフトの運用費。",
+        "年間コストを考える"
+      ],
+      "photo": "calculator"
+    },
+    "open-source-accounting-japan-checklist": {
+      "titleLines": [
+        "オープンソース会計。",
+        "日本の申告に使える？"
+      ],
+      "photo": "paperwork"
+    },
+    "accounting-open-source-license": {
+      "titleLines": [
+        "無料とソース公開。",
+        "その違いを知る"
+      ],
+      "photo": "desk"
+    },
+    "accounting-backup-restore": {
+      "titleLines": [
+        "会計のバックアップ。",
+        "保存から復元まで"
+      ],
+      "photo": "files"
+    },
+    "accounting-operations-options": {
+      "titleLines": [
+        "会計ソフトの運用。",
+        "自分で？支援を頼む？"
+      ],
+      "photo": "hands"
+    },
+    "gnucash-japan-accounting-review": {
+      "titleLines": [
+        "GnuCashを使うなら。",
+        "帳簿から申告まで"
+      ],
+      "photo": "desk"
+    },
+    "frappe-books-japan-review": {
+      "titleLines": [
+        "Frappe Books。",
+        "現行版と旧版の違い"
+      ],
+      "photo": "desk"
+    },
+    "accounting-mcp-comparison": {
+      "titleLines": [
+        "MCPで会計をつなぐ。",
+        "できることを比べる"
+      ],
+      "photo": "hands"
+    },
+    "free-ai-accounting-limits": {
+      "titleLines": [
+        "無料のAI会計。",
+        "どこまで頼める？"
+      ],
+      "photo": "hands"
+    },
+    "opentax-vs-freee": {
+      "titleLines": [
+        "OpenTaxとfreee。",
+        "使い方から比べる"
+      ],
+      "photo": "desk"
+    },
+    "double-entry-bookkeeping-howto": {
+      "titleLines": [
+        "複式簿記を始めよう。",
+        "仕訳の基本をつかむ"
+      ],
+      "photo": "paperwork"
+    },
+    "ai-tax-return-howto": {
+      "titleLines": [
+        "AIと進める確定申告。",
+        "資料整理から提出へ"
+      ],
+      "photo": "hands"
+    },
+    "sole-proprietor-bookkeeping-routine": {
+      "titleLines": [
+        "日々の帳簿の付け方。",
+        "1週間の記帳をたどる"
+      ],
+      "photo": "paperwork"
+    },
+    "ai-journal-entry-workflow": {
+      "titleLines": [
+        "AIに仕訳を頼む。",
+        "確定前に見たいこと"
+      ],
+      "photo": "hands"
+    },
+    "receipt-organization-sole-proprietor": {
+      "titleLines": [
+        "領収書を整理しよう。",
+        "紙とPDFの残し方"
+      ],
+      "photo": "files"
+    },
+    "electronic-transaction-records-howto": {
+      "titleLines": [
+        "電子取引データ。",
+        "あとで探せる保存方法"
+      ],
+      "photo": "files"
+    },
+    "bank-statement-csv-bookkeeping": {
+      "titleLines": [
+        "銀行明細で記帳する。",
+        "CSV取込と残高確認"
+      ],
+      "photo": "desk"
+    },
+    "owners-drawings-contributions-journal": {
+      "titleLines": [
+        "事業主貸と事業主借。",
+        "お金の向きで考える"
+      ],
+      "photo": "paperwork"
+    },
+    "business-use-expense-apportionment": {
+      "titleLines": [
+        "家事按分のやり方。",
+        "仕事の分だけ経費に"
+      ],
+      "photo": "calculator"
+    },
+    "credit-card-journal-sole-proprietor": {
+      "titleLines": [
+        "カード払いの仕訳。",
+        "利用と引落しを分ける"
+      ],
+      "photo": "paperwork"
+    },
+    "accounts-receivable-reconciliation-howto": {
+      "titleLines": [
+        "売掛金の入金消込。",
+        "請求と入金を合わせる"
+      ],
+      "photo": "calculator"
+    },
+    "withheld-freelance-fees-journal": {
+      "titleLines": [
+        "源泉徴収された報酬。",
+        "請求と入金の仕訳"
+      ],
+      "photo": "calculator"
+    },
+    "startup-costs-bookkeeping-sole-proprietor": {
+      "titleLines": [
+        "開業費の記帳。",
+        "支出と償却を整理する"
+      ],
+      "photo": "paperwork"
+    },
+    "computer-depreciation-sole-proprietor": {
+      "titleLines": [
+        "パソコン代と経費。",
+        "減価償却を考える"
+      ],
+      "photo": "desk"
+    },
+    "monthly-bookkeeping-reconciliation": {
+      "titleLines": [
+        "月末の経理チェック。",
+        "帳簿と残高を合わせる"
+      ],
+      "photo": "calculator"
+    },
+    "year-end-bookkeeping-adjustments": {
+      "titleLines": [
+        "年末の決算整理。",
+        "未入金・未払いを確認"
+      ],
+      "photo": "paperwork"
+    },
+    "blue-return-financial-statements-howto": {
+      "titleLines": [
+        "青色申告決算書。",
+        "帳簿から各欄へ移す"
+      ],
+      "photo": "paperwork"
+    },
+    "etax-filing-sole-proprietor": {
+      "titleLines": [
+        "e-Taxで確定申告。",
+        "準備から送信確認まで"
+      ],
+      "photo": "hands"
+    }
+  }
+}
