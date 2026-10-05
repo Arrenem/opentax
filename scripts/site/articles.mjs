@@ -160,7 +160,7 @@ export async function buildArticles({ root, outDir, siteUrl, preview = false }) 
   const categoryLabel = (a) => { const c = categories.find((c) => c.id === a.category); return c?.name ?? c?.title ?? a.category; };
   const thumbnail = (a) => {
     const asset = a.images?.find((image) => image.path === a.thumbnailImage);
-    if (asset) return `<div class="article-thumbnail article-thumbnail--diagram" aria-hidden="true"><img src="${escapeHtml(asset.path)}" width="${asset.width}" height="${asset.height}" alt="" loading="lazy" decoding="async"></div>`;
+    if (asset) return `<div class="article-thumbnail article-thumbnail--cover" aria-hidden="true"><img src="${escapeHtml(asset.path)}" width="${asset.width}" height="${asset.height}" alt="" loading="lazy" decoding="async"></div>`;
     return `<div class="article-thumbnail thumbnail--${escapeHtml(a.category)}" aria-hidden="true">${a.images?.[0] ? `<img class="thumbnail-photo" src="${escapeHtml(a.images[0].path)}" width="${a.images[0].width}" height="${a.images[0].height}" alt="" loading="lazy" decoding="async"><span class="thumbnail-photo-shade"></span>` : ''}<span class="thumbnail-kicker">OpenTax / 会計ガイド</span><strong>${escapeHtml(a.thumbnailTitle ?? a.title.split(/[？?｜：]/)[0])}</strong><div class="thumbnail-diagram"><span></span><span></span><span></span></div><span class="thumbnail-caption">${escapeHtml(categoryLabel(a))}</span></div>`;
   };
   const typeLabel = {explanation:'解説', comparison:'比較', alternative:'乗り換え候補', howto:'手順'};

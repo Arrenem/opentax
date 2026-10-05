@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Generate original, source-backed article diagrams and 1200x630 social images.
+"""Generate original, source-backed article body diagrams.
 
 Requires Pillow and fontTools. Uses only checked-in Japanese fonts and
 article text. No network, screenshots, stock photography or generative assets.
 Run from any directory: python scripts/site/generate-article-visuals.py
 Every factual label is validated against its source article before writing.
+Photo covers are generated separately by generate-article-covers.py; this
+script preserves their assets and metadata.
 """
 from __future__ import annotations
 import argparse, base64, hashlib, html, io, json, re
@@ -349,49 +351,6 @@ def guide(spec):
     return c
 
 
-def share(spec):
-    c=Canvas(1200,630);c.rect(0,0,1200,630,PAPER)
-    c.rect(0,0,16,630,GREEN)
-    c.text('OpenTax',48,28,28,GREEN,True)
-    c.text('会計・確定申告ガイド',222,34,22,MUTED)
-    title_lines=wrap(spec['title'],42,1096,True)
-    assert len(title_lines)<=2,(spec['slug'],'share title too long')
-    y=c.block(spec['title'],48,86,42,1096,INK,True)+25
-    cards=spec['cards']
-    # Preserve totals for calculations, including the source's monthly/yearly count.
-    if len(cards)>3: cards=[cards[0], cards[1], cards[-1]]
-    n=len(cards);gap=22;width=(1104-gap*(n-1))/n
-    bottom=514; cardh=bottom-y
-    for i,card in enumerate(cards):
-        x=48+i*(width+gap);c.rect(x,y,width,cardh,WHITE,20,LINE)
-        # Fit labels and values by bounded font reduction, never ellipsize facts.
-        label=card['label'];value=card['value'];detail=card['detail']
-        # Show at most the first two comparison dimensions in social previews.
-        if card.get('fields'):
-            fs=card['fields']
-            value=f"{fs[0]['label']}\n{fs[0]['text']}"
-            detail='\n'.join(f"{f['label']}：{f['text']}" for f in fs[1:2])
-        if spec['slug']=='freee-cancellation-data-checklist':detail=''
-        size=26
-        while size>=19:
-            h=len(wrap(label,size,width-40,True))*size*1.35+16+len(wrap(value,size+2,width-40,True))*(size+2)*1.35
-            if detail:h+=16+len(wrap(detail,size-2,width-40))*(size-2)*1.35
-            if h<=cardh-40:break
-            size-=1
-        assert size>=19,(spec['slug'],'OG card too dense',label,cardh)
-        yy=c.block(label,x+20,y+22,size,width-40,INK,True,1.35)+16
-        yy=c.block(value,x+20,yy,size+2,width-40,GREEN,True,1.35)
-        if detail:yy=c.block(detail,x+20,yy+16,size-2,width-40,MUTED,False,1.35)
-        assert yy<=bottom-10,(spec['slug'],'OG overflow')
-        if i<n-1 and spec['kind'] in ['flow','amount']:
-            mid=x+width+gap/2;c.text('›',mid-6,y+cardh/2-22,26,GREEN,True)
-    note=spec['note'];notels=wrap(note,22,1104)
-    if len(notels)>3:
-        note='本文の表・具体例を抜粋。詳しい条件は記事で確認できます。'
-    c.block(note,48,540,22,1104,MUTED,gap=1.38)
-    return c
-
-
 def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--source-root',type=Path)
     ap.add_argument('--preview-dir',type=Path);ap.add_argument('--only');args=ap.parse_args()
@@ -399,7 +358,7 @@ def main():
     article_dir=source/'articles' if source else ROOT/'content/articles'
     metadata_dir=source/'metadata' if source else ROOT/'content/articles/editorial'
     mfpath=ROOT/'content/articles/visual-assets.json'
-    manifest=json.loads(mfpath.read_text()) if args.only and mfpath.exists() else {}
+    manifest=json.loads(mfpath.read_text()) if mfpath.exists() else {}
     files=sorted(metadata_dir.glob('*.json'))
     assert files, f'No editorial metadata in {metadata_dir}'
     for f in files:
@@ -413,9 +372,8 @@ def main():
             first=spec.get('firstFieldLabel')
             text.append(card['label']+'：'+(first+'：' if first else '')+card['value']+('。'+card['detail'].replace('\n','。') if card['detail'] else ''))
         text.append(spec['note'])
-        body=guide(spec);social=share(spec)
+        body=guide(spec)
         body.svg(output/'guide.svg',spec['title'],'。'.join(text))
-        social.png(output/'share.png')
         if args.preview_dir:
             args.preview_dir.mkdir(parents=True,exist_ok=True);body.png(args.preview_dir/f'{slug}.png')
         sourceurl='https://github.com/Arrenem/opentax/pull/4'
@@ -428,15 +386,14 @@ def main():
             'sourceTableIndex':spec.get('sourceTable'), 'sourceRowIndexes':spec.get('sourceRows'),
             'sourceColumnIndexes':spec.get('sourceColumns'),
             'thirdPartyBinary':False,'generator':'scripts/site/generate-article-visuals.py'}
+        retained_share = manifest.get(slug, {}).get('share')
         manifest[slug]={'guide':{'src':f'/article-assets/{slug}/guide.svg','width':body.w,'height':body.h,
             'alt':spec['title']+'。詳しい内容は直後のテキストと本文に記載。',
             'caption':spec['title']+'。'+spec['note'],
             'placement':{'headingId':spec['heading'],'position':'after-heading'},
             'accessibleText':text,'kind':spec['kind']},
-            'share':{'src':f'/article-assets/{slug}/share.png','width':1200,'height':630,
-                     'alt':spec['title']+'：本文の比較・具体例の要点',
-                     'caption':spec['title']+'。'+spec['note']},
             'provenance':provenance}
+        if retained_share: manifest[slug]['share'] = retained_share
         print(slug,body.w,body.h,flush=True)
     assert args.only or len(manifest)==54,len(manifest)
     mfpath.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
