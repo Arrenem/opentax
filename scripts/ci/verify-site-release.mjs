@@ -4,6 +4,28 @@ import { lstat, readFile, readdir } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 
 export const sha256 = data => createHash('sha256').update(data).digest('hex');
+// Cloudflare's existing Email Address Obfuscation rewrites the public demo
+// address in these two documents. Reverse only the observed, fixed transform;
+// the whole restored document must still match its original build SHA-256.
+const emailProtectedDocs = new Set([
+  'https://opentax.fragmentware.com/docs/contributing',
+  'https://opentax.fragmentware.com/docs/self-hosting',
+]);
+export function publicBodyHash(bytes, url) {
+  if (!emailProtectedDocs.has(url)) return sha256(bytes);
+  const html = bytes.toString('utf8');
+  const anchor = /<a href="\/cdn-cgi\/l\/email-protection" class="__cf_email__" data-cfemail="([0-9a-f]+)">\[email&#160;protected\]<\/a>/g;
+  const script = '<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>';
+  const mainScript = '<script src="/main.js" defer></script>';
+  const anchors = [...html.matchAll(anchor)];
+  if (anchors.length !== 1 || html.split(script).length !== 2 || !html.includes(script + mainScript)) return sha256(bytes);
+  const encoded = anchors[0][1];
+  if (encoded.length !== 34) return sha256(bytes);
+  const values = Buffer.from(encoded, 'hex');
+  const decoded = Buffer.from(values.subarray(1).map(value => value ^ values[0])).toString('utf8');
+  if (decoded !== 'test@example.com') return sha256(bytes);
+  return sha256(html.replace(anchor, decoded).replace(script + mainScript, mainScript));
+}
 export function publicPath(file) {
   assert.ok(file.startsWith('site/') && !file.includes('..'));
   return '/' + file.slice(5).replace(/(^|\/)index\.html$/, '$1').replace(/\.html$/, '');
@@ -52,8 +74,9 @@ export async function verifyPublic(release) {
             assert.equal(response.url, check.url, 'Unexpected canonical redirect');
             assert.ok(!/noindex/i.test(response.headers.get('x-robots-tag') ?? ''));
           }
-          assert.equal(sha256(Buffer.from(await response.arrayBuffer())), check.hash);
-        } catch { failures.push(check); }
+          const bytes = Buffer.from(await response.arrayBuffer());
+          assert.equal(publicBodyHash(bytes, check.url), check.hash, 'Response content differs from the checked build');
+        } catch (error) { failures.push({ ...check, reason: error.message }); }
       }));
     }
     pending = failures;
@@ -62,7 +85,7 @@ export async function verifyPublic(release) {
     console.log(`Waiting for propagation of ${pending.length} URLs.`);
     await new Promise(resolve => setTimeout(resolve, 10000));
   } while (Date.now() < deadline);
-  throw new Error('Public verification did not match the checked build: ' + pending.map(check => check.url).join(', '));
+  throw new Error('Public verification did not match the checked build: ' + pending.map(check => `${check.url} (${check.reason})`).join(', '));
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const mode = process.argv[2];
