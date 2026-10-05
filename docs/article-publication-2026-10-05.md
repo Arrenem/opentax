@@ -40,3 +40,9 @@
 Cloudflareコネクタで非変更のasset存在確認（空hashリスト）を行ったところHTTP 403 / code 8000013 `Authorization failed`。Pages Direct Uploadのasset APIは専用upload JWTが必要だが、利用中のコネクタにはAuthorizationを切り替える指定がない。認証情報の発行・取得・移植や拒否後の迂回は行っていない。asset upload、deployment作成、mainへのmergeはいずれも未実施。
 
 通常のWrangler認証か、正式なCIデプロイ経路の準備後に、最新mainとの再照合、公開日、今回の差分に対する実画面QA、merge、production buildとasset照合、deploy、全53 URL・保留2 URL・sitemap・HTTP・リダイレクト・GA・Privacy・Mockの本番確認を行う。Search Console/Rich Results、Lighthouse/Core Web Vitalsは今回未実施。
+
+## 手動CI経路の追加
+
+続けて手動GitHub Actions設定の追加承認を受け、[公開手順](pages-deployment.md)とworkflowを追加した。既存projectを使い、workflow_dispatch/mainのみ・contents:read・検査と配信のjob分離・同一runのartifact ID・改変検査を実装。Cloudflareのtokenは本人がGitHub Secretへ入力し、こちらでは作成・取得・保存しない。Secret準備前のworkflow実行や本番公開は未実施。
+
+CI補助テスト5件と、Secretなし・install script無効でのWrangler 4.147.0起動およびPages deploy引数を確認。実際のCI実行と本番URL検証は、設定のmain反映と本人のSecret入力・手動実行後に確認する。
