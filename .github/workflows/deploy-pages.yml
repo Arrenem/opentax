@@ -2,6 +2,8 @@ name: Deploy OpenTax Pages
 run-name: Deploy OpenTax Pages from main (${{ github.sha }})
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -13,7 +15,7 @@ concurrency:
 
 jobs:
   build:
-    if: github.repository == 'Arrenem/opentax' && github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'
+    if: github.repository == 'Arrenem/opentax' && github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     outputs:
@@ -62,7 +64,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.repository == 'Arrenem/opentax' && github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'
+    if: github.repository == 'Arrenem/opentax' && github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
