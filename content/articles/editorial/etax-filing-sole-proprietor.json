@@ -1,0 +1,149 @@
+{
+  "id": "58",
+  "slug": "etax-filing-sole-proprietor",
+  "title": "個人事業主のe-Tax確定申告：準備から送信・受信通知・納付まで",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "個人事業主はe-Taxでどの順に申告し、どこまで確認すれば終わり？",
+  "answerSummary": "e-Taxの確定申告は、帳簿を完成させ、決算書・申告書を作成し、本人が確認して送信する順に進めます。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "作成コーナーで利用者識別番号取得から申告書作成・送信まで行えるが利用対象に制限がある。",
+      "sourceUrl": "https://www.e-tax.nta.go.jp/kojin.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "ID・パスワード方式は令和9年分から利用できなくなる予定。",
+      "sourceUrl": "https://www.e-tax.nta.go.jp/kojin/idpw.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "送信後は即時通知と受信通知を確認し、エラーがあれば対応が必要。",
+      "sourceUrl": "https://www.e-tax.nta.go.jp/toiawase/qa/yokuaru05/03.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "令和8年分申告書の案内には変更の可能性がある。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁 e-Tax：個人でご利用の方",
+      "url": "https://www.e-tax.nta.go.jp/kojin.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁 e-Tax：ID・パスワード方式",
+      "url": "https://www.e-tax.nta.go.jp/kojin/idpw.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁 e-Tax：正常送信の確認方法",
+      "url": "https://www.e-tax.nta.go.jp/toiawase/qa/yokuaru05/03.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：所得税の確定申告・令和8年分資料の掲載状況",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "申告する年分と、帳簿・控除の資料をそろえるの説明直後",
+      "purpose": "申告する年分と、帳簿・控除の資料をそろえるを具体的な数字・条件で理解できるようにする",
+      "content": "| 準備するもの | 入力・確認に使う内容 |\n| --- | --- |\n| 決算整理後の帳簿・決算書 | 売上、経費、資産・負債、事業所得 |\n| 報酬の請求・支払明細 | 収入と源泉徴収税額 |\n| 給与など他の所得資料 | 事業以外の所得 |\n| 保険料・寄附等の資料 | 所得控除・税額控除の該当項目 |\n| マイナンバーカード等 | 本人認証・電子署名 |\n| 還付先口座 | 還付を受ける場合の振込先 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "納付・還付は、送信とは別に確認するの説明直後",
+      "purpose": "納付・還付は、送信とは別に確認するを具体的な数字・条件で理解できるようにする",
+      "content": "| 完了を分ける項目 | 残す記録 |\n| --- | --- |\n| 申告書を送った | 送信日時・受付番号 |\n| 受付結果を確認した | 受信通知・エラーの有無 |\n| 控えを保存した | 申告書・決算書・必要な添付資料 |\n| 納付・還付を確認した | 支払完了、引落予定、還付状況など |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "売上360万円・経費100万円の作例と、準備から受信通知・納付還付までを保持。",
+    "ID・パスワード方式の今後の扱い、保存と送信の違いを具体化。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。",
+    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。"
+  ],
+  "publicationBlockers": [
+    "2026年分の確定申告書等作成コーナー最終画面、対応端末・認証フローを未検証。2026年完全版の画面手順として公開する前に申告期の公式案内で確認する。",
+    "2026年分の最終手引き、申告・納付の受付日程、OpenTax出力の当該年分での読込結果は未確認。本文に年分と暫定性を残す。"
+  ],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "申告する年分と、帳簿・控除の資料をそろえる",
+      "id": "section-1"
+    },
+    {
+      "heading": "マイナンバーカード方式の利用環境を準備する",
+      "id": "section-2"
+    },
+    {
+      "heading": "決算書の数字から事業所得を入力する",
+      "id": "section-3"
+    },
+    {
+      "heading": "送信前は、プレビューと元資料を見比べる",
+      "id": "section-4"
+    },
+    {
+      "heading": "受信通知を確認し、提出した控えを保存する",
+      "id": "section-5"
+    },
+    {
+      "heading": "納付・還付は、送信とは別に確認する",
+      "id": "section-6"
+    },
+    {
+      "heading": "2026年分の画面・最終案内について",
+      "id": "section-7"
+    },
+    {
+      "heading": "申告に使う帳簿をOpenTaxで整える",
+      "id": "section-8"
+    }
+  ],
+  "sourceSnapshotSha256": "94cd7e9f427bec5964d89dc0333a9c44c22446a4a81437dcc5734b8e5c56ed51",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "e-Taxの確定申告は、帳簿を完成させ、決算書・申告書を作成し、本人が確認して送信する順に進めます。送信後は受信通知を確認し、控えを保存して、納付または還付の確認へ進みます。国税庁の確定申告書等作成コーナーを使う場合の流れを、個人事業主向けにまとめます。"
+}

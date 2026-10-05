@@ -1,0 +1,109 @@
+{
+  "id": "23",
+  "slug": "accounting-csv-import-errors",
+  "title": "会計CSVが取り込めないときの直し方｜エラー別に見る6つの原因",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "CSV取込エラーをどう切り分けて直すか",
+  "answerSummary": "一部登録の有無を確かめ、文字・列・日付金額・科目税区分の順で失敗行を直し、少数行から再取込する。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "CSV出力には異なる文字コードと項目形式がある",
+      "sourceUrl": "https://support.freee.co.jp/hc/ja/articles/204615564",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "MFのfreee取込では勘定科目・税区分を対応づける",
+      "sourceUrl": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "freee：仕訳帳をCSV・PDF形式で出力する",
+      "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "マネーフォワード：freeeの仕訳インポート",
+      "url": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "original-diagram-or-table",
+      "placement": "エラー別の表",
+      "purpose": "読者が自分の症状から修正場所を選べる",
+      "content": "6症状→原因→修正の表。エラーが消える＝会計が正しいとは図示しない。",
+      "license": "新規オリジナル図表。本文の事実・架空計算例を使用。第三者画像なし。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTax紹介直後、出典前"
+  },
+  "headingAnchors": [
+    {
+      "heading": "まず「全部失敗」か「一部成功」かを見る",
+      "id": "section-1"
+    },
+    {
+      "heading": "表示されたエラーから調べる場所を選ぶ",
+      "id": "section-2"
+    },
+    {
+      "heading": "文字と列のずれは、元の内容を消さずに直す",
+      "id": "section-3"
+    },
+    {
+      "heading": "科目と税区分は、名前だけで一括置換しない",
+      "id": "section-4"
+    },
+    {
+      "heading": "取り込めた後に、三つの取引で確認する",
+      "id": "section-5"
+    },
+    {
+      "heading": "データを整理した後の記帳をAIに手伝ってもらうなら",
+      "id": "section-6"
+    }
+  ],
+  "changes": [
+    "冒頭で主質問に回答",
+    "操作・検算の具体例を残して一文一段落に改稿",
+    "記事固有のOpenTax紹介と直下CTA",
+    "重複出典と宿題調の末尾を整理",
+    "主題に貢献しない計算練習・重複注意書きを削減し、出典を小見出しへ統一。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "f2a84807352e665ced66a55458f87198e31e3df561bcad54f4a2f3195af3068f",
+  "wordingReview": "人手の専門監修・実機検証済みとは表記しない",
+  "editorialReview": {
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "sourceSeparation": "single compact list",
+    "publicationAuthorized": false,
+    "structuralPass": "completed",
+    "baselineChanged": false,
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "verificationNotes": [],
+  "reviewGate": "公開前の編集承認・必要な税務レビューと実装検査。資料比較のまま実機検証済みと表示しない。",
+  "description": "会計CSVの取込エラーは、文字化け、列のずれ、日付・金額、科目・税区分の順で調べると原因を絞れます。先に元ファイルをコピーし、エラーが出た行だけを含む小さなファイルで直すと、全件を何度も加工せずに済みます。再送する前には、一部の仕訳だけ登録されていないかを確認します。"
+}

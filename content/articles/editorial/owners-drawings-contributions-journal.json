@@ -1,0 +1,104 @@
+{
+  "id": "48",
+  "slug": "owners-drawings-contributions-journal",
+  "title": "事業主貸・事業主借の仕訳：私費の立替と生活費を4つの例で整理",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "事業主貸と事業主借はどちらを使い、私費立替や生活費をどう記帳する？",
+  "answerSummary": "自分のお金で事業の支出を負担したら事業主借、事業のお金を生活側で使ったら事業主貸が基本です。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "家事上の費用は必要経費とならず、業務上必要な部分を明確に区分する。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：必要経費の知識",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "先に、どの口座と財布を帳簿で管理するか決めるの説明直後",
+      "purpose": "先に、どの口座と財布を帳簿で管理するか決めるを具体的な数字・条件で理解できるようにする",
+      "content": "| お金の動き | 基本の考え方 | 使う事業主勘定 |\n| --- | --- | --- |\n| 私用財布で仕事の経費を支払う | 個人が事業の支出を負担 | 事業主借 |\n| 事業口座から生活費を出す | 事業から個人へ資金を移す | 事業主貸 |\n| 売掛金が帳簿外の個人口座へ入る | 事業の代金を個人が受け取る | 事業主貸 |\n| 事業管理のカードで私用品を買う | 事業側で私用の支払いを負担 | 事業主貸 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "4取引、返金、ATM振替、口座管理範囲、年末繰越を保持。",
+    "事業主借2,000円・事業主貸55,000円の集計条件を明示。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "先に、どの口座と財布を帳簿で管理するか決める",
+      "id": "section-1"
+    },
+    {
+      "heading": "私用財布で文具2,000円を買った場合",
+      "id": "section-2"
+    },
+    {
+      "heading": "事業口座から生活費30,000円を引き出した場合",
+      "id": "section-3"
+    },
+    {
+      "heading": "売上代金20,000円が個人口座へ入った場合",
+      "id": "section-4"
+    },
+    {
+      "heading": "事業カードで私用品5,000円を買った場合",
+      "id": "section-5"
+    },
+    {
+      "heading": "事業主勘定の合計は利益とは別に見る",
+      "id": "section-6"
+    },
+    {
+      "heading": "支払元もAIへ伝えると、OpenTaxで確認しやすい",
+      "id": "section-7"
+    }
+  ],
+  "sourceSnapshotSha256": "1214aed2121157599099ac98704e1b228d91fed17d07b3d0a46c5cc344dbef2d",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "自分のお金で事業の支出を負担したら事業主借、事業のお金を生活側で使ったら事業主貸が基本です。仕事用の文具を私用財布で買っても経費にできますが、事業口座から出した生活費は経費にはなりません。お金の出どころと使い道を分けて考えると、科目名を暗記しなくても整理できます。"
+}

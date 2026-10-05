@@ -1,0 +1,131 @@
+{
+  "id": "15",
+  "slug": "free-accounting-side-business",
+  "title": "副業の会計ソフトは無料で足りる？取引が少ない人の選び方",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "副業の少ない取引なら無料ソフトで足りるか、どう試して選べばよいか。",
+  "answerSummary": "無料で足りる場合があり、白色専用サービス・表計算・複式簿記ソフトを取引内容で選ぶ。請求と入金、カード利用と引落を区別し、一か月の入力と確認の総時間で比較する。",
+  "articleType": "comparison",
+  "productPlacement": "comparison-entry",
+  "keyClaims": [
+    {
+      "claim": "やよい白色フリーは継続無料、サポート範囲は有料と異なる。",
+      "sourceUrl": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "事業所得等を生ずる業務を行う人は、申告不要でも記帳・保存制度の対象になる。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは個人事業主の事業所得が対象で、給与所得・雑所得などとの合算には対応していない。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは帳簿・請求書・証憑・固定資産を扱い、外部AIが解釈して登録した仕訳を人が確認・確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "家事関連費は取引の記録等で事業に必要だったと区分できる金額を必要経費にする。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁 個人事業の記帳・保存",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "弥生 白色申告オンライン料金",
+      "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "GnuCash公式",
+      "url": "https://www.gnucash.org/",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax README",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax 現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁 必要経費・家事関連費",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "取引件数より管理する内容を見てみる",
+      "purpose": "副業で少量でも必要な管理を具体化",
+      "content": "翌月報酬・個人カード・共用費・PC・源泉徴収の管理と帳簿に必要な処理の表",
+      "license": "編集部作成の表。一次資料に基づく独自整理。"
+    },
+    {
+      "type": "table",
+      "placement": "無料で続けられる方法を比較する",
+      "purpose": "無料の種類と申告までの作業を比較",
+      "content": "表計算・やよい白色・有料体験・GnuCash・OpenTaxの比較表",
+      "license": "編集部作成の表。一次資料に基づく独自整理。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTaxの紹介・費用注記の直後、出典の前"
+  },
+  "changes": [
+    "冒頭で無料で足りる条件を回答し所得区分の自動判断を避けた",
+    "原文の請求2件/経費8件/入金2件/カード引落1件を保持",
+    "副業特有の未入金・私用・按分・源泉徴収を具体化",
+    "入力後の確認までを含めて無料で足りる条件を説明",
+    "OpenTaxの給与等合算の制限を明示し記帳負担から自然に紹介",
+    "一か月の計測手順と将来の一般的な引継ぎ節を削減。無料で足りる条件、移行を考える症状、給与を含む申告分担へ絞った。",
+    "文字数目標を外して全段落を検索質問への貢献で再読し、共通の否定的な販促文を避け、提供機能と費用範囲を記事固有の文脈で説明した。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "3d9bcc3579f3031248625465a1392672f9c4d9cb365835cc9d9738d839f64ce6",
+  "headingAnchors": [
+    {
+      "heading": "取引件数より管理する内容を見てみる",
+      "id": "section-1"
+    },
+    {
+      "heading": "無料で続けられる方法を比較する",
+      "id": "section-2"
+    },
+    {
+      "heading": "無料で足りるかは入力後の確認で決まる",
+      "id": "section-3"
+    },
+    {
+      "heading": "入力の手間も減らしたいならOpenTaxも",
+      "id": "section-4"
+    }
+  ],
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "副業の記帳は、無料ソフトや表計算で足りる場合があります。白色申告なら継続無料の専用サービスが候補になり、複式簿記で管理したいなら無料の会計ソフトも選べます。ただし、件数が少なくても未入金や私用分の区分が必要なので、料金に加えて「毎月きちんと確認できるか」で選ぶのが大切です。"
+}

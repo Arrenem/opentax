@@ -1,0 +1,138 @@
+{
+  "id": "42",
+  "slug": "ai-tax-return-howto",
+  "title": "AIを使った確定申告の進め方：資料整理から帳簿確認、e-Tax送信まで",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "AIにどこまで任せれば、個人事業主の確定申告を進められる？",
+  "answerSummary": "AIは、領収書や明細の整理、仕訳の候補づくり、足りない資料の洗い出しに使えます。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "必要経費は支払った時期だけでなく債務確定等に基づいて判断する。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "正常送信の確認は即時通知と受信通知で行う。",
+      "sourceUrl": "https://www.e-tax.nta.go.jp/toiawase/qa/yokuaru05/03.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "令和8年分申告書の掲載案内には変更する場合がある旨が記載されている。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：個人事業者の記帳・帳簿等の保存",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：必要経費の知識",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁 e-Tax：個人でご利用の方",
+      "url": "https://www.e-tax.nta.go.jp/kojin.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁 e-Tax：正常送信の確認方法",
+      "url": "https://www.e-tax.nta.go.jp/toiawase/qa/yokuaru05/03.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：所得税の確定申告・令和8年分資料の掲載状況",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "最初に申告年分と資料をそろえるの説明直後",
+      "purpose": "最初に申告年分と資料をそろえるを具体的な数字・条件で理解できるようにする",
+      "content": "| 資料のまとまり | 用意するもの | 主な使い道 |\n| --- | --- | --- |\n| 売上 | 発行請求書、納品・提供記録、入金明細 | 売上と未入金の確認 |\n| 支出 | 領収書、受領請求書、カード・銀行明細 | 経費と未払いの確認 |\n| 引継ぎ・資産 | 前年の決算書、開始残高、固定資産台帳 | 期首残高と減価償却 |\n| 申告全体 | 給与などの所得資料、保険料・寄附等の資料 | 事業以外の所得と各種控除 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "4つの資料から、売上と経費を整理するの説明直後",
+      "purpose": "4つの資料から、売上と経費を整理するを具体的な数字・条件で理解できるようにする",
+      "content": "| 起きたこと | 記録する仕訳 | 確かめる点 |\n| --- | --- | --- |\n| サービス提供が完了 | 売掛金100,000円／売上100,000円 | 契約上の売上計上時点 |\n| 請求代金を回収 | 普通預金100,000円／売掛金100,000円 | 売上を再計上しない |\n| 当月通信代をカード利用 | 通信費6,000円／未払金6,000円 | 引落し前の支払いが残る |\n| 文具を私費で購入 | 消耗品費2,000円／事業主借2,000円 | 事業現金を減らさない |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "100,000円の売上・8,000円の経費・92,000円の利益を保持。",
+    "資料準備から送信後の納付までを一続きの解説に改稿。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。",
+    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "最初に申告年分と資料をそろえる",
+      "id": "section-1"
+    },
+    {
+      "heading": "AIには一度に一つの役割を頼む",
+      "id": "section-2"
+    },
+    {
+      "heading": "4つの資料から、売上と経費を整理する",
+      "id": "section-3"
+    },
+    {
+      "heading": "帳簿を完成させてから申告書に進む",
+      "id": "section-4"
+    },
+    {
+      "heading": "e-Taxは受信結果と納付まで確認する",
+      "id": "section-5"
+    },
+    {
+      "heading": "AIの候補を帳簿へつなぐならOpenTax",
+      "id": "section-6"
+    }
+  ],
+  "sourceSnapshotSha256": "1187cc6e12b2c7323e9e7db7295cacf8e9c01ceca081ddb01d4695ab0cab47e3",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "AIは、領収書や明細の整理、仕訳の候補づくり、足りない資料の洗い出しに使えます。確定申告は、その候補を確認して帳簿を完成させ、決算書・申告書を作り、本人が内容を確認して送信する順に進めます。"
+}

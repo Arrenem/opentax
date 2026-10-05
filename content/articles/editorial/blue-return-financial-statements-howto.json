@@ -1,0 +1,141 @@
+{
+  "id": "57",
+  "slug": "blue-return-financial-statements-howto",
+  "title": "青色申告決算書の書き方：売上360万円の例で、帳簿から各欄へ移す",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "青色申告決算書はどの帳簿の数字を使い、損益と貸借をどう合わせる？",
+  "answerSummary": "青色申告決算書は、決算整理が終わった帳簿から、売上・経費・資産・負債をまとめて作ります。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "確認した一般用手引きは令和7年分で、令和7年10月1日現在の法令等に基づく。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "決算書様式は事業主貸を資産の部、事業主借と控除前所得を負債・資本の部に記載する。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "65万円控除には55万円控除の要件に加え、期限内e-Tax等の要件がある。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "令和8年分申告書の案内には変更の可能性がある。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：令和7年分 青色申告決算書（一般用）の書き方",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：青色申告決算書（一般用）様式",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：青色申告特別控除",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：所得税の確定申告・令和8年分資料の掲載状況",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "1ページ目の損益は、科目別の年間合計から作るの説明直後",
+      "purpose": "1ページ目の損益は、科目別の年間合計から作るを具体的な数字・条件で理解できるようにする",
+      "content": "| 科目・集計 | 帳簿から移す金額 |\n| --- | ---: |\n| 売上 | 3,600,000円 |\n| 通信費 | 120,000円 |\n| 地代家賃 | 360,000円 |\n| 旅費交通費 | 90,000円 |\n| 消耗品費 | 80,000円 |\n| 減価償却費 | 60,000円 |\n| その他必要経費の合計 | 290,000円 |\n| 必要経費の合計 | 1,000,000円 |\n| 青色申告特別控除前の所得 | 2,600,000円 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    },
+    {
+      "type": "table",
+      "placement": "貸借対照表は、期首と期末を別々に埋めるの説明直後",
+      "purpose": "貸借対照表は、期首と期末を別々に埋めるを具体的な数字・条件で理解できるようにする",
+      "content": "| 資産の部に記載するもの | 金額 | 負債・資本の部に記載するもの | 金額 |\n| --- | ---: | --- | ---: |\n| 現金・預金 | 600,000円 | 未払金 | 100,000円 |\n| 売掛金 | 300,000円 | 事業主借 | 100,000円 |\n| 工具器具備品 | 200,000円 | 元入金 | 500,000円 |\n| 事業主貸 | 2,200,000円 | 青色申告特別控除前の所得 | 2,600,000円 |\n| 合計 | 3,300,000円 | 合計 | 3,300,000円 |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "売上360万円・経費100万円・控除前260万円と元の資産残高を保持。",
+    "説明を宿題で終えず、事業主勘定を補って貸借各330万円の完全な架空例を追加。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。",
+    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。"
+  ],
+  "publicationBlockers": [
+    "2026年分の最終の青色申告決算書一般用手引き・様式と欄対応を未確認。2026年分完全対応としての公開前に再確認する。",
+    "2026年分の確定申告書等作成コーナー最終画面およびOpenTax出力ファイルの当該年分での読込・内容一致は未検証。完成した画面手順・動作検証済みという表現は不可。"
+  ],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "使う年分と一般用の書類を確認する",
+      "id": "section-1"
+    },
+    {
+      "heading": "1ページ目の損益は、科目別の年間合計から作る",
+      "id": "section-2"
+    },
+    {
+      "heading": "月別売上と各種明細を、損益の合計へつなぐ",
+      "id": "section-3"
+    },
+    {
+      "heading": "貸借対照表は、期首と期末を別々に埋める",
+      "id": "section-4"
+    },
+    {
+      "heading": "控除後の所得を、確定申告書へ引き継ぐ",
+      "id": "section-5"
+    },
+    {
+      "heading": "OpenTaxの帳簿とレポートを決算書の根拠にする",
+      "id": "section-6"
+    }
+  ],
+  "sourceSnapshotSha256": "8d065337d0c683d8ad039d4da211bf1c372e8ea15b4b2a85baa2be1ca21cb40e",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "青色申告決算書は、決算整理が終わった帳簿から、売上・経費・資産・負債をまとめて作ります。銀行の入出金合計をそのまま移すのではなく、未入金や未払い、減価償却、家事按分を反映した数字を使います。ここでは一般用の決算書を、売上3,600,000円・経費1,000,000円のサービス業の例で説明します。"
+}

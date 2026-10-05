@@ -31,7 +31,7 @@ URLは `/articles/<slug>`、カテゴリーは `/articles/category/<id>/`。
 `status: published` へ変更する前に、記事の回答・例・条件を確認し、
 `reviewBlockers` を解消してください。出典の `verified`、`accessedAt`、
 公開日・更新日・編集確認日が必要です。未来の公開日や不明な著者参照はビルドが拒否します。
-税務や契約条件の専門レビューが必要な記事は、実際の確認が済むまでdraftに置きます。
+個別判断を含む記事で編集品質基準として専門レビューを設定した場合は、確認までdraftに置きます。記事の公開に法的な一律監修義務があるという意味ではありません。
 監修者や実測結果を、確認していない状態で記載しないでください。
 
 価格・年分・機能が変わったときは共通データ、本文、関連する比較記事を同時に直し、
@@ -48,7 +48,12 @@ GAのイベントは記事ID・分類・公開されたリンクだけを使い�
 専門レビュー、`publicationApproval` は公開承認、`suggestedEnhancements` は本文が
 主張していない実機検証などの補強を分けます。
 
-公開前には `publicationApproval` を承認済みにし、`evidenceGaps` と
+公開前には `publicationApproval` を正確に `approved` にし、`evidenceGaps` と
 `reviewBlockers` を解消します。`requiresTaxReview` の記事には実在する著者台帳の
 `taxReviewerId` と実際の `taxReviewedAt` が必要です。記録だけを埋めて承認を代用
 しないでください。価格・税務記事は有効な `reviewDueAt` も必須です。
+
+`taxReviewRecommendation` は正確性向上の推奨、`taxReviewTopics` は具体論点です。基本記帳・手順記事へ一律に `requiresTaxReview` を付けず、適用判断を含む記事の編集品質基準に限って使います。専門家への依頼は別途ユーザーの許可が必要です。
+
+
+記事の明示アンカーは `## 見出し {#anchor-id}` 形式を使えます。`sources` / `content` / `article-metadata` は予約IDです。画像の登録・本文配置・再生成は [改稿の検査記録](article-rewrite-validation.md) を参照してください。

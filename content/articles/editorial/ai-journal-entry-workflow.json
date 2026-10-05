@@ -1,0 +1,111 @@
+{
+  "id": "44",
+  "slug": "ai-journal-entry-workflow",
+  "title": "AIで仕訳を作るには？10件の入力例と、確定前に見るポイント",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "AIに何を渡せば仕訳候補を作れ、間違いをどう見つけられる？",
+  "answerSummary": "AIに仕訳を頼むときは、日付・金額・用途に加え、「誰のお金で払ったか」と「すでに記帳した取引か」を伝えます。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "2026年4月以後取得の一定の少額減価償却資産特例は40万円未満が価額基準となる。",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは勘定科目や税区分の税務判断の正しさを判定しない。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：必要経費の知識",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "国税庁：減価償却のあらまし（令和8年4月1日現在）",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "table",
+      "placement": "10件を分類した場合の答え合わせの説明直後",
+      "purpose": "10件を分類した場合の答え合わせを具体的な数字・条件で理解できるようにする",
+      "content": "| ID | 取引 | 確認後の仕訳・扱い |\n| --- | --- | --- |\n| T01 | 仕事用文具2,000円、事業現金払い | 消耗品費／現金2,000円 |\n| T02 | 計上済み売掛金50,000円の回収 | 普通預金／売掛金50,000円 |\n| T03 | 当月通信代3,000円、事業カード利用 | 通信費／未払金3,000円 |\n| T04 | 前月の未払金3,000円を銀行で支払い | 未払金／普通預金3,000円 |\n| T05 | 業務交通費1,000円、私費払い | 旅費交通費／事業主借1,000円 |\n| T06 | 事業口座から生活費20,000円を引出し | 事業主貸／普通預金20,000円 |\n| T07 | 共用通信費10,000円、利用割合が不明 | 利用記録から事業部分を分けるまで保留 |\n| T08 | PC350,000円、取得日・使用開始日が不明 | 資産の処理と適用要件を確認するまで保留 |\n| T09 | 89,790円の入出金、請求書も取引関係も不明 | 入出金の方向、請求総額、差引内容を確認 |\n| T10 | T01と同じ領収書を再送 | 元資料と一致すれば新しい仕訳を作らない |",
+      "license": "編集部作成のオリジナル表。数値は本文の架空例または出典に基づく。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "記事固有のOpenTax活用例と短い費用注記の直後、出典の前"
+  },
+  "changes": [
+    "10例、79,000円の貸借合計、費用6,000円、預金増27,000円を維持して検算。",
+    "元のT09の入出金が曖昧な点を、推測せず確認する具体例に改稿。",
+    "タイトル、目次、結論、本文、OpenTax活用例、CTA、小さな出典の順に再構成。",
+    "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
+    "実画面での検証や未提供の機能を主張しない。",
+    "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。",
+    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "headingAnchors": [
+    {
+      "heading": "仕訳を決める情報をそろえる",
+      "id": "section-1"
+    },
+    {
+      "heading": "そのまま使える依頼文の例",
+      "id": "section-2"
+    },
+    {
+      "heading": "10件を分類した場合の答え合わせ",
+      "id": "section-3"
+    },
+    {
+      "heading": "候補の修正は、理由も一緒に残す",
+      "id": "section-4"
+    },
+    {
+      "heading": "合計でも間違いを見つける",
+      "id": "section-5"
+    },
+    {
+      "heading": "OpenTaxなら候補の確認まで一つの流れにできる",
+      "id": "section-6"
+    }
+  ],
+  "sourceSnapshotSha256": "148065e02918f5cc7870f000bcda8231869e42ca252d775513e034efaac4f926",
+  "editorialReview": {
+    "structuralPass": "completed",
+    "publicationAuthorized": false,
+    "baselineChanged": false,
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "description": "AIに仕訳を頼むときは、日付・金額・用途に加え、「誰のお金で払ったか」と「すでに記帳した取引か」を伝えます。店名や銀行摘要だけでは、経費、生活費、売掛金の回収を区別しきれません。候補と判断の根拠を出してもらい、不足情報のある取引を保留にすると、確認すべき箇所が分かります。"
+}

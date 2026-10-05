@@ -1,0 +1,113 @@
+{
+  "id": "24",
+  "slug": "accounting-migration-reconciliation",
+  "title": "会計ソフト移行後に残高が合わないとき｜差額の原因を順に探す方法",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "移行後の残高差額をどう直すか",
+  "answerSummary": "比較条件を合わせ、期首残高→最初に差が出る月→個別仕訳へ絞って原因を直す。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "MFへの移行では開始残高と仕訳を別に取り込む",
+      "sourceUrl": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxのAI登録仕訳は人の確認を経て確定する",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "freee：仕訳帳をCSV・PDF形式で出力する",
+      "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "マネーフォワード：freeeの仕訳インポート",
+      "url": "https://biz.moneyforward.com/support/account/guide/date02/da05.html",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "original-diagram-or-table",
+      "placement": "二重登録の表",
+      "purpose": "差額二つが同じ一件から生まれることを示す",
+      "content": "預金＋30000/売掛金−30000のペアを色で対応。赤だけに頼らず符号とラベル。",
+      "license": "新規オリジナル図表。本文の事実・架空計算例を使用。第三者画像なし。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTax紹介直後、出典前"
+  },
+  "headingAnchors": [
+    {
+      "heading": "最初に比較する条件をそろえる",
+      "id": "section-1"
+    },
+    {
+      "heading": "期首が違うか、当年の増減が違うかを分ける",
+      "id": "section-2"
+    },
+    {
+      "heading": "30,000円の入金を二重にした例",
+      "id": "section-3"
+    },
+    {
+      "heading": "差が出た最初の月から取引を探す",
+      "id": "section-4"
+    },
+    {
+      "heading": "数円の違いは、税区分と端数処理を見る",
+      "id": "section-5"
+    },
+    {
+      "heading": "修正したら、同じ条件で残高を出し直す",
+      "id": "section-6"
+    },
+    {
+      "heading": "入力後の確認を続けやすくするOpenTax",
+      "id": "section-7"
+    }
+  ],
+  "changes": [
+    "冒頭で主質問に回答",
+    "操作・検算の具体例を残して一文一段落に改稿",
+    "記事固有のOpenTax紹介と直下CTA",
+    "重複出典と宿題調の末尾を整理",
+    "主題に貢献しない計算練習・重複注意書きを削減し、出典を小見出しへ統一。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "cf093a5aabb62db9e0e27030eb0bd676210e0cccae58597260e4db1ed9b59baa",
+  "wordingReview": "人手の専門監修・実機検証済みとは表記しない",
+  "editorialReview": {
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "sourceSeparation": "single compact list",
+    "publicationAuthorized": false,
+    "structuralPass": "completed",
+    "baselineChanged": false,
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "verificationNotes": [],
+  "reviewGate": "公開前の編集承認・必要な税務レビューと実装検査。資料比較のまま実機検証済みと表示しない。",
+  "description": "移行後の残高が合わないときは、まず期首残高を比べ、次に差が出た月の仕訳を調べます。不足分を埋める仕訳を先に作ると、入力漏れや二重登録が残ったままになります。「どの科目に、いつから、いくらの差があるか」を順に狭めれば、全件を見直さず原因を探せます。"
+}

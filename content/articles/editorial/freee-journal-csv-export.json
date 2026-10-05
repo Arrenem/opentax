@@ -1,0 +1,108 @@
+{
+  "id": "20",
+  "slug": "freee-journal-csv-export",
+  "title": "freeeの仕訳CSVを出力する方法｜形式の選び方と保存後の確認",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "freeeの仕訳をCSVで取り出すにはどうするか",
+  "answerSummary": "Webの仕訳帳で年度と絞り込みをそろえ、必要な形式と文字コードを選んで出力する。",
+  "articleType": "explanation",
+  "productPlacement": "end-only",
+  "keyClaims": [
+    {
+      "claim": "仕訳帳はテンプレートまたは汎用CSV・PDFとして出力できる",
+      "sourceUrl": "https://support.freee.co.jp/hc/ja/articles/204615564",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "個人の未契約状態は仕訳帳出力が使えない",
+      "sourceUrl": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "freee：仕訳帳をCSV・PDF形式で出力する",
+      "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "freee：個人向けプランと利用機能",
+      "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "original-diagram-or-table",
+      "placement": "形式比較表",
+      "purpose": "出力形式と用途を対応させる",
+      "content": "本文の4形式表。無料/有料の比較図にはしない。",
+      "license": "新規オリジナル図表。本文の事実・架空計算例を使用。第三者画像なし。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTax紹介直後、出典前"
+  },
+  "headingAnchors": [
+    {
+      "heading": "出力前に年度と契約を確認する",
+      "id": "section-1"
+    },
+    {
+      "heading": "仕訳帳からCSVをダウンロードする",
+      "id": "section-2"
+    },
+    {
+      "heading": "形式は「新しい方」より受け取り側に合わせる",
+      "id": "section-3"
+    },
+    {
+      "heading": "保存後は日付と合計を一度だけ照合する",
+      "id": "section-4"
+    },
+    {
+      "heading": "書き出した後の会計ソフトを選ぶなら",
+      "id": "section-5"
+    }
+  ],
+  "changes": [
+    "冒頭で主質問に回答",
+    "操作・検算の具体例を残して一文一段落に改稿",
+    "記事固有のOpenTax紹介と直下CTA",
+    "重複出典と宿題調の末尾を整理",
+    "主題に貢献しない計算練習・重複注意書きを削減し、出典を小見出しへ統一。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。",
+    "独立レビューにより、直接CSV取込の未確認と消費税申告の担当範囲を曖昧にしない表現へ修正。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "86c49d352bd1c86e36160133514ee1b7633e56f37607e10808bad006da42ebae",
+  "wordingReview": "人手の専門監修・実機検証済みとは表記しない",
+  "editorialReview": {
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "sourceSeparation": "single compact list",
+    "publicationAuthorized": false,
+    "structuralPass": "completed",
+    "baselineChanged": false,
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "verificationNotes": [
+    "メニュー表記は公式資料確認のみ。実アカウントの操作検証・キャプチャ未取得。"
+  ],
+  "reviewGate": "公開前の編集承認・必要な税務レビューと実装検査。資料比較のまま実機検証済みと表示しない。",
+  "description": "freeeの仕訳CSVは、Web版の「仕訳帳」から出力できます。対象年度と検索条件を合わせ、「インポート・エクスポート」で形式を選び、処理後にファイルをダウンロードします。他社へ移すときは移行先が指定する形式を、保存用には仕訳帳PDFも合わせて残すと使いやすくなります。"
+}

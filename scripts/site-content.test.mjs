@@ -34,6 +34,13 @@ test('all preview pages have valid metadata, reachable internal links and TOC an
       const html = await readFile(file, 'utf8');
       assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, article.slug);
       assert.match(html, /noindex/);
+      if (article.slug === 'freee-cost-review') {
+        const order = ['class="article-toc"','class="article-prose"','class="article-cta"','class="article-sources"'].map(marker => html.indexOf(marker));
+        assert.ok(order.every((position,index) => position >= 0 && (!index || position > order[index-1])), 'baseline article must read TOC → body → CTA → sources');
+        assert.doesNotMatch(html,/class="article-summary"/);
+        assert.doesNotMatch(html,/Aaron Lefler|Unsplash License/);
+        assert.match(html,/opentax-demo\.png/);
+      }
       assert.match(html, new RegExp('https://opentax\\.fragmentware\\.com/articles/' + article.slug));
       for (const schema of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
         const data = JSON.parse(schema[1]);

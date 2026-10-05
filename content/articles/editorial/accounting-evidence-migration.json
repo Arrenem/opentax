@@ -1,0 +1,111 @@
+{
+  "id": "25",
+  "slug": "accounting-evidence-migration",
+  "title": "会計ソフトの乗り換えで領収書はどう移す？ファイルと仕訳をつなぐ方法",
+  "updatedAt": "2026-10-03",
+  "readerQuestion": "会計ソフトを変えるとき領収書や請求書をどう残すか",
+  "answerSummary": "証憑本体と取引番号の対応表を別途保存し、旧サービスへログインせず探して開ける状態にする。",
+  "articleType": "howto",
+  "productPlacement": "contextual-example",
+  "keyClaims": [
+    {
+      "claim": "電子取引データには保存要件がある",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "OpenTaxは証憑ファイルとメタデータを保存する",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "sources": [
+    {
+      "label": "国税庁：電子帳簿保存法一問一答 電子取引関係（令和8年7月）",
+      "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "freee：仕訳帳をCSV・PDF形式で出力する",
+      "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：機能と利用方法",
+      "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：現在の対応範囲",
+      "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "original-diagram-or-table",
+      "placement": "対応表",
+      "purpose": "一つの取引に複数資料があることを伝える",
+      "content": "T001→E001、T002→E002/E003の対応線。架空データのみ。",
+      "license": "新規オリジナル図表。本文の事実・架空計算例を使用。第三者画像なし。"
+    }
+  ],
+  "cta": {
+    "label": "OpenTaxを使ってみる",
+    "url": "https://opentax.fragmentware.com/",
+    "placement": "OpenTax紹介直後、出典前"
+  },
+  "headingAnchors": [
+    {
+      "heading": "移すのはファイル本体と「どの取引か」の情報",
+      "id": "section-1"
+    },
+    {
+      "heading": "年度ごとに書き出し、元の名前を残す",
+      "id": "section-2"
+    },
+    {
+      "heading": "対応表はこの形なら後から追える",
+      "id": "section-3"
+    },
+    {
+      "heading": "電子で受け取った資料は電子のまま保管する",
+      "id": "section-4"
+    },
+    {
+      "heading": "三つの探し方が通れば、移行後も使いやすい",
+      "id": "section-5"
+    },
+    {
+      "heading": "これからの領収書を帳簿と一緒に残すなら",
+      "id": "section-6"
+    }
+  ],
+  "changes": [
+    "冒頭で主質問に回答",
+    "操作・検算の具体例を残して一文一段落に改稿",
+    "記事固有のOpenTax紹介と直下CTA",
+    "重複出典と宿題調の末尾を整理",
+    "主題に貢献しない計算練習・重複注意書きを削減し、出典を小見出しへ統一。",
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+  ],
+  "publicationBlockers": [],
+  "status": "editorial-draft",
+  "sourceSnapshotSha256": "d9e837861049565da3d1095da6428c4cdbb86f18496c5679dfc6445b1ba1d438",
+  "wordingReview": "人手の専門監修・実機検証済みとは表記しない",
+  "editorialReview": {
+    "sentenceRelevancePass": "completed",
+    "oneSentencePerParagraph": "checked",
+    "sourceSeparation": "single compact list",
+    "publicationAuthorized": false,
+    "structuralPass": "completed",
+    "baselineChanged": false,
+    "additionalFactualReview": "completed",
+    "jargonReview": "completed"
+  },
+  "verificationNotes": [
+    "電子保存要件の専門レビュー未実施。適法性認定や製品単独の完全対応を宣伝しない。"
+  ],
+  "reviewGate": "公開前の編集承認・必要な税務レビューと実装検査。資料比較のまま実機検証済みと表示しない。",
+  "description": "会計ソフトを乗り換えるときは、仕訳CSVとは別に、領収書や請求書のファイル本体も保存します。CSVに画像へのリンクがあっても、旧サービスへログインしなければ開けない場合があるためです。ファイルと仕訳の取引番号を対応づけておけば、別のソフトへ移った後も、帳簿から元の資料を探せます。"
+}
