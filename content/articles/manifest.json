@@ -17,10 +17,10 @@
     "audience": "sole-proprietor",
     "intent": "freee会計の料金を見直す",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-02",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
@@ -88,9 +88,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "pricingRefs": [
       "freee-premium-annual",
       "freee-standard-annual",
@@ -105,10 +103,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "月額契約の独立した最低1か月条項未確認。実際の申込画面で初回期間・次回請求日・停止期限を確認する。"
     ],
@@ -167,10 +163,10 @@
     "audience": "sole-proprietor",
     "intent": "freeeから替えるなら、料金・銀行連携・税理士共有・AI記帳のどれを基準に選ぶか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
@@ -255,9 +251,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/freee-alternatives.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -265,10 +259,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
     ],
@@ -358,10 +350,10 @@
     "audience": "sole-proprietor",
     "intent": "freee会計を無料で使い続けて、個人事業の帳簿と申告書まで出せるか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
@@ -405,9 +397,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "pricingRefs": [
       "freee-trial",
       "freee-uncontracted"
@@ -419,10 +409,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "実登録画面で試用終了日と利用経路別の表示を確認する。"
     ],
@@ -511,10 +499,10 @@
     "audience": "sole-proprietor",
     "intent": "スターターとスタンダードの年額差を払う必要があるのはどんな使い方か。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
@@ -558,9 +546,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "pricingRefs": [
       "freee-standard-annual",
       "freee-standard-monthly",
@@ -574,10 +560,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "sourcesMarkdown": "料金・機能は2026年10月3日確認。\n\n1. [freee：個人向け料金・機能・メンバー招待条件](https://support.freee.co.jp/hc/ja/articles/213726523)\n2. [freee：プラン・支払いサイクルの変更](https://support.freee.co.jp/hc/ja/articles/115000703043)\n3. [OpenTax：機能と使い方](https://github.com/Arrenem/opentax/blob/main/README.md)、[現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)",
     "sourcesCheckedAt": "2026-10-03",
@@ -664,10 +648,10 @@
     "audience": "sole-proprietor",
     "intent": "個人向けマネーフォワードの費用を、12月改定も踏まえてどう減らせるか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://biz.moneyforward.com/price/individual/",
@@ -719,9 +703,7 @@
     ],
     "reviewDueAt": "2026-11-30",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "pricingRefs": [
       "mf-mini-202612-annual",
       "mf-mini-202612-monthly",
@@ -743,10 +725,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "sourcesMarkdown": "料金・機能は2026年10月3日確認。\n\n1. [マネーフォワード：個人事業主向け料金](https://biz.moneyforward.com/price/individual/)\n2. [2026年12月1日の個人向け料金改定と適用日](https://biz.moneyforward.com/support/plan/news/20260924.html)\n3. [クラウド確定申告：プラン別機能](https://biz.moneyforward.com/support/tax-return/faq/price/p12.html)\n4. [OpenTax：機能と使い方](https://github.com/Arrenem/opentax/blob/main/README.md)、[現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)",
     "sourcesCheckedAt": "2026-10-03",
@@ -833,10 +813,10 @@
     "audience": "sole-proprietor",
     "intent": "マネーフォワードの無料状態で、何件記帳でき、申告書と帳簿をどこまで出せるか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://biz.moneyforward.com/support/plan/guide/p008.html",
@@ -902,9 +882,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "pricingRefs": [
       "mf-trial",
       "mf-uncontracted"
@@ -916,10 +894,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "実登録画面で試用終了日と利用経路別の表示を確認する。"
     ],
@@ -1009,10 +985,10 @@
     "audience": "sole-proprietor",
     "intent": "やよいの白色・青色・体験版は何が無料で、次年度はいくらか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
@@ -1071,9 +1047,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "pricingRefs": [
       "yayoi-blue-basic-annual",
       "yayoi-blue-basic-first-year",
@@ -1091,10 +1065,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "キャンペーン申込画面で過去利用による対象外条件と契約終了日を最終確認する。"
     ],
@@ -1184,10 +1156,10 @@
     "audience": "sole-proprietor",
     "intent": "個人事業主が継続無料・初年度無料・OSSから選ぶとき、何を選べば申告までつながるか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
@@ -1290,9 +1262,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/free-accounting-software.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -1300,10 +1270,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
     ],
@@ -1392,10 +1360,10 @@
     "audience": "sole-proprietor",
     "intent": "ブラウザで無料の会計ソフトを使えるか。WebサービスとWeb型OSSは何が違うか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
@@ -1480,9 +1448,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/free-cloud-accounting.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -1490,10 +1456,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
     ],
@@ -1581,10 +1545,10 @@
     "audience": "sole-proprietor",
     "intent": "開業直後の初年度に、無料会計ソフトを導入する前に何を決め、どう選べばよいか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
@@ -1653,9 +1617,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/free-accounting-for-freelancers.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -1663,10 +1625,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
     ],
@@ -1755,10 +1715,10 @@
     "audience": "sole-proprietor",
     "intent": "青色申告は無料ソフトでどこまででき、申告まで何をすればよいか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
@@ -1841,9 +1801,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/free-blue-return-software.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -1851,10 +1809,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
     ],
@@ -1944,10 +1900,10 @@
     "audience": "sole-proprietor",
     "intent": "白色申告を無料で行うには、どのソフトを選び何を記録すればよいか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/",
@@ -2005,9 +1961,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/free-white-return-software.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -2015,10 +1969,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "sourcesMarkdown": "2026年10月3日確認。\n\n- [弥生：白色申告オンラインの料金と機能](https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/)\n- [国税庁：個人事業の記帳・帳簿等の保存](https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm)\n- [国税庁：確定申告書等の作成](https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/)\n- [国税庁：必要経費と家事関連費](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm)\n- [OpenTax README](https://github.com/Arrenem/opentax/blob/main/README.md)、[現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)",
     "sourcesCheckedAt": "2026-10-03",
@@ -2105,10 +2057,10 @@
     "audience": "sole-proprietor",
     "intent": "副業の少ない取引なら無料ソフトで足りるか、どう試して選べばよいか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
@@ -2166,9 +2118,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/free-accounting-side-business.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -2176,10 +2126,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
     ],
@@ -2268,10 +2216,10 @@
     "audience": "sole-proprietor",
     "intent": "MacやLinuxで無料会計ソフトを使うなら、どれが対応し、申告までできるか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.gnucash.org/",
@@ -2346,9 +2294,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/free-accounting-mac-linux.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -2356,10 +2302,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施",
       "Mac/Linuxの対象ブラウザで入力・添付・帳簿出力・復元の実機検証が必要"
@@ -2449,10 +2393,10 @@
     "audience": "sole-proprietor",
     "intent": "月額課金を避けるには買い切りと無料会計ソフトのどちらがよく、総額はいくらか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/yayoiaoiro/price/",
@@ -2518,9 +2462,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounting-without-subscription.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -2529,10 +2471,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
     ],
@@ -2626,10 +2566,10 @@
     "audience": "sole-proprietor",
     "intent": "Excelを続けるか移行するかをどう決め、帳簿を安全に移すには何をすればよいか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://biz.moneyforward.com/support/tax-return/guide/import-books/ib01.html",
@@ -2663,9 +2603,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/excel-to-accounting-software.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -2673,10 +2611,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "移行先の個人向け公式取込仕様とサンプル実測が未完了。OpenTax固有の直接取込は手順化していない"
     ],
@@ -2765,10 +2701,10 @@
     "audience": "sole-proprietor",
     "intent": "freeeから他のソフトへ何をどの順で移せばよいか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
@@ -2830,9 +2766,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/switch-from-freee.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -2841,10 +2775,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -2933,10 +2865,10 @@
     "audience": "sole-proprietor",
     "intent": "freeeの仕訳をCSVで取り出すにはどうするか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
@@ -2981,9 +2913,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "pricingRefs": [],
     "sourcePath": "content/articles/freee-journal-csv-export.md",
     "correctionLog": [],
@@ -2993,10 +2923,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "実機で匿名サンプル出力と列対応・件数・残高照合は未実施。公式仕様に沿う本文だが操作検証完了まで公開不可。"
     ],
@@ -3087,10 +3015,10 @@
     "audience": "sole-proprietor",
     "intent": "freeeの解約前に何を保存すべきか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/202848470",
@@ -3144,9 +3072,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "pricingRefs": [],
     "sourcePath": "content/articles/freee-cancellation-data-checklist.md",
     "correctionLog": [],
@@ -3156,10 +3082,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "sourcesMarkdown": "出典の確認日：2026年10月3日。\n\n1. [freee：お支払いを停止する](https://support.freee.co.jp/hc/ja/articles/202848470)\n2. [freee：個人向けプランと利用機能](https://support.freee.co.jp/hc/ja/articles/213726523)\n3. [freee：仕訳帳をCSV・PDF形式で出力する](https://support.freee.co.jp/hc/ja/articles/204615564)\n4. [国税庁：青色申告制度と帳簿書類の保存](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm)\n5. [OpenTax：機能と利用方法](https://github.com/Arrenem/opentax/blob/main/README.md)",
     "sourcesCheckedAt": "2026-10-03",
@@ -3248,10 +3172,10 @@
     "audience": "sole-proprietor",
     "intent": "期首と期中のどちらで会計ソフトを変えるべきか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
@@ -3294,9 +3218,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounting-migration-timing.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -3304,10 +3226,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -3396,10 +3316,10 @@
     "audience": "sole-proprietor",
     "intent": "CSV取込エラーをどう切り分けて直すか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
@@ -3442,9 +3362,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounting-csv-import-errors.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -3452,10 +3370,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -3544,10 +3460,10 @@
     "audience": "sole-proprietor",
     "intent": "移行後の残高差額をどう直すか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
@@ -3590,9 +3506,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounting-migration-reconciliation.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -3600,10 +3514,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -3691,10 +3603,10 @@
     "audience": "sole-proprietor",
     "intent": "会計ソフトを変えるとき領収書や請求書をどう残すか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
@@ -3739,10 +3651,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounting-evidence-migration.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -3751,13 +3660,13 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
+    "publicationApproval": "approved",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
       "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
     ],
     "suggestedEnhancements": [
-      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。",
+      "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
     ],
     "sourcesMarkdown": "出典の確認日：2026年10月3日。\n\n1. [国税庁：電子帳簿保存法一問一答 電子取引関係（令和8年7月）](https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf)\n2. [freee：仕訳帳をCSV・PDF形式で出力する](https://support.freee.co.jp/hc/ja/articles/204615564)\n3. [OpenTax：機能と利用方法](https://github.com/Arrenem/opentax/blob/main/README.md)\n4. [OpenTax：現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)",
     "sourcesCheckedAt": "2026-10-03",
@@ -3843,10 +3752,10 @@
     "audience": "sole-proprietor",
     "intent": "税理士とやり取り中に会計ソフトを変える条件は何か",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/204615564",
@@ -3890,9 +3799,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accountant-handoff-software-switch.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -3901,10 +3808,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -3993,10 +3898,10 @@
     "audience": "sole-proprietor",
     "intent": "MFクラウド確定申告から別ソフトへどう移るか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://biz.moneyforward.com/support/tax-return/faq/price/p12.html",
@@ -4041,9 +3946,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "pricingRefs": [],
     "sourcePath": "content/articles/switch-from-moneyforward.md",
     "correctionLog": [],
@@ -4053,10 +3956,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "実機で匿名サンプル出力と列対応・件数・残高照合は未実施。公式仕様に沿う本文だが操作検証完了まで公開不可。",
       "OpenTaxへのMF形式取込の実機検証未実施。直接連携や全項目保持を保証しない。"
@@ -4146,10 +4047,10 @@
     "audience": "sole-proprietor",
     "intent": "個人事業主に合うオープンソース会計はどれか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.gnucash.org/index.phtml?lang=ja_JP",
@@ -4203,9 +4104,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/open-source-accounting-software.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -4215,10 +4114,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -4307,10 +4204,10 @@
     "audience": "sole-proprietor",
     "intent": "セルフホストの会計ソフトは何が自分の管理になるか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.gnucash.org/index.phtml?lang=ja_JP",
@@ -4354,9 +4251,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/self-hosted-accounting-guide.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -4364,10 +4259,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -4457,10 +4350,10 @@
     "audience": "sole-proprietor",
     "intent": "無料ソフトを自分で動かすといくらかかるか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://github.com/Arrenem/opentax/blob/main/README.md",
@@ -4504,9 +4397,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/self-hosted-accounting-cost.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -4515,10 +4406,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -4607,10 +4496,10 @@
     "audience": "sole-proprietor",
     "intent": "オープンソース会計は日本の個人事業でどこまで使えるか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
@@ -4655,10 +4544,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
-      "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/open-source-accounting-japan-checklist.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -4667,13 +4553,13 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
+    "publicationApproval": "approved",
     "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。",
       "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
     ],
     "suggestedEnhancements": [
-      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
+      "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。",
+      "電子保存の適用条件と運用の専門レビューを推奨（未実施）。"
     ],
     "sourcesMarkdown": "出典の確認日：2026年10月3日。\n\n1. [国税庁：青色申告制度と帳簿書類の保存](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm)\n2. [国税庁：電子帳簿保存法一問一答 電子取引関係（令和8年7月）](https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf)\n3. [OpenTax：機能と利用方法](https://github.com/Arrenem/opentax/blob/main/README.md)\n4. [OpenTax：現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)",
     "sourcesCheckedAt": "2026-10-03",
@@ -4761,10 +4647,10 @@
     "audience": "sole-proprietor",
     "intent": "無料ソフトとオープンソースの違いは何か",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://opensource.org/osd",
@@ -4801,9 +4687,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounting-open-source-license.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -4812,10 +4696,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -4904,10 +4786,10 @@
     "audience": "sole-proprietor",
     "intent": "会計データを何で保存しどう復元確認するか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.gnucash.org/docs/v5/C/gnucash-guide/basics-backup1.html",
@@ -4942,9 +4824,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounting-backup-restore.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -4953,10 +4833,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -5045,10 +4923,10 @@
     "audience": "sole-proprietor",
     "intent": "セルフホストと導入支援・運用サービスはどう違うか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.gnucash.org/index.phtml?lang=ja_JP",
@@ -5092,9 +4970,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounting-operations-options.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -5103,10 +4979,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -5195,10 +5069,10 @@
     "audience": "sole-proprietor",
     "intent": "GnuCashで日本語の帳簿と確定申告を行えるか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.gnucash.org/index.phtml?lang=ja_JP",
@@ -5249,9 +5123,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/gnucash-japan-accounting-review.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -5260,10 +5132,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -5352,10 +5222,10 @@
     "audience": "sole-proprietor",
     "intent": "Frappe Booksは現在もローカル会計として使えるか、日本申告対応はどうか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://frappe.io/books",
@@ -5407,9 +5277,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/frappe-books-japan-review.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -5419,10 +5287,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。"
     ],
@@ -5512,10 +5378,10 @@
     "audience": "sole-proprietor",
     "intent": "AIから会計を扱えるMCP対応製品はどう違うか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.freee.co.jp/ai/mcp/",
@@ -5566,9 +5432,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounting-mcp-comparison.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -5578,10 +5442,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。",
       "freee/MFの個人向け対応プラン、認証、操作、料金、データ取扱いの一次確認と同条件実機試験未完了。"
@@ -5671,10 +5533,10 @@
     "audience": "sole-proprietor",
     "intent": "無料でAIに会計をどこまで任せられるか",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.freee.co.jp/ai/mcp/",
@@ -5725,9 +5587,7 @@
     ],
     "reviewDueAt": "2026-10-09",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/free-ai-accounting-limits.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -5736,10 +5596,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "本文の架空例は算術・手順設計。製品の取込/出力/復元など実機検証は未完了。",
       "freee/MFの個人向け対応プラン、認証、操作、料金、データ取扱いの一次確認と同条件実機試験未完了。"
@@ -5829,10 +5687,10 @@
     "audience": "sole-proprietor",
     "intent": "OpenTaxとfreeeは料金と日々の作業・申告範囲でどう違い、どちらが合うか。",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://support.freee.co.jp/hc/ja/articles/213726523",
@@ -5870,9 +5728,7 @@
     ],
     "reviewDueAt": "2026-11-02",
     "applicableDate": "2026-10-02",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/opentax-vs-freee.md",
     "correctionLog": [],
     "verificationNotes": [
@@ -5880,10 +5736,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
     ],
@@ -5974,10 +5828,10 @@
     "audience": "sole-proprietor",
     "intent": "借方と貸方をどう決め、仕訳から利益や残高をどう確かめる？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
@@ -6019,9 +5873,7 @@
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/double-entry-bookkeeping-howto.md",
     "verifiedFeatureRefs": [
       "article-example-41-aggregation"
@@ -6033,10 +5885,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
     "taxReviewTopics": [
@@ -6129,10 +5979,10 @@
     "audience": "sole-proprietor",
     "intent": "AIにどこまで任せれば、個人事業主の確定申告を進められる？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-04",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
@@ -6199,9 +6049,7 @@
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/ai-tax-return-howto.md",
     "requiresTaxReview": false,
     "correctionLog": [],
@@ -6210,10 +6058,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
     "taxReviewTopics": [
@@ -6306,10 +6152,10 @@
     "audience": "sole-proprietor",
     "intent": "帳簿は何を、いつ、どこまで記録すれば続けられる？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
@@ -6360,9 +6206,7 @@
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/sole-proprietor-bookkeeping-routine.md",
     "requiresTaxReview": false,
     "correctionLog": [],
@@ -6371,10 +6215,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
     "taxReviewTopics": [
@@ -6467,10 +6309,10 @@
     "audience": "sole-proprietor",
     "intent": "AIに何を渡せば仕訳候補を作れ、間違いをどう見つけられる？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
@@ -6515,9 +6357,7 @@
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/ai-journal-entry-workflow.md",
     "requiresTaxReview": false,
     "correctionLog": [],
@@ -6526,10 +6366,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
     "taxReviewTopics": [
@@ -6622,10 +6460,10 @@
     "audience": "sole-proprietor",
     "intent": "紙やメールの領収書をどう整理すれば、漏れなく記帳して保存できる？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
@@ -6684,9 +6522,7 @@
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/receipt-organization-sole-proprietor.md",
     "requiresTaxReview": false,
     "correctionLog": [],
@@ -6695,10 +6531,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
     "taxReviewTopics": [
@@ -6790,10 +6624,10 @@
     "audience": "sole-proprietor",
     "intent": "PDF請求書やネットの領収書は、専用ソフトがなくてもどう保存できる？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": "2026-10-04",
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
@@ -6835,9 +6669,7 @@
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
-    "reviewBlockers": [
-      "公開承認待ち。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/electronic-transaction-records-howto.md",
     "requiresTaxReview": true,
     "correctionLog": [],
@@ -6848,10 +6680,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開承認待ち。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
@@ -6946,10 +6776,10 @@
     "audience": "sole-proprietor",
     "intent": "銀行のCSVを使い、売上や経費を重複させずに記帳するには？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.musashinobank.co.jp/banking/csv.html",
@@ -6984,9 +6814,7 @@
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/bank-statement-csv-bookkeeping.md",
     "requiresTaxReview": false,
     "correctionLog": [],
@@ -6995,10 +6823,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [
       "特定の銀行・会計ソフト間の実機CSV取込未確認。本文は一般手順と架空照合例"
     ],
@@ -7092,10 +6918,10 @@
     "audience": "sole-proprietor",
     "intent": "事業主貸と事業主借はどちらを使い、私費立替や生活費をどう記帳する？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
@@ -7130,9 +6956,7 @@
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/owners-drawings-contributions-journal.md",
     "requiresTaxReview": false,
     "correctionLog": [],
@@ -7141,10 +6965,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
     "taxReviewTopics": [
@@ -7237,10 +7059,10 @@
     "audience": "sole-proprietor",
     "intent": "自宅の家賃や通信費は何％を経費にでき、どう仕訳する？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-04",
-    "reviewedAt": "2026-10-04",
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
@@ -7283,9 +7105,7 @@
     ],
     "reviewDueAt": "2026-11-01",
     "applicableTaxYear": 2026,
-    "reviewBlockers": [
-      "公開承認待ち。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/business-use-expense-apportionment.md",
     "requiresTaxReview": true,
     "correctionLog": [],
@@ -7296,10 +7116,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開承認待ち。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
@@ -7394,10 +7212,10 @@
     "audience": "sole-proprietor",
     "intent": "カード利用と銀行引落しをどう仕訳し、私用混在や年またぎをどう扱う？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
@@ -7433,9 +7251,7 @@
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/credit-card-journal-sole-proprietor.md",
     "requiresTaxReview": false,
     "correctionLog": [],
@@ -7444,10 +7260,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
     "taxReviewTopics": [
@@ -7539,10 +7353,10 @@
     "audience": "sole-proprietor",
     "intent": "請求額と入金額が違うとき、売掛金をいくら減らせばよい？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
@@ -7585,9 +7399,7 @@
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/accounts-receivable-reconciliation-howto.md",
     "requiresTaxReview": false,
     "correctionLog": [],
@@ -7596,10 +7408,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
     "taxReviewTopics": [
@@ -7692,10 +7502,10 @@
     "audience": "sole-proprietor",
     "intent": "源泉徴収で少なく入金された報酬は、いくらを売上と税額に記録する？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-04",
-    "reviewedAt": "2026-10-04",
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm",
@@ -7760,9 +7570,7 @@
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
-    "reviewBlockers": [
-      "公開承認待ち。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/withheld-freelance-fees-journal.md",
     "requiresTaxReview": true,
     "correctionLog": [],
@@ -7774,10 +7582,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開承認待ち。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
@@ -7872,10 +7678,10 @@
     "audience": "sole-proprietor",
     "intent": "開業前の支出をどこまで開業費にでき、いつ経費にする？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-04",
-    "reviewedAt": "2026-10-04",
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
@@ -7918,9 +7724,7 @@
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
-    "reviewBlockers": [
-      "公開承認待ち。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/startup-costs-bookkeeping-sole-proprietor.md",
     "requiresTaxReview": true,
     "correctionLog": [],
@@ -7931,10 +7735,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開承認待ち。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
@@ -8030,10 +7832,10 @@
     "audience": "sole-proprietor",
     "intent": "パソコン代を一括で経費にできる条件と、減価償却する場合の金額は？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-04",
-    "reviewedAt": "2026-10-04",
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
@@ -8091,9 +7893,7 @@
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
-    "reviewBlockers": [
-      "公開承認待ち。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/computer-depreciation-sole-proprietor.md",
     "requiresTaxReview": true,
     "correctionLog": [],
@@ -8104,10 +7904,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開承認待ち。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
@@ -8202,10 +8000,10 @@
     "audience": "sole-proprietor",
     "intent": "月末に何を照合し、残高の差額をどう調べればよい？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-03",
-    "reviewedAt": null,
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
@@ -8242,9 +8040,7 @@
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
-    "reviewBlockers": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/monthly-bookkeeping-reconciliation.md",
     "requiresTaxReview": false,
     "correctionLog": [],
@@ -8253,10 +8049,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開前の編集レビューと公開承認。料金・機能は公開直前にも再確認する。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "正確性向上のため専門家レビューを推奨。記事公開に法的な一律監修義務があるという意味ではない。",
     "taxReviewTopics": [
@@ -8348,10 +8142,10 @@
     "audience": "sole-proprietor",
     "intent": "年末に普段の記帳へ何を追加し、翌年の取引とどう分ける？",
     "authorId": "opentax-editorial",
-    "status": "draft",
-    "publishedAt": null,
-    "updatedAt": "2026-10-04",
-    "reviewedAt": "2026-10-04",
+    "status": "published",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "reviewedAt": "2026-10-05",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
@@ -8395,9 +8189,7 @@
     ],
     "reviewDueAt": "2027-01-15",
     "applicableTaxYear": "2026",
-    "reviewBlockers": [
-      "公開承認待ち。"
-    ],
+    "reviewBlockers": [],
     "sourcePath": "content/articles/year-end-bookkeeping-adjustments.md",
     "requiresTaxReview": true,
     "correctionLog": [],
@@ -8409,10 +8201,8 @@
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
-    "publicationApproval": "pending",
-    "reviewRequirements": [
-      "公開承認待ち。"
-    ],
+    "publicationApproval": "approved",
+    "reviewRequirements": [],
     "suggestedEnhancements": [],
     "taxReviewRecommendation": "一次資料・実装との照合をCodex（AIアシスタント）が実施。専門家監修ではない。個別の適用判断を保証しない。",
     "taxReviewTopics": [
