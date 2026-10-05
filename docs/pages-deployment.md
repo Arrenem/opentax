@@ -1,7 +1,7 @@
-# 手動のCloudflare Pages本番デプロイ
+# main更新時のCloudflare Pages本番デプロイ
 
-既存プロジェクト `opentax` の `main` を、GitHub Actionsから手動で公開する。
-Macや開発端末の常時接続は不要。push・pull_request・scheduleからは公開しない。
+既存プロジェクト `opentax` の `main` 更新（PRのmergeを含む）を、GitHub Actionsで検査して自動公開する。
+Macや開発端末の常時接続は不要。手動の `workflow_dispatch` は予備として残す。任意branch・pull_request・scheduleからは公開しない。
 
 ## 初回の本人設定
 
@@ -16,18 +16,18 @@ Macや開発端末の常時接続は不要。push・pull_request・scheduleか�
 ## 実行
 
 1. 公開対象の変更をレビューしてmainへmergeする。
-2. GitHubのActions → Deploy OpenTax Pages → Run workflowでmainを選ぶ。
-3. 実行時のmain commitを固定してテスト・buildする。途中でmainが進んだ場合は公開前に停止するため、新しいrunを手動実行する。
+2. mainへのpushでDeploy OpenTax Pagesが自動的に開始する。pathsフィルターは設けず、workflow自身の変更も対象にする。
+3. 起動時のmain commitを固定してテスト・buildする。途中でmainが進んだ場合は古いrunを公開前に停止し、新しいpushのrunが最新commitを処理する。必要時だけActions → Deploy OpenTax Pages → Run workflowでmainを手動実行する。
 4. buildとdeployの両job、および最後の本番検証が成功したことを確認する。
 
 Secret未設定時はdeployを開始しない。デプロイ操作自体は成功しても、その後の検証が失敗する場合がある。最後のjob失敗だけを見て「未公開」と判断せず、Cloudflareのdeploymentと本番内容を確認する。
 
 ## 検査と安全策
 
-- workflow_dispatchのみ。リポジトリ名と `refs/heads/main` を両jobで確認し、任意branch・外部PR・入力値からデプロイしない。
+- mainへのpushとworkflow_dispatchのみ。リポジトリ名、`refs/heads/main`、許可されたeventを両jobで確認し、fork・任意branch・外部PR・入力値からデプロイしない。
 - GitHub権限は `contents: read`。checkoutの認証情報をGit設定に保存しない。自動キャンセルしない固定concurrency groupで本番公開を直列化。
 - Node 24.19.0、公式GitHub Actionsは検証済みcommit SHA、Wrangler 4.147.0と依存関係はlockfile/integrityで固定。
-- build jobでアプリテスト・lint・TypeScript・本番site31テストとCI補助6テストを実施。CloudflareのSecretはこのjobに渡さない。
+- build jobでアプリテスト・lint・TypeScript・本番site35テストとCI補助7テストを実施。CloudflareのSecretはこのjobに渡さない。
 - 別のdeploy jobが同じrunのartifact IDだけを取得。digest不一致は停止。git checkoutやアプリ依存関係のインストールは行わない。
 - deploy専用WranglerはSecretがない段階で `npm ci --ignore-scripts` によりインストール。Secretを渡すのは最後のWrangler公開ステップだけ。トークンをコマンド引数へ展開したり出力したりしない。
 - 記事ID集合・公開53本・保留57/58・承認・証拠不足を検査。保留本文・専用画像は収録しない。今後公開範囲を変える場合は、レビュー後にガードとテストも更新する。
@@ -54,3 +54,7 @@ run 37289782478のattempt 2で、commit `74c515e001e275695a08466acc864c1dafbba94
 正規化するのはこの2 URLだけ。既知の属性・長さを持つanchorが1個だけで、復号結果が既存の公開デモ用アドレスに完全一致し、既知の復号scriptが1個だけ、かつmain.js直前にある場合に限る。その変換だけを戻して文書全体の元SHA-256と比較する。他の本文変更、異なるアドレス、追加属性、scriptの移動・重複・差替え、別URLの変換は許容しない。
 
 過去のattempt 2の失敗表示は履歴として残る。認証修正前のattempt 1は、Pages Writeをアカウントではなくゾーンへ割り当てていたため、upload前のproject取得で停止した。権限の拡大や再デプロイを反射的に行わず、失敗したstepと配信内容を区別する。
+
+## 自動公開への切替（2026-10-05）
+
+本人の依頼により、mainへmergeした後の手動Run操作を省くため、mainのpushも起動条件に追加した。手動実行は予備として維持する。変更は起動条件・回帰検査・この手順書だけで、Secret、Cloudflare権限、公開先、検査済みartifactの受け渡し、直列実行、本番ハッシュ照合は変更しない。古いrunの再実行は古いSHAを維持する。mainが進んでいれば既存のSHA検査で停止するため、最新mainの新しいrunを確認する。

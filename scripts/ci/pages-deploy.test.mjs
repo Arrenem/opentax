@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { cp, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
+import { runInNewContext } from 'node:vm';
 import { createRequire } from 'node:module';
 import path from 'node:path';
 import os from 'node:os';
@@ -27,10 +28,11 @@ test('release publication guard rejects changed counts, identities, approval and
   }
 });
 
-test('manual workflow isolates secrets and fixes its target, commit and official actions', async () => {
+test('main-push and manual workflow isolates secrets and fixes its target, commit and official actions', async () => {
   const source = await readFile(path.join(root, '.github/workflows/deploy-pages.yml'), 'utf8');
   const workflow = load(source);
-  assert.deepEqual(Object.keys(workflow.on), ['workflow_dispatch']);
+  assert.deepEqual(Object.keys(workflow.on), ['push', 'workflow_dispatch']);
+  assert.deepEqual(workflow.on.push, { branches: ['main'] });
   assert.equal(workflow.on.workflow_dispatch, null);
   assert.deepEqual(workflow.permissions, { contents: 'read' });
   assert.deepEqual(workflow.concurrency, { group: 'opentax-pages-production', 'cancel-in-progress': false });
@@ -41,7 +43,7 @@ test('manual workflow isolates secrets and fixes its target, commit and official
     'actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c',
   ]);
   for (const job of Object.values(workflow.jobs)) {
-    assert.equal(job.if, "github.repository == 'Arrenem/opentax' && github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'");
+    assert.equal(job.if, "github.repository == 'Arrenem/opentax' && github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')");
     for (const step of job.steps) if (step.uses) assert.ok(expectedActions.has(step.uses));
   }
   const build = workflow.jobs.build;
@@ -65,6 +67,21 @@ test('manual workflow isolates secrets and fixes its target, commit and official
   assert.ok(deploy.steps.findIndex(step => step.run?.includes('npm ci')) < deploy.steps.indexOf(publish));
   assert.match(deploy.steps.find(step => step.run?.includes('npm ci')).run, /npm ci .*--ignore-scripts/);
   assert.equal(deploy.steps.at(-1).env, undefined);
+});
+
+test('both jobs allow only original-repository main push or manual dispatch', async () => {
+  const workflow = load(await readFile(path.join(root, '.github/workflows/deploy-pages.yml'), 'utf8'));
+  for (const job of Object.values(workflow.jobs)) {
+    for (const repository of ['Arrenem/opentax', 'someone/opentax']) {
+      for (const ref of ['refs/heads/main', 'refs/heads/feature', 'refs/tags/main', 'refs/pull/7/merge']) {
+        for (const event_name of ['push', 'workflow_dispatch', 'pull_request', 'pull_request_target', 'schedule']) {
+          const github = { repository, ref, event_name };
+          const expected = repository === 'Arrenem/opentax' && ref === 'refs/heads/main' && ['push', 'workflow_dispatch'].includes(event_name);
+          assert.equal(runInNewContext(job.if, { github }, { timeout: 1000 }), expected, JSON.stringify(github));
+        }
+      }
+    }
+  }
 });
 
 test('Wrangler package and integrity lock match the verified version', async () => {
