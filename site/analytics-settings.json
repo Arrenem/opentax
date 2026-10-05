@@ -1,9 +1,0 @@
-{
-  "measurementId": "G-HWFFMYR32H",
-  "campaignAllowlist": {
-    "source": ["x", "tsukutta"],
-    "medium": ["social", "referral"],
-    "campaign": ["launch", "evergreen", "developer_preview"],
-    "content": ["profile", "post", "reply", "project_page", "article_share"]
-  }
-}
