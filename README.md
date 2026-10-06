@@ -8,7 +8,8 @@
 > OpenTax は開発中の実験的なオープンソース会計ソフトです。税務相談サービスではなく、メンテナーは税理士などの資格を持っていません。
 > 帳簿や申告の内容はご自身で確認し、必要に応じて税理士などの専門家にご相談ください。詳しくは [免責事項](DISCLAIMER.md) と [既知の制限事項](KNOWN_LIMITATIONS.md) をご覧ください。
 
-- 公式サイト・ドキュメント: https://opentax.fragmentware.com
+- 公式サイト: https://opentax.fragmentware.com
+- アプリのドキュメント: [ドキュメント一覧](#ドキュメント)
 - ライセンス: [GNU AGPL v3.0](LICENSE)
 
 ## OpenTax とは
@@ -76,10 +77,11 @@ Firestore/Storage のルールとインデックスのデプロイ、認証プ�
 npm install
 npm test            # ユニットテスト
 npm run lint
+npm run typecheck
+npm run source:check # 公開ソースの境界を検査
 npm run build
 npm run mcp:build   # stdio MCP サーバーのビルド
 npm run mcp:test
-npm run site:build  # 公式サイト（LP + ドキュメント）のビルド
 ```
 
 `npm run mcp:start` は MCP 用の環境変数 2 つを設定したうえで stdio サーバーを起動します。標準出力は MCP プロトコル専用です。
@@ -101,6 +103,14 @@ npm run site:build  # 公式サイト（LP + ドキュメント）のビルド
 
 OpenTax の開発には AI によるコーディング支援を利用しています。会計・税額の計算は決定的なコードで実装され、テストで検証され、誰でもレビューできるように公開しています。「誰が書いたコードでも、検証できなければ信用しない」という方針です。税務ロジックの誤りの指摘を歓迎します。
 
+## 公開ソースの範囲
+
+このリポジトリでは OpenTax の会計アプリ、MCP アダプター、テスト、利用・開発ドキュメントをオープンソースとして管理します。公式サイトの LP、記事本文・画像、編集・配信ツールは別の非公開ソースで管理し、このリポジトリのビルドには必要ありません。
+
+変更を提出する前に `npm run source:check` を実行してください。詳細は [公開ソースの境界](docs/public-source-boundary.md) を参照してください。
+
 ## ライセンス
 
 [GNU Affero General Public License v3.0](LICENSE)。改変した OpenTax をネットワーク越しにサービスとして提供する場合も、そのソースコードを利用者に公開する必要があります。
+
+同梱の Noto Sans JP フォントには [SIL Open Font License 1.1](public/fonts/OFL.txt) が適用されます。

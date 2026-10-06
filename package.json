@@ -15,11 +15,8 @@
     "mcp:start": "node packages/opentax-mcp/dist/server.mjs",
     "mcp:build": "npm run build --workspace @opentax/mcp",
     "mcp:test": "vitest run packages/opentax-mcp",
-    "site:test": "npm run site:build && node --test scripts/site-analytics.test.mjs scripts/site-preservation.test.mjs scripts/site-content.test.mjs scripts/site/*.test.mjs",
-    "site:check": "npm run site:test",
-    "site:preview": "node scripts/build-site.mjs --preview",
-    "site:build": "node scripts/build-site.mjs",
-    "site:deploy": "npm run site:build && cd site && npx wrangler pages deploy dist --project-name opentax --branch main"
+    "source:check": "node --test scripts/ci/public-source-boundary.test.mjs && node scripts/ci/check-public-source-boundary.mjs",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@modelcontextprotocol/server": "^2.1.0",
@@ -43,7 +40,6 @@
     "esbuild": "^0.28.2",
     "eslint": "^9.39.5",
     "eslint-config-next": "^16.3.6",
-    "marked": "^18.0.14",
     "postcss": "^8.5.28",
     "tailwindcss": "^3.4.1",
     "typescript": "^5",

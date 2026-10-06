@@ -1,7 +1,0 @@
-{
-  "name": "opentax-pages-deploy",
-  "private": true,
-  "version": "1.0.0",
-  "engines": { "node": ">=22" },
-  "dependencies": { "wrangler": "4.147.0" }
-}

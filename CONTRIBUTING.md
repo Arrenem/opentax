@@ -16,6 +16,8 @@ OpenTax に関心を持っていただきありがとうございます。不具
 npm install
 npm test
 npm run lint
+npm run typecheck
+npm run source:check
 npm run build
 npm run mcp:test
 ```
@@ -26,8 +28,12 @@ Firebase を使わずに画面を確認したい場合は、開発サーバー�
 
 1. 大きな変更の場合は、先に Issue で方針を相談してください。
 2. ブランチを作成し、変更に対応するテストを追加・更新してください。
-3. `npm test`・`npm run lint`・`npm run build` が通ることを確認してください。
+3. `npm test`・`npm run lint`・`npm run typecheck`・`npm run source:check`・`npm run build` が通ることを確認してください。
 4. Pull Request には、変更の目的と確認方法を書いてください。
+
+## 公開ソースの境界
+
+このリポジトリへの変更は、会計アプリ・MCP・テスト・利用と開発のドキュメントを対象にしてください。公式サイトの LP、記事・画像、編集と配信の運用資料は別の非公開ソースで管理します。公開する変更にそれらを含めないでください。検査方法は [公開ソースの境界](docs/public-source-boundary.md) を参照してください。
 
 ## 設計上の約束
 
