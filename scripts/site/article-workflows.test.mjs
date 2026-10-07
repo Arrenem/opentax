@@ -1,6 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, mkdtemp, rm } from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildArticles } from './articles.mjs';
 
 const root = new URL('../../', import.meta.url);
 const read = (file) => readFile(new URL(file, root), 'utf8');
@@ -39,4 +43,21 @@ test('comparison result is scoped to OpenTax rather than an unperformed competit
   const body = await read('content/articles/freee-alternatives.md');
   assert.match(body, /売上30,000円、消耗品費2,000円、普通預金30,000円、売掛金0円、事業主借2,000円/);
   assert.match(body, /他社ソフトの操作を比較した実測ではありません/);
+});
+
+
+test('all three worked examples render a complete dated correction-history entry', async () => {
+  const outDir = await mkdtemp(path.join(os.tmpdir(), 'opentax-workflow-history-'));
+  try {
+    await buildArticles({ root: fileURLToPath(root), outDir, siteUrl: 'https://opentax.fragmentware.com' });
+    for (const slug of slugs) {
+      const html = await readFile(path.join(outDir, 'articles', `${slug}.html`), 'utf8');
+      const history = html.match(/<h2>更新・訂正履歴<\/h2><ul>(.*?)<\/ul>/s)?.[1];
+      assert.ok(history, `${slug}: correction history is missing`);
+      assert.ok(history.includes('<li>2026-10-07: 記事固有の架空取引を使った登録・確認結果と、再現可能な自動テストを追加。</li>'), `${slug}: correction history must include the description`);
+      assert.doesNotMatch(history, /<li>2026-10-07:\s*<\/li>/, slug);
+    }
+  } finally {
+    await rm(outDir, { recursive: true, force: true });
+  }
 });
