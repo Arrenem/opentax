@@ -165,8 +165,8 @@
     "authorId": "opentax-editorial",
     "status": "published",
     "publishedAt": "2026-10-05",
-    "updatedAt": "2026-10-05",
-    "reviewedAt": "2026-10-05",
+    "updatedAt": "2026-10-07",
+    "reviewedAt": "2026-10-07",
     "sources": [
       {
         "url": "https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/",
@@ -239,6 +239,14 @@
         "accessedAt": "2026-10-03",
         "claim": "OpenTaxは個人の事業所得が対象。保存先・外部AI費用は別の場合があり、申告範囲と共同作業には現行制約がある。",
         "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts",
+        "title": "OpenTax：記事の架空取引を実行するテスト",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-07",
+        "claim": "架空取引の登録・修正・同一キー再送・人による確定・集計結果",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -253,9 +261,15 @@
     "applicableDate": "2026-10-02",
     "reviewBlockers": [],
     "sourcePath": "content/articles/freee-alternatives.md",
-    "correctionLog": [],
+    "correctionLog": [
+      {
+        "date": "2026-10-07",
+        "summary": "記事固有の架空取引を使った登録・確認結果と、再現可能な自動テストを追加。"
+      }
+    ],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "2026-10-07：架空データとメモリ内保存先で、実際の仕訳登録・再送制御・修正・人による確定・集計処理を実行。AI読取、ブラウザ、実口座接続、他社移行の実測は含めない。"
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
@@ -264,7 +278,7 @@
     "suggestedEnhancements": [
       "製品の同一サンプルによる実機機能・帳票・出力の比較は未実施"
     ],
-    "sourcesMarkdown": "料金・機能は2026年10月3日確認。\n\n1. [弥生：青色申告の料金とキャンペーン](https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/)、[白色申告の料金](https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/)\n2. [マネーフォワード：個人向け料金](https://biz.moneyforward.com/price/individual/)\n3. [マネーフォワード：プラン別機能](https://biz.moneyforward.com/support/tax-return/faq/price/p12.html)、[2026年12月の改定](https://biz.moneyforward.com/support/plan/news/20260924.html)\n4. [freee：個人向け料金と機能](https://support.freee.co.jp/hc/ja/articles/213726523)\n5. [GnuCash公式](https://www.gnucash.org/)\n6. [OpenTax：機能と使い方](https://github.com/Arrenem/opentax/blob/main/README.md)、[現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)",
+    "sourcesMarkdown": "料金・機能は2026年10月3日確認。\n\n1. [弥生：青色申告の料金とキャンペーン](https://www.yayoi-kk.co.jp/shinkoku/aoiroshinkoku/price/)、[白色申告の料金](https://www.yayoi-kk.co.jp/shinkoku/shiroiroshinkoku/price/)\n2. [マネーフォワード：個人向け料金](https://biz.moneyforward.com/price/individual/)\n3. [マネーフォワード：プラン別機能](https://biz.moneyforward.com/support/tax-return/faq/price/p12.html)、[2026年12月の改定](https://biz.moneyforward.com/support/plan/news/20260924.html)\n4. [freee：個人向け料金と機能](https://support.freee.co.jp/hc/ja/articles/213726523)\n5. [GnuCash公式](https://www.gnucash.org/)\n6. [OpenTax：機能と使い方](https://github.com/Arrenem/opentax/blob/main/README.md)、[現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)\n\n追加した操作説明・架空取引の処理結果は2026年10月7日に確認しました。\n\n- [OpenTax：記事の架空取引を実行するテスト](https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts)",
     "sourcesCheckedAt": "2026-10-03",
     "cta": {
       "href": "https://opentax.fragmentware.com/",
@@ -6311,8 +6325,8 @@
     "authorId": "opentax-editorial",
     "status": "published",
     "publishedAt": "2026-10-05",
-    "updatedAt": "2026-10-05",
-    "reviewedAt": "2026-10-05",
+    "updatedAt": "2026-10-07",
+    "reviewedAt": "2026-10-07",
     "sources": [
       {
         "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
@@ -6345,6 +6359,30 @@
         "accessedAt": "2026-10-03",
         "claim": "OpenTaxは勘定科目や税区分の税務判断の正しさを判定しない。",
         "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts",
+        "title": "OpenTax：記事の架空取引を実行するテスト",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-07",
+        "claim": "架空取引の登録・修正・同一キー再送・人による確定・集計結果",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/app/%28dashboard%29/review/page.tsx",
+        "title": "OpenTax：レビュー画面の実装",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-07",
+        "claim": "レビュー画面の日付・借貸科目・税区分・参照情報・修正理由・確定操作",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/lib/domain/journals/service.ts",
+        "title": "OpenTax：仕訳登録・確認処理",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-07",
+        "claim": "エージェントの確認待ち登録、同一キー・同一内容の再送、ユーザー確定",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -6360,9 +6398,15 @@
     "reviewBlockers": [],
     "sourcePath": "content/articles/ai-journal-entry-workflow.md",
     "requiresTaxReview": false,
-    "correctionLog": [],
+    "correctionLog": [
+      {
+        "date": "2026-10-07",
+        "summary": "記事固有の架空取引を使った登録・確認結果と、再現可能な自動テストを追加。"
+      }
+    ],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "2026-10-07：架空データとメモリ内保存先で、実際の仕訳登録・再送制御・修正・人による確定・集計処理を実行。AI読取、ブラウザ、実口座接続、他社移行の実測は含めない。"
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
@@ -6373,7 +6417,7 @@
     "taxReviewTopics": [
       "本文の基本記帳例と利用時の前提条件（推奨確認）"
     ],
-    "sourcesMarkdown": "制度・公開機能は2026年10月3日に確認しました。\n\n1. [国税庁：必要経費の知識](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm)\n2. [国税庁：減価償却のあらまし（令和8年4月1日現在）](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm)\n3. [OpenTax：機能と利用方法](https://github.com/Arrenem/opentax/blob/main/README.md)\n4. [OpenTax：現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)",
+    "sourcesMarkdown": "制度・公開機能は2026年10月3日に確認しました。\n\n1. [国税庁：必要経費の知識](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm)\n2. [国税庁：減価償却のあらまし（令和8年4月1日現在）](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm)\n3. [OpenTax：機能と利用方法](https://github.com/Arrenem/opentax/blob/main/README.md)\n4. [OpenTax：現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)\n\n追加した操作説明・架空取引の処理結果は2026年10月7日に確認しました。\n\n- [OpenTax：記事の架空取引を実行するテスト](https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts)\n\n- [OpenTax：レビュー画面の実装](https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/app/%28dashboard%29/review/page.tsx)\n\n- [OpenTax：仕訳登録・確認処理](https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/lib/domain/journals/service.ts)",
     "sourcesCheckedAt": "2026-10-03",
     "cta": {
       "href": "https://opentax.fragmentware.com/",
@@ -6778,8 +6822,8 @@
     "authorId": "opentax-editorial",
     "status": "published",
     "publishedAt": "2026-10-05",
-    "updatedAt": "2026-10-05",
-    "reviewedAt": "2026-10-05",
+    "updatedAt": "2026-10-07",
+    "reviewedAt": "2026-10-07",
     "sources": [
       {
         "url": "https://www.musashinobank.co.jp/banking/csv.html",
@@ -6804,6 +6848,30 @@
         "accessedAt": "2026-10-03",
         "claim": "OpenTax：現在の対応範囲",
         "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts",
+        "title": "OpenTax：記事の架空取引を実行するテスト",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-07",
+        "claim": "架空取引の登録・修正・同一キー再送・人による確定・集計結果",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/app/%28dashboard%29/review/page.tsx",
+        "title": "OpenTax：レビュー画面の実装",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-07",
+        "claim": "レビュー画面の日付・借貸科目・税区分・参照情報・修正理由・確定操作",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/lib/domain/journals/service.ts",
+        "title": "OpenTax：仕訳登録・確認処理",
+        "publisher": "OpenTax",
+        "accessedAt": "2026-10-07",
+        "claim": "エージェントの確認待ち登録、同一キー・同一内容の再送、ユーザー確定",
+        "verified": true
       }
     ],
     "relatedSlugs": [
@@ -6817,9 +6885,15 @@
     "reviewBlockers": [],
     "sourcePath": "content/articles/bank-statement-csv-bookkeeping.md",
     "requiresTaxReview": false,
-    "correctionLog": [],
+    "correctionLog": [
+      {
+        "date": "2026-10-07",
+        "summary": "記事固有の架空取引を使った登録・確認結果と、再現可能な自動テストを追加。"
+      }
+    ],
     "verificationNotes": [
-      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。"
+      "一次資料・本文の条件表現・架空例を確認。実機試験の成功や性能は主張していない。",
+      "2026-10-07：架空データとメモリ内保存先で、実際の仕訳登録・再送制御・修正・人による確定・集計処理を実行。AI読取、ブラウザ、実口座接続、他社移行の実測は含めない。"
     ],
     "evidenceGaps": [],
     "verificationStatus": "editorial-review-ready",
@@ -6832,7 +6906,7 @@
     "taxReviewTopics": [
       "本文の基本記帳例と利用時の前提条件（推奨確認）"
     ],
-    "sourcesMarkdown": "制度・公開機能は2026年10月3日に確認しました。\n\n1. [武蔵野銀行：CSVダウンロードのファイル構造](https://www.musashinobank.co.jp/banking/csv.html)\n2. [OpenTax：機能と利用方法](https://github.com/Arrenem/opentax/blob/main/README.md)\n3. [OpenTax：現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)",
+    "sourcesMarkdown": "制度・公開機能は2026年10月3日に確認しました。\n\n1. [武蔵野銀行：CSVダウンロードのファイル構造](https://www.musashinobank.co.jp/banking/csv.html)\n2. [OpenTax：機能と利用方法](https://github.com/Arrenem/opentax/blob/main/README.md)\n3. [OpenTax：現在の対応範囲](https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md)\n\n追加した操作説明・架空取引の処理結果は2026年10月7日に確認しました。\n\n- [OpenTax：記事の架空取引を実行するテスト](https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts)\n\n- [OpenTax：レビュー画面の実装](https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/app/%28dashboard%29/review/page.tsx)\n\n- [OpenTax：仕訳登録・確認処理](https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/lib/domain/journals/service.ts)",
     "sourcesCheckedAt": "2026-10-03",
     "cta": {
       "href": "https://opentax.fragmentware.com/",

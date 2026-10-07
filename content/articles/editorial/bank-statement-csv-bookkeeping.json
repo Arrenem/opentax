@@ -2,7 +2,7 @@
   "id": "47",
   "slug": "bank-statement-csv-bookkeeping",
   "title": "銀行明細CSVで記帳する方法：取り込み前の準備と重複・残高チェック",
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-07",
   "readerQuestion": "銀行のCSVを使い、売上や経費を重複させずに記帳するには？",
   "answerSummary": "銀行明細CSVは、入出金の記録を会計ソフトへ移し、請求書や既存仕訳と照合して使います。",
   "articleType": "howto",
@@ -17,6 +17,21 @@
       "claim": "AIが資料を解釈して登録を依頼し、OpenTaxで確認待ちとなった仕訳を人が確認して確定する。",
       "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/README.md",
       "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "架空取引の登録・修正・同一キー再送・人による確定・集計結果",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts",
+      "checkedAt": "2026-10-07"
+    },
+    {
+      "claim": "レビュー画面の日付・借貸科目・税区分・参照情報・修正理由・確定操作",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/app/%28dashboard%29/review/page.tsx",
+      "checkedAt": "2026-10-07"
+    },
+    {
+      "claim": "エージェントの確認待ち登録、同一キー・同一内容の再送、ユーザー確定",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/lib/domain/journals/service.ts",
+      "checkedAt": "2026-10-07"
     }
   ],
   "sources": [
@@ -34,6 +49,21 @@
       "label": "OpenTax：現在の対応範囲",
       "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
       "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：記事の架空取引を実行するテスト",
+      "url": "https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts",
+      "checkedAt": "2026-10-07"
+    },
+    {
+      "label": "OpenTax：レビュー画面の実装",
+      "url": "https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/app/%28dashboard%29/review/page.tsx",
+      "checkedAt": "2026-10-07"
+    },
+    {
+      "label": "OpenTax：仕訳登録・確認処理",
+      "url": "https://github.com/Arrenem/opentax/blob/1d048dd67c8f2a5b813f7e64d497283b83e30c44/lib/domain/journals/service.ts",
+      "checkedAt": "2026-10-07"
     }
   ],
   "visuals": [
@@ -57,7 +87,8 @@
     "一文一段落とし、読者に練習を宿題として残さず具体例の答えを本文内に掲載。",
     "実画面での検証や未提供の機能を主張しない。",
     "削減レビュー済み：検索質問に直接答えない注意の反復・実測していない旨の定型説明・読者への宿題を削除し、必要な計算と条件を保持。",
-    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。"
+    "次の具体作業へ本文中の文脈リンクを追加し、一文一段落を最終確認。",
+    "記事の架空取引を仕訳・集計サービスで実行し、結果、確認操作、検証範囲を追加。"
   ],
   "publicationBlockers": [],
   "status": "editorial-draft",
@@ -83,7 +114,7 @@
       "id": "section-5"
     },
     {
-      "heading": "OpenTaxでは、AIに明細の整理と記帳を頼む方法も",
+      "heading": "OpenTaxで5件を確認待ちにし、再送と残高を確かめる",
       "id": "section-6"
     }
   ],
