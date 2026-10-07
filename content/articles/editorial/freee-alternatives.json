@@ -2,7 +2,7 @@
   "id": "02",
   "slug": "freee-alternatives",
   "title": "freeeの代わりはどれ？やよい・マネーフォワード・無料ソフトを用途別に比較",
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-07",
   "readerQuestion": "freeeから替えるなら、料金・銀行連携・税理士共有・AI記帳のどれを基準に選ぶか。",
   "answerSummary": "国内サービスはやよいとMF、PC内の無料帳簿はGnuCash、AI連携の無料帳簿はOpenTaxが候補。実データ前に売上30,000円と入金、立替2,000円で照合する。",
   "articleType": "alternative",
@@ -52,6 +52,11 @@
       "claim": "OpenTaxは個人の事業所得が対象。保存先・外部AI費用は別の場合があり、申告範囲と共同作業には現行制約がある。",
       "sourceUrl": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
       "checkedAt": "2026-10-03"
+    },
+    {
+      "claim": "架空取引の登録・修正・同一キー再送・人による確定・集計結果",
+      "sourceUrl": "https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts",
+      "checkedAt": "2026-10-07"
     }
   ],
   "sources": [
@@ -99,6 +104,11 @@
       "label": "現在の対応範囲",
       "url": "https://github.com/Arrenem/opentax/blob/main/KNOWN_LIMITATIONS.md",
       "checkedAt": "2026-10-03"
+    },
+    {
+      "label": "OpenTax：記事の架空取引を実行するテスト",
+      "url": "https://github.com/Arrenem/opentax/blob/8a0cdb3423a5a0a3d8e8f57b2ce861e2f228754b/lib/domain/journals/articleWorkflows.test.ts",
+      "checkedAt": "2026-10-07"
     }
   ],
   "visuals": [
@@ -137,7 +147,8 @@
     "OpenTaxは記事の残る課題につなぎ、CTAを紹介直後へ配置",
     "関連する次の作業への文脈リンクを追加",
     "文字数目標を設けず、一般論や不要な確認宿題・反復する否定文を削減",
-    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。"
+    "未説明のOSS・XTX表記を日本語へ置換し、画像読取の略語を説明。",
+    "記事の架空取引を仕訳・集計サービスで実行し、結果、確認操作、検証範囲を追加。"
   ],
   "publicationBlockers": [],
   "status": "editorial-draft",
