@@ -11,4 +11,4 @@
 - 個人用の所有者制限を追加。`OPENTAX_ACCESS_MODE=owner` と `OPENTAX_OWNER_UID` により Web API と MCP を本人の UID に制限します。owner モードで UID 未設定・不正ならアクセスを拒否します。設定のない既存環境は従来の UID 分離を維持します。[移行手順と制限](docs/setup-wizard.md)を確認してください。
 - Firebase Admin の ADC 初期化にプロジェクト ID を明示します。
 
-実クラウドでの通し検証、署名 URL の keyless 実動作、会計データ全体のバックアップ復元、実環境の所有者/MCP 検証は[開発バックログ](docs/development-backlog.md)に残っています。この項目の内容は未公開です。
+実クラウドでの通し検証、署名 URL の keyless 実動作、会計データ全体のバックアップ復元、実環境の所有者/MCP 検証は[開発バックログ](docs/development-backlog.md)に残っています。上記はいずれも未リリースです。

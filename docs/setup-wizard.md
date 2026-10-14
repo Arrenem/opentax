@@ -1,6 +1,6 @@
 # セルフホスト・セットアップ（Unreleased / 実環境未検証）
 
-`npm run setup` は、計画作成から工程ごとの明示同意、Firebase 構築、会計アプリの Cloud Run 配置、接続検査へ進む実装です。**この PR ではモックと隔離したローカル環境だけで検証しています。実クラウドでの成功や一般提供開始は確認していません。** 既存の[手動手順](self-hosting.md)も参照してください。公開 npm パッケージ `@opentax/setup` はありません。
+`npm run setup` は、計画作成から工程ごとの明示同意、Firebase 構築、会計アプリの Cloud Run 配置、接続検査へ進む実装です。**現時点ではモックと隔離したローカル環境だけで検証しています。実クラウドでの成功や一般提供開始は確認していません。** 既存の[手動手順](self-hosting.md)も参照してください。公開 npm パッケージ `@opentax/setup` はありません。
 
 ## 前提と開始
 
@@ -79,4 +79,4 @@ owner モードで UID が空・不正なら全員を拒否します。設定の
 
 別の管理者向け[帳簿バックアップ・隔離復元CLI](ledger-backup.md)を追加しました。全帳簿・証憑の検査を行いますが実クラウド受入は未完了です。`fullAccountingRestore` と `journalAcceptance` は引き続き `not-tested` です。合成 fixture の復元は、仕訳・確認待ち状態・証憑を含む整合したバックアップの代替ではありません。実環境での OAuth/静的トークン/MCP の別 UID 拒否、Linux/Node22 の実クラウド構築、全工程の中断試験も[バックログ](development-backlog.md)に残ります。
 
-Cloudflare Pages は公式 LP・記事用です。アプリ revision のロールバックだけでは DB や証憑は復元されません。既存環境の接続方法は [MCP ガイド](mcp.md)を参照してください。
+アプリ revision のロールバックだけでは DB や証憑は復元されません。既存環境の接続方法は [MCP ガイド](mcp.md)を参照してください。
