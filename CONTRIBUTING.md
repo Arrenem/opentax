@@ -45,4 +45,6 @@ AI コーディングツールを使った貢献も歓迎します。ただし�
 
 ## ライセンス
 
-OpenTax への貢献は、[GNU Affero General Public License v3.0](LICENSE) の下で提供されることに同意したものとみなします。
+OpenTax への貢献は、[GNU Affero General Public License v3.0](LICENSE) の下で提供されることに同意したものとみなします。貢献したコードの著作権は貢献者に残り、CLA（著作権の譲渡や追加の許諾）は求めません。メンテナーを含む誰もが、同じ AGPL-3.0 の条件で OpenTax を利用・提供します。
+
+フォントなど第三者の素材は、それぞれのライセンスに従います（例: `public/fonts/` の Noto Sans JP は [SIL Open Font License 1.1](public/fonts/OFL.txt)）。
