@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: セキュリティの問題（非公開で報告）
+    url: https://github.com/arrenem/opentax/security/advisories/new
+    about: 脆弱性は公開の Issue ではなく、こちらから非公開で報告してください。
+  - name: ドキュメント
+    url: https://opentax.fragmentware.com/docs/
+    about: セットアップ方法や接続方法はドキュメントをご覧ください。

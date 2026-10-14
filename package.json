@@ -1,0 +1,75 @@
+{
+  "name": "opentax",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings 0",
+    "test": "vitest run && node --test scripts/security/*.test.mjs && npm run setup:test",
+    "mcp:start": "node packages/opentax-mcp/dist/server.mjs",
+    "mcp:build": "npm run build --workspace @opentax/mcp",
+    "mcp:test": "vitest run packages/opentax-mcp",
+    "setup": "node scripts/setup/cli.mjs",
+    "setup:test": "node --test scripts/setup/*.test.mjs",
+    "backup:build": "esbuild scripts/backup/cli.ts --bundle --platform=node --format=esm --packages=external --outfile=scripts/backup/dist/cli.mjs",
+    "backup": "npm run backup:build --silent && node scripts/backup/dist/cli.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.1.0",
+    "@react-pdf/renderer": "^4.9.0",
+    "date-fns": "^4.1.0",
+    "firebase": "^12.11.0",
+    "firebase-admin": "^14.5.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "recharts": "^3.8.0",
+    "xml2js": "^0.6.2",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.2.0",
+    "@types/node": "^24.19.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/xml2js": "^0.4.14",
+    "esbuild": "^0.28.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.8",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "vitest": "^4.1.11"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "overrides": {
+    "jwks-rsa": {
+      "jose": "4.15.9"
+    },
+    "@firebase/firestore": {
+      "@grpc/grpc-js": "1.13.6"
+    },
+    "tailwindcss": {
+      "postcss-selector-parser": "7.1.6"
+    },
+    "postcss-nested": {
+      "postcss-selector-parser": "7.1.6"
+    }
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "protobufjs@7.6.6": true,
+    "unrs-resolver@1.12.2": true,
+    "@firebase/util@1.15.0": true,
+    "@firebase/util@1.15.3": true,
+    "fsevents": false
+  }
+}
