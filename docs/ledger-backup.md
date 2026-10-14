@@ -44,6 +44,6 @@ npm run backup -- restore --project opentax-restore-example --bucket opentax-res
 
 ## 検証の区別
 
-自動ユニット試験はメモリアダプターと型/破損/競合/所有者/復元先境界を検査します。`scripts/backup/emulator-acceptance.sh` はローカルのFirestore/Storageエミュレーターだけを使用し、721文書・507仕訳・205証憑、11コレクション、整数精度・Timestamp/参照・中断再開・確認待ち状態・全件一致と帳票整合を検査します。Java21と公式 `firebase-tools@15.33.0` が必要です。すべて合成データです。
+自動ユニット試験はメモリアダプターと型/破損/競合/所有者/復元先境界を検査します。`scripts/backup/emulator-acceptance.sh` はローカルのFirestore/Storageエミュレーターだけを使用し、721文書・507仕訳・205証憑、11コレクション、整数精度・Timestamp/参照・中断再開・確認待ち状態・全件一致と帳票整合を検査します。Java21と公式 `firebase-tools`（バージョン 15.33.0）が必要です。すべて合成データです。
 
 エミュレーター成功は、Google認証、実クラウドIAM、keyless署名URL、課金、Cloud Run構築・再開の成功を意味しません。`fullAccountingRestore` / `journalAcceptance` のセットアップ自動判定は引き続き `not-tested` であり、このCLIの独立した証跡をそれらへ自動流用しません。

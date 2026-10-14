@@ -31,7 +31,7 @@ npm run setup -- --doctor
 
 最初に Google ログインとローカルへの認証情報保存について別途同意します。Google Cloud CLI が `.opentax/gcloud` にログインと ADC の認証情報を保存します。既存のグローバル設定は使いません。次回も利用前に同意を確認します。このディレクトリは他者に共有・添付しないでください。CLI の入力欄へ秘密鍵・パスワード・トークンを貼り付けないでください。
 
-新規プロジェクト、課金紐付け、必要 API、Firebase、Firestore Native、非公開の証憑バケット、Web app、Google Auth、専用サービスアカウントと IAM、deny-all クライアントルールと索引を順に構成します。同じ設置 ID の資源だけ再利用し、無関係な既存プロジェクト/バケット、異なる課金先や DB 地域は拒否します。Auth の設定には公開済みの `firebase-tools@15.33.0` をダウンロードして実行する工程を含みます。匿名認証とメール/パスワード認証は無効にします。
+新規プロジェクト、課金紐付け、必要 API、Firebase、Firestore Native、非公開の証憑バケット、Web app、Google Auth、専用サービスアカウントと IAM、deny-all クライアントルールと索引を順に構成します。同じ設置 ID の資源だけ再利用し、無関係な既存プロジェクト/バケット、異なる課金先や DB 地域は拒否します。Auth の設定には公開済みの `firebase-tools`（バージョン 15.33.0）をダウンロードして実行する工程を含みます。匿名認証とメール/パスワード認証は無効にします。
 
 Google Auth 用の Firebase Hosting サイトも作成しますが、会計アプリは Cloud Run に配置します。loopback (`127.0.0.1`) の一時ブラウザ画面で、指定した Google メールアドレス本人の verified identity を確認し、対象 Firebase の UID を確定します。ID トークンはメモリ内のみで扱います。未確認 UID のまま公開しません。
 
