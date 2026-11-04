@@ -3,13 +3,16 @@ import { NextRequest } from 'next/server';
 import { Client, StreamableHTTPClientTransport } from '@modelcontextprotocol/client';
 
 const mocks = vi.hoisted(() => ({ authenticate: vi.fn(), request: vi.fn(), upload: vi.fn(), tokens: [] as string[] }));
-vi.mock('@/lib/auth/authenticateRequest', () => ({ authenticateRequest: mocks.authenticate }));
+vi.mock('@/lib/auth/authenticateRequest', async (importOriginal) => ({
+  ...(await importOriginal<typeof import('@/lib/auth/authenticateRequest')>()), authenticateRequest: mocks.authenticate,
+}));
 vi.mock('./inProcessApi', () => ({
   createInProcessApi: (_origin: string, token: string) => {
     mocks.tokens.push(token);
     return { request: mocks.request, uploadEvidenceFile: mocks.upload };
   },
 }));
+import { ApiError } from '@/lib/auth/authenticateRequest';
 import { handleMcpRequest } from './handler';
 
 const URL_ = 'https://opentax.test/api/mcp';
@@ -36,8 +39,18 @@ describe('remote MCP endpoint', () => {
     expect(response.headers.get('WWW-Authenticate')).toBe(
       'Bearer resource_metadata="https://opentax.test/.well-known/oauth-protected-resource/api/mcp", error="invalid_token"');
     expect(response.headers.get('Access-Control-Allow-Origin')).toBe('*');
-    mocks.authenticate.mockRejectedValue(new Error('UNAUTHORIZED'));
+    mocks.authenticate.mockRejectedValue(new ApiError('UNAUTHORIZED', 401));
     expect((await route(URL_, { method: 'POST', headers: { Authorization: 'Bearer ota_bad' }, body: '{}' })).status).toBe(401);
+  });
+
+  it('returns 503, not 401, when authentication fails for a non-auth reason', async () => {
+    const error = vi.spyOn(console, 'error').mockImplementation(() => {});
+    mocks.authenticate.mockRejectedValue(new Error('Firestore unavailable'));
+    const response = await route(URL_, { method: 'POST', headers: { Authorization: 'Bearer ota_good' }, body: '{}' });
+    expect(response.status).toBe(503);
+    expect(response.headers.get('WWW-Authenticate')).toBeNull();
+    expect(response.headers.get('Retry-After')).toBe('5');
+    error.mockRestore();
   });
 
   it('refuses Firebase user sessions, which are not scoped', async () => {

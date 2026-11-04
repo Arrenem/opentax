@@ -1,7 +1,7 @@
 import type { NextRequest } from 'next/server';
 import { createMcpHandler, type McpHttpHandler } from '@modelcontextprotocol/server';
 import { createServer } from '@/packages/opentax-mcp/tools';
-import { authenticateRequest, type AuthContext } from '@/lib/auth/authenticateRequest';
+import { ApiError, authenticateRequest, type AuthContext } from '@/lib/auth/authenticateRequest';
 import { protectedResourceMetadataUrl, publicOrigin, withCors } from './oauthHttp';
 import { createInProcessApi } from './inProcessApi';
 
@@ -31,7 +31,13 @@ export async function handleMcpRequest(req: NextRequest) {
   const token = /^Bearer (\S+)$/i.exec(req.headers.get('Authorization') ?? '')?.[1];
   if (!token) return unauthorized(origin, 'invalid_token');
   let auth: AuthContext;
-  try { auth = await authenticateRequest(req); } catch { return unauthorized(origin, 'invalid_token'); }
+  try { auth = await authenticateRequest(req); } catch (error) {
+    // Only genuine authentication failures are 401; outages must not look like invalid tokens, or hosts drop the connection.
+    if (error instanceof ApiError && error.status < 500) return unauthorized(origin, 'invalid_token');
+    console.error('OpenTax MCP authentication error:', error);
+    return withCors(Response.json({ error: 'temporarily_unavailable', error_description: 'Authentication is temporarily unavailable' },
+      { status: 503, headers: { 'Retry-After': '5' } }));
+  }
   // Firebase user sessions have unrestricted rights; MCP always acts as a scoped agent.
   if (auth.actorType !== 'agent') return unauthorized(origin, 'insufficient_scope', 403);
   const response = await mcpHandler().fetch(req, { authInfo: {
