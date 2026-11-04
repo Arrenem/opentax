@@ -27,7 +27,15 @@ vi.mock('firebase-admin/firestore', () => {
   type Ref = ReturnType<typeof ref>;
   const firestore = {
     collection,
-    runTransaction: async <T>(fn: (tx: unknown) => Promise<T>) => fn({ get: (r: Ref) => r.get(), delete: (r: Ref) => { void r.delete(); } }),
+    runTransaction: async <T>(fn: (tx: unknown) => Promise<T>) => {
+      // Writes are buffered and applied on success, so a thrown error rolls the transaction back.
+      const writes: (() => Promise<void>)[] = [];
+      const result = await fn({ get: (r: Ref) => r.get(), delete: (r: Ref) => { writes.push(() => r.delete()); },
+        set: (r: Ref, data: Record<string, unknown>) => { writes.push(() => r.set(data)); },
+        update: (r: Ref, data: Record<string, unknown>) => { writes.push(() => r.update(data)); } });
+      for (const write of writes) await write();
+      return result;
+    },
     batch: () => {
       const ops: (() => Promise<void>)[] = [];
       return { set: (r: Ref, data: Record<string, unknown>) => { ops.push(() => r.set(data)); },
@@ -41,8 +49,9 @@ vi.mock('firebase-admin/firestore', () => {
 
 import {
   authenticateClient, createAuthorizationCode, exchangeAuthorizationCode, pkceChallenge, redirectUriMatches,
-  refreshAccessToken, registerClient, resolveOAuthAccessToken, revokeToken, validateAuthorizationRequest,
+  REFRESH_GRACE_WINDOW_SECONDS, refreshAccessToken, registerClient, resolveOAuthAccessToken, revokeToken, validateAuthorizationRequest,
 } from './oauth';
+import { Timestamp } from 'firebase-admin/firestore';
 import { listAgentConnections, revokeAgentConnection } from './agentTokens';
 import type { AgentScope } from './scopes';
 
@@ -90,7 +99,8 @@ describe('OAuth authorization server', () => {
       .rejects.toMatchObject({ code: 'invalid_grant' });
     expect(state.collections.get('oauthTokens')!.size).toBe(tokenCount);
     await expect(refreshAccessToken(second.client, { refreshToken: tokens.refresh_token })).rejects.toMatchObject({ code: 'invalid_grant' });
-    expect(state.collections.get('oauthTokens')!.size).toBe(tokenCount - 1);
+    // A rejected refresh does not consume the token.
+    expect(state.collections.get('oauthTokens')!.size).toBe(tokenCount);
   });
 
   it('registers clients with safe redirect URIs only, and requires secrets for confidential clients', async () => {
@@ -145,9 +155,77 @@ describe('OAuth authorization server', () => {
     const tokens = await exchangeAuthorizationCode(again.client, { code: again.code, redirectUri: REDIRECT, codeVerifier: VERIFIER });
     const rotated = await refreshAccessToken(again.client, { refreshToken: tokens.refresh_token });
     expect(rotated.refresh_token).not.toBe(tokens.refresh_token);
-    await expect(refreshAccessToken(again.client, { refreshToken: tokens.refresh_token })).rejects.toMatchObject({ code: 'invalid_grant' });
     const other = await publicClient();
     await expect(refreshAccessToken(other, { refreshToken: rotated.refresh_token })).rejects.toMatchObject({ code: 'invalid_grant' });
+  });
+
+  describe('refresh token rotation', () => {
+    afterEach(() => vi.useRealTimers());
+    async function fresh(scopes: AgentScope[] = ['read']) {
+      const { client, code } = await grant(scopes);
+      return { client, tokens: await exchangeAuthorizationCode(client, { code, redirectUri: REDIRECT, codeVerifier: VERIFIER }) };
+    }
+
+    it('returns the same tokens when a rotated refresh token is re-presented within the grace window', async () => {
+      const { client, tokens } = await fresh();
+      const first = await refreshAccessToken(client, { refreshToken: tokens.refresh_token });
+      const retry = await refreshAccessToken(client, { refreshToken: tokens.refresh_token });
+      expect(retry).toEqual(first);
+      expect(await resolveOAuthAccessToken(retry.access_token)).not.toBeNull();
+      // The successor token keeps rotating normally.
+      const next = await refreshAccessToken(client, { refreshToken: first.refresh_token });
+      expect(next.refresh_token).not.toBe(first.refresh_token);
+    });
+
+    it('rejects a rotated refresh token after the grace window', async () => {
+      vi.useFakeTimers({ toFake: ['Date'] });
+      const { client, tokens } = await fresh();
+      await refreshAccessToken(client, { refreshToken: tokens.refresh_token });
+      vi.setSystemTime(Date.now() + (REFRESH_GRACE_WINDOW_SECONDS + 1) * 1000);
+      await expect(refreshAccessToken(client, { refreshToken: tokens.refresh_token })).rejects.toMatchObject({ code: 'invalid_grant' });
+    });
+
+    it('does not consume the token when validation fails', async () => {
+      const { client, tokens } = await fresh();
+      const other = await publicClient();
+      await expect(refreshAccessToken(other, { refreshToken: tokens.refresh_token })).rejects.toMatchObject({ code: 'invalid_grant' });
+      await expect(refreshAccessToken(client, { refreshToken: tokens.refresh_token, scope: 'read journals:write' }))
+        .rejects.toMatchObject({ code: 'invalid_scope' });
+      const refreshed = await refreshAccessToken(client, { refreshToken: tokens.refresh_token });
+      expect(refreshed.scope).toBe('read');
+    });
+
+    it('treats a scope of only unknown entries as unspecified', async () => {
+      const { client, tokens } = await fresh(['read', 'journals:write']);
+      const refreshed = await refreshAccessToken(client, { refreshToken: tokens.refresh_token, scope: 'openid profile' });
+      expect(refreshed.scope).toBe('read journals:write');
+    });
+
+    it('rolls back when issuing fails, leaving the old token usable, and logs a structured reason', async () => {
+      const { client, tokens } = await fresh();
+      const rows = state.collections.get('oauthTokens')!;
+      const before = rows.size;
+      const original = Timestamp.fromMillis;
+      const spy = vi.spyOn(Timestamp, 'fromMillis').mockImplementationOnce(original).mockImplementationOnce(() => { throw new Error('firestore down'); });
+      const error = vi.spyOn(console, 'error').mockImplementation(() => {});
+      await expect(refreshAccessToken(client, { refreshToken: tokens.refresh_token })).rejects.toThrow('firestore down');
+      spy.mockRestore();
+      expect(rows.size).toBe(before);
+      const logged = String(error.mock.calls[0][0]);
+      expect(JSON.parse(logged)).toMatchObject({ event: 'oauth_refresh_failed', reason: 'internal_error' });
+      expect(logged).not.toContain(tokens.refresh_token);
+      error.mockRestore();
+      await expect(refreshAccessToken(client, { refreshToken: tokens.refresh_token })).resolves.toMatchObject({ token_type: 'Bearer' });
+    });
+
+    it('logs the failure category without token values', async () => {
+      const { client, tokens } = await fresh();
+      const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
+      await expect(refreshAccessToken(client, { refreshToken: `otr_${'x'.repeat(40)}` })).rejects.toMatchObject({ code: 'invalid_grant' });
+      expect(JSON.parse(String(warn.mock.calls[0][0]))).toMatchObject({ event: 'oauth_refresh_failed', reason: 'token_not_found' });
+      expect(String(warn.mock.calls[0][0])).not.toContain(tokens.refresh_token);
+      warn.mockRestore();
+    });
   });
 
   it('lets a client revoke only its own tokens and rejects expired access tokens', async () => {

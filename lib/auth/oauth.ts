@@ -1,4 +1,4 @@
-import { createHash, randomBytes, timingSafeEqual } from 'node:crypto';
+import { createHash, createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
 import { FieldValue, Timestamp, getFirestore } from 'firebase-admin/firestore';
 import { initializeAdminApp } from '@/lib/firebase/admin';
 import { getActiveConnection, hashToken, upsertOAuthConnection, type AgentConnection } from './agentTokens';
@@ -11,6 +11,9 @@ import { AGENT_SCOPES, type AgentScope } from './scopes';
 
 export const ACCESS_TOKEN_TTL_SECONDS = 60 * 60;
 export const REFRESH_TOKEN_TTL_SECONDS = 30 * 24 * 60 * 60;
+// A refresh token that was already rotated stays redeemable for this long, returning the same token set,
+// so a lost response or a client retry does not strand the connection.
+export const REFRESH_GRACE_WINDOW_SECONDS = 60;
 export const AUTHORIZATION_CODE_TTL_SECONDS = 5 * 60;
 export const MCP_RESOURCE_PATH = '/api/mcp';
 
@@ -43,10 +46,14 @@ interface StoredToken {
   scopes: AgentScope[];
   resource?: string;
   expiresAt: Timestamp;
+  // Set once the refresh token has been rotated; the successor tokens are derived from the old token (see successorSecret).
+  usedAt?: Timestamp;
+  successorScopes?: AgentScope[];
+  successorAccessExpiresAt?: Timestamp;
 }
 
 export class OAuthError extends Error {
-  constructor(public code: string, public description: string, public status = 400, public redirectable = false) {
+  constructor(public code: string, public description: string, public status = 400, public redirectable = false, public reason?: string) {
     super(description);
   }
   toJSON() { return { error: this.code, error_description: this.description }; }
@@ -214,20 +221,36 @@ async function consume<T>(collection: string, token: string): Promise<T | null> 
   });
 }
 
-async function issueTokens(connection: AgentConnection, clientId: string, scopes: AgentScope[], resource?: string) {
-  const accessToken = secret('ota');
-  const refreshToken = secret('otr');
-  const now = Date.now();
+function tokenResponse(accessToken: string, refreshToken: string, expiresIn: number, scopes: AgentScope[]) {
+  return { access_token: accessToken, token_type: 'Bearer', expires_in: expiresIn, refresh_token: refreshToken, scope: scopes.join(' ') };
+}
+
+function tokenDocs(connection: { id?: string; userId: string }, clientId: string, scopes: AgentScope[], resource: string | undefined,
+  accessToken: string, refreshToken: string, now: number) {
   const base: Record<string, unknown> = { connectionId: connection.id, clientId, userId: connection.userId, scopes };
   if (resource) base.resource = resource;
   const tokens = db().collection('oauthTokens');
-  const batch = db().batch();
-  batch.set(tokens.doc(hashToken(accessToken)), { ...base, type: 'access', expiresAt: Timestamp.fromMillis(now + ACCESS_TOKEN_TTL_SECONDS * 1000) });
-  batch.set(tokens.doc(hashToken(refreshToken)), { ...base, type: 'refresh', expiresAt: Timestamp.fromMillis(now + REFRESH_TOKEN_TTL_SECONDS * 1000) });
-  await batch.commit();
-  return { access_token: accessToken, token_type: 'Bearer', expires_in: ACCESS_TOKEN_TTL_SECONDS,
-    refresh_token: refreshToken, scope: scopes.join(' ') };
+  const accessExpiresAt = Timestamp.fromMillis(now + ACCESS_TOKEN_TTL_SECONDS * 1000);
+  return { accessExpiresAt,
+    access: { ref: tokens.doc(hashToken(accessToken)), data: { ...base, type: 'access', expiresAt: accessExpiresAt } },
+    refresh: { ref: tokens.doc(hashToken(refreshToken)), data: { ...base, type: 'refresh', expiresAt: Timestamp.fromMillis(now + REFRESH_TOKEN_TTL_SECONDS * 1000) } } };
 }
+
+async function issueTokens(connection: AgentConnection, clientId: string, scopes: AgentScope[], resource?: string) {
+  const accessToken = secret('ota');
+  const refreshToken = secret('otr');
+  const docs = tokenDocs(connection, clientId, scopes, resource, accessToken, refreshToken, Date.now());
+  const batch = db().batch();
+  batch.set(docs.access.ref, docs.access.data);
+  batch.set(docs.refresh.ref, docs.refresh.data);
+  await batch.commit();
+  return tokenResponse(accessToken, refreshToken, ACCESS_TOKEN_TTL_SECONDS, scopes);
+}
+
+// Rotated tokens are derived from the presented refresh token, so a retry inside the grace window can return
+// the identical token set without storing any plaintext token. Only the holder of the old token can derive them.
+const successorSecret = (prefix: string, refreshToken: string) =>
+  `${prefix}_${createHmac('sha256', refreshToken).update(`opentax-refresh-successor:${prefix}`).digest('base64url')}`;
 
 export async function exchangeAuthorizationCode(client: OAuthClient, input: { code: unknown; redirectUri: unknown; codeVerifier: unknown; resource?: unknown }) {
   if (typeof input.code !== 'string' || !input.code.startsWith('otac_')) throw new OAuthError('invalid_grant', 'Invalid authorization code');
@@ -248,23 +271,78 @@ export async function exchangeAuthorizationCode(client: OAuthClient, input: { co
   return issueTokens(connection, client.clientId, stored.scopes, stored.resource ?? (typeof input.resource === 'string' ? input.resource : undefined));
 }
 
+export type RefreshFailureReason = 'token_not_found' | 'expired' | 'client_mismatch' | 'connection_invalid' | 'invalid_scope' |
+  'token_reused' | 'invalid_request' | 'internal_error';
+
+const refreshFailure = (reason: RefreshFailureReason, code: string, description: string) => new OAuthError(code, description, 400, false, reason);
+
+// Structured, token-free log line for failed refreshes.
+function logRefreshFailure(reason: RefreshFailureReason, client: OAuthClient, error: unknown, extra: Record<string, unknown> = {}) {
+  const entry = { event: 'oauth_refresh_failed', reason, clientId: client.clientId,
+    code: error instanceof OAuthError ? error.code : undefined, ...extra };
+  if (reason === 'internal_error') console.error(JSON.stringify({ ...entry, message: error instanceof Error ? error.message : String(error) }));
+  else console.warn(JSON.stringify(entry));
+}
+
 export async function refreshAccessToken(client: OAuthClient, input: { refreshToken: unknown; scope?: unknown }) {
-  if (typeof input.refreshToken !== 'string' || !input.refreshToken.startsWith('otr_')) throw new OAuthError('invalid_grant', 'Invalid refresh token');
-  // Refresh tokens rotate: the presented one is gone after this call either way.
-  const stored = await consume<StoredToken>('oauthTokens', input.refreshToken);
-  if (!stored || stored.type !== 'refresh' || stored.clientId !== client.clientId || stored.expiresAt.toMillis() <= Date.now()) {
-    throw new OAuthError('invalid_grant', 'Invalid or expired refresh token');
+  try {
+    return await rotateRefreshToken(client, input);
+  } catch (error) {
+    if (error instanceof OAuthError) logRefreshFailure((error.reason as RefreshFailureReason | undefined) ?? 'invalid_request', client, error);
+    else logRefreshFailure('internal_error', client, error);
+    throw error;
   }
+}
+
+async function rotateRefreshToken(client: OAuthClient, input: { refreshToken: unknown; scope?: unknown }) {
+  if (typeof input.refreshToken !== 'string' || !input.refreshToken.startsWith('otr_')) {
+    throw refreshFailure('invalid_request', 'invalid_grant', 'Invalid refresh token');
+  }
+  const refreshToken = input.refreshToken;
+  const ref = db().collection('oauthTokens').doc(hashToken(refreshToken));
+  // Validate first: a rejected request must leave the token usable.
+  const snap = await ref.get();
+  const stored = snap.exists ? (snap.data() as StoredToken) : null;
+  if (!stored || stored.type !== 'refresh') throw refreshFailure('token_not_found', 'invalid_grant', 'Invalid or expired refresh token');
+  if (stored.clientId !== client.clientId) throw refreshFailure('client_mismatch', 'invalid_grant', 'Invalid or expired refresh token');
+  if (stored.expiresAt.toMillis() <= Date.now()) throw refreshFailure('expired', 'invalid_grant', 'Invalid or expired refresh token');
   const connection = await getActiveConnection(stored.connectionId);
-  if (!connection || connection.userId !== stored.userId || !isAllowedInstanceUser(connection.userId)) throw new OAuthError('invalid_grant', 'This connection is unavailable');
+  if (!connection || connection.userId !== stored.userId || !isAllowedInstanceUser(connection.userId)) {
+    throw refreshFailure('connection_invalid', 'invalid_grant', 'This connection is unavailable');
+  }
   let scopes = stored.scopes.filter((s) => connection.scopes.includes(s));
   if (typeof input.scope === 'string' && input.scope.trim()) {
     const requested = parseScopes(input.scope);
-    if (requested.some((s) => !scopes.includes(s))) throw new OAuthError('invalid_scope', 'Requested scope exceeds the original grant');
-    scopes = requested;
+    // A scope made only of unknown entries counts as unspecified.
+    if (requested.length > 0) {
+      if (requested.some((s) => !scopes.includes(s))) throw refreshFailure('invalid_scope', 'invalid_scope', 'Requested scope exceeds the original grant');
+      scopes = requested;
+    }
   }
-  if (scopes.length === 0) throw new OAuthError('invalid_scope', 'No scopes remain on this connection');
-  return issueTokens(connection, client.clientId, scopes, stored.resource);
+  if (scopes.length === 0) throw refreshFailure('invalid_scope', 'invalid_scope', 'No scopes remain on this connection');
+
+  const accessToken = successorSecret('ota', refreshToken);
+  const nextRefreshToken = successorSecret('otr', refreshToken);
+  const now = Date.now();
+  // Mark the old token used and create the successors atomically; concurrent presentations serialize here.
+  return db().runTransaction(async (tx) => {
+    const current = await tx.get(ref);
+    const row = current.exists ? (current.data() as StoredToken) : null;
+    if (!row || row.type !== 'refresh') throw refreshFailure('token_not_found', 'invalid_grant', 'Invalid or expired refresh token');
+    if (row.usedAt) {
+      const sinceUse = now - row.usedAt.toMillis();
+      if (sinceUse > REFRESH_GRACE_WINDOW_SECONDS * 1000 || !row.successorScopes || !row.successorAccessExpiresAt) {
+        throw refreshFailure('token_reused', 'invalid_grant', 'Invalid or expired refresh token');
+      }
+      const expiresIn = Math.max(0, Math.ceil((row.successorAccessExpiresAt.toMillis() - now) / 1000));
+      return tokenResponse(accessToken, nextRefreshToken, expiresIn, row.successorScopes);
+    }
+    const docs = tokenDocs(connection, client.clientId, scopes, stored.resource, accessToken, nextRefreshToken, now);
+    tx.update(ref, { usedAt: Timestamp.fromMillis(now), successorScopes: scopes, successorAccessExpiresAt: docs.accessExpiresAt });
+    tx.set(docs.access.ref, docs.access.data);
+    tx.set(docs.refresh.ref, docs.refresh.data);
+    return tokenResponse(accessToken, nextRefreshToken, ACCESS_TOKEN_TTL_SECONDS, scopes);
+  });
 }
 
 export async function revokeToken(client: OAuthClient, token: unknown) {
